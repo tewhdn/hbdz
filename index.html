@@ -172,6 +172,9 @@ body{
 .score-near{background:rgba(253,204,0,.1);color:#fdcb6e;border:1px solid rgba(253,204,0,.2)}
 .score-below{background:rgba(253,121,168,.1);color:#fd79a8;border:1px solid rgba(253,121,168,.2)}
 .score-na{background:rgba(255,255,255,.03);color:var(--text2);border:1px solid var(--border)}
+.tag-chong{background:rgba(253,121,168,.15);color:#fd79a8;border:1px solid rgba(253,121,168,.3)}
+.tag-wen{background:rgba(253,204,0,.15);color:#fdcb6e;border:1px solid rgba(253,204,0,.3)}
+.tag-bao{background:rgba(0,206,201,.15);color:#00cec9;border:1px solid rgba(0,206,201,.3)}
 
 .remark-text{font-size:.72rem;color:var(--text2);margin-top:6px;font-style:italic;line-height:1.4}
 
@@ -257,7 +260,7 @@ body{
   <div class="score-section glass">
     <div class="score-row">
       <span class="filter-label">我的分数</span>
-      <input type="number" class="score-input" id="userScore" placeholder="输入分数" min="0" max="750" oninput="applyFilters()">
+      <input type="number" class="score-input" id="userScore" placeholder="输入分数" min="0" max="750" oninput="onScoreInput()">
       <span class="score-hint">输入后自动筛选 · 历史投档参考</span>
     </div>
   </div>
@@ -285,8 +288,8 @@ body{
     </div>
     <div class="sort-row">
       <span class="filter-label">排序</span>
-      <span class="sort-btn active" onclick="setSort('score_asc',this)">投档分↑</span>
-      <span class="sort-btn" onclick="setSort('score_desc',this)">投档分↓</span>
+      <span class="sort-btn" onclick="setSort('score_asc',this)">投档分↑</span>
+      <span class="sort-btn active" onclick="setSort('score_desc',this)">投档分↓</span>
       <span class="sort-btn" onclick="setSort('diff',this)">分数差</span>
       <span class="sort-btn" onclick="setSort('name',this)">院校名称</span>
     </div>
@@ -319,7 +322,7 @@ let currentSystem = 'exam';
 let currentCategory = '';
 let currentType = 'all';
 let currentCity = 'all';
-let currentSort = 'score_asc';
+let currentSort = 'score_desc';
 let allData = {};
 let flatResults = [];
 
@@ -456,6 +459,17 @@ function renderCityChips(cities) {
     cities.map(c => `<span class="chip" onclick="setCity('${c}',this)">${c}</span>`).join('');
 }
 
+// ========== Score Input ==========
+function onScoreInput() {
+  const score = parseInt(document.getElementById('userScore').value) || 0;
+  if (score > 0 && currentSort !== 'diff') {
+    currentSort = 'diff';
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('[onclick="setSort(\'diff\',this)"]').classList.add('active');
+  }
+  applyFilters();
+}
+
 // ========== Filter & Sort ==========
 function applyFilters() {
   const score = parseInt(document.getElementById('userScore').value) || 0;
@@ -552,12 +566,14 @@ function renderCard(item, score, idx) {
   let scoreHtml = '';
   if (score > 0 && item.minScore !== null) {
     const diff = score - item.minScore;
-    if (diff > 0) {
-      scoreHtml = `<div class="score-compare score-above">📈 高于历史参考线 ${diff} 分</div>`;
-    } else if (diff === 0) {
-      scoreHtml = `<div class="score-compare score-near">⚡ 恰好达到历史参考线</div>`;
+    if (diff > 50) {
+      scoreHtml = `<div class="score-compare score-above"><span class="tag tag-bao" style="margin-right:4px">保</span>高于历史参考线 ${diff} 分</div>`;
+    } else if (diff >= 20) {
+      scoreHtml = `<div class="score-compare score-above"><span class="tag tag-wen" style="margin-right:4px">稳</span>高于历史参考线 ${diff} 分</div>`;
+    } else if (diff >= 0) {
+      scoreHtml = `<div class="score-compare score-near"><span class="tag tag-chong" style="margin-right:4px">冲</span>接近历史参考线（+${diff}分）</div>`;
     } else {
-      scoreHtml = `<div class="score-compare score-below">📉 低于历史参考线 ${Math.abs(diff)} 分</div>`;
+      scoreHtml = `<div class="score-compare score-below">低于历史参考线 ${Math.abs(diff)} 分</div>`;
     }
   } else if (score > 0 && item.minScore === null) {
     scoreHtml = `<div class="score-compare score-na">暂无2026投档数据</div>`;
