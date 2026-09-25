@@ -1,0 +1,3430 @@
+{
+  "year": 2026,
+  "system": "vocational",
+  "category": "对口计算机类",
+  "source": "河北省教育考试院公开数据",
+  "schools": [
+    {
+      "name": "保定理工学院",
+      "type": "民办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 373,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 370,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "北京工业职业技术学院",
+      "type": "公办",
+      "city": "北京",
+      "programs": [
+        {
+          "name": "移动互联应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 6000,
+          "minScore": 666,
+          "remark": "[色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "渤海理工职业学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 82,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 361,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 81,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 350,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 82,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 321,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 82,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 327,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 82,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 327,
+          "remark": "[学费暂定15000元/年，最终以物价部门批复为准]"
+        }
+      ]
+    },
+    {
+      "name": "沧州航空职业学院",
+      "type": "民办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "低空智联网技术",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 317,
+          "remark": ""
+        },
+        {
+          "name": "工业互联网技术",
+          "subCategory": "",
+          "plan": 107,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 312,
+          "remark": ""
+        },
+        {
+          "name": "民航通信技术",
+          "subCategory": "",
+          "plan": 107,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 304,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 315,
+          "remark": ""
+        },
+        {
+          "name": "微电子技术",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 297,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 107,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 334,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 469,
+          "remark": "[校企合作，不另收取其他费用，详询院校，在沧州校区就读]"
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 474,
+          "remark": "[校企合作，不另收取其他费用，详询院校，在沧州校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "沧州幼儿师范高等专科学校(中外合作办学)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "计算机应用技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 454,
+          "remark": "[校企合作，不另收取其他费用，详询院校。与泰国坦亚武里皇家理工大学合作项目，培养模式为“3+0”。学生在国内完成3年学业且考试通过后，可获得沧州幼儿师范高等专科学校专科毕业证书及泰国坦亚武里皇家理工大学颁发的结业证书(含学分证明)；入学后不允许转专业。在沧州校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 511,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术(平面设计与制作方向)",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 510,
+          "remark": ""
+        },
+        {
+          "name": "现代通信技术",
+          "subCategory": "",
+          "plan": 47,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 498,
+          "remark": ""
+        },
+        {
+          "name": "移动互联应用技术",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 501,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 502,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(渤海校区，就读于沧州渤海新区中捷产业园区)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 58,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 470,
+          "remark": "[渤海校区，就读于沧州渤海新区中捷产业园区]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(河间学院，就读于沧州河间市)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 465,
+          "remark": "[河间学院，就读于沧州河间市]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(南皮学院，就读于沧州南皮县)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 478,
+          "remark": "[南皮学院，就读于沧州南皮县]"
+        }
+      ]
+    },
+    {
+      "name": "曹妃甸职业技术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 292,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "电子竞技运动与管理",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 294,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 295,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 313,
+          "remark": ""
+        },
+        {
+          "name": "视觉传达设计",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 295,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 292,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "移动互联应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 295,
+          "remark": ""
+        },
+        {
+          "name": "移动应用开发",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 296,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 292,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 292,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "承德应用技术职业学院",
+      "type": "公办",
+      "city": "承德",
+      "programs": [
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 501,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 496,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸科技职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 33,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 82,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 66,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸应用技术职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 615,
+          "years": 3,
+          "tuition": 12600,
+          "minScore": 343,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 615,
+          "years": 3,
+          "tuition": 12600,
+          "minScore": 383,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 128,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 495,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸职业技术学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 567,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 572,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北对外经贸职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 530,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 528,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": ""
+        },
+        {
+          "name": "智能互联网络技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北工业职业技术大学(宣钢分院)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 477,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 485,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 487,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 482,
+          "remark": "[在张家口市宣化区宣铜分院就读]"
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 479,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北工艺美术职业学院",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 148,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 466,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北工艺美术职业学院(高阳现代纺织产业学院)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 464,
+          "remark": "[在保定市高阳县就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北工艺美术职业学院(蔚县文化旅游产业学院)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 462,
+          "remark": "[在张家口市蔚县就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北化工医药职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 586,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 579,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 584,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 586,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 576,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北机电职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 511,
+          "remark": ""
+        },
+        {
+          "name": "工业互联网技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 505,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 527,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 506,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 511,
+          "remark": ""
+        },
+        {
+          "name": "现代通信技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 503,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 504,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北机电职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "信息安全技术应用(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 451,
+          "remark": "[该项目是我校与马来西亚东姑阿都拉曼管理及工艺大学合作举办的全日制普通高等专科教育项目，学制3年，学费16000元/年/生，详见我校高职单招招生简章]"
+        }
+      ]
+    },
+    {
+      "name": "河北建材职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 489,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 56,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 493,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 493,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 493,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 490,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北交通职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": ""
+        },
+        {
+          "name": "工业互联网技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 535,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 545,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北科技学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 338,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 308,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北劳动关系职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 513,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 514,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 513,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北旅游职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "计算机应用技术(web前端方向)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 481,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 484,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北美术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "虚拟现实技术应用",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 292,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北能源职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 477,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 485,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 475,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 477,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北女子职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 505,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 498,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北青年管理干部学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 476,
+          "remark": ""
+        },
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 46,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 475,
+          "remark": ""
+        },
+        {
+          "name": "广告艺术设计",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 479,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 48,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 478,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 48,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 486,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 56,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 474,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 69,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 486,
+          "remark": "[不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者，不宜就读]"
+        },
+        {
+          "name": "移动互联应用技术",
+          "subCategory": "",
+          "plan": 46,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 472,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 46,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 472,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工业互联网技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 553,
+          "remark": ""
+        },
+        {
+          "name": "工业软件开发技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 554,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术(智能网络运维与优化)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 572,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 574,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 569,
+          "remark": ""
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 8000,
+          "minScore": 576,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 589,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "现代移动通信技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "信创系统技术应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 572,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "智能产品开发与应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 552,
+          "remark": ""
+        },
+        {
+          "name": "智能体技术应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 556,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院(阜平校区)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机网络技术(智能网络运维与优化)",
+          "subCategory": "",
+          "plan": 99,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 490,
+          "remark": "[阜平校区，在阜平县就读]"
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 106,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 498,
+          "remark": "[阜平校区，在阜平县就读]"
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 109,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 485,
+          "remark": "[阜平校区，在阜平县就读]"
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 85,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 489,
+          "remark": "[阜平校区，在阜平县就读]"
+        },
+        {
+          "name": "智能体技术应用",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 480,
+          "remark": "[阜平校区，在阜平县就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "云计算技术应用(中外合作办学)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 472,
+          "remark": "[与俄罗斯阿尔泰国立技术大学合作办学]"
+        }
+      ]
+    },
+    {
+      "name": "河北司法警官职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 527,
+          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于155cm]"
+        }
+      ]
+    },
+    {
+      "name": "河北外国语学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 135,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 135,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 293,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 140,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 292,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北正定师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 513,
+          "remark": ""
+        },
+        {
+          "name": "现代移动通信技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北政法职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "低空安全与技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 97,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北资源环境职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 507,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 496,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 494,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 492,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "衡水健康科技职业学院",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 464,
+          "remark": "[要求考生无轻度色觉异常(俗称色弱)、无色觉异常Ⅱ度(俗称色盲)、能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者、数码、字母]"
+        },
+        {
+          "name": "智能互联网络技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 463,
+          "remark": "[要求考生无轻度色觉异常(俗称色弱)、无色觉异常Ⅱ度(俗称色盲)、能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者、教码、字母]"
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院(武邑校区)",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 472,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 75,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 461,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 463,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        },
+        {
+          "name": "虚拟现实技术应用",
+          "subCategory": "",
+          "plan": 75,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 459,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊燕京职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 56,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 521,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 34,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "廊坊燕京职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "软件技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 17000,
+          "minScore": 449,
+          "remark": "[与马来西亚国油科技大学合作办学，采用“3+0”培养模式，学生在廊坊燕京职业技术学院学习三年]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 512,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        },
+        {
+          "name": "汽车智能技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 512,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "秦皇岛工业职业技术学院",
+      "type": "公办",
+      "city": "秦皇岛",
+      "programs": [
+        {
+          "name": "移动应用开发",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 515,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "秦皇岛职业技术学院",
+      "type": "公办",
+      "city": "秦皇岛",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 575,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄财经职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 200,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 321,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 391,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 337,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 351,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 230,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 323,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 14900,
+          "minScore": 318,
+          "remark": "[在鹿泉区卧龙校区就读，大华智慧物联产业学院专业]"
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 321,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "虚拟现实技术应用",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 326,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "移动互联应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 14900,
+          "minScore": 315,
+          "remark": "[在鹿泉区卧龙校区就读，华为ICT产业学院专业]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄城市经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 355,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 354,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 335,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 77,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 345,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 339,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄工程职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 58,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 306,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 300,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 324,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 420,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 296,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 336,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 310,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体艺术设计",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 315,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 296,
+          "remark": ""
+        },
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 308,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄工商职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 115,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 389,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "广告艺术设计",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 409,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "集成电路技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 385,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 394,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 115,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 391,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 388,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 389,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "视觉传达设计",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 382,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "数字媒体技术(影视与平面设计方向)",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 382,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 382,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "虚拟现实技术应用",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 391,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 383,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "智能体技术应用",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 384,
+          "remark": "[在桥西区滨河校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄金融职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 315,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 315,
+          "remark": ""
+        },
+        {
+          "name": "区块链技术应用",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 332,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "区块链技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 332,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 337,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 337,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 312,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 312,
+          "remark": ""
+        },
+        {
+          "name": "移动应用开发",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 306,
+          "remark": ""
+        },
+        {
+          "name": "移动应用开发",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 306,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 225,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 293,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 210,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 195,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 190,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 292,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 292,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 280,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 411,
+          "remark": ""
+        },
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 405,
+          "remark": ""
+        },
+        {
+          "name": "电子信息工程技术(人工智能终端与边缘计算)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 420,
+          "remark": ""
+        },
+        {
+          "name": "广告艺术设计",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 430,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 175,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 413,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 407,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用(新工业智能化方向)",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 422,
+          "remark": ""
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 408,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 420,
+          "remark": ""
+        },
+        {
+          "name": "软件技术(JAVA方向)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 442,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体艺术设计",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 435,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体艺术设计(AI未来影视)",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 438,
+          "remark": ""
+        },
+        {
+          "name": "通信软件技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 448,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 421,
+          "remark": ""
+        },
+        {
+          "name": "现代移动通信技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 439,
+          "remark": ""
+        },
+        {
+          "name": "现代移动通信技术(5G方向)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 428,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 409,
+          "remark": ""
+        },
+        {
+          "name": "移动互联应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 413,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 427,
+          "remark": ""
+        },
+        {
+          "name": "智能互联网络技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 410,
+          "remark": ""
+        },
+        {
+          "name": "智能体技术应用",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 410,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院(中外合作办学)",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "软件技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17000,
+          "minScore": 380,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 373,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 46,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 365,
+          "remark": ""
+        },
+        {
+          "name": "广告艺术设计",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 368,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 364,
+          "remark": ""
+        },
+        {
+          "name": "汽车智能技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 359,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 365,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 377,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄理工职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17000,
+          "minScore": 397,
+          "remark": ""
+        },
+        {
+          "name": "广告艺术设计",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 398,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 418,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 397,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 404,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 407,
+          "remark": ""
+        },
+        {
+          "name": "现代移动通信技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 10920,
+          "minScore": 423,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 403,
+          "remark": ""
+        },
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 393,
+          "remark": ""
+        },
+        {
+          "name": "智能体技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 396,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄农林职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 320,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 292,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄信息工程职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 664,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 652,
+          "remark": "[色盲不予录取]"
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 678,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 685,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 665,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 675,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 676,
+          "remark": "[含北京天融信网络安全技术有限公司订单班计划]"
+        },
+        {
+          "name": "虚拟现实技术应用",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 652,
+          "remark": ""
+        },
+        {
+          "name": "移动应用开发",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 657,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 81,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 605,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 639,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 634,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 33,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 613,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 636,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 34,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 612,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 623,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 38,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 602,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山工业职业技术大学",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 663,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 667,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 672,
+          "remark": ""
+        },
+        {
+          "name": "云计算技术应用",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 658,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 260,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 294,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 294,
+          "remark": ""
+        },
+        {
+          "name": "集成电路技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 294,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "人工智能数据工程技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 293,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "现代移动通信技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 292,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 540,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 546,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 41,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津滨海汽车工程职业学院",
+      "type": "民办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 315,
+          "remark": "[在武清校区就读(武清区)]"
+        },
+        {
+          "name": "汽车智能技术(智能网联)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 345,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 336,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 309,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 325,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 301,
+          "remark": "[在武清校区就读(武清区)]"
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 312,
+          "remark": "[在津南校区就读(津南区)]"
+        }
+      ]
+    },
+    {
+      "name": "新疆生产建设兵团兴新职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 451,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 451,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 450,
+          "remark": ""
+        },
+        {
+          "name": "数字媒体技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 451,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 457,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 22,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 450,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台新能源职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 396,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 130,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 410,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 384,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 382,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台应用技术职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 369,
+          "remark": ""
+        },
+        {
+          "name": "工业互联网技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 348,
+          "remark": ""
+        },
+        {
+          "name": "工业软件开发技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 357,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 362,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 359,
+          "remark": "[学费暂定12800元/年，最终以物价部门批复为准]"
+        }
+      ]
+    },
+    {
+      "name": "宣化科技职业学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 466,
+          "remark": ""
+        },
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 463,
+          "remark": ""
+        },
+        {
+          "name": "动漫制作技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 467,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 466,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 467,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 465,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 464,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 464,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "燕京理工学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电子信息工程技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 385,
+          "remark": ""
+        },
+        {
+          "name": "计算机应用技术",
+          "subCategory": "",
+          "plan": 107,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 369,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "张家口职业技术学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "大数据技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 479,
+          "remark": ""
+        },
+        {
+          "name": "计算机网络技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 484,
+          "remark": ""
+        },
+        {
+          "name": "人工智能技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 478,
+          "remark": ""
+        },
+        {
+          "name": "软件技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 481,
+          "remark": ""
+        },
+        {
+          "name": "物联网应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 483,
+          "remark": ""
+        },
+        {
+          "name": "信息安全技术应用",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 478,
+          "remark": ""
+        },
+        {
+          "name": "移动应用开发",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 475,
+          "remark": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1635 @@
+{
+  "year": 2026,
+  "system": "exam",
+  "category": "考试六类",
+  "source": "河北省教育考试院公开数据",
+  "schools": [
+    {
+      "name": "保定理工学院",
+      "type": "民办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 381,
+          "remark": "[色盲考生不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "保定幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "美术教育",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 498,
+          "remark": "[不招色盲、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生]"
+        },
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 508,
+          "remark": "[不招色盲色弱、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生；建议两耳听力均在3米以内，或一耳听力在5米另一耳聋的，嗅觉迟钝、口吃、步态异常、驼背，面部疤痕、血管瘤、黑色索痣、白瘢痕的考生慎重报考]"
+        }
+      ]
+    },
+    {
+      "name": "保定幼儿师范高等专科学校(中外合作办学)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "学前教育(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 447,
+          "remark": "[不招色盲色弱、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生；建议两耳听力均在3米以内，或一耳听力在5米另一耳聋的，嗅觉迟钝、口吃、步态异常、驼背，面部疤痕、血管瘤、黑色素痣、白癫疯的考生慎重报考]"
+        }
+      ]
+    },
+    {
+      "name": "北京汇佳职业学院",
+      "type": "民办",
+      "city": "北京",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 19200,
+          "minScore": 414,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "渤海理工职业学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "全媒体广告策划与营销",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 386,
+          "remark": ""
+        },
+        {
+          "name": "影视多媒体技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 384,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州航空职业学院",
+      "type": "民办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "应用英语",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 417,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 505,
+          "remark": "[在泊头校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        },
+        {
+          "name": "网络直播与运营",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 505,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 511,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "曹妃甸职业技术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 382,
+          "remark": ""
+        },
+        {
+          "name": "新闻采编与制作",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 371,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 369,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "承德应用技术职业学院",
+      "type": "公办",
+      "city": "承德",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 46,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 476,
+          "remark": "[该专业在承德市双桥区北校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 582,
+          "remark": "[色盲、色弱不予录取]"
+        },
+        {
+          "name": "影视编导",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 560,
+          "remark": ""
+        },
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 576,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校(大名校区)",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 250,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 508,
+          "remark": "[大一在邯郸市大名县校区就读，大二起在邯郸市武安市主校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸职业技术学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "新闻采编与制作",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北对外经贸职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "广播影视节目制作",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 480,
+          "remark": ""
+        },
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 502,
+          "remark": ""
+        },
+        {
+          "name": "商务英语",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 472,
+          "remark": ""
+        },
+        {
+          "name": "网络直播与运营",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 487,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 486,
+          "remark": ""
+        },
+        {
+          "name": "应用阿拉伯语",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 453,
+          "remark": ""
+        },
+        {
+          "name": "应用德语",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 451,
+          "remark": ""
+        },
+        {
+          "name": "应用俄语",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 450,
+          "remark": ""
+        },
+        {
+          "name": "应用法语",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 451,
+          "remark": ""
+        },
+        {
+          "name": "应用韩语(商务方向)",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 456,
+          "remark": ""
+        },
+        {
+          "name": "应用日语",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 455,
+          "remark": ""
+        },
+        {
+          "name": "应用西班牙语",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 452,
+          "remark": ""
+        },
+        {
+          "name": "应用英语",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 465,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北工艺美术职业学院",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "美术教育",
+          "subCategory": "",
+          "plan": 64,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 456,
+          "remark": "[不招色盲]"
+        },
+        {
+          "name": "影视多媒体技术",
+          "subCategory": "",
+          "plan": 152,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 461,
+          "remark": "[不招色盲]"
+        }
+      ]
+    },
+    {
+      "name": "河北机电职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 515,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北美术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "播音与主持",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 350,
+          "remark": ""
+        },
+        {
+          "name": "广播影视节目制作",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 345,
+          "remark": ""
+        },
+        {
+          "name": "摄影摄像技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 346,
+          "remark": ""
+        },
+        {
+          "name": "影视编导",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 352,
+          "remark": ""
+        },
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 345,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北女子职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 91,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 495,
+          "remark": "[色盲色弱不予录取]"
+        },
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 485,
+          "remark": "[色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "河北青年管理干部学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 170,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 511,
+          "remark": "[色盲、口吃、手部残疾者，不宜就读]"
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 536,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北青年管理干部学院(中外合作办学)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "广播影视节目制作(中外合作办学)",
+          "subCategory": "",
+          "plan": 79,
+          "years": 3,
+          "tuition": 21000,
+          "minScore": 405,
+          "remark": "[录取后不允许转专业]"
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "影视多媒体技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 557,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院(阜平校区)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "影视多媒体技术",
+          "subCategory": "",
+          "plan": 145,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 485,
+          "remark": "[阜平校区，在阜平县就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北外国语学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "播音与主持(外语播音员方向)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 361,
+          "remark": ""
+        },
+        {
+          "name": "广播影视节目制作(电视节目策划采编与制作)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 365,
+          "remark": ""
+        },
+        {
+          "name": "商务英语",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 364,
+          "remark": ""
+        },
+        {
+          "name": "摄影摄像技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 366,
+          "remark": ""
+        },
+        {
+          "name": "数字影像档案技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 363,
+          "remark": ""
+        },
+        {
+          "name": "网络直播与运营",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 372,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 380,
+          "remark": ""
+        },
+        {
+          "name": "应用阿拉伯语",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 346,
+          "remark": ""
+        },
+        {
+          "name": "应用德语(商务德语方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 348,
+          "remark": ""
+        },
+        {
+          "name": "应用俄语(商务俄语方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 347,
+          "remark": ""
+        },
+        {
+          "name": "应用法语(商务法语方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 345,
+          "remark": ""
+        },
+        {
+          "name": "应用法语(随行翻译方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 345,
+          "remark": ""
+        },
+        {
+          "name": "应用韩语(韩汉同声传译)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 345,
+          "remark": ""
+        },
+        {
+          "name": "应用韩语(商务韩语)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 348,
+          "remark": ""
+        },
+        {
+          "name": "应用日语(动漫方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 345,
+          "remark": ""
+        },
+        {
+          "name": "应用日语(日汉同声传译方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 351,
+          "remark": ""
+        },
+        {
+          "name": "应用日语(商务日语方向)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 364,
+          "remark": ""
+        },
+        {
+          "name": "应用外语(葡萄牙语)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 346,
+          "remark": ""
+        },
+        {
+          "name": "应用外语(意大利语)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 361,
+          "remark": ""
+        },
+        {
+          "name": "应用西班牙语",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 349,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(对外汉语)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 14300,
+          "minScore": 369,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(随行交替翻译)",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 356,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(文本翻译)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 14300,
+          "minScore": 382,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(小学英语)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 359,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(学前英语)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 349,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(英汉同声传译)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 358,
+          "remark": ""
+        },
+        {
+          "name": "中文",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17000,
+          "minScore": 361,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北艺术职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "广播影视节目制作",
+          "subCategory": "",
+          "plan": 170,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 466,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 105,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 465,
+          "remark": ""
+        },
+        {
+          "name": "影视照明技术与艺术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 470,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北艺术职业学院（中外合作办学）",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "学前教育(中外合作办学)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 442,
+          "remark": "[与韩国又松信息大学合作举办学前教育专业高等专科教育项目，入学后不允许转专业，第三学年学生可自行选择是否出国留学]"
+        }
+      ]
+    },
+    {
+      "name": "河北正定师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 538,
+          "remark": "[身体建议要求详见学校招生简章]"
+        },
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 508,
+          "remark": "[身体建议要求详见学校招生简章]"
+        }
+      ]
+    },
+    {
+      "name": "河北正定师范高等专科学校(中外合作办学)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "小学教育(中外合作办学)",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 18000,
+          "minScore": 416,
+          "remark": "[入学后不得转专业，其他报考注意事项详见学校官网或咨询学校]"
+        }
+      ]
+    },
+    {
+      "name": "河北政法职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "网络新闻与传播",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": ""
+        },
+        {
+          "name": "应用英语(法务英语方向)",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 538,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北政法职业学院(中外合作办学)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "商务英语(中外合作办学)",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 452,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 474,
+          "remark": ""
+        },
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 489,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "冀中职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 495,
+          "remark": "[不招轻度色觉异常(俗称色弱)、色觉异常II度(俗称色盲)、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 26,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 480,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄财经职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "播音与主持",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 410,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "传播与策划",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 421,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "广播影视节目制作",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 417,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 433,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "摄影摄像技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 412,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "新闻采编与制作",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 408,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 414,
+          "remark": "[在新华区学府校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄城市经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "商务英语",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 406,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        },
+        {
+          "name": "影视编导",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 397,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄工程职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "体育运营与管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 405,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 85,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 392,
+          "remark": ""
+        },
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 408,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄工商职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "全媒体广告策划与营销",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 438,
+          "remark": "[在鹿泉区南山校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "摄影摄像技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 347,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 200,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 345,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 439,
+          "remark": ""
+        },
+        {
+          "name": "影视多媒体技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 447,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "广播影视节目制作",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 392,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄理工职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "播音与主持",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15600,
+          "minScore": 406,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 170,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 398,
+          "remark": ""
+        },
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 420,
+          "remark": ""
+        },
+        {
+          "name": "影视动画(3D动画)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 404,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄农林职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 371,
+          "remark": ""
+        },
+        {
+          "name": "摄影摄像技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 369,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "美术教育",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 513,
+          "remark": "[不招色盲考生]"
+        },
+        {
+          "name": "舞蹈教育",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 519,
+          "remark": ""
+        },
+        {
+          "name": "小学科学教育",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 550,
+          "remark": ""
+        },
+        {
+          "name": "小学语文教育",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 565,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 597,
+          "remark": "[不招色盲、色弱考生]"
+        },
+        {
+          "name": "音乐教育",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 522,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄幼儿师范高等专科学校(校企合作订单班)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 459,
+          "remark": "[校企合作专业]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "影视动画",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 6000,
+          "minScore": 605,
+          "remark": ""
+        },
+        {
+          "name": "影视多媒体技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 6000,
+          "minScore": 609,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "塔里木职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 441,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山工业职业技术大学",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 609,
+          "remark": "[色弱、色盲不予录取]"
+        },
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 598,
+          "remark": "[色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 369,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "唐山幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "中文",
+          "subCategory": "",
+          "plan": 172,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 501,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津体育职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "体育运营与管理",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 463,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "铁门关职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "网络直播与运营",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 6500,
+          "minScore": 441,
+          "remark": ""
+        },
+        {
+          "name": "早期教育",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 436,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "新疆生产建设兵团兴新职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "融媒体技术与运营",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 450,
+          "remark": ""
+        },
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 441,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台应用技术职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "全媒体广告策划与营销",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 389,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "宣化科技职业学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "学前教育",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3500,
+          "minScore": 473,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "燕京理工学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "摄影摄像技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 377,
+          "remark": ""
+        },
+        {
+          "name": "网络直播与运营",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 368,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "张家口职业技术学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "应用英语",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 470,
+          "remark": ""
+        }
+      ]
+    }
+  ]
+}

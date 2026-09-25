@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>河北单招 · 智能估分选校</title>
+<meta name="description" content="基于2026年河北省高职单招公开招生计划与历史投档数据，智能匹配院校与专业">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0a1a;--card:#111128;--glass:rgba(255,255,255,0.03);
+  --border:rgba(255,255,255,0.06);--text:#e8e8f0;--text2:#8888aa;
+  --accent:#6c5ce7;--accent2:#00cec9;--accent3:#fd79a8;
+  --grad1:linear-gradient(135deg,#6c5ce7,#00cec9);
+  --grad2:linear-gradient(135deg,#a29bfe,#74b9ff);
+  --radius:16px;--radius-sm:10px;
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--bg);color:var(--text);min-height:100vh;
+  overflow-x:hidden;line-height:1.6;
+}
+.bg-orbs{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.15;animation:float 20s ease-in-out infinite}
+.orb:nth-child(1){width:500px;height:500px;background:#6c5ce7;top:-10%;left:-10%;animation-delay:0s}
+.orb:nth-child(2){width:400px;height:400px;background:#00cec9;bottom:-10%;right:-10%;animation-delay:-7s}
+.orb:nth-child(3){width:350px;height:350px;background:#fd79a8;top:40%;left:50%;animation-delay:-14s}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(30px,-40px) scale(1.1)}50%{transform:translate(-20px,30px) scale(.95)}75%{transform:translate(40px,20px) scale(1.05)}}
+
+.container{max-width:1200px;margin:0 auto;padding:16px;position:relative;z-index:1}
+
+/* Header */
+.hero{text-align:center;padding:40px 16px 30px;position:relative}
+.hero h1{
+  font-size:clamp(1.8rem,5vw,2.8rem);font-weight:800;
+  background:var(--grad1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;margin-bottom:8px;letter-spacing:-.02em;
+}
+.hero .subtitle{font-size:.9rem;color:var(--text2);font-weight:400}
+.hero .badge{
+  display:inline-block;margin-top:12px;padding:4px 14px;
+  background:var(--glass);border:1px solid var(--border);border-radius:20px;
+  font-size:.75rem;color:var(--accent2);
+}
+
+/* Glass Card */
+.glass{
+  background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border:1px solid var(--border);border-radius:var(--radius);
+  box-shadow:0 8px 32px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.05);
+}
+.glass-strong{
+  background:rgba(255,255,255,0.06);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);
+  border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);
+  box-shadow:0 8px 32px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+/* Mode Tabs */
+.mode-tabs{display:flex;gap:8px;margin:20px 0;justify-content:center}
+.mode-tab{
+  flex:1;max-width:280px;padding:14px 20px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);background:var(--glass);color:var(--text2);
+  cursor:pointer;text-align:center;font-size:.9rem;font-weight:600;
+  transition:all .3s ease;position:relative;overflow:hidden;
+}
+.mode-tab:hover{border-color:rgba(108,92,231,.3);color:var(--text)}
+.mode-tab.active{
+  background:linear-gradient(135deg,rgba(108,92,231,.2),rgba(0,206,201,.1));
+  border-color:var(--accent);color:#fff;
+  box-shadow:0 0 20px rgba(108,92,231,.2);
+}
+.mode-tab .tab-icon{font-size:1.4rem;display:block;margin-bottom:4px}
+.mode-tab .tab-count{font-size:.7rem;color:var(--text2);font-weight:400}
+
+/* Filter Panel */
+.filter-panel{padding:20px;margin-bottom:16px}
+.filter-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px;align-items:center}
+.filter-label{font-size:.8rem;color:var(--text2);min-width:60px;font-weight:500}
+.filter-group{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.chip{
+  padding:6px 14px;border-radius:20px;border:1px solid var(--border);
+  background:var(--glass);color:var(--text2);cursor:pointer;font-size:.8rem;
+  transition:all .25s ease;white-space:nowrap;
+}
+.chip:hover{border-color:rgba(108,92,231,.4);color:var(--text)}
+.chip.active{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 2px 12px rgba(108,92,231,.3)}
+
+/* Input */
+.input-wrap{position:relative;flex:1;min-width:200px}
+.input-wrap input,.input-wrap select{
+  width:100%;padding:10px 14px 10px 36px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);background:rgba(0,0,0,.3);color:var(--text);
+  font-size:.9rem;outline:none;transition:border-color .3s;
+}
+.input-wrap input:focus,.input-wrap select:focus{border-color:var(--accent)}
+.input-wrap .icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text2);font-size:.9rem}
+.input-wrap select option{background:#1a1a2e;color:#e8e8f0}
+
+/* Score Input */
+.score-section{padding:16px 20px;margin-bottom:16px}
+.score-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.score-input{
+  width:120px;padding:10px 14px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);background:rgba(0,0,0,.3);color:var(--accent2);
+  font-size:1.1rem;font-weight:700;text-align:center;outline:none;
+}
+.score-input:focus{border-color:var(--accent2);box-shadow:0 0 15px rgba(0,206,201,.2)}
+.score-hint{font-size:.75rem;color:var(--text2)}
+
+/* Sort */
+.sort-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:0 0 12px}
+.sort-btn{
+  padding:5px 12px;border-radius:16px;border:1px solid var(--border);
+  background:transparent;color:var(--text2);cursor:pointer;font-size:.75rem;
+  transition:all .25s;
+}
+.sort-btn:hover{border-color:var(--accent);color:var(--text)}
+.sort-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* Stats */
+.stats{padding:12px 20px;margin-bottom:16px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.stat{font-size:.8rem;color:var(--text2)}
+.stat strong{color:var(--accent2);font-weight:700}
+
+/* Results */
+.results-info{padding:8px 20px;font-size:.8rem;color:var(--text2);margin-bottom:8px}
+
+/* Card Grid */
+.card-grid{display:flex;flex-direction:column;gap:12px;padding-bottom:40px}
+
+/* Program Card */
+.program-card{
+  padding:16px;border-radius:var(--radius);border:1px solid var(--border);
+  background:rgba(255,255,255,0.02);transition:all .3s ease;
+  position:relative;overflow:hidden;
+}
+.program-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--grad1);opacity:0;transition:opacity .3s;
+}
+.program-card:hover{border-color:rgba(108,92,231,.3);transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.program-card:hover::before{opacity:1}
+
+.card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px}
+.school-info{flex:1;min-width:0}
+.school-name{
+  font-size:1rem;font-weight:700;color:#fff;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.school-meta{display:flex;gap:8px;margin-top:4px;flex-wrap:wrap}
+.tag{
+  display:inline-flex;align-items:center;padding:2px 8px;border-radius:12px;
+  font-size:.7rem;font-weight:500;
+}
+.tag-public{background:rgba(0,206,201,.15);color:#00cec9}
+.tag-private{background:rgba(253,121,168,.15);color:#fd79a8}
+.tag-city{background:rgba(108,92,231,.15);color:#a29bfe}
+
+.program-name{font-size:.9rem;font-weight:600;color:var(--accent2);margin-bottom:8px}
+.program-detail{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:6px;margin-bottom:8px}
+.detail-item{font-size:.78rem;color:var(--text2)}
+.detail-item span{color:var(--text);font-weight:500}
+
+/* Score Compare */
+.score-compare{
+  padding:8px 12px;border-radius:var(--radius-sm);margin-top:8px;
+  font-size:.82rem;font-weight:600;display:flex;align-items:center;gap:6px;
+}
+.score-above{background:rgba(0,206,201,.1);color:#00cec9;border:1px solid rgba(0,206,201,.2)}
+.score-near{background:rgba(253,204,0,.1);color:#fdcb6e;border:1px solid rgba(253,204,0,.2)}
+.score-below{background:rgba(253,121,168,.1);color:#fd79a8;border:1px solid rgba(253,121,168,.2)}
+.score-na{background:rgba(255,255,255,.03);color:var(--text2);border:1px solid var(--border)}
+
+.remark-text{font-size:.72rem;color:var(--text2);margin-top:6px;font-style:italic;line-height:1.4}
+
+/* Loading */
+.loading{text-align:center;padding:60px 20px;color:var(--text2)}
+.loading .spinner{
+  width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--accent);
+  border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Empty */
+.empty{text-align:center;padding:60px 20px;color:var(--text2)}
+.empty .icon{font-size:3rem;margin-bottom:12px}
+
+/* Footer */
+.footer{
+  text-align:center;padding:30px 20px;font-size:.72rem;color:var(--text2);
+  border-top:1px solid var(--border);margin-top:20px;line-height:1.8;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:3px}
+
+/* Animations */
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.fade-in{animation:fadeIn .4s ease forwards}
+
+/* Mobile */
+@media(max-width:640px){
+  .container{padding:10px}
+  .hero{padding:24px 10px 20px}
+  .hero h1{font-size:1.6rem}
+  .mode-tabs{gap:6px}
+  .mode-tab{padding:10px 12px;font-size:.82rem}
+  .filter-panel{padding:14px}
+  .score-section{padding:12px 14px}
+  .program-card{padding:12px}
+  .program-detail{grid-template-columns:repeat(2,1fr)}
+  .stats{padding:10px 14px;gap:10px}
+}
+</style>
+</head>
+<body>
+
+<div class="bg-orbs">
+  <div class="orb"></div><div class="orb"></div><div class="orb"></div>
+</div>
+
+<div class="container">
+  <!-- Hero -->
+  <header class="hero">
+    <h1>河北单招<br>智能估分选校</h1>
+    <p class="subtitle">基于2026年公开招生计划与历史投档数据</p>
+    <span class="badge">数据来源：河北省教育考试院</span>
+  </header>
+
+  <!-- Mode Tabs -->
+  <div class="mode-tabs">
+    <div class="mode-tab active" onclick="switchSystem('exam')" id="tab-exam">
+      <span class="tab-icon">📚</span>
+      普通高职单招
+      <span class="tab-count">10个考试类</span>
+    </div>
+    <div class="mode-tab" onclick="switchSystem('vocational')" id="tab-vocational">
+      <span class="tab-icon">💻</span>
+      对口计算机类
+      <span class="tab-count">中职对口招生</span>
+    </div>
+  </div>
+
+  <!-- Category Chips -->
+  <div class="filter-panel glass" id="categoryPanel">
+    <div class="filter-row">
+      <span class="filter-label">考试类</span>
+      <div class="filter-group" id="categoryChips"></div>
+    </div>
+  </div>
+
+  <!-- Score Input -->
+  <div class="score-section glass">
+    <div class="score-row">
+      <span class="filter-label">我的分数</span>
+      <input type="number" class="score-input" id="userScore" placeholder="输入分数" min="0" max="750" oninput="applyFilters()">
+      <span class="score-hint">输入后自动筛选 · 历史投档参考</span>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filter-panel glass">
+    <div class="filter-row">
+      <span class="filter-label">办学性质</span>
+      <div class="filter-group" id="typeChips">
+        <span class="chip active" onclick="setType('all',this)">全部</span>
+        <span class="chip" onclick="setType('公办',this)">公办</span>
+        <span class="chip" onclick="setType('民办',this)">民办</span>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">城市</span>
+      <div class="filter-group" id="cityChips"></div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">搜索</span>
+      <div class="input-wrap">
+        <span class="icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="搜索专业或院校名称..." oninput="applyFilters()">
+      </div>
+    </div>
+    <div class="sort-row">
+      <span class="filter-label">排序</span>
+      <span class="sort-btn active" onclick="setSort('score_asc',this)">投档分↑</span>
+      <span class="sort-btn" onclick="setSort('score_desc',this)">投档分↓</span>
+      <span class="sort-btn" onclick="setSort('diff',this)">分数差</span>
+      <span class="sort-btn" onclick="setSort('name',this)">院校名称</span>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats glass" id="statsBar" style="display:none">
+    <span class="stat">找到 <strong id="statTotal">0</strong> 个专业</span>
+    <span class="stat">公办 <strong id="statPublic">0</strong></span>
+    <span class="stat">民办 <strong id="statPrivate">0</strong></span>
+    <span class="stat">涉及 <strong id="statSchools">0</strong> 所院校</span>
+  </div>
+
+  <!-- Results -->
+  <div id="results" class="card-grid">
+    <div class="loading"><div class="spinner"></div>正在加载数据...</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>本系统数据来源于公开招生计划及投档信息，仅用于志愿填报参考。</p>
+    <p>历史投档分不代表下一年度录取结果，实际录取情况会受到招生计划、报考人数、专业志愿等因素影响。</p>
+    <p style="margin-top:8px;color:var(--accent)">河北单招 · 智能估分选校 · 2026</p>
+  </footer>
+</div>
+
+<script>
+// ========== State ==========
+let currentSystem = 'exam';
+let currentCategory = '';
+let currentType = 'all';
+let currentCity = 'all';
+let currentSort = 'score_asc';
+let allData = {};
+let flatResults = [];
+
+const examCategories = [
+  {id:'1',name:'考试一类',desc:'土木建筑、资源环境与安全、水利'},
+  {id:'2',name:'考试二类',desc:'交通运输、能源动力与材料'},
+  {id:'3',name:'考试三类',desc:'装备制造'},
+  {id:'4',name:'考试四类',desc:'农林牧渔、轻工纺织、生物与化工'},
+  {id:'5',name:'考试五类',desc:'公共管理与服务、旅游、公安与司法'},
+  {id:'6',name:'考试六类',desc:'教育与体育'},
+  {id:'7',name:'考试七类',desc:'医药卫生'},
+  {id:'8',name:'考试八类',desc:'文化艺术'},
+  {id:'9',name:'考试九类',desc:'财经商贸'},
+  {id:'10',name:'考试十类',desc:'电子信息'}
+];
+
+const vocationalCategories = [
+  {id:'对口计算机',name:'对口计算机类',desc:'中职对口计算机类招生'}
+];
+
+// ========== Init ==========
+async function init() {
+  const catList = currentSystem === 'exam' ? examCategories : vocationalCategories;
+  renderCategoryChips(catList);
+  if (catList.length > 0) {
+    currentCategory = catList[0].id;
+    await loadCategory(currentCategory);
+  }
+}
+
+function renderCategoryChips(categories) {
+  const el = document.getElementById('categoryChips');
+  el.innerHTML = categories.map(c =>
+    `<span class="chip ${c.id===currentCategory?'active':''}" onclick="selectCategory('${c.id}',this)" title="${c.desc}">${c.name}</span>`
+  ).join('');
+}
+
+// ========== Load Data ==========
+async function loadCategory(catId) {
+  if (allData[catId]) {
+    processAndDisplay(allData[catId]);
+    return;
+  }
+  
+  document.getElementById('results').innerHTML = '<div class="loading"><div class="spinner"></div>正在加载数据...</div>';
+  
+  try {
+    let url;
+    if (currentSystem === 'vocational') {
+      url = `data/对口计算机.json`;
+    } else {
+      url = `data/${catId}.json`;
+    }
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    allData[catId] = data;
+    processAndDisplay(data);
+  } catch (err) {
+    document.getElementById('results').innerHTML = 
+      `<div class="empty"><div class="icon">⚠️</div><p>数据加载失败: ${err.message}</p><p style="font-size:.75rem;margin-top:8px">请确保通过静态服务器访问</p></div>`;
+  }
+}
+
+function processAndDisplay(data) {
+  flatResults = [];
+  const cities = new Set();
+  
+  data.schools.forEach(school => {
+    cities.add(school.city);
+    school.programs.forEach(prog => {
+      flatResults.push({
+        school: school.name,
+        schoolType: school.type,
+        city: school.city,
+        program: prog.name,
+        subCategory: prog.subCategory || '',
+        plan: prog.plan,
+        years: prog.years,
+        tuition: prog.tuition,
+        minScore: prog.minScore,
+        remark: prog.remark || ''
+      });
+    });
+  });
+  
+  renderCityChips([...cities].sort());
+  applyFilters();
+}
+
+// ========== UI Interactions ==========
+function switchSystem(system) {
+  currentSystem = system;
+  document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(`tab-${system}`).classList.add('active');
+  
+  const catList = system === 'exam' ? examCategories : vocationalCategories;
+  renderCategoryChips(catList);
+  currentCategory = catList[0].id;
+  loadCategory(currentCategory);
+}
+
+function selectCategory(catId, el) {
+  currentCategory = catId;
+  document.querySelectorAll('#categoryChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  loadCategory(catId);
+}
+
+function setType(type, el) {
+  currentType = type;
+  document.querySelectorAll('#typeChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  applyFilters();
+}
+
+function setCity(city, el) {
+  currentCity = city;
+  document.querySelectorAll('#cityChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  applyFilters();
+}
+
+function setSort(sort, el) {
+  currentSort = sort;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  applyFilters();
+}
+
+function renderCityChips(cities) {
+  const el = document.getElementById('cityChips');
+  el.innerHTML = `<span class="chip active" onclick="setCity('all',this)">全部</span>` +
+    cities.map(c => `<span class="chip" onclick="setCity('${c}',this)">${c}</span>`).join('');
+}
+
+// ========== Filter & Sort ==========
+function applyFilters() {
+  const score = parseInt(document.getElementById('userScore').value) || 0;
+  const search = document.getElementById('searchInput').value.trim().toLowerCase();
+  
+  let filtered = flatResults.filter(item => {
+    if (currentType !== 'all' && item.schoolType !== currentType) return false;
+    if (currentCity !== 'all' && item.city !== currentCity) return false;
+    if (search) {
+      const hay = `${item.school} ${item.program}`.toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  });
+  
+  // Sort
+  filtered.sort((a, b) => {
+    switch (currentSort) {
+      case 'score_asc':
+        if (a.minScore === null) return 1;
+        if (b.minScore === null) return -1;
+        return a.minScore - b.minScore;
+      case 'score_desc':
+        if (a.minScore === null) return 1;
+        if (b.minScore === null) return -1;
+        return b.minScore - a.minScore;
+      case 'diff':
+        if (!score) return 0;
+        const diffA = a.minScore !== null ? score - a.minScore : -9999;
+        const diffB = b.minScore !== null ? score - b.minScore : -9999;
+        return diffB - diffA;
+      case 'name':
+        return a.school.localeCompare(b.school, 'zh-CN');
+      default:
+        return 0;
+    }
+  });
+  
+  renderStats(filtered);
+  renderResults(filtered, score);
+}
+
+function renderStats(filtered) {
+  const bar = document.getElementById('statsBar');
+  if (filtered.length === 0) { bar.style.display = 'none'; return; }
+  bar.style.display = 'flex';
+  
+  document.getElementById('statTotal').textContent = filtered.length;
+  document.getElementById('statPublic').textContent = filtered.filter(i => i.schoolType === '公办').length;
+  document.getElementById('statPrivate').textContent = filtered.filter(i => i.schoolType === '民办').length;
+  document.getElementById('statSchools').textContent = new Set(filtered.map(i => i.school)).size;
+}
+
+function renderResults(filtered, score) {
+  const el = document.getElementById('results');
+  
+  if (filtered.length === 0) {
+    el.innerHTML = `<div class="empty"><div class="icon">📭</div><p>未找到符合条件的专业</p><p style="font-size:.75rem;margin-top:8px">请尝试调整筛选条件</p></div>`;
+    return;
+  }
+  
+  // Virtual scroll: render first 50, lazy load rest
+  const initial = filtered.slice(0, 50);
+  const rest = filtered.slice(50);
+  
+  el.innerHTML = initial.map((item, i) => renderCard(item, score, i)).join('');
+  
+  if (rest.length > 0) {
+    const loadMore = document.createElement('div');
+    loadMore.style.cssText = 'text-align:center;padding:20px;';
+    loadMore.innerHTML = `<button onclick="loadMore(this)" style="padding:10px 24px;border-radius:20px;border:1px solid var(--border);background:var(--glass);color:var(--text);cursor:pointer;font-size:.85rem">加载更多 (${rest.length} 个专业)</button>`;
+    el.appendChild(loadMore);
+    window._restCards = rest;
+    window._restScore = score;
+  }
+}
+
+function loadMore(btn) {
+  const rest = window._restCards || [];
+  const score = window._restScore || 0;
+  const el = document.getElementById('results');
+  btn.parentElement.remove();
+  
+  const fragment = document.createDocumentFragment();
+  rest.forEach((item, i) => {
+    const div = document.createElement('div');
+    div.innerHTML = renderCard(item, score, i);
+    fragment.appendChild(div.firstElementChild);
+  });
+  el.appendChild(fragment);
+}
+
+function renderCard(item, score, idx) {
+  let scoreHtml = '';
+  if (score > 0 && item.minScore !== null) {
+    const diff = score - item.minScore;
+    if (diff > 0) {
+      scoreHtml = `<div class="score-compare score-above">📈 高于历史参考线 ${diff} 分</div>`;
+    } else if (diff === 0) {
+      scoreHtml = `<div class="score-compare score-near">⚡ 恰好达到历史参考线</div>`;
+    } else {
+      scoreHtml = `<div class="score-compare score-below">📉 低于历史参考线 ${Math.abs(diff)} 分</div>`;
+    }
+  } else if (score > 0 && item.minScore === null) {
+    scoreHtml = `<div class="score-compare score-na">暂无2026投档数据</div>`;
+  }
+  
+  const typeTag = item.schoolType === '公办' ? 
+    '<span class="tag tag-public">公办</span>' : 
+    '<span class="tag tag-private">民办</span>';
+  
+  const scoreDisplay = item.minScore !== null ? item.minScore : '—';
+  
+  let remarkHtml = '';
+  if (item.remark) {
+    const cleanRemark = item.remark.replace(/\[|\]/g, '').trim();
+    if (cleanRemark) {
+      remarkHtml = `<div class="remark-text">📌 ${cleanRemark}</div>`;
+    }
+  }
+  
+  return `
+  <div class="program-card fade-in" style="animation-delay:${Math.min(idx * 0.02, 0.5)}s">
+    <div class="card-header">
+      <div class="school-info">
+        <div class="school-name">${item.school}</div>
+        <div class="school-meta">
+          ${typeTag}
+          <span class="tag tag-city">${item.city}</span>
+        </div>
+      </div>
+    </div>
+    <div class="program-name">${item.program}</div>
+    <div class="program-detail">
+      <div class="detail-item">招生计划：<span>${item.plan}人</span></div>
+      <div class="detail-item">学制：<span>${item.years}年</span></div>
+      <div class="detail-item">学费：<span>${item.tuition.toLocaleString()}元/年</span></div>
+      <div class="detail-item">2026投档分：<span style="color:${item.minScore!==null?'var(--accent2)':'var(--text2)'};font-weight:700">${scoreDisplay}</span></div>
+    </div>
+    ${score > 0 ? `<div style="font-size:.78rem;color:var(--text2)">我的分数：<span style="color:var(--accent2);font-weight:700">${score}</span></div>` : ''}
+    ${scoreHtml}
+    ${remarkHtml}
+  </div>`;
+}
+
+// ========== Start ==========
+init();
+</script>
+</body>
+</html>

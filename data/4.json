@@ -1,0 +1,1959 @@
+{
+  "year": 2026,
+  "system": "exam",
+  "category": "考试四类",
+  "source": "河北省教育考试院公开数据",
+  "schools": [
+    {
+      "name": "保定职业技术学院",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "动物医学",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 621,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 587,
+          "remark": ""
+        },
+        {
+          "name": "药品生物技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 571,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 547,
+          "remark": ""
+        },
+        {
+          "name": "园艺技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 543,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院(安国校区)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "药品生物技术",
+          "subCategory": "",
+          "plan": 280,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 495,
+          "remark": "[在安国校区就读]"
+        },
+        {
+          "name": "作物生产与经营管理",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 489,
+          "remark": "[在安国校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院（阜平校区）",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "园艺技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 504,
+          "remark": "[在阜平校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院(清苑校区)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": "[在清苑校区就读]"
+        },
+        {
+          "name": "作物生产与经营管理",
+          "subCategory": "",
+          "plan": 136,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 489,
+          "remark": "[在清苑校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "渤海理工职业学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "化工自动化技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 360,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 397,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州航空职业学院",
+      "type": "民办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "分析检验技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 450,
+          "remark": "[建新化工订单班，不额外收取任何附加费用]"
+        },
+        {
+          "name": "分析检验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 450,
+          "remark": ""
+        },
+        {
+          "name": "化工智能制造技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 378,
+          "remark": ""
+        },
+        {
+          "name": "化学制药技术",
+          "subCategory": "",
+          "plan": 75,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 398,
+          "remark": ""
+        },
+        {
+          "name": "精细化工技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 372,
+          "remark": ""
+        },
+        {
+          "name": "食品营养与健康(航空营养配餐方向)",
+          "subCategory": "",
+          "plan": 65,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 384,
+          "remark": ""
+        },
+        {
+          "name": "食品智能加工技术(航空食品加工)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 387,
+          "remark": ""
+        },
+        {
+          "name": "应用化工技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 449,
+          "remark": ""
+        },
+        {
+          "name": "应用化工技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 449,
+          "remark": "[建新化工订单班，不额外收取任何附加费用]"
+        }
+      ]
+    },
+    {
+      "name": "沧州医学高等专科学校",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 624,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 639,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "药品质量与安全",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 633,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "宠物养护与驯导",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 567,
+          "remark": ""
+        },
+        {
+          "name": "宠物医疗技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 586,
+          "remark": ""
+        },
+        {
+          "name": "动物医学",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 596,
+          "remark": ""
+        },
+        {
+          "name": "服装设计与工艺",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 509,
+          "remark": ""
+        },
+        {
+          "name": "食品检验检测技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 555,
+          "remark": ""
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 574,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 540,
+          "remark": ""
+        },
+        {
+          "name": "应用化工技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 524,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(肃宁学院，就读于沧州肃宁县)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 524,
+          "remark": "[肃宁学院，就读于沧州肃宁县]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(献县学院，就读于沧州献县)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 527,
+          "remark": "[献县学院，就读于沧州献县]"
+        }
+      ]
+    },
+    {
+      "name": "曹妃甸职业技术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "休闲农业经营与管理",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 359,
+          "remark": ""
+        },
+        {
+          "name": "智能医疗装备技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 355,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸科技职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "宠物医疗技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 579,
+          "remark": ""
+        },
+        {
+          "name": "酿酒技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 583,
+          "remark": ""
+        },
+        {
+          "name": "药物制剂技术",
+          "subCategory": "",
+          "plan": 37,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 546,
+          "remark": "[色盲、色弱、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不予录取]"
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 47,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 521,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸应用技术职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "食品质量与安全",
+          "subCategory": "",
+          "plan": 200,
+          "years": 3,
+          "tuition": 12600,
+          "minScore": 387,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "服装设计与工艺(童装方向)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 505,
+          "remark": "[色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校(大名校区)",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "酿酒技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 490,
+          "remark": "[大一在邯郸市大名县校区就读，大二起在邯郸市武安市主校区就读]"
+        },
+        {
+          "name": "食品营养与健康",
+          "subCategory": "",
+          "plan": 250,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 496,
+          "remark": "[大一在邯郸市大名县校区就读，大二起在邯郸市武安市主校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸职业技术学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "食品检验检测技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": "[不招收色盲考生]"
+        },
+        {
+          "name": "食品质量与安全",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 530,
+          "remark": "[不招收色盲考生]"
+        },
+        {
+          "name": "食品智能加工技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": "[不招收色盲考生]"
+        }
+      ]
+    },
+    {
+      "name": "河北工业职业技术大学(宣钢分院)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "应用化工技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 498,
+          "remark": "[色盲色弱考生不予录取，在张家口市宣化区宣钢分院就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北工艺美术职业学院(高阳现代纺织产业学院)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "现代家用纺织品设计",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 483,
+          "remark": "[不招色盲。在保定市高阳县就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北化工医药职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "分析检验技术",
+          "subCategory": "",
+          "plan": 96,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 555,
+          "remark": ""
+        },
+        {
+          "name": "化工智能制造技术",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": ""
+        },
+        {
+          "name": "化工装备技术",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 531,
+          "remark": ""
+        },
+        {
+          "name": "化工自动化技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 535,
+          "remark": ""
+        },
+        {
+          "name": "化学制药技术",
+          "subCategory": "",
+          "plan": 57,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 552,
+          "remark": ""
+        },
+        {
+          "name": "化妆品技术",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 545,
+          "remark": ""
+        },
+        {
+          "name": "精细化工技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "食品检验检测技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 580,
+          "remark": ""
+        },
+        {
+          "name": "食品质量与安全",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 559,
+          "remark": ""
+        },
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 546,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 144,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 565,
+          "remark": ""
+        },
+        {
+          "name": "药品生物技术",
+          "subCategory": "",
+          "plan": 44,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "药品质量与安全",
+          "subCategory": "",
+          "plan": 107,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 546,
+          "remark": ""
+        },
+        {
+          "name": "药物制剂技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 563,
+          "remark": ""
+        },
+        {
+          "name": "应用化工技术",
+          "subCategory": "",
+          "plan": 117,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "智能医疗装备技术",
+          "subCategory": "",
+          "plan": 44,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北化工医药职业技术学院（中外合作办学）",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "药品生产技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 47,
+          "years": 3,
+          "tuition": 20000,
+          "minScore": 468,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北旅游职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "宠物养护与驯导",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "宠物医疗技术",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 563,
+          "remark": ""
+        },
+        {
+          "name": "动物医学",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 582,
+          "remark": ""
+        },
+        {
+          "name": "绿色食品生产技术",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 521,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 518,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北能源职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "煤化工技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 514,
+          "remark": "[不招色盲、色弱考生]"
+        },
+        {
+          "name": "煤化工技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 514,
+          "remark": "[只招男生；开滦订单班，入学签订协议，不另收取其他费用；不招色盲、色弱考生；详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "河北女子职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "服装设计与工艺",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 504,
+          "remark": "[在花都校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北石油职业技术大学(中外合作办学)",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "应用化工技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 18000,
+          "minScore": 478,
+          "remark": "[该专业适合高考报名时考试类型选择“统考”的考生，非“统考”考生不宜报考。没有高中毕业证的考生，如报考且被录取，只能在学校学习三年，不能到外方大学继续本科学习]"
+        }
+      ]
+    },
+    {
+      "name": "河北政法职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 518,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "宠物医疗技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": ""
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 506,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 530,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 505,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "昆玉职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "农产品加工与质量检测",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 458,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 469,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "现代农业装备应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 450,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 497,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊卫生职业学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 510,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "宠物养护与驯导",
+          "subCategory": "",
+          "plan": 21,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        },
+        {
+          "name": "动物医学",
+          "subCategory": "",
+          "plan": 42,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        },
+        {
+          "name": "食品质量与安全",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": ""
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 509,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 49,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 21,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 508,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "宠物养护与驯导(中外合作办学)",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 476,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄财经职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "休闲农业经营与管理",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 336,
+          "remark": "[在新华区学府校区就读]"
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 356,
+          "remark": "[在新华区学府校区就读]"
+        },
+        {
+          "name": "植物保护与检疫技术",
+          "subCategory": "",
+          "plan": 200,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 346,
+          "remark": "[在新华区学府校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄城市经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 414,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄工程职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 397,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 421,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄工商职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "食品检验检测技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 12000,
+          "minScore": 461,
+          "remark": "[在鹿泉区南上校区就读]"
+        },
+        {
+          "name": "食品质量与安全",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12000,
+          "minScore": 466,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "食品智能加工技术",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 12000,
+          "minScore": 459,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 75,
+          "years": 3,
+          "tuition": 12000,
+          "minScore": 457,
+          "remark": "[在鹿泉区南山校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "绿色食品生产技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 345,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 79,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 392,
+          "remark": ""
+        },
+        {
+          "name": "药品生物技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 352,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 336,
+          "remark": ""
+        },
+        {
+          "name": "智能医疗装备技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 336,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "生物制药技术",
+          "subCategory": "",
+          "plan": 65,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 462,
+          "remark": ""
+        },
+        {
+          "name": "食品检验检测技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 477,
+          "remark": ""
+        },
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 467,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 468,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 411,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 405,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄理工职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 200,
+          "years": 3,
+          "tuition": 11700,
+          "minScore": 442,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄农林职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "宠物养护与驯导",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 452,
+          "remark": ""
+        },
+        {
+          "name": "设施农业与装备",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 389,
+          "remark": ""
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 2,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 454,
+          "remark": ""
+        },
+        {
+          "name": "现代农业经济管理",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 384,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 444,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 396,
+          "remark": ""
+        },
+        {
+          "name": "种子生产与经营",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 415,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄人民医学高等专科学校",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 412,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄信息工程职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "宠物医疗技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 672,
+          "remark": ""
+        },
+        {
+          "name": "畜牧兽医",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 655,
+          "remark": ""
+        },
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 621,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄医学高等专科学校",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "生物制药技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 383,
+          "remark": ""
+        },
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 393,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 75,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 394,
+          "remark": ""
+        },
+        {
+          "name": "医疗器械维护与管理",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 379,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "生物制药技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 607,
+          "remark": ""
+        },
+        {
+          "name": "食品检验检测技术",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 605,
+          "remark": ""
+        },
+        {
+          "name": "食品药品监督管理",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 591,
+          "remark": ""
+        },
+        {
+          "name": "药品经营与管理",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 588,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 38,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 596,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "塔里木职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "纺织品检验与贸易",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 442,
+          "remark": ""
+        },
+        {
+          "name": "纺织品设计",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 436,
+          "remark": ""
+        },
+        {
+          "name": "服装设计与工艺",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 447,
+          "remark": ""
+        },
+        {
+          "name": "现代纺织技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 445,
+          "remark": ""
+        },
+        {
+          "name": "现代农业装备应用技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 452,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山工业职业技术大学",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "分析检验技术",
+          "subCategory": "",
+          "plan": 108,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 592,
+          "remark": "[色弱、色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "咖啡加工与应用技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 346,
+          "remark": ""
+        },
+        {
+          "name": "水产养殖技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 336,
+          "remark": ""
+        },
+        {
+          "name": "水生动物医学",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 336,
+          "remark": ""
+        },
+        {
+          "name": "水族科学与技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 344,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "动物医学",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 593,
+          "remark": ""
+        },
+        {
+          "name": "设施农业与装备",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 567,
+          "remark": ""
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 573,
+          "remark": ""
+        },
+        {
+          "name": "园林技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 568,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津轻工职业技术学院",
+      "type": "公办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "服装设计与工艺",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 553,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津石油职业技术学院",
+      "type": "公办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "分析检验技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 549,
+          "remark": "[在滨海校区就读]"
+        },
+        {
+          "name": "石油化工技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "铁门关职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "分析检验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 467,
+          "remark": ""
+        },
+        {
+          "name": "化工智能制造技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 462,
+          "remark": ""
+        },
+        {
+          "name": "现代农业经济管理",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 455,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "图木舒克职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "服装设计与工艺",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 421,
+          "remark": "[考生可享受助免政策，详见院校简幸或咨询院校]"
+        },
+        {
+          "name": "农产品加工与质量检测",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 407,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "设施农业与装备",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 402,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "数字化染整技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 447,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "现代纺织技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 425,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 418,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "园艺技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 408,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "针织技术与针织服装",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 416,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "作物生产与经营管理",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 393,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        }
+      ]
+    },
+    {
+      "name": "新疆生产建设兵团兴新职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "服装设计与工艺",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 460,
+          "remark": ""
+        },
+        {
+          "name": "石油化工技术",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 474,
+          "remark": ""
+        },
+        {
+          "name": "现代农业技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 473,
+          "remark": ""
+        },
+        {
+          "name": "应用化工技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 481,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台新能源职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "食品营养与健康",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 9800,
+          "minScore": 449,
+          "remark": "[北京晶福康养产业有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "燕京理工学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "宠物医疗技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 440,
+          "remark": ""
+        },
+        {
+          "name": "药品生产技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 373,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "张家口职业技术学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "森林生态旅游与康养",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 488,
+          "remark": ""
+        }
+      ]
+    }
+  ]
+}

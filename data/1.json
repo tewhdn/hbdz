@@ -1,0 +1,1946 @@
+{
+  "year": 2026,
+  "system": "exam",
+  "category": "考试一类",
+  "source": "河北省教育考试院公开数据",
+  "schools": [
+    {
+      "name": "保定理工学院",
+      "type": "民办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 364,
+          "remark": ""
+        },
+        {
+          "name": "国土资源调查与管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 361,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "北京财贸职业学院",
+      "type": "公办",
+      "city": "北京",
+      "programs": [
+        {
+          "name": "建筑智能化工程技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 6000,
+          "minScore": 537,
+          "remark": "[上课地点：第一学年在涿州校区，第二、三学年在校本部(通州)]"
+        }
+      ]
+    },
+    {
+      "name": "北京工业职业技术学院",
+      "type": "公办",
+      "city": "北京",
+      "programs": [
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 6000,
+          "minScore": 564,
+          "remark": "[色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "渤海理工职业学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 376,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 372,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 371,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 366,
+          "remark": "[学费暂定15000元/年，最终以物价部门批复为准]"
+        }
+      ]
+    },
+    {
+      "name": "沧州航空职业学院",
+      "type": "民办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 436,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "安全技术与管理",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 509,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 517,
+          "remark": ""
+        },
+        {
+          "name": "消防救援技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 509,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "曹妃甸职业技术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "建设工程管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 387,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 398,
+          "remark": ""
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 378,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸科技职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "环境监测技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": "[色盲、色弱、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "安全智能监测技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 494,
+          "remark": "[色盲、色弱不予录取]"
+        },
+        {
+          "name": "消防救援技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 475,
+          "remark": "[色盲、色弱不予录取；其他报考建议详见招生简章]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸职业技术学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "摄影测量与遥感技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北工业职业技术大学(宣钢分院)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 487,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 490,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北工艺美术职业学院",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "风景园林设计",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 457,
+          "remark": "[不招色盲]"
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 7000,
+          "minScore": 460,
+          "remark": "[不招色盲]"
+        }
+      ]
+    },
+    {
+      "name": "河北轨道运输职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 549,
+          "remark": ""
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 559,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北化工医药职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "化工安全技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "环境工程技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        },
+        {
+          "name": "环境监测技术",
+          "subCategory": "",
+          "plan": 43,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北机电职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 514,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 514,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北建材职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 507,
+          "remark": ""
+        },
+        {
+          "name": "环境工程技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 502,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 497,
+          "remark": ""
+        },
+        {
+          "name": "建筑装饰工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 491,
+          "remark": ""
+        },
+        {
+          "name": "市政工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 498,
+          "remark": ""
+        },
+        {
+          "name": "智慧城市管理技术",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 493,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 71,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 491,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北交通职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "地下与隧道工程技术(盾构工程技术方向)",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北科技学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "建设工程管理",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 351,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北劳动关系职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 513,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 505,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 499,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北旅游职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 486,
+          "remark": ""
+        },
+        {
+          "name": "园林工程技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 484,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北美术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 332,
+          "remark": ""
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 330,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北能源职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 484,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 490,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 487,
+          "remark": ""
+        },
+        {
+          "name": "煤矿智能开采技术",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 473,
+          "remark": "[只招男生；不招色盲、色弱考生]"
+        },
+        {
+          "name": "煤矿智能开采技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 473,
+          "remark": "[只招男生；开滦订单班，入学签订协议，不另收取其他费用；不招色盲、色弱考生；详询院校]"
+        },
+        {
+          "name": "应急救援技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 462,
+          "remark": "[只招男生；不招色盲、色弱考生]"
+        }
+      ]
+    },
+    {
+      "name": "河北女子职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 507,
+          "remark": "[在花都校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北青年管理干部学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 491,
+          "remark": ""
+        },
+        {
+          "name": "环境监测技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 464,
+          "remark": "[不招色盲、色弱考生]"
+        }
+      ]
+    },
+    {
+      "name": "河北外国语学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 351,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 353,
+          "remark": ""
+        },
+        {
+          "name": "古建筑工程技术",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 350,
+          "remark": ""
+        },
+        {
+          "name": "建筑设计(中外土木工程设计)",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 16250,
+          "minScore": 350,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北正定师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 503,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 492,
+          "remark": "[身体建议要求详见学校招生简章]"
+        }
+      ]
+    },
+    {
+      "name": "河北政法职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "风景园林设计",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": ""
+        },
+        {
+          "name": "工程安全评价与监理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 530,
+          "remark": ""
+        },
+        {
+          "name": "环境工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 517,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北资源环境职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "宝玉石鉴定与加工",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 457,
+          "remark": ""
+        },
+        {
+          "name": "地质调查与矿产普查",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 460,
+          "remark": ""
+        },
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 471,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 479,
+          "remark": ""
+        },
+        {
+          "name": "环境监测技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 460,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 484,
+          "remark": ""
+        },
+        {
+          "name": "摄影测量与遥感技术(无人机操控、数据处理方向)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 491,
+          "remark": ""
+        },
+        {
+          "name": "水文与工程地质",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 459,
+          "remark": "[轻度色觉异常(俗称色弱)、色觉异常II度(俗称色盲)以及不能准确识别红黄绿兰紫中任何一种颜色的考生不能录取]"
+        },
+        {
+          "name": "钻探工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 456,
+          "remark": "[适合男生就业。轻度色觉异常(俗称色弱)、色觉异常II度(俗称色盲)以及不能准确识别红黄绿兰紫中任何一种颜色的考生不能录取]"
+        }
+      ]
+    },
+    {
+      "name": "冀中职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 474,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 473,
+          "remark": ""
+        },
+        {
+          "name": "装配式建筑工程技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 468,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "昆玉职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "宝玉石鉴定与加工",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 418,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 417,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "矿山机电与智能装备",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 426,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "水利工程",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 429,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 452,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "风景园林设计",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 461,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 46,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 475,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 33,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 466,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 37,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 462,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄财经职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 402,
+          "remark": "[在新华区学府校区就读]"
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 51,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 390,
+          "remark": "[在新华区学府校区就读]"
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 54,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 388,
+          "remark": "[在新华区学府校区就读]"
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 54,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 379,
+          "remark": "[在新华区学府校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄城市经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 411,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 430,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄工程职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 407,
+          "remark": ""
+        },
+        {
+          "name": "建筑室内设计",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 404,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄工商职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 430,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "建设工程管理(BIM技术应用方向)",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 12000,
+          "minScore": 436,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 433,
+          "remark": "[在鹿泉区南山校区就读]"
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 436,
+          "remark": "[在鹿泉区南山校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 360,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 360,
+          "remark": ""
+        },
+        {
+          "name": "建设工程管理",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 15500,
+          "minScore": 360,
+          "remark": ""
+        },
+        {
+          "name": "建设工程监理",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 355,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价(造价师方向)",
+          "subCategory": "",
+          "plan": 22,
+          "years": 3,
+          "tuition": 12600,
+          "minScore": 448,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 408,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 404,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 403,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄理工职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 410,
+          "remark": ""
+        },
+        {
+          "name": "建设工程管理",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 10140,
+          "minScore": 425,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 417,
+          "remark": ""
+        },
+        {
+          "name": "建筑设计",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 421,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄农林职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 366,
+          "remark": ""
+        },
+        {
+          "name": "现代物业管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 374,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄铁路职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "测绘地理信息技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 556,
+          "remark": ""
+        },
+        {
+          "name": "测绘工程技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 551,
+          "remark": ""
+        },
+        {
+          "name": "地下与隧道工程技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "工程测量技术",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 569,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 578,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 37,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 553,
+          "remark": ""
+        },
+        {
+          "name": "建筑设备工程技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": ""
+        },
+        {
+          "name": "建筑智能化工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 553,
+          "remark": ""
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 569,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 621,
+          "remark": ""
+        },
+        {
+          "name": "供热通风与空调工程技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 560,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 595,
+          "remark": ""
+        },
+        {
+          "name": "建筑设计",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 591,
+          "remark": ""
+        },
+        {
+          "name": "市政工程技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 592,
+          "remark": ""
+        },
+        {
+          "name": "智慧城市管理技术",
+          "subCategory": "",
+          "plan": 26,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 44,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 557,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "塔里木职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 439,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 441,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山工业职业技术大学",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "市政工程技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 651,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "环境监测技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 354,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 551,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津滨海汽车工程职业学院",
+      "type": "民办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 353,
+          "remark": "[在武清校区就读(武清区)]"
+        }
+      ]
+    },
+    {
+      "name": "天津国土资源和房屋职业学院",
+      "type": "公办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 544,
+          "remark": ""
+        },
+        {
+          "name": "古建筑工程技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 531,
+          "remark": ""
+        },
+        {
+          "name": "建筑智能化工程技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 531,
+          "remark": ""
+        },
+        {
+          "name": "现代物业管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 524,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 538,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津石油职业技术学院",
+      "type": "公办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "摄影测量与遥感技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": ""
+        },
+        {
+          "name": "石油工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": ""
+        },
+        {
+          "name": "油气地质勘探技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 527,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "图木舒克职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "建筑智能化工程技术",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 416,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "应急救援技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 7800,
+          "minScore": 428,
+          "remark": "[与中投新燎原(新疆)教育投资有限公司合作办学；考生可享受助免政策，详见院校简章或咨询院校]"
+        }
+      ]
+    },
+    {
+      "name": "新疆生产建设兵团兴新职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "风景园林设计",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 437,
+          "remark": ""
+        },
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 449,
+          "remark": ""
+        },
+        {
+          "name": "建设工程监理",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 433,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 443,
+          "remark": ""
+        },
+        {
+          "name": "市政工程技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 434,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台新能源职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "绿色低碳技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 396,
+          "remark": "[建议色盲、色弱慎报]"
+        },
+        {
+          "name": "绿色低碳技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 396,
+          "remark": "[建议色盲、色弱慎报；晶澳太阳能科技股份有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
+        },
+        {
+          "name": "资源综合利用技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 398,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台应用技术职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 380,
+          "remark": "[学费暂定12800元/年，最终以物价部门批复为准]"
+        }
+      ]
+    },
+    {
+      "name": "宣化科技职业学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 470,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 470,
+          "remark": ""
+        },
+        {
+          "name": "建筑消防技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 455,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "燕京理工学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 347,
+          "remark": ""
+        },
+        {
+          "name": "环境工程技术",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 351,
+          "remark": ""
+        },
+        {
+          "name": "建设工程管理",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 355,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "张家口职业技术学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "工程造价",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 458,
+          "remark": ""
+        },
+        {
+          "name": "建筑工程技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 455,
+          "remark": ""
+        },
+        {
+          "name": "建筑装饰工程技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 454,
+          "remark": ""
+        },
+        {
+          "name": "无人机测绘技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 466,
+          "remark": ""
+        },
+        {
+          "name": "智能建造技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 454,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "张家口职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "建筑工程技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 20000,
+          "minScore": 376,
+          "remark": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2353 @@
+{
+  "year": 2026,
+  "system": "exam",
+  "category": "考试七类",
+  "source": "河北省教育考试院公开数据",
+  "schools": [
+    {
+      "name": "保定理工学院",
+      "type": "民办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 434,
+          "remark": "[色盲考生不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "保定幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "老年保健与管理",
+          "subCategory": "",
+          "plan": 2,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 525,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 518,
+          "remark": "[不招色盲色弱、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生；建议两耳听力均在3米以内，或一耳听力在米另5一耳聋的，嗅觉迟钝、口吃、步态异常、驼背，面部疤痕、血管瘤、黑色素痣、白癫疯的考生慎重考]"
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 1,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院(安国校区)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": "[在安国校区就读，不招色盲色弱、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院（阜平校区）",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": "[在阜平校区就读，不招色盲色弱、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        }
+      ]
+    },
+    {
+      "name": "北京汇佳职业学院",
+      "type": "民办",
+      "city": "北京",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 367,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "渤海理工职业学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 387,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 362,
+          "remark": ""
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 368,
+          "remark": ""
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 339,
+          "remark": ""
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 336,
+          "remark": ""
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 330,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州医学高等专科学校",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 621,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 576,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "康复治疗技术无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 601,
+          "remark": ""
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 612,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "老年保健与管理",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 580,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "卫生检验与检疫技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 580,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "眼视光技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 582,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 602,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、篮、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 596,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 578,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学营养",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 576,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 591,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、篮、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 592,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "中医养生保健",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 589,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、篮、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 584,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        }
+      ]
+    },
+    {
+      "name": "沧州医学高等专科学校(中外合作办学)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "药学(中外合作办学)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 524,
+          "remark": "[无色盲、色弱，能准确识别识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        }
+      ]
+    },
+    {
+      "name": "沧州幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 508,
+          "remark": "[在泊头校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 563,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "曹妃甸职业技术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 342,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 332,
+          "remark": ""
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 352,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 330,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "承德护理职业学院",
+      "type": "公办",
+      "city": "承德",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 130,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 554,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "口腔卫生保健",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 538,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "老年保健与管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "卫生检验与检疫技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 543,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 551,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 551,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 538,
+          "remark": "[无色盲、色弱，能准确识别红、绿、篮、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图。不建议男生报考]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 547,
+          "remark": "[无色盲、包弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "医养照护服务",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 528,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 543,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜包的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 543,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 535,
+          "remark": "[无色盲、色弱，能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸科技职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 559,
+          "remark": "[色盲、色弱、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不予录取]"
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 561,
+          "remark": "[色盲、色弱、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸应用技术职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 175,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 361,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 372,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 376,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 418,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 398,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 374,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 345,
+          "remark": "[无色盲、色弱，能准确识别红、黄、绿、兰、紫各种颜包中任何一种颜色的导线、按键、信号灯、几何图形]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "心理咨询",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸幼儿师范高等专科学校(中外合作办学)",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理(中外合作办学)",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 18000,
+          "minScore": 509,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北对外经贸职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "医养照护服务",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北化工医药职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 549,
+          "remark": ""
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 61,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 570,
+          "remark": ""
+        },
+        {
+          "name": "中药材生产与加工",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": ""
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 27,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "中药制药",
+          "subCategory": "",
+          "plan": 51,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 554,
+          "remark": ""
+        },
+        {
+          "name": "中医养生保健",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 557,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北科技学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 69,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 344,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 343,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北劳动关系职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 507,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北女子职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": "[色盲色弱不予录取]"
+        },
+        {
+          "name": "老年保健与管理",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": "[色盲色弱不予录取]"
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 517,
+          "remark": "[色盲色弱不予录取]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 524,
+          "remark": "[色盲色弱不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "河北青年管理干部学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北外国语学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 456,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 420,
+          "remark": ""
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 422,
+          "remark": ""
+        },
+        {
+          "name": "心理咨询",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 14300,
+          "minScore": 405,
+          "remark": ""
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 408,
+          "remark": ""
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 14300,
+          "minScore": 429,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北正定师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 552,
+          "remark": "[身体建议要求详见学校招生简章]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": "[身体建议要求详见学校招生简章]"
+        }
+      ]
+    },
+    {
+      "name": "衡水健康科技职业学院",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": "[要求考生无传染疾病，无精神病史，无色盲色弱，能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 525,
+          "remark": "[要求考生无传染疾病，无精神病史，无色盲色弱，能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯]"
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 524,
+          "remark": "[要求考生无传染疾病，无精神病史，无色盲色弱，能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯]"
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": "[要求考生无传染疾病，无精神病史，无色盲色弱，能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯]"
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 512,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "冀中职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "廊坊卫生职业学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "放射治疗技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 525,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 539,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 525,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": "[不招收色盲、色弱和不能准确识别红、绿、虚、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图的考生]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 517,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄财经职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 122,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 410,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "健康大数据管理与服务",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 393,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 381,
+          "remark": "[在新华区学府校区就读]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 400,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄城市经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 99,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 360,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 330,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄工程职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 128,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 408,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 447,
+          "remark": ""
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 428,
+          "remark": ""
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 421,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄工商职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 460,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "眼视光仪器技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 436,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "中医养生保健",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 443,
+          "remark": "[在桥西区滨河校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 81,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 332,
+          "remark": ""
+        },
+        {
+          "name": "眼视光技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 277,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 18500,
+          "minScore": 325,
+          "remark": ""
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 278,
+          "remark": ""
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 65,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 273,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 88,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 492,
+          "remark": ""
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 495,
+          "remark": ""
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 504,
+          "remark": ""
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 499,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 491,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 99,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 384,
+          "remark": ""
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 413,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 14,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 453,
+          "remark": ""
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 472,
+          "remark": ""
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 408,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 382,
+          "remark": ""
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 398,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄理工职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 11700,
+          "minScore": 486,
+          "remark": ""
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 11700,
+          "minScore": 480,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 466,
+          "remark": ""
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 11700,
+          "minScore": 477,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄农林职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 400,
+          "remark": ""
+        },
+        {
+          "name": "中医养生保健",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 359,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄人民医学高等专科学校",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 300,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 402,
+          "remark": "[在正定北校区就读，不招色盲、色弱]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 406,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "口腔卫生保健",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 383,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "卫生信息管理",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 345,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 384,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 373,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 375,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 370,
+          "remark": "[不招色盲、色弱]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 334,
+          "remark": "[在正定北校区就读，不招色盲、色弱]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄信息工程职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": "[色盲、色弱、任何一眼矫正到4.8镜片度数大于800度、嗅觉迟钝考生不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄医学高等专科学校",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "公共卫生管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 391,
+          "remark": ""
+        },
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 594,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 436,
+          "remark": ""
+        },
+        {
+          "name": "健康大数据管理与服务",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 395,
+          "remark": ""
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 396,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 476,
+          "remark": ""
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 21900,
+          "minScore": 432,
+          "remark": ""
+        },
+        {
+          "name": "老年保健与管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 406,
+          "remark": ""
+        },
+        {
+          "name": "卫生信息管理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 416,
+          "remark": ""
+        },
+        {
+          "name": "心理咨询",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 424,
+          "remark": ""
+        },
+        {
+          "name": "眼视光技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 21900,
+          "minScore": 453,
+          "remark": ""
+        },
+        {
+          "name": "药膳与食疗",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 408,
+          "remark": ""
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 455,
+          "remark": ""
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 467,
+          "remark": ""
+        },
+        {
+          "name": "医学美容技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 21900,
+          "minScore": 428,
+          "remark": ""
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 21900,
+          "minScore": 442,
+          "remark": ""
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 469,
+          "remark": ""
+        },
+        {
+          "name": "中药制药",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 429,
+          "remark": ""
+        },
+        {
+          "name": "中医康复技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 478,
+          "remark": ""
+        },
+        {
+          "name": "中医养生保健",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 476,
+          "remark": ""
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17500,
+          "minScore": 430,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄医学高等专科学校(中外合作办学等高收费专业)",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 22000,
+          "minScore": 304,
+          "remark": "[校企合作，企业不另收培养费]"
+        },
+        {
+          "name": "护理(中外合作办学)",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 23000,
+          "minScore": 288,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 27000,
+          "minScore": 281,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 521,
+          "remark": "[不招色盲、色弱考生]"
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 34,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 514,
+          "remark": "[不招色盲、色弱考生]"
+        }
+      ]
+    },
+    {
+      "name": "塔里木职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 509,
+          "remark": ""
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 506,
+          "remark": ""
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 499,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "健康大数据管理与服务",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 309,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 516,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "公共卫生管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 561,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 596,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 576,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 573,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "老年保健与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": "[无包盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "眼视光技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 572,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 573,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 576,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 571,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院(校企合作订单班)",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "老年保健与管理(首佳订单班)",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形。不另收任何费用]"
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院（中外合作办学）",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "护理(中外合作办学)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 17000,
+          "minScore": 519,
+          "remark": "[无色盲、色弱，能准确识别红、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形]"
+        }
+      ]
+    },
+    {
+      "name": "天津滨海汽车工程职业学院",
+      "type": "民办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "护理(康复护理)",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 359,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 371,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 370,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "言语听觉康复技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 293,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "眼视光技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 438,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "医养照护服务",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 321,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 292,
+          "remark": "[在津南校区就读(津南区)]"
+        }
+      ]
+    },
+    {
+      "name": "新疆生产建设兵团兴新职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 514,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台新能源职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "健康大数据管理与服务",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 387,
+          "remark": "[建议色盲、色弱慎报；北京晶福康养产业有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "邢台医学院",
+      "type": "公办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 56,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 602,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 592,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "口腔医学技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "眼视光技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 578,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 590,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 590,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "医学影像技术",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "中药学",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "中医养生保健",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 574,
+          "remark": "[色盲、色弱考生不予录取]"
+        },
+        {
+          "name": "助产",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 575,
+          "remark": "[色盲、色弱考生不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "邢台应用技术职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "健康大数据管理与服务",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 293,
+          "remark": "[色盲、色弱不予录取。患有传染性疾病、精神病史、身体日常裸露部位有纹身的考生，建议慎重报考]"
+        },
+        {
+          "name": "健康管理",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 273,
+          "remark": "[色盲、色弱不予录取。患有传染性疾病、精神病史、身体日常裸露部位有纹身的考生，建议慎重报考]"
+        },
+        {
+          "name": "康复治疗技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 339,
+          "remark": "[学费暂定12800元/年，最终以物价部门批复为准。色盲、色弱不予录取。患有传染性疾病、精神病史、身体日常裸露部位有纹身的考生，建议慎重报考]"
+        },
+        {
+          "name": "药学",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 376,
+          "remark": "[学费暂定12800元/年，最终以物价部门批复为准。色盲、色弱不予录取。患有传染性疾病、精神病史、身体日常裸露部位有纹身的考生，建议慎重报考]"
+        },
+        {
+          "name": "医学检验技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 335,
+          "remark": "[学费暂定12800元/年，最终以物价部门批复为准。色盲、色弱不予录取。患有传染性疾病、精神病史、身体日常裸露部住有纹身的考生，建议慎重报考]"
+        },
+        {
+          "name": "婴幼儿托育服务与管理",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 278,
+          "remark": "[色盲、色弱不予录取。患有传染性疾病、精神病史、身体日常裸露部位有纹身的考生，建议慎重报考]"
+        }
+      ]
+    },
+    {
+      "name": "宣化科技职业学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 49,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "燕京理工学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "护理",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 399,
+          "remark": ""
+        },
+        {
+          "name": "医学检验技术公办院校]",
+          "subCategory": "",
+          "plan": 38,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 393,
+          "remark": ""
+        }
+      ]
+    }
+  ]
+}

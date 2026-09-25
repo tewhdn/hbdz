@@ -1,0 +1,3852 @@
+{
+  "year": 2026,
+  "system": "exam",
+  "category": "考试三类",
+  "source": "河北省教育考试院公开数据",
+  "schools": [
+    {
+      "name": "保定电力职业技术学院",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 627,
+          "remark": "[不招收色盲、色弱、单色不识别考生，详询院校]"
+        },
+        {
+          "name": "无人机应用技术(电力巡检方向)",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 614,
+          "remark": "[不招收色盲、色弱、单色不识别考生，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "保定理工学院",
+      "type": "民办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 422,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 424,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 421,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院（阜平校区）",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": "[在阜平校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院(满城校区)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 545,
+          "remark": "[在满城校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "保定职业技术学院(徐水校区)",
+      "type": "公办",
+      "city": "保定",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": "[在徐水校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "北京工业职业技术学院",
+      "type": "公办",
+      "city": "北京",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 6000,
+          "minScore": 656,
+          "remark": "[色盲不予录取]"
+        }
+      ]
+    },
+    {
+      "name": "渤海理工职业学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 464,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 58,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 447,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 69,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 458,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化(计算机辅助设计与制造)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 454,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术(乘用车)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 436,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术(汽车电控系统检测与维修)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 433,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术(商用车)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 429,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 436,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术(航拍测绘)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 442,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 445,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 434,
+          "remark": "[学费暂定15000元/年，最终以物价部门批复为准]"
+        },
+        {
+          "name": "智能控制技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14500,
+          "minScore": 434,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州航空职业学院",
+      "type": "民办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 65,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 462,
+          "remark": ""
+        },
+        {
+          "name": "飞机机载设备装配调试技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 452,
+          "remark": ""
+        },
+        {
+          "name": "航空装备表面处理技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 443,
+          "remark": "[长城汽车订单班，不额外收取任何附加费用]"
+        },
+        {
+          "name": "航空装备表面处理技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 443,
+          "remark": ""
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 465,
+          "remark": ""
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 465,
+          "remark": "[长城汽车订单班，不额外收取任何附加费用]"
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 465,
+          "remark": "[建新化工订单班，不额外收取任何附加费用]"
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 440,
+          "remark": "[长城汽车订单班，不额外收取任何附加费用]"
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 440,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 481,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术(飞行汽车)",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 459,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术(飞行汽车)",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 459,
+          "remark": "[长城汽车订单班，不额外收取任何附加费用]"
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 438,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州幼儿师范高等专科学校",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "船舶工程技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": "[校企合作，不另收取其他费用，详询院校，在沧州校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 575,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 569,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 65,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 551,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(渤海校区，就读于沧州渤海新区中捷产业园区)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": "[渤海校区，就读于沧州渤海新区中捷产业园区]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(孟村学院，就读于沧州孟村回族自治县)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": "[孟村学院，就读于沧州孟村回族自治县]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(南皮学院，就读于沧州南皮县)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": "[南皮学院，就读于沧州南皮县]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(任丘学院，就读于沧州任丘市)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": "[任丘学院，就读于沧州任丘市]"
+        }
+      ]
+    },
+    {
+      "name": "沧州职业技术学院(献县学院，就读于沧州献县)",
+      "type": "公办",
+      "city": "沧州",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 547,
+          "remark": "[献县学院，就读于沧州献县]"
+        }
+      ]
+    },
+    {
+      "name": "曹妃甸职业技术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "飞行器维修技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 329,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 329,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "航空发动机维修技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 318,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 318,
+          "remark": ""
+        },
+        {
+          "name": "机械装备制造技术",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 333,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 318,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 49,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 348,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "智能机电技术",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 337,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "承德应用技术职业学院",
+      "type": "公办",
+      "city": "承德",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 57,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 57,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 537,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        },
+        {
+          "name": "机械设计与制造",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        },
+        {
+          "name": "模具设计与制造",
+          "subCategory": "",
+          "plan": 57,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 527,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 529,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        },
+        {
+          "name": "智能焊接技术",
+          "subCategory": "",
+          "plan": 57,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 524,
+          "remark": "[该专业一年级学生在承德市双桥区北校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "邯郸科技职业学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "工业互联网应用(数据采集与应用)",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 577,
+          "remark": ""
+        },
+        {
+          "name": "新能源装备技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 581,
+          "remark": ""
+        },
+        {
+          "name": "智能控制技术",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 589,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸职业技术学院",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 578,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邯郸职业技术学院(永年学院)",
+      "type": "公办",
+      "city": "邯郸",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 38,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": "[在永年学院就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 73,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": "[在永年学院就读]"
+        },
+        {
+          "name": "机械设计与制造",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 539,
+          "remark": "[在永年学院就读]"
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": "[在永年学院就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北对外经贸职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 548,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北工业职业技术大学(宣钢分院)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 558,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 547,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 558,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": "[在张家口市宣化区宣钢分院就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北轨道运输职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 61,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 617,
+          "remark": ""
+        },
+        {
+          "name": "电梯工程技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 580,
+          "remark": ""
+        },
+        {
+          "name": "高速铁路动车组制造与维护",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 634,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 598,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 26,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 618,
+          "remark": ""
+        },
+        {
+          "name": "理化测试与质检技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 581,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 605,
+          "remark": ""
+        },
+        {
+          "name": "铁道机车车辆制造与维护",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 619,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 607,
+          "remark": ""
+        },
+        {
+          "name": "新能源装备技术",
+          "subCategory": "",
+          "plan": 26,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 593,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 36,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 594,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北轨道运输职业技术学院（中外合作办学）",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "机电一体化技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 18,
+          "years": 3,
+          "tuition": 18000,
+          "minScore": 565,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北化工医药职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 619,
+          "remark": ""
+        },
+        {
+          "name": "工业过程自动化技术",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 614,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 21,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 619,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 38,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 600,
+          "remark": ""
+        },
+        {
+          "name": "智能机电技术",
+          "subCategory": "",
+          "plan": 58,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 602,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 58,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 597,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北机电职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "材料成型及控制技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": ""
+        },
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 107,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 588,
+          "remark": ""
+        },
+        {
+          "name": "电梯工程技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 567,
+          "remark": ""
+        },
+        {
+          "name": "电梯工程技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 567,
+          "remark": "[通力电梯订单班，不另收取其他费用，详见我校招生网]"
+        },
+        {
+          "name": "工业产品质量检测技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 555,
+          "remark": ""
+        },
+        {
+          "name": "工业互联网应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 574,
+          "remark": ""
+        },
+        {
+          "name": "工业设计(产品造型设计)",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 559,
+          "remark": ""
+        },
+        {
+          "name": "机床智能化应用技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 101,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 588,
+          "remark": ""
+        },
+        {
+          "name": "机械设计与制造",
+          "subCategory": "",
+          "plan": 43,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 572,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 585,
+          "remark": "[中德先进职业教育合作项目试点专业，详见我校招生网]"
+        },
+        {
+          "name": "具身智能机器人技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "理化测试与质检技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 555,
+          "remark": ""
+        },
+        {
+          "name": "模具设计与制造",
+          "subCategory": "",
+          "plan": 23,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 556,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 89,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 54,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 574,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 567,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 42,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 568,
+          "remark": ""
+        },
+        {
+          "name": "增材制造技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 552,
+          "remark": ""
+        },
+        {
+          "name": "智能焊接技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "智能机电技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 571,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 556,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 564,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北机电职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "机械设计与制造(中外合作办学)",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 507,
+          "remark": "[该项目是我校与俄罗斯下诺夫哥罗德国立技术大学合作举办的全日制普通高等专科教育项目，学制3年，学费16000元/年/生,详见我校高取单招招生简章]"
+        }
+      ]
+    },
+    {
+      "name": "河北建材职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 589,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 588,
+          "remark": ""
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 571,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 575,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 574,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北交通职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "船舶工程技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 587,
+          "remark": ""
+        },
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 633,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 34,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 625,
+          "remark": ""
+        },
+        {
+          "name": "汽车电子技术",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 606,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 610,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 605,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 616,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 604,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北科技工程职业技术大学（中外合作办学）",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电气自动化技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 517,
+          "remark": "[该专业适合高考报名时考试类型选择“统考”的考生。非“统考”考生不宜报考，如报考且被录取，只能在学校学习三年，不能到外方大学继续本科学习]"
+        },
+        {
+          "name": "机电一体化技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 517,
+          "remark": "[该专业适合高考报名时考试类型选择“统的非统考”考生不宜报考，如考”考生。“报考且被录取，只能在学校学习三年，不能到外方大学继续本科学习]"
+        },
+        {
+          "name": "机械制造及自动化(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 516,
+          "remark": "[该专业适合高考报名时考试类型选择“统考”的考生。非“统考”考生不宜报考，如报考且被录取，只能在学校学习三年，不能到外方大学继续本科学习]"
+        },
+        {
+          "name": "汽车电子技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14000,
+          "minScore": 513,
+          "remark": "[该专业适合高考报名时考试类型选择“统”考生不宜报考，如考”的考生。非“统考报考且被录取，只能在学校学习三年，不能到外方大学继续本科学习]"
+        }
+      ]
+    },
+    {
+      "name": "河北科技学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 236,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 337,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 216,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 393,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 250,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 350,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 384,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 243,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 352,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北劳动关系职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 108,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 48,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 558,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": ""
+        },
+        {
+          "name": "智能控制技术",
+          "subCategory": "",
+          "plan": 34,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 555,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北旅游职业学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 538,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北美术学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 30000,
+          "minScore": 309,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北能源职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 575,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 569,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 13,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 562,
+          "remark": ""
+        },
+        {
+          "name": "新能源装备技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 566,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 550,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北能源职业技术学院(中外合作办学)",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电气自动化技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 17000,
+          "minScore": 502,
+          "remark": "[我院与俄罗斯新西伯利亚国立技术大学合作办学，外语教学语种为零起点俄语]"
+        }
+      ]
+    },
+    {
+      "name": "河北女子职业技术学院",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北青年管理干部学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 544,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 43,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 605,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 592,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北软件职业技术学院(阜平校区)",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 570,
+          "remark": "[阜平校区，在阜平县就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 49,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 558,
+          "remark": "[阜平校区，在阜平县就读]"
+        },
+        {
+          "name": "汽车电子技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 531,
+          "remark": "[阜平校区，在阜平县就读]"
+        }
+      ]
+    },
+    {
+      "name": "河北石油职业技术大学(中外合作办学)",
+      "type": "公办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "机械制造及自动化(中外合作办学)",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 18000,
+          "minScore": 507,
+          "remark": "[该专业适合高考报名时考试类型选择“统考”的考生，非“统考”考生不宜报考。没有高中毕业证的考生，如报考且被录取，只能在学校学习三年，不能到外方大学继续本科学习]"
+        }
+      ]
+    },
+    {
+      "name": "河北外国语学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "低空飞行器装备技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 18000,
+          "minScore": 448,
+          "remark": ""
+        },
+        {
+          "name": "工业设计(3D设计方向)",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 15210,
+          "minScore": 458,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 455,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北正定师范高等专科学校",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "智能控制技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "河北资源环境职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 537,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "衡水健康科技职业学院",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "工业过程自动化技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": ""
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 519,
+          "remark": ""
+        },
+        {
+          "name": "智能机电技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院(安平分院)",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": "[在安平分院(安平县)就读]"
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院(深州分院)",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 530,
+          "remark": "[在深州分院(深州市)就读]"
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 521,
+          "remark": "[在深州分院(深州市)就读]"
+        }
+      ]
+    },
+    {
+      "name": "衡水职业技术学院(武邑校区)",
+      "type": "公办",
+      "city": "衡水",
+      "programs": [
+        {
+          "name": "飞行器维修技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 530,
+          "remark": "[在衡水市武邑校区(武邑县)就读]"
+        }
+      ]
+    },
+    {
+      "name": "昆玉职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 508,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 507,
+          "remark": "[考生可享受助免政策，详见院校简幸或咨询院校]"
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 506,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 505,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        }
+      ]
+    },
+    {
+      "name": "廊坊燕京职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 553,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 64,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 551,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 57,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 549,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 61,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 546,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "廊坊职业技术学院",
+      "type": "公办",
+      "city": "廊坊",
+      "programs": [
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 39,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "工业设计",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 22,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 545,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 538,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 31,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 539,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 32,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 534,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "秦皇岛工业职业技术学院",
+      "type": "公办",
+      "city": "秦皇岛",
+      "programs": [
+        {
+          "name": "工业过程自动化技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 522,
+          "remark": ""
+        },
+        {
+          "name": "机械装备制造技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 526,
+          "remark": ""
+        },
+        {
+          "name": "汽车电子技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 532,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "智能机电技术",
+          "subCategory": "",
+          "plan": 121,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "秦皇岛职业技术学院",
+      "type": "公办",
+      "city": "秦皇岛",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 17,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 630,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 622,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 627,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄财经职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 490,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 14900,
+          "minScore": 472,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "工业设计",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 471,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 507,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 12900,
+          "minScore": 500,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 466,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13900,
+          "minScore": 484,
+          "remark": "[在鹿泉区卧龙校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄城市经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 145,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 450,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 55,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 441,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 140,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 452,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 430,
+          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 433,
+          "remark": "[在石家庄经济技术开发区岗上校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄工程职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 473,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 145,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 469,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 19,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 474,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 477,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 472,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 471,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 14800,
+          "minScore": 467,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄工商职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 260,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 478,
+          "remark": "[在鹿泉区望山校区就读]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 245,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 477,
+          "remark": "[在鹿泉区望山校区就读]"
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 484,
+          "remark": "[在鹿泉区望山校区就读]"
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 480,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 485,
+          "remark": "[在鹿泉区望山校区就读]"
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 485,
+          "remark": "[在桥西区滨河校区就读]"
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 480,
+          "remark": "[在鹿泉区望山校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄金融职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 180,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 369,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术(金属材料焊接)",
+          "subCategory": "",
+          "plan": 120,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 363,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄经济职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 56,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 412,
+          "remark": ""
+        },
+        {
+          "name": "机械装备制造技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 374,
+          "remark": ""
+        },
+        {
+          "name": "汽车电子技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 373,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 364,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 365,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 74,
+          "years": 3,
+          "tuition": 19500,
+          "minScore": 365,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技信息职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 125,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 503,
+          "remark": ""
+        },
+        {
+          "name": "工业互联网应用",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 504,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 511,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 502,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 507,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 505,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 22,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 502,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 516,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 13600,
+          "minScore": 509,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄科技职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "低空飞行器装备技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 410,
+          "remark": ""
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 419,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 491,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 419,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 449,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 414,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 417,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 416,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 413,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄理工职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 219,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 489,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 487,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 310,
+          "years": 3,
+          "tuition": 11700,
+          "minScore": 493,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 495,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 496,
+          "remark": ""
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 16000,
+          "minScore": 498,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 491,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16900,
+          "minScore": 488,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13000,
+          "minScore": 498,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄农林职业学院",
+      "type": "民办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "机械装备制造技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 18800,
+          "minScore": 378,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 376,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 364,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄铁路职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 44,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 658,
+          "remark": ""
+        },
+        {
+          "name": "机电设备技术(盾构机运用与维护)",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 649,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 655,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 640,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄信息工程职业学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 636,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 636,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 5,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 633,
+          "remark": "[含河北鹰览自动化科技有限公司订单班计划]"
+        }
+      ]
+    },
+    {
+      "name": "石家庄邮电职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 8,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 629,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 629,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "石家庄职业技术学院",
+      "type": "公办",
+      "city": "石家庄",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 650,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 24,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 635,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 650,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 638,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 640,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 635,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 12,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 633,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "塔里木职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 512,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 514,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 512,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山工业职业技术大学",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 6,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 655,
+          "remark": ""
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 658,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 668,
+          "remark": ""
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 654,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 647,
+          "remark": ""
+        },
+        {
+          "name": "智能焊接技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 646,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 639,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "船舶电气工程技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 311,
+          "remark": ""
+        },
+        {
+          "name": "船舶工程技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 310,
+          "remark": ""
+        },
+        {
+          "name": "飞行器维修技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他侨用，详询院校]"
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 309,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 100,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "海洋工程装备技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 309,
+          "remark": ""
+        },
+        {
+          "name": "机电设备技术",
+          "subCategory": "",
+          "plan": 160,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 312,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 80,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "液压与气动技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 327,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 309,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        },
+        {
+          "name": "智能控制技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 309,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 333,
+          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
+        }
+      ]
+    },
+    {
+      "name": "唐山海运职业学院(中外合作办学)",
+      "type": "民办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "机电设备技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 40,
+          "years": 3,
+          "tuition": 20000,
+          "minScore": 336,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "唐山科技职业技术学院",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 110,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 547,
+          "remark": "[色盲色弱的考生不建议报考]"
+        },
+        {
+          "name": "数控技术",
+          "subCategory": "",
+          "plan": 28,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 546,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 59,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 543,
+          "remark": "[色盲色弱的考生不建议报考]"
+        }
+      ]
+    },
+    {
+      "name": "唐山职业技术学院",
+      "type": "公办",
+      "city": "唐山",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 611,
+          "remark": ""
+        },
+        {
+          "name": "工业机器人技术",
+          "subCategory": "",
+          "plan": 25,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 597,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 35,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 607,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 596,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津滨海汽车工程职业学院",
+      "type": "民办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "汽车电子技术",
+          "subCategory": "",
+          "plan": 180,
+          "years": 3,
+          "tuition": 15800,
+          "minScore": 365,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 70,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 371,
+          "remark": "[在武清校区就读(武清区)]"
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 150,
+          "years": 3,
+          "tuition": 17800,
+          "minScore": 361,
+          "remark": "[在津南校区就读(津南区)]"
+        },
+        {
+          "name": "新能源装备技术",
+          "subCategory": "",
+          "plan": 50,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 390,
+          "remark": "[在武清校区就读(武清区)]"
+        }
+      ]
+    },
+    {
+      "name": "天津轻工职业技术学院",
+      "type": "公办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "工业产品质量检测技术",
+          "subCategory": "",
+          "plan": 3,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 633,
+          "remark": ""
+        },
+        {
+          "name": "模具设计与制造",
+          "subCategory": "",
+          "plan": 2,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 644,
+          "remark": ""
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 633,
+          "remark": ""
+        },
+        {
+          "name": "智能制造装备技术",
+          "subCategory": "",
+          "plan": 4,
+          "years": 3,
+          "tuition": 5500,
+          "minScore": 636,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "天津石油职业技术学院",
+      "type": "公办",
+      "city": "天津",
+      "programs": [
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 582,
+          "remark": ""
+        },
+        {
+          "name": "智能焊接技术",
+          "subCategory": "",
+          "plan": 45,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 582,
+          "remark": "[在滨海校区就读]"
+        }
+      ]
+    },
+    {
+      "name": "铁门关职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 515,
+          "remark": ""
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 510,
+          "remark": ""
+        },
+        {
+          "name": "智能焊接技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 511,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "图木舒克职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 508,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 21,
+          "years": 3,
+          "tuition": 7800,
+          "minScore": 509,
+          "remark": "[与中投新燎原(新疆)教育投资有限公司合作办学；考生可享受助免政策，详见院校简章或咨询院校]"
+        },
+        {
+          "name": "智能焊接技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 506,
+          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
+        }
+      ]
+    },
+    {
+      "name": "新疆生产建设兵团兴新职业技术学院",
+      "type": "公办",
+      "city": "新疆",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 529,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 520,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 16,
+          "years": 3,
+          "tuition": 3300,
+          "minScore": 517,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台新能源职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 488,
+          "remark": "[建议色盲、色弱慎报]"
+        },
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 488,
+          "remark": "[建议色盲、色弱慎报；晶澳太阳能科技股份有限公司订单班，不另收任何费用：毕业后选择自主择业或升学等无违约金，详询院校]"
+        },
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 488,
+          "remark": "[建议色盲、色弱慎报；零跑汽车有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金。详询院校]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 483,
+          "remark": "[建议色盲、色弱慎报]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 483,
+          "remark": "[建议色盲、色弱慎报；晶澳太阳能科技股份有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 483,
+          "remark": "[建议色盲、色弱慎报；零跑汽车有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 470,
+          "remark": ""
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 476,
+          "remark": "[建议色盲、色弱慎报]"
+        },
+        {
+          "name": "新能源汽车技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 476,
+          "remark": "[建议色盲、色弱慎报：零跑汽车有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金。详询院校]"
+        },
+        {
+          "name": "新能源装备技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 476,
+          "remark": "[建议色盲、色弱慎报]"
+        },
+        {
+          "name": "新能源装备技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 13800,
+          "minScore": 476,
+          "remark": "[建议色盲、色弱慎报；晶澳太阳能科技股份有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 475,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 12800,
+          "minScore": 471,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "邢台应用技术职业学院",
+      "type": "民办",
+      "city": "邢台",
+      "programs": [
+        {
+          "name": "汽车电子技术",
+          "subCategory": "",
+          "plan": 114,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 388,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 130,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 387,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 105,
+          "years": 3,
+          "tuition": 16800,
+          "minScore": 391,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "宣化科技职业学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 542,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "无人机应用技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 536,
+          "remark": ""
+        },
+        {
+          "name": "智能控制技术",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 537,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "宣化科技职业学院(中外合作办学)",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "机电一体化技术(中外合作办学)",
+          "subCategory": "",
+          "plan": 30,
+          "years": 3,
+          "tuition": 15000,
+          "minScore": 512,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "燕京理工学院",
+      "type": "民办",
+      "city": "其他",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 60,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 456,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 90,
+          "years": 3,
+          "tuition": 19800,
+          "minScore": 458,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "张家口职业技术学院",
+      "type": "公办",
+      "city": "张家口",
+      "programs": [
+        {
+          "name": "电气自动化技术",
+          "subCategory": "",
+          "plan": 9,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 556,
+          "remark": ""
+        },
+        {
+          "name": "机电一体化技术",
+          "subCategory": "",
+          "plan": 7,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 541,
+          "remark": ""
+        },
+        {
+          "name": "机械制造及自动化",
+          "subCategory": "",
+          "plan": 11,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 533,
+          "remark": ""
+        },
+        {
+          "name": "汽车制造与试验技术",
+          "subCategory": "",
+          "plan": 20,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 521,
+          "remark": ""
+        },
+        {
+          "name": "数字化设计与制造技术",
+          "subCategory": "",
+          "plan": 15,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 523,
+          "remark": ""
+        },
+        {
+          "name": "智能机器人技术",
+          "subCategory": "",
+          "plan": 10,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 524,
+          "remark": ""
+        },
+        {
+          "name": "智能网联汽车技术",
+          "subCategory": "",
+          "plan": 29,
+          "years": 3,
+          "tuition": 5000,
+          "minScore": 520,
+          "remark": ""
+        }
+      ]
+    }
+  ]
+}
