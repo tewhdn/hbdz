@@ -1,1927 +1,2529 @@
 {
-  "year": 2026,
-  "system": "exam",
-  "category": "考试八类",
-  "source": "河北省教育考试院公开数据",
-  "schools": [
+ "year": 2026,
+ "system": "exam",
+ "category": "考试八类",
+ "categoryId": "8",
+ "desc": "文化艺术（音乐、舞蹈及表演、美术设计、文化服务）",
+ "controlLine": null,
+ "source": {
+  "name": "河北单招网 hbdzxx.com",
+  "classUrl": "https://hbdzxx.com/class/8.html",
+  "fetchedAt": "2026-10-10"
+ },
+ "schools": [
+  {
+   "name": "天津轻工职业技术学院",
+   "type": "公办",
+   "city": "天津",
+   "plan": 4,
+   "minScore": 651,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
     {
-      "name": "邯郸幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "邯郸",
-      "programs": [
-        {
-          "name": "音乐表演",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 436,
-          "remark": ""
-        },
-        {
-          "name": "产品艺术设计(玩教具方向)",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 524,
-          "remark": "[色盲不予录取]"
-        },
-        {
-          "name": "陶瓷设计与工艺",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 513,
-          "remark": "[色盲不予录取]"
-        }
-      ]
-    },
-    {
-      "name": "河北美术学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "现代流行音乐",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 238,
-          "remark": ""
-        },
-        {
-          "name": "音乐表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 361,
-          "remark": ""
-        },
-        {
-          "name": "音乐制作",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 181,
-          "remark": ""
-        },
-        {
-          "name": "歌舞表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 395,
-          "remark": ""
-        },
-        {
-          "name": "产品艺术设计",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 362,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "雕塑设计",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 351,
-          "remark": ""
-        },
-        {
-          "name": "动漫设计",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 366,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "公共艺术设计",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 349,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 354,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "摄影与摄像艺术(VR艺术)",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 350,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图彩者不予录取]"
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 59,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 374,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "书画艺术(绘画方向)",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 349,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "书画艺术(书法方向)",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 361,
-          "remark": ""
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 370,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "陶瓷设计与工艺",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 351,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "游戏艺术设计",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 30000,
-          "minScore": 349,
-          "remark": "[色盲和不能准确识别红、黄、绿、兰、紫各升颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        }
-      ]
-    },
-    {
-      "name": "河北外国语学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "音乐表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 16250,
-          "minScore": 415,
-          "remark": ""
-        },
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 16250,
-          "minScore": 438,
-          "remark": ""
-        },
-        {
-          "name": "视觉传达设计(室内外装修设计)",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 16000,
-          "minScore": 411,
-          "remark": ""
-        },
-        {
-          "name": "书画艺术",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 14300,
-          "minScore": 409,
-          "remark": ""
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 16250,
-          "minScore": 411,
-          "remark": ""
-        },
-        {
-          "name": "游戏艺术设计",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 16000,
-          "minScore": 414,
-          "remark": ""
-        },
-        {
-          "name": "文化创意与策划",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 16500,
-          "minScore": 357,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北艺术职业学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "现代流行音乐",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 477,
-          "remark": ""
-        },
-        {
-          "name": "音乐表演(管弦打击乐器演奏)",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 425,
-          "remark": ""
-        },
-        {
-          "name": "音乐表演(键盘方向)",
-          "subCategory": "",
-          "plan": 3,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 472,
-          "remark": ""
-        },
-        {
-          "name": "音乐表演(声乐方向)",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 461,
-          "remark": ""
-        },
-        {
-          "name": "音乐表演(中国乐器演奏方向)",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 442,
-          "remark": ""
-        },
-        {
-          "name": "音乐制作",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 489,
-          "remark": ""
-        },
-        {
-          "name": "国际标准舞",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 483,
-          "remark": ""
-        },
-        {
-          "name": "时尚表演与传播",
-          "subCategory": "",
-          "plan": 19,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 464,
-          "remark": ""
-        },
-        {
-          "name": "舞蹈编导",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 498,
-          "remark": ""
-        },
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 506,
-          "remark": ""
-        },
-        {
-          "name": "戏剧影视表演",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 475,
-          "remark": ""
-        },
-        {
-          "name": "产品艺术设计(文创方向)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 516,
-          "remark": ""
-        },
-        {
-          "name": "动漫设计",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 526,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 45,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 518,
-          "remark": ""
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 530,
-          "remark": ""
-        },
-        {
-          "name": "舞台艺术设计与制作",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 513,
-          "remark": ""
-        },
-        {
-          "name": "文物修复与保护",
-          "subCategory": "",
-          "plan": 49,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 400,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "秦皇岛职业技术学院",
-      "type": "公办",
-      "city": "秦皇岛",
-      "programs": [
-        {
-          "name": "音乐表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 430,
-          "remark": "[建议声乐类考生报考]"
-        },
-        {
-          "name": "歌舞表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 479,
-          "remark": ""
-        },
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 491,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 75,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 536,
-          "remark": ""
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 548,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "音乐制作",
-          "subCategory": "",
-          "plan": 2,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 538,
-          "remark": ""
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 16,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 587,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 26,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 572,
-          "remark": ""
-        },
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 28,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 576,
-          "remark": ""
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 19,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 609,
-          "remark": ""
-        },
-        {
-          "name": "游戏艺术设计",
-          "subCategory": "",
-          "plan": 14,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 597,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "唐山幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "音乐表演",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 463,
-          "remark": ""
-        },
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 492,
-          "remark": ""
-        },
-        {
-          "name": "书画艺术",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 484,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州职业技术学院",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "表演艺术(武术方向)",
-          "subCategory": "",
-          "plan": 6,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 481,
-          "remark": ""
-        },
-        {
-          "name": "现代魔术设计与表演",
-          "subCategory": "",
-          "plan": 6,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 462,
-          "remark": ""
-        },
-        {
-          "name": "现代杂技表演艺术",
-          "subCategory": "",
-          "plan": 6,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 457,
-          "remark": ""
-        },
-        {
-          "name": "服装与服饰设计",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 491,
-          "remark": ""
-        },
-        {
-          "name": "舞台艺术设计与制作",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 509,
-          "remark": ""
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 9,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 511,
-          "remark": ""
-        },
-        {
-          "name": "文化创意与策划",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 386,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州职业技术学院(吴桥学院，就读于沧州吴桥县)",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "现代杂技表演艺术",
-          "subCategory": "",
-          "plan": 6,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 452,
-          "remark": "[吴桥学院，就读于沧州吴桥县]"
-        },
-        {
-          "name": "舞台艺术设计与制作",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 490,
-          "remark": "[吴桥学院，就读于沧州吴桥县]"
-        }
-      ]
-    },
-    {
-      "name": "曹妃甸职业技术学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "舞蹈编导",
-          "subCategory": "",
-          "plan": 7,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 423,
-          "remark": ""
-        },
-        {
-          "name": "人物形象设计",
-          "subCategory": "",
-          "plan": 18,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 397,
-          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 402,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北科技工程职业技术大学",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "时尚表演与传播",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 454,
-          "remark": "[建议男生身高180cm及以上，女生身高165cm及以上，不符合条件的请考生谨慎报考]"
-        }
-      ]
-    },
-    {
-      "name": "河北政法职业学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "表演艺术(航空服务方向)",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 459,
-          "remark": "[建议男生身高175-185厘米、女生身高165-175厘米，男生体重二[身高(厘米)(千克)(±15%)、女生体重工身高(厘米)(千克)(±15%),身材匀称，五官端正，无纹身、身体裸露部分无明显疤痕，双眼矫正视力E表4.7及以上，无色盲、色弱]"
-        },
-        {
-          "name": "环境艺术设计(高端别墅设计方向)",
-          "subCategory": "",
-          "plan": 45,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 514,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄财经职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 12900,
-          "minScore": 445,
-          "remark": "[在新华区学府校区就读]"
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 33,
-          "years": 3,
-          "tuition": 13900,
-          "minScore": 408,
-          "remark": "[在鹿泉区卧龙校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄工程职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 15800,
-          "minScore": 429,
-          "remark": ""
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 15800,
-          "minScore": 397,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄工商职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "舞蹈表演",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 442,
-          "remark": "[在桥西区滨河校区就读]"
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 417,
-          "remark": "[在鹿泉区南山校区就读]"
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 419,
-          "remark": "[在鹿泉区南山校区就读]"
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 420,
-          "remark": "[在鹿泉区南山校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄经济职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "表演艺术(影视方向)",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 19500,
-          "minScore": 421,
-          "remark": ""
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 19500,
-          "minScore": 391,
-          "remark": ""
-        },
-        {
-          "name": "民族传统技艺",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 19500,
-          "minScore": 386,
-          "remark": ""
-        },
-        {
-          "name": "人物形象设计",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 19500,
-          "minScore": 386,
-          "remark": ""
-        },
-        {
-          "name": "艺术设计(平面设计方向)",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 19500,
-          "minScore": 385,
-          "remark": ""
-        },
-        {
-          "name": "艺术设计(室内装潢方向)",
-          "subCategory": "",
-          "plan": 13,
-          "years": 3,
-          "tuition": 18500,
-          "minScore": 385,
-          "remark": ""
-        },
-        {
-          "name": "公共文化服务与管理公办院校]",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 18500,
-          "minScore": 323,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "保定幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "书画艺术(插画方向)",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 482,
-          "remark": "[不招色盲色弱、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生]"
-        }
-      ]
-    },
-    {
-      "name": "保定职业技术学院(曲阳校区)",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 80,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 450,
-          "remark": "[在曲阳校区就读，不招色盲考生]"
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 433,
-          "remark": "[在曲阳校区就读，不招色盲考生]"
-        }
-      ]
-    },
-    {
-      "name": "北京财贸职业学院",
-      "type": "公办",
-      "city": "北京",
-      "programs": [
-        {
-          "name": "人物形象设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 8000,
-          "minScore": 510,
-          "remark": "[上课地点：涿州校区]"
-        }
-      ]
-    },
-    {
-      "name": "渤海理工职业学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "动漫设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 13900,
-          "minScore": 405,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 15000,
-          "minScore": 402,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "产品艺术设计",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 456,
-          "remark": "[在沧州校区就读]"
-        },
-        {
-          "name": "服装陈列与展示设计",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 440,
-          "remark": "[在沧州校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "邯郸职业技术学院",
-      "type": "公办",
-      "city": "邯郸",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 552,
-          "remark": ""
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 559,
-          "remark": "[不招收色盲考生]"
-        }
-      ]
-    },
-    {
-      "name": "河北工艺美术职业学院",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "产品艺术设计",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 462,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "雕塑设计",
-          "subCategory": "",
-          "plan": 91,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 428,
-          "remark": ""
-        },
-        {
-          "name": "动漫设计",
-          "subCategory": "",
-          "plan": 114,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 459,
-          "remark": "[不招色肓]"
-        },
-        {
-          "name": "服装与服饰设计",
-          "subCategory": "",
-          "plan": 48,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 457,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "工艺美术品设计",
-          "subCategory": "",
-          "plan": 46,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 435,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "公共艺术设计",
-          "subCategory": "",
-          "plan": 94,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 425,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 109,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 446,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 178,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 439,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "人物形象设计",
-          "subCategory": "",
-          "plan": 52,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 442,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 96,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 477,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "首饰设计与工艺",
-          "subCategory": "",
-          "plan": 49,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 439,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "书画艺术(绘画)",
-          "subCategory": "",
-          "plan": 83,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 426,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "书画艺术(书法)",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 423,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 172,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 469,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "游戏艺术设计",
-          "subCategory": "",
-          "plan": 49,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 455,
-          "remark": "[不招色盲]"
-        },
-        {
-          "name": "展示艺术设计",
-          "subCategory": "",
-          "plan": 45,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 447,
-          "remark": "[不招色盲]"
-        }
-      ]
-    },
-    {
-      "name": "河北工艺美术职业学院(高阳现代纺织产业学院)",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 425,
-          "remark": "[不招色盲。在保定市高阳县就读]"
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 150,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 421,
-          "remark": "[不招色盲。在保定市高阳县就读]"
-        }
-      ]
-    },
-    {
-      "name": "河北工艺美术职业学院(蔚县文化旅游产业学院)",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "工艺美术品设计",
-          "subCategory": "",
-          "plan": 140,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 415,
-          "remark": "[不招色盲。在张家口蔚县就读]"
-        },
-        {
-          "name": "民族传统技艺",
-          "subCategory": "",
-          "plan": 140,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 409,
-          "remark": "[不招色盲。在张家口蔚县就读]"
-        }
-      ]
-    },
-    {
-      "name": "河北工艺美术职业学院(中外合作办学)",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "视觉传达设计(中外合作办学)",
-          "subCategory": "",
-          "plan": 44,
-          "years": 3,
-          "tuition": 18000,
-          "minScore": 407,
-          "remark": "[不招色盲]"
-        }
-      ]
-    },
-    {
-      "name": "河北建材职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "产品艺术设计",
-          "subCategory": "",
-          "plan": 42,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 498,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 42,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 495,
-          "remark": ""
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 42,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 510,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北旅游职业学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 494,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北旅游职业学院(中外合作办学)",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "数字媒体艺术设计(中外合作办学)",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 21000,
-          "minScore": 404,
-          "remark": "[与马来西亚林国荣创意科技大学合作；学生入学后不允许转专业]"
-        }
-      ]
-    },
-    {
-      "name": "河北能源职业技术学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 28,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 495,
-          "remark": "[不招色盲、色弱考生]"
-        },
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 482,
-          "remark": "[不招色盲、色弱考生]"
-        }
-      ]
-    },
-    {
-      "name": "河北女子职业技术学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "服装与服饰设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 472,
-          "remark": "[色盲不予录取；在花都校区就读]"
-        },
-        {
-          "name": "人物形象设计",
-          "subCategory": "",
-          "plan": 16,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 471,
-          "remark": "[色盲不予录取；在花都校区就读]"
-        },
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 487,
-          "remark": "[色盲不予录取；在花都校区就读]"
-        },
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 476,
-          "remark": "[色盲不予录取；在花都校区就读]"
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 474,
-          "remark": "[色盲不予录取；在花都校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "河北青年管理干部学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "产品艺术设计(木艺)",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 501,
-          "remark": ""
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 513,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北软件职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "动漫设计",
-          "subCategory": "",
-          "plan": 39,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 529,
-          "remark": "[不招色盲考生]"
-        },
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 77,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 518,
-          "remark": "[不招色盲考生]"
-        },
-        {
-          "name": "游戏艺术设计",
-          "subCategory": "",
-          "plan": 80,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 514,
-          "remark": "[不招色盲考生]"
-        }
-      ]
-    },
-    {
-      "name": "河北正定师范高等专科学校",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 120,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 480,
-          "remark": "[身体建议要求详见学校招生简章]"
-        }
-      ]
-    },
-    {
-      "name": "河北资源环境职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 477,
-          "remark": "[不招色盲以及不能准确识别红黄绿兰紫中任何一种颜色的考生]"
-        }
-      ]
-    },
-    {
-      "name": "衡水职业技术学院",
-      "type": "公办",
-      "city": "衡水",
-      "programs": [
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 6800,
-          "minScore": 459,
-          "remark": ""
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 6800,
-          "minScore": 463,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "冀中职业学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 458,
-          "remark": "[不招色觉异常II度(俗称色盲)、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生]"
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 451,
-          "remark": "[不招色觉异常II度(俗称色盲)、不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生]"
-        },
-        {
-          "name": "民族传统技艺(绛丝方向)",
-          "subCategory": "",
-          "plan": 7,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 445,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "廊坊职业技术学院",
-      "type": "公办",
-      "city": "廊坊",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 471,
-          "remark": ""
-        },
-        {
-          "name": "民族传统技艺",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 457,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄城市经济职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 399,
-          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄金融职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "数字时尚设计",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 14800,
-          "minScore": 388,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄科技信息职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 6,
-          "years": 3,
-          "tuition": 13600,
-          "minScore": 427,
-          "remark": ""
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 6,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 433,
-          "remark": ""
-        },
-        {
-          "name": "数字媒体艺术设计(AI未来影视)",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 13600,
-          "minScore": 419,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄科技职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 15000,
-          "minScore": 397,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 15000,
-          "minScore": 393,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄理工职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 80,
-          "years": 3,
-          "tuition": 13000,
-          "minScore": 389,
-          "remark": ""
-        },
-        {
-          "name": "广告艺术设计(UI)",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 16900,
-          "minScore": 387,
-          "remark": ""
-        },
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 16300,
-          "minScore": 390,
-          "remark": ""
-        },
-        {
-          "name": "室内艺术设计",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 12300,
-          "minScore": 398,
-          "remark": ""
-        },
-        {
-          "name": "室内艺术设计(VR)",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 16900,
-          "minScore": 388,
-          "remark": ""
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 16000,
-          "minScore": 400,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄信息工程职业学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 597,
-          "remark": "[色盲不予录取]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 502,
-          "remark": "[不招色盲考生]"
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 512,
-          "remark": "[不招色盲考生]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄职业技术学院(中外合作办学)",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "广告艺术设计(中外合作办学)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 20000,
-          "minScore": 436,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "唐山工业职业技术大学",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "环境艺术设计",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 581,
-          "remark": "[色盲不予录取]"
-        },
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 36,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 615,
-          "remark": "[色盲不予录取]"
-        },
-        {
-          "name": "陶瓷设计与工艺",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 567,
-          "remark": "[色盲不予录取]"
-        },
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 39,
-          "years": 3,
-          "tuition": 7000,
-          "minScore": 584,
-          "remark": "[色盲不予录取]"
-        }
-      ]
-    },
-    {
-      "name": "唐山科技职业技术学院",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "广告艺术设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 492,
-          "remark": "[色盲色弱的考生不建议报考]"
-        }
-      ]
-    },
-    {
-      "name": "唐山职业技术学院",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 555,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "天津轻工职业技术学院",
-      "type": "公办",
-      "city": "天津",
-      "programs": [
-        {
-          "name": "人物形象设计",
-          "subCategory": "",
-          "plan": 4,
-          "years": 3,
-          "tuition": 8000,
-          "minScore": 651,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "邢台应用技术职业学院",
-      "type": "民办",
-      "city": "邢台",
-      "programs": [
-        {
-          "name": "数字媒体艺术设计",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 405,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "宣化科技职业学院",
-      "type": "公办",
-      "city": "张家口",
-      "programs": [
-        {
-          "name": "艺术设计",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 490,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "张家口职业技术学院",
-      "type": "公办",
-      "city": "张家口",
-      "programs": [
-        {
-          "name": "视觉传达设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 455,
-          "remark": "[色盲不予录取]"
-        },
-        {
-          "name": "游戏艺术设计",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 446,
-          "remark": "[色盲不予录取]"
-        }
-      ]
+     "name": "人物形象设计",
+     "plan": 4,
+     "years": 3,
+     "tuition": 8000,
+     "minScore": 651
     }
-  ]
+   ],
+   "programNames": "人物形象设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    8000,
+    8000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tianjinqinggong.html"
+  },
+  {
+   "name": "石家庄信息工程职业学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 8,
+   "minScore": 597,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 8,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 597
+    }
+   ],
+   "programNames": "广告艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
+  },
+  {
+   "name": "唐山工业职业技术大学",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 135,
+   "minScore": 567,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "环境艺术设计",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 581
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 36,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 615
+    },
+    {
+     "name": "陶瓷设计与工艺",
+     "plan": 40,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 567
+    },
+    {
+     "name": "艺术设计",
+     "plan": 39,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 584
+    }
+   ],
+   "programNames": "环境艺术设计、数字媒体艺术设计、陶瓷设计与工艺、艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tsgongye.html"
+  },
+  {
+   "name": "唐山职业技术学院",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 40,
+   "minScore": 555,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 40,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 555
+    }
+   ],
+   "programNames": "数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tszhiyejishu.html"
+  },
+  {
+   "name": "邯郸职业技术学院",
+   "type": "公办",
+   "city": "邯郸",
+   "plan": 50,
+   "minScore": 552,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 25,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 552
+    },
+    {
+     "name": "视觉传达设计",
+     "plan": 25,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 559
+    }
+   ],
+   "programNames": "广告艺术设计、视觉传达设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
+  },
+  {
+   "name": "石家庄职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 105,
+   "minScore": 538,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 6,
+   "programs": [
+    {
+     "name": "音乐制作",
+     "plan": 2,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 538
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 16,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 587
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 26,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 572
+    },
+    {
+     "name": "室内艺术设计",
+     "plan": 28,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 576
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 19,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 609
+    },
+    {
+     "name": "游戏艺术设计",
+     "plan": 14,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 597
+    }
+   ],
+   "programNames": "音乐制作、广告艺术设计、环境艺术设计、室内艺术设计、数字媒体艺术设计、游戏艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    6000,
+    6000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
+  },
+  {
+   "name": "河北软件职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 196,
+   "minScore": 514,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "动漫设计",
+     "plan": 39,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 529
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 77,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 518
+    },
+    {
+     "name": "游戏艺术设计",
+     "plan": 80,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 514
+    }
+   ],
+   "programNames": "动漫设计、广告艺术设计、游戏艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbruanjian.html"
+  },
+  {
+   "name": "北京财贸职业学院",
+   "type": "公办",
+   "city": "北京",
+   "plan": 20,
+   "minScore": 510,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "人物形象设计",
+     "plan": 20,
+     "years": "3",
+     "tuition": 8000,
+     "minScore": 510
+    }
+   ],
+   "programNames": "人物形象设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    8000,
+    8000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/beijingcaimao.html"
+  },
+  {
+   "name": "石家庄幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 50,
+   "minScore": 502,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "环境艺术设计",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 502
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 512
+    }
+   ],
+   "programNames": "环境艺术设计、数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzyouershifan.html"
+  },
+  {
+   "name": "河北青年管理干部学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 65,
+   "minScore": 501,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "产品艺术设计(木艺)",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 501
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 15,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 513
+    }
+   ],
+   "programNames": "产品艺术设计(木艺)、广告艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
+  },
+  {
+   "name": "河北建材职业技术学院",
+   "type": "公办",
+   "city": "秦皇岛",
+   "plan": 126,
+   "minScore": 495,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "视觉传达设计",
+     "plan": 42,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 510
+    },
+    {
+     "name": "产品艺术设计",
+     "plan": 42,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 498
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 42,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 495
+    }
+   ],
+   "programNames": "视觉传达设计、产品艺术设计、环境艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbjiancai.html"
+  },
+  {
+   "name": "河北旅游职业学院",
+   "type": "公办",
+   "city": "承德",
+   "plan": 10,
+   "minScore": 494,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "室内艺术设计",
+     "plan": 10,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 494
+    }
+   ],
+   "programNames": "室内艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hblvyou.html"
+  },
+  {
+   "name": "唐山科技职业技术学院",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 30,
+   "minScore": 492,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 492
+    }
+   ],
+   "programNames": "广告艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tskeji.html"
+  },
+  {
+   "name": "宣化科技职业学院",
+   "type": "公办",
+   "city": "张家口",
+   "plan": 10,
+   "minScore": 490,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "艺术设计",
+     "plan": 10,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 490
+    }
+   ],
+   "programNames": "艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/xuanhuakeji.html"
+  },
+  {
+   "name": "保定幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "保定",
+   "plan": 5,
+   "minScore": 482,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "书画艺术(插画方向)",
+     "plan": 5,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 482
+    }
+   ],
+   "programNames": "书画艺术(插画方向)",
+   "programsComplete": true,
+   "tuitionRange": [
+    6000,
+    6000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bdyouershifan.html"
+  },
+  {
+   "name": "河北能源职业技术学院",
+   "type": "公办",
+   "city": "其他",
+   "plan": 78,
+   "minScore": 482,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "视觉传达设计",
+     "plan": 28,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 495
+    },
+    {
+     "name": "室内艺术设计",
+     "plan": 50,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 482
+    }
+   ],
+   "programNames": "视觉传达设计、室内艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbnengyuan.html"
+  },
+  {
+   "name": "河北正定师范高等专科学校",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 120,
+   "minScore": 480,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 120,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 480
+    }
+   ],
+   "programNames": "数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
+  },
+  {
+   "name": "河北资源环境职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 30,
+   "minScore": 477,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "室内艺术设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 477
+    }
+   ],
+   "programNames": "室内艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
+  },
+  {
+   "name": "河北女子职业技术学院",
+   "type": "公办",
+   "city": "其他",
+   "plan": 96,
+   "minScore": 471,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 5,
+   "programs": [
+    {
+     "name": "服装与服饰设计",
+     "plan": 20,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 472
+    },
+    {
+     "name": "人物形象设计",
+     "plan": 16,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 471
+    },
+    {
+     "name": "视觉传达设计",
+     "plan": 20,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 487
+    },
+    {
+     "name": "室内艺术设计",
+     "plan": 20,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 476
+    },
+    {
+     "name": "艺术设计",
+     "plan": 20,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 474
+    }
+   ],
+   "programNames": "服装与服饰设计、人物形象设计、视觉传达设计、室内艺术设计、艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    6000,
+    6000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbnvzi.html"
+  },
+  {
+   "name": "唐山幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 18,
+   "minScore": 463,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "音乐表演",
+     "plan": 5,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 463
+    },
+    {
+     "name": "舞蹈表演",
+     "plan": 5,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 492
+    },
+    {
+     "name": "书画艺术",
+     "plan": 8,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 484
+    }
+   ],
+   "programNames": "音乐表演、舞蹈表演、书画艺术",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tsyouershifan.html"
+  },
+  {
+   "name": "河北政法职业学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 65,
+   "minScore": 459,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "表演艺术(航空服务方向)",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 459
+    },
+    {
+     "name": "环境艺术设计(高端别墅设计方向)",
+     "plan": 45,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 514
+    }
+   ],
+   "programNames": "表演艺术(航空服务方向)、环境艺术设计(高端别墅设计方向)",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbzhengfa.html"
+  },
+  {
+   "name": "衡水职业技术学院",
+   "type": "公办",
+   "city": "衡水",
+   "plan": 30,
+   "minScore": 459,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "室内艺术设计",
+     "plan": 15,
+     "years": 3,
+     "tuition": 6800,
+     "minScore": 459
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 15,
+     "years": 3,
+     "tuition": 6800,
+     "minScore": 463
+    }
+   ],
+   "programNames": "室内艺术设计、数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    6800,
+    6800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hszhiyejishu.html"
+  },
+  {
+   "name": "廊坊职业技术学院",
+   "type": "公办",
+   "city": "廊坊",
+   "plan": 70,
+   "minScore": 457,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 471
+    },
+    {
+     "name": "民族传统技艺",
+     "plan": 20,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 457
+    }
+   ],
+   "programNames": "广告艺术设计、民族传统技艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
+  },
+  {
+   "name": "河北科技工程职业技术大学",
+   "type": "公办",
+   "city": "邢台",
+   "plan": 15,
+   "minScore": 454,
+   "subClasses": [
+    "考试八类-舞蹈及表演类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "时尚表演与传播",
+     "plan": 15,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 454
+    }
+   ],
+   "programNames": "时尚表演与传播",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbkejigongcheng.html"
+  },
+  {
+   "name": "沧州职业技术学院(吴桥学院，就读于沧州吴桥县)",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 16,
+   "minScore": 452,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "现代杂技表演艺术",
+     "plan": 6,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 452
+    },
+    {
+     "name": "舞台艺术设计与制作",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 490
+    }
+   ],
+   "programNames": "现代杂技表演艺术、舞台艺术设计与制作",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czzhiyejishu.html"
+  },
+  {
+   "name": "张家口职业技术学院",
+   "type": "公办",
+   "city": "张家口",
+   "plan": 60,
+   "minScore": 446,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "视觉传达设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 455
+    },
+    {
+     "name": "游戏艺术设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 446
+    }
+   ],
+   "programNames": "视觉传达设计、游戏艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
+  },
+  {
+   "name": "冀中职业学院",
+   "type": "公办",
+   "city": "其他",
+   "plan": 15,
+   "minScore": 445,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 4,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 458
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 4,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 451
+    },
+    {
+     "name": "民族传统技艺(绛丝方向)",
+     "plan": 7,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 445
+    }
+   ],
+   "programNames": "广告艺术设计、环境艺术设计、民族传统技艺(绛丝方向)",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/jizhong.html"
+  },
+  {
+   "name": "沧州幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 100,
+   "minScore": 440,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "服装陈列与展示设计",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 440
+    },
+    {
+     "name": "产品艺术设计",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 456
+    }
+   ],
+   "programNames": "服装陈列与展示设计、产品艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czyouershifan.html"
+  },
+  {
+   "name": "石家庄职业技术学院(中外合作办学)",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 30,
+   "minScore": 436,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "广告艺术设计(中外合作办学)",
+     "plan": 30,
+     "years": 3,
+     "tuition": 20000,
+     "minScore": 436
+    }
+   ],
+   "programNames": "广告艺术设计(中外合作办学)",
+   "programsComplete": true,
+   "tuitionRange": [
+    20000,
+    20000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
+  },
+  {
+   "name": "邯郸幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "邯郸",
+   "plan": 50,
+   "minScore": 436,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "音乐表演",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 436
+    },
+    {
+     "name": "产品艺术设计(玩教具方向)",
+     "plan": 15,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 524
+    },
+    {
+     "name": "陶瓷设计与工艺",
+     "plan": 15,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 513
+    }
+   ],
+   "programNames": "音乐表演、产品艺术设计(玩教具方向)、陶瓷设计与工艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hdyouershifan.html"
+  },
+  {
+   "name": "保定职业技术学院(曲阳校区)",
+   "type": "公办",
+   "city": "保定",
+   "plan": 180,
+   "minScore": 433,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "艺术设计",
+     "plan": 100,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 433
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 80,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 450
+    }
+   ],
+   "programNames": "艺术设计、数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bdzhiyejishu.html"
+  },
+  {
+   "name": "秦皇岛职业技术学院",
+   "type": "公办",
+   "city": "秦皇岛",
+   "plan": 130,
+   "minScore": 430,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 5,
+   "programs": [
+    {
+     "name": "音乐表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 430
+    },
+    {
+     "name": "歌舞表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 479
+    },
+    {
+     "name": "舞蹈表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 491
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 75,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 536
+    },
+    {
+     "name": "艺术设计",
+     "plan": 25,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 548
+    }
+   ],
+   "programNames": "音乐表演、歌舞表演、舞蹈表演、环境艺术设计、艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
+  },
+  {
+   "name": "河北工艺美术职业学院",
+   "type": "公办",
+   "city": "保定",
+   "plan": 1296,
+   "minScore": 423,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 16,
+   "programs": [
+    {
+     "name": "视觉传达设计",
+     "plan": 96,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 477
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 172,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 469
+    },
+    {
+     "name": "产品艺术设计",
+     "plan": 35,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 462
+    },
+    {
+     "name": "服装与服饰设计",
+     "plan": 48,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 457
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 178,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 439
+    },
+    {
+     "name": "书画艺术(绘画)",
+     "plan": 83,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 426
+    },
+    {
+     "name": "书画艺术(书法)",
+     "plan": 35,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 423
+    },
+    {
+     "name": "公共艺术设计",
+     "plan": 94,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 425
+    },
+    {
+     "name": "游戏艺术设计",
+     "plan": 49,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 455
+    },
+    {
+     "name": "展示艺术设计",
+     "plan": 45,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 447
+    },
+    {
+     "name": "工艺美术品设计",
+     "plan": 46,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 435
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 109,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 446
+    },
+    {
+     "name": "动漫设计",
+     "plan": 114,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 459
+    },
+    {
+     "name": "人物形象设计",
+     "plan": 52,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 442
+    },
+    {
+     "name": "首饰设计与工艺",
+     "plan": 49,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 439
+    },
+    {
+     "name": "雕塑设计",
+     "plan": 91,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 428
+    }
+   ],
+   "programNames": "视觉传达设计、数字媒体艺术设计、产品艺术设计、服装与服饰设计、环境艺术设计、书画艺术(绘画)、书画艺术(书法)、公共艺术设计、游戏艺术设计、展示艺术设计、工艺美术品设计、广告艺术设计、动漫设计、人物形象设计、首饰设计与工艺、雕塑设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbgongyimeishu.html"
+  },
+  {
+   "name": "河北工艺美术职业学院(高阳现代纺织产业学院)",
+   "type": "公办",
+   "city": "保定",
+   "plan": 250,
+   "minScore": 421,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "视觉传达设计",
+     "plan": 100,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 425
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 150,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 421
+    }
+   ],
+   "programNames": "视觉传达设计、数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbgongyimeishu.html"
+  },
+  {
+   "name": "石家庄科技信息职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 20,
+   "minScore": 419,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 6,
+     "years": 3,
+     "tuition": 13600,
+     "minScore": 427
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 6,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 433
+    },
+    {
+     "name": "数字媒体艺术设计(AI未来影视)",
+     "plan": 8,
+     "years": 3,
+     "tuition": 13600,
+     "minScore": 419
+    }
+   ],
+   "programNames": "广告艺术设计、数字媒体艺术设计、数字媒体艺术设计(AI未来影视)",
+   "programsComplete": true,
+   "tuitionRange": [
+    13600,
+    13800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
+  },
+  {
+   "name": "石家庄工商职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 50,
+   "minScore": 417,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "舞蹈表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 442
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 15,
+     "years": 3,
+     "tuition": 12800,
+     "minScore": 417
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 10,
+     "years": 3,
+     "tuition": 12800,
+     "minScore": 419
+    },
+    {
+     "name": "视觉传达设计",
+     "plan": 15,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 420
+    }
+   ],
+   "programNames": "舞蹈表演、广告艺术设计、环境艺术设计、视觉传达设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    12800,
+    13800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzgongshang.html"
+  },
+  {
+   "name": "河北工艺美术职业学院(蔚县文化旅游产业学院)",
+   "type": "公办",
+   "city": "保定",
+   "plan": 280,
+   "minScore": 409,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "民族传统技艺",
+     "plan": 140,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 409
+    },
+    {
+     "name": "工艺美术品设计",
+     "plan": 140,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 415
+    }
+   ],
+   "programNames": "民族传统技艺、工艺美术品设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    7000,
+    7000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbgongyimeishu.html"
+  },
+  {
+   "name": "石家庄财经职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 43,
+   "minScore": 408,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "舞蹈表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 12900,
+     "minScore": 445
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 33,
+     "years": 3,
+     "tuition": 13900,
+     "minScore": 408
+    }
+   ],
+   "programNames": "舞蹈表演、广告艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    12900,
+    13900
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzcaijing.html"
+  },
+  {
+   "name": "河北工艺美术职业学院(中外合作办学)",
+   "type": "公办",
+   "city": "保定",
+   "plan": 44,
+   "minScore": 407,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "视觉传达设计(中外合作办学)",
+     "plan": 44,
+     "years": "3",
+     "tuition": 18000,
+     "minScore": 407
+    }
+   ],
+   "programNames": "视觉传达设计(中外合作办学)",
+   "programsComplete": true,
+   "tuitionRange": [
+    18000,
+    18000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbgongyimeishu.html"
+  },
+  {
+   "name": "邢台应用技术职业学院",
+   "type": "民办",
+   "city": "邢台",
+   "plan": 40,
+   "minScore": 405,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 40,
+     "years": 3,
+     "tuition": 12800,
+     "minScore": 405
+    }
+   ],
+   "programNames": "数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    12800,
+    12800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/xtyingyong.html"
+  },
+  {
+   "name": "河北旅游职业学院(中外合作办学)",
+   "type": "公办",
+   "city": "承德",
+   "plan": 40,
+   "minScore": 404,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "数字媒体艺术设计(中外合作办学)",
+     "plan": 40,
+     "years": "3",
+     "tuition": 21000,
+     "minScore": 404
+    }
+   ],
+   "programNames": "数字媒体艺术设计(中外合作办学)",
+   "programsComplete": true,
+   "tuitionRange": [
+    21000,
+    21000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hblvyou.html"
+  },
+  {
+   "name": "渤海理工职业学院",
+   "type": "民办",
+   "city": "沧州",
+   "plan": 40,
+   "minScore": 402,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "动漫设计",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 405
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 20,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 402
+    }
+   ],
+   "programNames": "动漫设计、环境艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    13900,
+    15000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bohailigong.html"
+  },
+  {
+   "name": "河北艺术职业学院",
+   "type": "公办",
+   "city": "其他",
+   "plan": 431,
+   "minScore": 400,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类",
+    "考试八类-文化服务类"
+   ],
+   "programCount": 17,
+   "programs": [
+    {
+     "name": "现代流行音乐",
+     "plan": 15,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 477
+    },
+    {
+     "name": "音乐表演(管弦打击乐器演奏)",
+     "plan": 15,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 425
+    },
+    {
+     "name": "音乐表演(键盘方向)",
+     "plan": 3,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 472
+    },
+    {
+     "name": "音乐表演(声乐方向)",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 461
+    },
+    {
+     "name": "音乐表演(中国乐器演奏方向)",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 442
+    },
+    {
+     "name": "音乐制作",
+     "plan": 5,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 489
+    },
+    {
+     "name": "国际标准舞",
+     "plan": 10,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 483
+    },
+    {
+     "name": "时尚表演与传播",
+     "plan": 19,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 464
+    },
+    {
+     "name": "舞蹈编导",
+     "plan": 10,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 498
+    },
+    {
+     "name": "舞蹈表演",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 506
+    },
+    {
+     "name": "戏剧影视表演",
+     "plan": 20,
+     "years": 3,
+     "tuition": 7000,
+     "minScore": 475
+    },
+    {
+     "name": "产品艺术设计(文创方向)",
+     "plan": 30,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 516
+    },
+    {
+     "name": "动漫设计",
+     "plan": 60,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 526
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 45,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 518
+    },
+    {
+     "name": "视觉传达设计",
+     "plan": 60,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 530
+    },
+    {
+     "name": "舞台艺术设计与制作",
+     "plan": 30,
+     "years": 3,
+     "tuition": 6000,
+     "minScore": 513
+    },
+    {
+     "name": "文物修复与保护",
+     "plan": 49,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 400
+    }
+   ],
+   "programNames": "现代流行音乐、音乐表演(管弦打击乐器演奏)、音乐表演(键盘方向)、音乐表演(声乐方向)、音乐表演(中国乐器演奏方向)、音乐制作、国际标准舞、时尚表演与传播、舞蹈编导、舞蹈表演、戏剧影视表演、产品艺术设计(文创方向)、动漫设计、环境艺术设计、视觉传达设计、舞台艺术设计与制作、文物修复与保护",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    7000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbyishu.html"
+  },
+  {
+   "name": "石家庄城市经济职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 30,
+   "minScore": 399,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "艺术设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 399
+    }
+   ],
+   "programNames": "艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    13800,
+    13800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
+  },
+  {
+   "name": "曹妃甸职业技术学院",
+   "type": "民办",
+   "city": "唐山",
+   "plan": 40,
+   "minScore": 397,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "舞蹈编导",
+     "plan": 7,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 423
+    },
+    {
+     "name": "人物形象设计",
+     "plan": 18,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 397
+    },
+    {
+     "name": "视觉传达设计",
+     "plan": 15,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 402
+    }
+   ],
+   "programNames": "舞蹈编导、人物形象设计、视觉传达设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    17800,
+    17800
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/caofeidian.html"
+  },
+  {
+   "name": "石家庄工程职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 70,
+   "minScore": 397,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "舞蹈表演",
+     "plan": 20,
+     "years": 3,
+     "tuition": 15800,
+     "minScore": 429
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 50,
+     "years": 3,
+     "tuition": 15800,
+     "minScore": 397
+    }
+   ],
+   "programNames": "舞蹈表演、数字媒体艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    15800,
+    15800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzgongcheng.html"
+  },
+  {
+   "name": "石家庄科技职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 70,
+   "minScore": 393,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 30,
+     "years": 3,
+     "tuition": 15000,
+     "minScore": 397
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 40,
+     "years": 3,
+     "tuition": 15000,
+     "minScore": 393
+    }
+   ],
+   "programNames": "广告艺术设计、环境艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    15000,
+    15000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzkeji.html"
+  },
+  {
+   "name": "石家庄金融职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 60,
+   "minScore": 388,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "数字时尚设计",
+     "plan": 60,
+     "years": 3,
+     "tuition": 14800,
+     "minScore": 388
+    }
+   ],
+   "programNames": "数字时尚设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    14800,
+    14800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzjinrong.html"
+  },
+  {
+   "name": "石家庄理工职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 185,
+   "minScore": 387,
+   "subClasses": [
+    "考试八类-美术设计类"
+   ],
+   "programCount": 6,
+   "programs": [
+    {
+     "name": "广告艺术设计",
+     "plan": 80,
+     "years": 3,
+     "tuition": 13000,
+     "minScore": 389
+    },
+    {
+     "name": "广告艺术设计(UI)",
+     "plan": 15,
+     "years": 3,
+     "tuition": 16900,
+     "minScore": 387
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 15,
+     "years": 3,
+     "tuition": 16300,
+     "minScore": 390
+    },
+    {
+     "name": "室内艺术设计",
+     "plan": 50,
+     "years": 3,
+     "tuition": 12300,
+     "minScore": 398
+    },
+    {
+     "name": "室内艺术设计(VR)",
+     "plan": 15,
+     "years": 3,
+     "tuition": 16900,
+     "minScore": 388
+    },
+    {
+     "name": "艺术设计",
+     "plan": 10,
+     "years": 3,
+     "tuition": 16000,
+     "minScore": 400
+    }
+   ],
+   "programNames": "广告艺术设计、广告艺术设计(UI)、环境艺术设计、室内艺术设计、室内艺术设计(VR)、艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    12300,
+    16900
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzligong.html"
+  },
+  {
+   "name": "沧州职业技术学院",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 127,
+   "minScore": 386,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类",
+    "考试八类-文化服务类"
+   ],
+   "programCount": 7,
+   "programs": [
+    {
+     "name": "表演艺术(武术方向)",
+     "plan": 6,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 481
+    },
+    {
+     "name": "现代魔术设计与表演",
+     "plan": 6,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 462
+    },
+    {
+     "name": "现代杂技表演艺术",
+     "plan": 6,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 457
+    },
+    {
+     "name": "艺术设计",
+     "plan": 9,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 511
+    },
+    {
+     "name": "服装与服饰设计",
+     "plan": 25,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 491
+    },
+    {
+     "name": "舞台艺术设计与制作",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 509
+    },
+    {
+     "name": "文化创意与策划",
+     "plan": 70,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 386
+    }
+   ],
+   "programNames": "表演艺术(武术方向)、现代魔术设计与表演、现代杂技表演艺术、艺术设计、服装与服饰设计、舞台艺术设计与制作、文化创意与策划",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czzhiyejishu.html"
+  },
+  {
+   "name": "河北外国语学院",
+   "type": "民办",
+   "city": "其他",
+   "plan": 45,
+   "minScore": 357,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类",
+    "考试八类-文化服务类"
+   ],
+   "programCount": 7,
+   "programs": [
+    {
+     "name": "音乐表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 16250,
+     "minScore": 415
+    },
+    {
+     "name": "舞蹈表演",
+     "plan": 4,
+     "years": 3,
+     "tuition": 16250,
+     "minScore": 438
+    },
+    {
+     "name": "视觉传达设计(室内外装修设计)",
+     "plan": 4,
+     "years": 3,
+     "tuition": 16000,
+     "minScore": 411
+    },
+    {
+     "name": "书画艺术",
+     "plan": 4,
+     "years": 3,
+     "tuition": 14300,
+     "minScore": 409
+    },
+    {
+     "name": "艺术设计",
+     "plan": 4,
+     "years": 3,
+     "tuition": 16250,
+     "minScore": 411
+    },
+    {
+     "name": "游戏艺术设计",
+     "plan": 4,
+     "years": 3,
+     "tuition": 16000,
+     "minScore": 414
+    },
+    {
+     "name": "文化创意与策划",
+     "plan": 15,
+     "years": 3,
+     "tuition": 16500,
+     "minScore": 357
+    }
+   ],
+   "programNames": "音乐表演、舞蹈表演、视觉传达设计(室内外装修设计)、书画艺术、艺术设计、游戏艺术设计、文化创意与策划",
+   "programsComplete": true,
+   "tuitionRange": [
+    14300,
+    16500
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
+  },
+  {
+   "name": "石家庄经济职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 105,
+   "minScore": 323,
+   "subClasses": [
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类",
+    "考试八类-文化服务类"
+   ],
+   "programCount": 7,
+   "programs": [
+    {
+     "name": "表演艺术(影视方向)",
+     "plan": 10,
+     "years": 3,
+     "tuition": 19500,
+     "minScore": 421
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 10,
+     "years": 3,
+     "tuition": 19500,
+     "minScore": 391
+    },
+    {
+     "name": "民族传统技艺",
+     "plan": 10,
+     "years": 3,
+     "tuition": 19500,
+     "minScore": 386
+    },
+    {
+     "name": "人物形象设计",
+     "plan": 12,
+     "years": 3,
+     "tuition": 19500,
+     "minScore": 386
+    },
+    {
+     "name": "艺术设计(平面设计方向)",
+     "plan": 20,
+     "years": 3,
+     "tuition": 19500,
+     "minScore": 385
+    },
+    {
+     "name": "艺术设计(室内装潢方向)",
+     "plan": 13,
+     "years": 3,
+     "tuition": 18500,
+     "minScore": 385
+    },
+    {
+     "name": "公共文化服务与管理公办院校]",
+     "plan": 30,
+     "years": 3,
+     "tuition": 18500,
+     "minScore": 323
+    }
+   ],
+   "programNames": "表演艺术(影视方向)、广告艺术设计、民族传统技艺、人物形象设计、艺术设计(平面设计方向)、艺术设计(室内装潢方向)、公共文化服务与管理公办院校]",
+   "programsComplete": true,
+   "tuitionRange": [
+    18500,
+    19500
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzjingji.html"
+  },
+  {
+   "name": "河北美术学院",
+   "type": "民办",
+   "city": "其他",
+   "plan": 479,
+   "minScore": 181,
+   "subClasses": [
+    "考试八类-音乐类",
+    "考试八类-舞蹈及表演类",
+    "考试八类-美术设计类"
+   ],
+   "programCount": 16,
+   "programs": [
+    {
+     "name": "现代流行音乐",
+     "plan": 5,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 238
+    },
+    {
+     "name": "音乐表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 361
+    },
+    {
+     "name": "音乐制作",
+     "plan": 5,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 181
+    },
+    {
+     "name": "歌舞表演",
+     "plan": 10,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 395
+    },
+    {
+     "name": "产品艺术设计",
+     "plan": 35,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 362
+    },
+    {
+     "name": "雕塑设计",
+     "plan": 40,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 351
+    },
+    {
+     "name": "动漫设计",
+     "plan": 35,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 366
+    },
+    {
+     "name": "公共艺术设计",
+     "plan": 35,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 349
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 35,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 354
+    },
+    {
+     "name": "摄影与摄像艺术(VR艺术)",
+     "plan": 35,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 350
+    },
+    {
+     "name": "视觉传达设计",
+     "plan": 59,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 374
+    },
+    {
+     "name": "书画艺术(绘画方向)",
+     "plan": 40,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 349
+    },
+    {
+     "name": "书画艺术(书法方向)",
+     "plan": 20,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 361
+    },
+    {
+     "name": "数字媒体艺术设计",
+     "plan": 40,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 370
+    },
+    {
+     "name": "陶瓷设计与工艺",
+     "plan": 35,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 351
+    },
+    {
+     "name": "游戏艺术设计",
+     "plan": 40,
+     "years": 3,
+     "tuition": 30000,
+     "minScore": 349
+    }
+   ],
+   "programNames": "现代流行音乐、音乐表演、音乐制作、歌舞表演、产品艺术设计、雕塑设计、动漫设计、公共艺术设计、环境艺术设计、摄影与摄像艺术(VR艺术)、视觉传达设计、书画艺术(绘画方向)、书画艺术(书法方向)、数字媒体艺术设计、陶瓷设计与工艺、游戏艺术设计",
+   "programsComplete": true,
+   "tuitionRange": [
+    30000,
+    30000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbmeishu.html"
+  }
+ ],
+ "subjects": [
+  {
+   "kind": "文化素质",
+   "subject": "语文 + 数学",
+   "full": "300 分",
+   "syllabus": []
+  },
+  {
+   "kind": "职业技能",
+   "subject": "历史、职业适应性测试",
+   "full": "450 分",
+   "syllabus": []
+  }
+ ]
 }

@@ -1,2119 +1,2747 @@
 {
-  "year": 2026,
-  "system": "exam",
-  "category": "考试五类",
-  "source": "河北省教育考试院公开数据",
-  "schools": [
-    {
-      "name": "保定理工学院",
-      "type": "民办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "西式烹饪工艺",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 15800,
-          "minScore": 381,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "保定幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 435,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "保定职业技术学院（阜平校区）",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 434,
-          "remark": "[在阜平校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "北京财贸职业学院",
-      "type": "公办",
-      "city": "北京",
-      "programs": [
-        {
-          "name": "旅游管理(主题乐园运营与管理)",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 511,
-          "remark": "[上课地点：第一学年在涿州校区，第二、三学年在校本部(通州)]"
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 6000,
-          "minScore": 509,
-          "remark": "[上课地点：第一学年在涿州校区，第二、三学年在校本部(通州)]"
-        }
-      ]
-    },
-    {
-      "name": "渤海理工职业学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "安全防范技术",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 13900,
-          "minScore": 356,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 11800,
-          "minScore": 380,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 11800,
-          "minScore": 384,
-          "remark": ""
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 13900,
-          "minScore": 362,
-          "remark": ""
-        },
-        {
-          "name": "休闲服务与管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 11800,
-          "minScore": 370,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州航空职业学院",
-      "type": "民办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 249,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 363,
-          "remark": ""
-        },
-        {
-          "name": "智慧旅游技术应用(航空旅游数字化运营方向)",
-          "subCategory": "",
-          "plan": 251,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 354,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州医学高等专科学校",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 576,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 429,
-          "remark": "[在泊头校区就读]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 435,
-          "remark": "[在泊头校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "沧州职业技术学院",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 479,
-          "remark": ""
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 13,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 471,
-          "remark": ""
-        },
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 475,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 481,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "沧州职业技术学院(任丘学院，就读于沧州任丘市)",
-      "type": "公办",
-      "city": "沧州",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 461,
-          "remark": "[任丘学院，就读于沧州任丘市]"
-        }
-      ]
-    },
-    {
-      "name": "曹妃甸职业技术学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 342,
-          "remark": ""
-        },
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 333,
-          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 333,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 16800,
-          "minScore": 357,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "承德应用技术职业学院",
-      "type": "公办",
-      "city": "承德",
-      "programs": [
-        {
-          "name": "社会工作",
-          "subCategory": "",
-          "plan": 18,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 441,
-          "remark": ""
-        },
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 37,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 436,
-          "remark": "[该专业在承德市双桥区北校区就读]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 72,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 438,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "邯郸科技职业学院",
-      "type": "公办",
-      "city": "邯郸",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理(养老机构运营管理)]",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 492,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "邯郸幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "邯郸",
-      "programs": [
-        {
-          "name": "社区康复",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 477,
-          "remark": ""
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 467,
-          "remark": ""
-        },
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 470,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 28,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 492,
-          "remark": ""
-        },
-        {
-          "name": "智慧旅游技术应用",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 488,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "邯郸幼儿师范高等专科学校(大名校区)",
-      "type": "公办",
-      "city": "邯郸",
-      "programs": [
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 245,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 438,
-          "remark": "[大一在邯郸市大名县校区就读，大二起在邯郸市武安市主校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "邯郸职业技术学院",
-      "type": "公办",
-      "city": "邯郸",
-      "programs": [
-        {
-          "name": "法律事务",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 512,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 509,
-          "remark": ""
-        },
-        {
-          "name": "知识产权管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 500,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北对外经贸职业学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 478,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营(涉外方向)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 476,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 480,
-          "remark": ""
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 474,
-          "remark": ""
-        },
-        {
-          "name": "休闲服务与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 473,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 28,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 490,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北工艺美术职业学院(蔚县文化旅游产业学院)",
-      "type": "公办",
-      "city": "保定",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 160,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 425,
-          "remark": "[在张家口市蔚县就读]"
-        }
-      ]
-    },
-    {
-      "name": "河北化工医药职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 37,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 515,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北建材职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 27,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 468,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 27,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 470,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北科技学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 120,
-          "years": 3,
-          "tuition": 15800,
-          "minScore": 344,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北劳动关系职业学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "劳动关系管理与服务",
-          "subCategory": "",
-          "plan": 110,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 442,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 48,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 463,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北旅游职业学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "导游(国际导游英语方向)",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 438,
-          "remark": ""
-        },
-        {
-          "name": "导游(中文导游方向)",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 451,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 18,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 443,
-          "remark": ""
-        },
-        {
-          "name": "旅行社经营与管理",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 446,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 460,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理(国际交流日语方向)",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 450,
-          "remark": ""
-        },
-        {
-          "name": "民宿管理与运营",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 438,
-          "remark": ""
-        },
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 16,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 445,
-          "remark": ""
-        },
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 443,
-          "remark": ""
-        },
-        {
-          "name": "营养配餐",
-          "subCategory": "",
-          "plan": 13,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 438,
-          "remark": ""
-        },
-        {
-          "name": "智慧旅游技术应用",
-          "subCategory": "",
-          "plan": 12,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 447,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北女子职业技术学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 87,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 437,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 21,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 470,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北青年管理干部学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 144,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 441,
-          "remark": "[建议：身体日常裸露部分无明显疤痕、无纹身，无传染性疾病，不符合条考生请谨慎报考]"
-        },
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 439,
-          "remark": ""
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 264,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 449,
-          "remark": ""
-        },
-        {
-          "name": "社会工作",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 451,
-          "remark": ""
-        },
-        {
-          "name": "社区管理与服务",
-          "subCategory": "",
-          "plan": 65,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 455,
-          "remark": ""
-        },
-        {
-          "name": "行政管理(应急管理)",
-          "subCategory": "",
-          "plan": 133,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 439,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 476,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北石油职业技术大学(中外合作办学)",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "会展策划与管理(中外合作办学)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 16000,
-          "minScore": 426,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北司法警官职业学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "安全防范技术",
-          "subCategory": "",
-          "plan": 38,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 460,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "法律事务",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 486,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "法律事务(企业法务)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 472,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "法律文秘",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 460,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "公共事务管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 456,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "民事执行",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 459,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "社区矫正",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 463,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        },
-        {
-          "name": "司法信息技术",
-          "subCategory": "",
-          "plan": 39,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 469,
-          "remark": "[身体建议：身体健康、五官端正、面部无明显缺陷和标记，无纹身、无跛行、无脊柱侧弯、无心理疾病、精神疾病和不能适应警体训练及警务化管理的其他疾病，男生身高不低于165cm,女生身高不低于]"
-        }
-      ]
-    },
-    {
-      "name": "河北外国语学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "法律事务(国际法方向)",
-          "subCategory": "",
-          "plan": 65,
-          "years": 3,
-          "tuition": 15210,
-          "minScore": 366,
-          "remark": ""
-        },
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 85,
-          "years": 3,
-          "tuition": 16000,
-          "minScore": 337,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营(涉外酒店管理方向)",
-          "subCategory": "",
-          "plan": 65,
-          "years": 3,
-          "tuition": 15210,
-          "minScore": 341,
-          "remark": ""
-        },
-        {
-          "name": "现代文秘(英汉双语速录方向)",
-          "subCategory": "",
-          "plan": 85,
-          "years": 3,
-          "tuition": 14950,
-          "minScore": 339,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北正定师范高等专科学校",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 160,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 432,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 80,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 441,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北政法职业学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "安全保卫管理(安全员方向)",
-          "subCategory": "",
-          "plan": 59,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 489,
-          "remark": "[建议男生报考，女生慎重报考]"
-        },
-        {
-          "name": "安全防范技术",
-          "subCategory": "",
-          "plan": 11,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 532,
-          "remark": ""
-        },
-        {
-          "name": "法律事务(电商法务方向)",
-          "subCategory": "",
-          "plan": 24,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 510,
-          "remark": ""
-        },
-        {
-          "name": "法律事务(法务会计方向)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 505,
-          "remark": ""
-        },
-        {
-          "name": "法律事务(建设工程法务方向)",
-          "subCategory": "",
-          "plan": 29,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 497,
-          "remark": ""
-        },
-        {
-          "name": "法律事务(涉外法务方向)",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 503,
-          "remark": ""
-        },
-        {
-          "name": "法律事务(书记官方向)",
-          "subCategory": "",
-          "plan": 45,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 526,
-          "remark": ""
-        },
-        {
-          "name": "法律事务(智慧法治方向)",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 533,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 501,
-          "remark": ""
-        },
-        {
-          "name": "民事执行",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 502,
-          "remark": ""
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 28,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 503,
-          "remark": ""
-        },
-        {
-          "name": "司法鉴定技术(生态环境损害鉴定方向)",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 498,
-          "remark": ""
-        },
-        {
-          "name": "知识产权管理",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 497,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "河北资源环境职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "休闲服务与管理",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 458,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 475,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "衡水职业技术学院",
-      "type": "公办",
-      "city": "衡水",
-      "programs": [
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 426,
-          "remark": ""
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 426,
-          "remark": "[正点家政订单班，不另收取其他费用]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 55,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 429,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "华北理工大学轻工学院",
-      "type": "民办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 15800,
-          "minScore": 374,
-          "remark": "[在路南校区就读]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 15800,
-          "minScore": 376,
-          "remark": "[在路南校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "冀中职业学院",
-      "type": "公办",
-      "city": "其他",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 438,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "昆玉职业技术学院",
-      "type": "公办",
-      "city": "新疆",
-      "programs": [
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 421,
-          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
-        }
-      ]
-    },
-    {
-      "name": "廊坊燕京职业技术学院",
-      "type": "公办",
-      "city": "廊坊",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 55,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 471,
-          "remark": "[建议女生1.60-1.73米，男生1.70-1.83米，其他身体条件，详见院校单招简章]"
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 61,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 471,
-          "remark": "[不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 29,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 486,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "廊坊职业技术学院",
-      "type": "公办",
-      "city": "廊坊",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 435,
-          "remark": ""
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 37,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 430,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 445,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "秦皇岛工业职业技术学院",
-      "type": "公办",
-      "city": "秦皇岛",
-      "programs": [
-        {
-          "name": "西式烹饪工艺",
-          "subCategory": "",
-          "plan": 39,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 432,
-          "remark": ""
-        },
-        {
-          "name": "中西面点工艺",
-          "subCategory": "",
-          "plan": 38,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 447,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "秦皇岛职业技术学院",
-      "type": "公办",
-      "city": "秦皇岛",
-      "programs": [
-        {
-          "name": "导游",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 484,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 35,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 496,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 105,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 489,
-          "remark": ""
-        },
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 481,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理(养老产业经营管理方向)",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 517,
-          "remark": ""
-        },
-        {
-          "name": "中西面点工艺(西点工艺方向)",
-          "subCategory": "",
-          "plan": 68,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 474,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄财经职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 176,
-          "years": 3,
-          "tuition": 12900,
-          "minScore": 361,
-          "remark": "[在鹿泉区卧龙校区就读]"
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 257,
-          "years": 3,
-          "tuition": 12900,
-          "minScore": 367,
-          "remark": "[在鹿泉区卧龙校区就读]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 138,
-          "years": 3,
-          "tuition": 12900,
-          "minScore": 383,
-          "remark": "[在鹿泉区卧龙校区就读]"
-        },
-        {
-          "name": "智慧旅游技术应用",
-          "subCategory": "",
-          "plan": 118,
-          "years": 3,
-          "tuition": 13900,
-          "minScore": 358,
-          "remark": "[在鹿泉区卧龙校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄城市经济职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "党务工作",
-          "subCategory": "",
-          "plan": 160,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 375,
-          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 383,
-          "remark": "[在石家庄经济技术开发区(东区)东校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄工程职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 490,
-          "years": 3,
-          "tuition": 14800,
-          "minScore": 342,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄工商职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 110,
-          "years": 3,
-          "tuition": 12000,
-          "minScore": 412,
-          "remark": "[在鹿泉区南山校区就读]"
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 100,
-          "years": 3,
-          "tuition": 12000,
-          "minScore": 412,
-          "remark": "[在鹿泉区南山校区就读]"
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 415,
-          "remark": "[在鹿泉区南山校区就读]"
-        },
-        {
-          "name": "社会工作(智慧物业管理方向)",
-          "subCategory": "",
-          "plan": 65,
-          "years": 3,
-          "tuition": 12800,
-          "minScore": 408,
-          "remark": "[在鹿泉区南山校区就读；含校企合作定向班计划，不另收取其他费用，详询院校]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 65,
-          "years": 3,
-          "tuition": 13800,
-          "minScore": 410,
-          "remark": "[在桥西区滨河校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄经济职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 355,
-          "years": 3,
-          "tuition": 18500,
-          "minScore": 333,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄科技信息职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "智慧旅游技术应用",
-          "subCategory": "",
-          "plan": 300,
-          "years": 3,
-          "tuition": 12600,
-          "minScore": 389,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄理工职业学院",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 150,
-          "years": 3,
-          "tuition": 11700,
-          "minScore": 393,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 150,
-          "years": 3,
-          "tuition": 11700,
-          "minScore": 399,
-          "remark": ""
-        },
-        {
-          "name": "现代家政服务与管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 11000,
-          "minScore": 396,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄人民医学高等专科学校",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 16900,
-          "minScore": 391,
-          "remark": "[在正定北校区就读]"
-        }
-      ]
-    },
-    {
-      "name": "石家庄铁路职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 516,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 60,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 508,
-          "remark": ""
-        },
-        {
-          "name": "智慧景区开发与管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 510,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄信息工程职业学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 591,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄医学高等专科学校",
-      "type": "民办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 17500,
-          "minScore": 389,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄幼儿师范高等专科学校",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 432,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 440,
-          "remark": ""
-        },
-        {
-          "name": "智慧旅游技术应用",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 437,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "石家庄职业技术学院",
-      "type": "公办",
-      "city": "石家庄",
-      "programs": [
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 33,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 546,
-          "remark": ""
-        },
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 29,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 541,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 19,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 562,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "塔里木职业技术学院",
-      "type": "公办",
-      "city": "新疆",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 14,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 420,
-          "remark": ""
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 45,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 418,
-          "remark": ""
-        },
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 418,
-          "remark": ""
-        },
-        {
-          "name": "中西面点工艺",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 422,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "唐山工业职业技术大学",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 591,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 8,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 590,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "唐山海运职业学院",
-      "type": "民办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 80,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 336,
-          "remark": ""
-        },
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 333,
-          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
-        },
-        {
-          "name": "西式烹饪工艺",
-          "subCategory": "",
-          "plan": 80,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 333,
-          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
-        },
-        {
-          "name": "中西面点工艺",
-          "subCategory": "",
-          "plan": 70,
-          "years": 3,
-          "tuition": 17800,
-          "minScore": 333,
-          "remark": "[校企合作订单班，不另收取其他费用，详询院校]"
-        }
-      ]
-    },
-    {
-      "name": "唐山职业技术学院",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 50,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 497,
-          "remark": ""
-        },
-        {
-          "name": "人力资源管理",
-          "subCategory": "",
-          "plan": 40,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 493,
-          "remark": ""
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 37,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 507,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "唐山职业技术学院(校企合作订单班)",
-      "type": "公办",
-      "city": "唐山",
-      "programs": [
-        {
-          "name": "智慧健康养老服务与管理(幸福家园订单班)",
-          "subCategory": "",
-          "plan": 37,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 491,
-          "remark": "[不另收任何费用]"
-        }
-      ]
-    },
-    {
-      "name": "天津轻工职业技术学院",
-      "type": "公办",
-      "city": "天津",
-      "programs": [
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 3,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 604,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "铁门关职业技术学院",
-      "type": "公办",
-      "city": "新疆",
-      "programs": [
-        {
-          "name": "党务工作",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 424,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "图木舒克职业技术学院",
-      "type": "公办",
-      "city": "新疆",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 419,
-          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
-        },
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 25,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 414,
-          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
-        },
-        {
-          "name": "中西面点工艺",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 414,
-          "remark": "[考生可享受助免政策，详见院校简章或咨询院校]"
-        }
-      ]
-    },
-    {
-      "name": "新疆生产建设兵团兴新职业技术学院",
-      "type": "公办",
-      "city": "新疆",
-      "programs": [
-        {
-          "name": "烹饪工艺与营养",
-          "subCategory": "",
-          "plan": 18,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 418,
-          "remark": ""
-        },
-        {
-          "name": "社会工作",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 3300,
-          "minScore": 423,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "邢台新能源职业学院",
-      "type": "民办",
-      "city": "邢台",
-      "programs": [
-        {
-          "name": "社区康复",
-          "subCategory": "",
-          "plan": 270,
-          "years": 3,
-          "tuition": 9800,
-          "minScore": 394,
-          "remark": "[建议色盲、色弱慎报；北京晶福康养产业有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
-        },
-        {
-          "name": "智慧健康养老服务与管理",
-          "subCategory": "",
-          "plan": 180,
-          "years": 3,
-          "tuition": 9800,
-          "minScore": 402,
-          "remark": "[建议色盲、色弱慎报；北京晶福康养产业有限公司订单班，不另收任何费用；毕业后选择自主择业或升学等无违约金，详询院校]"
-        }
-      ]
-    },
-    {
-      "name": "宣化科技职业学院",
-      "type": "公办",
-      "city": "张家口",
-      "programs": [
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 431,
-          "remark": ""
-        },
-        {
-          "name": "研学旅行管理与服务",
-          "subCategory": "",
-          "plan": 20,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 433,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "张家口职业技术学院",
-      "type": "公办",
-      "city": "张家口",
-      "programs": [
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 30,
-          "years": 3,
-          "tuition": 5000,
-          "minScore": 431,
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "name": "重庆城市管理职业学院",
-      "type": "公办",
-      "city": "重庆",
-      "programs": [
-        {
-          "name": "党务工作",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 564,
-          "remark": "[该专业学费有可能上调，最终以初价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "会展策划与管理",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 551,
-          "remark": "[该专业学费有可能上调，最终以物价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "婚庆服务与管理",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 544,
-          "remark": "[该专业学费有可能上调，最终以物价部门批发为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "酒店管理与数字化运营",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 564,
-          "remark": "[该专业学费有可能上调，最终以物价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "旅游管理",
-          "subCategory": "",
-          "plan": 5,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 565,
-          "remark": "[该专业学费有可能上调，最终以物价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "社会工作",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 6372,
-          "minScore": 537,
-          "remark": "[该专业学费有可能上调，最终以物价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "现代殡葬技术与管理",
-          "subCategory": "",
-          "plan": 15,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 590,
-          "remark": "[该专业学费有可能上调，最终以物价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        },
-        {
-          "name": "现代文秘",
-          "subCategory": "",
-          "plan": 10,
-          "years": 3,
-          "tuition": 5900,
-          "minScore": 544,
-          "remark": "[该专业学更有可能上调，最终以物价部门批复为准。大一年级荣昌校区就读(荣昌区)，后续年级大学城校区就读(高新区)]"
-        }
-      ]
+ "year": 2026,
+ "system": "exam",
+ "category": "考试五类",
+ "categoryId": "5",
+ "desc": "公共管理与服务、旅游、公安与司法等",
+ "controlLine": 333,
+ "source": {
+  "name": "河北单招网 hbdzxx.com",
+  "classUrl": "https://hbdzxx.com/class/5.html",
+  "fetchedAt": "2026-10-10"
+ },
+ "schools": [
+  {
+   "name": "天津轻工职业技术学院",
+   "type": "公办",
+   "city": "天津",
+   "plan": 3,
+   "minScore": 604,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "会展策划与管理",
+     "plan": 3,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 604
     }
-  ]
+   ],
+   "programNames": "会展策划与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tianjinqinggong.html"
+  },
+  {
+   "name": "石家庄信息工程职业学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 8,
+   "minScore": 591,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 8,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 591
+    }
+   ],
+   "programNames": "酒店管理与数字化运营",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
+  },
+  {
+   "name": "唐山工业职业技术大学",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 13,
+   "minScore": 590,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 5,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 591
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 8,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 590
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tsgongye.html"
+  },
+  {
+   "name": "沧州医学高等专科学校",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 8,
+   "minScore": 576,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 8,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 576
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czyixue.html"
+  },
+  {
+   "name": "石家庄职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 81,
+   "minScore": 541,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "会展策划与管理",
+     "plan": 33,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 546
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 29,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 541
+    },
+    {
+     "name": "旅游管理",
+     "plan": 19,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 562
+    }
+   ],
+   "programNames": "会展策划与管理、酒店管理与数字化运营、旅游管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
+  },
+  {
+   "name": "重庆城市管理职业学院",
+   "type": "公办",
+   "city": "重庆",
+   "plan": 80,
+   "minScore": 537,
+   "subClasses": null,
+   "programCount": 8,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 565
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 564
+    },
+    {
+     "name": "会展策划与管理",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 551
+    },
+    {
+     "name": "社会工作",
+     "plan": 15,
+     "years": "3",
+     "tuition": 6372,
+     "minScore": 537
+    },
+    {
+     "name": "党务工作",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 564
+    },
+    {
+     "name": "婚庆服务与管理",
+     "plan": 15,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 544
+    },
+    {
+     "name": "现代殡葬技术与管理",
+     "plan": 15,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 590
+    },
+    {
+     "name": "现代文秘",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5900,
+     "minScore": 544
+    }
+   ],
+   "programNames": "旅游管理、酒店管理与数字化运营、会展策划与管理、社会工作、党务工作、婚庆服务与管理、现代殡葬技术与管理、现代文秘",
+   "programsComplete": true,
+   "tuitionRange": [
+    5900,
+    6372
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/chongqingchengshiguanli.html"
+  },
+  {
+   "name": "河北化工医药职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 37,
+   "minScore": 515,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 37,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 515
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbhuagongyiyao.html"
+  },
+  {
+   "name": "北京财贸职业学院",
+   "type": "公办",
+   "city": "北京",
+   "plan": 50,
+   "minScore": 509,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "旅游管理(主题乐园运营与管理)",
+     "plan": 35,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 511
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 15,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 509
+    }
+   ],
+   "programNames": "旅游管理(主题乐园运营与管理)、现代家政服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    6000,
+    6000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/beijingcaimao.html"
+  },
+  {
+   "name": "石家庄铁路职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 120,
+   "minScore": 508,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "会展策划与管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 516
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 60,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 508
+    },
+    {
+     "name": "智慧景区开发与管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 510
+    }
+   ],
+   "programNames": "会展策划与管理、酒店管理与数字化运营、智慧景区开发与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjztielu.html"
+  },
+  {
+   "name": "邯郸职业技术学院",
+   "type": "公办",
+   "city": "邯郸",
+   "plan": 80,
+   "minScore": 500,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "法律事务",
+     "plan": 20,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 512
+    },
+    {
+     "name": "旅游管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 509
+    },
+    {
+     "name": "知识产权管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 500
+    }
+   ],
+   "programNames": "法律事务、旅游管理、知识产权管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
+  },
+  {
+   "name": "唐山职业技术学院",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 127,
+   "minScore": 493,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 497
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 40,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 493
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 37,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 507
+    }
+   ],
+   "programNames": "旅游管理、人力资源管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tszhiyejishu.html"
+  },
+  {
+   "name": "邯郸科技职业学院",
+   "type": "公办",
+   "city": "邯郸",
+   "plan": 30,
+   "minScore": 492,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理(养老机构运营管理)]",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 492
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理(养老机构运营管理)]",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hdkeji.html"
+  },
+  {
+   "name": "唐山职业技术学院(校企合作订单班)",
+   "type": "公办",
+   "city": "唐山",
+   "plan": 37,
+   "minScore": 491,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理(幸福家园订单班)",
+     "plan": 37,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 491
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理(幸福家园订单班)",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tszhiyejishu.html"
+  },
+  {
+   "name": "河北政法职业学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 396,
+   "minScore": 489,
+   "subClasses": null,
+   "programCount": 13,
+   "programs": [
+    {
+     "name": "安全保卫管理(安全员方向)",
+     "plan": 59,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 489
+    },
+    {
+     "name": "安全防范技术",
+     "plan": 11,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 532
+    },
+    {
+     "name": "法律事务(电商法务方向)",
+     "plan": 24,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 510
+    },
+    {
+     "name": "法律事务(法务会计方向)",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 505
+    },
+    {
+     "name": "法律事务(建设工程法务方向)",
+     "plan": 29,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 497
+    },
+    {
+     "name": "法律事务(涉外法务方向)",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 503
+    },
+    {
+     "name": "法律事务(书记官方向)",
+     "plan": 45,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 526
+    },
+    {
+     "name": "法律事务(智慧法治方向)",
+     "plan": 15,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 533
+    },
+    {
+     "name": "旅游管理",
+     "plan": 35,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 501
+    },
+    {
+     "name": "民事执行",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 502
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 28,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 503
+    },
+    {
+     "name": "司法鉴定技术(生态环境损害鉴定方向)",
+     "plan": 25,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 498
+    },
+    {
+     "name": "知识产权管理",
+     "plan": 35,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 497
+    }
+   ],
+   "programNames": "安全保卫管理(安全员方向)、安全防范技术、法律事务(电商法务方向)、法律事务(法务会计方向)、法律事务(建设工程法务方向)、法律事务(涉外法务方向)、法律事务(书记官方向)、法律事务(智慧法治方向)、旅游管理、民事执行、人力资源管理、司法鉴定技术(生态环境损害鉴定方向)、知识产权管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbzhengfa.html"
+  },
+  {
+   "name": "秦皇岛职业技术学院",
+   "type": "公办",
+   "city": "秦皇岛",
+   "plan": 408,
+   "minScore": 474,
+   "subClasses": null,
+   "programCount": 6,
+   "programs": [
+    {
+     "name": "导游",
+     "plan": 70,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 484
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 35,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 496
+    },
+    {
+     "name": "旅游管理",
+     "plan": 105,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 489
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 70,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 481
+    },
+    {
+     "name": "智慧健康养老服务与管理(养老产业经营管理方向)",
+     "plan": 60,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 517
+    },
+    {
+     "name": "中西面点工艺(西点工艺方向)",
+     "plan": 68,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 474
+    }
+   ],
+   "programNames": "导游、酒店管理与数字化运营、旅游管理、研学旅行管理与服务、智慧健康养老服务与管理(养老产业经营管理方向)、中西面点工艺(西点工艺方向)",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
+  },
+  {
+   "name": "河北对外经贸职业学院",
+   "type": "公办",
+   "city": "秦皇岛",
+   "plan": 163,
+   "minScore": 473,
+   "subClasses": null,
+   "programCount": 6,
+   "programs": [
+    {
+     "name": "会展策划与管理",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 478
+    },
+    {
+     "name": "酒店管理与数字化运营(涉外方向)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 476
+    },
+    {
+     "name": "旅游管理",
+     "plan": 25,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 480
+    },
+    {
+     "name": "休闲服务与管理",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 473
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 28,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 490
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 474
+    }
+   ],
+   "programNames": "会展策划与管理、酒店管理与数字化运营(涉外方向)、旅游管理、休闲服务与管理、智慧健康养老服务与管理、现代家政服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbduiwaijingmao.html"
+  },
+  {
+   "name": "廊坊燕京职业技术学院",
+   "type": "公办",
+   "city": "廊坊",
+   "plan": 145,
+   "minScore": 471,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 55,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 471
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 61,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 471
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 29,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 486
+    }
+   ],
+   "programNames": "旅游管理、人力资源管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/lfyanjing.html"
+  },
+  {
+   "name": "沧州职业技术学院",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 63,
+   "minScore": 471,
+   "subClasses": null,
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 479
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 475
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 13,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 471
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 481
+    }
+   ],
+   "programNames": "旅游管理、研学旅行管理与服务、现代家政服务与管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czzhiyejishu.html"
+  },
+  {
+   "name": "河北建材职业技术学院",
+   "type": "公办",
+   "city": "秦皇岛",
+   "plan": 54,
+   "minScore": 468,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 27,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 470
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 27,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 468
+    }
+   ],
+   "programNames": "旅游管理、酒店管理与数字化运营",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbjiancai.html"
+  },
+  {
+   "name": "邯郸幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "邯郸",
+   "plan": 168,
+   "minScore": 467,
+   "subClasses": null,
+   "programCount": 5,
+   "programs": [
+    {
+     "name": "社区康复",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 477
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 467
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 470
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 28,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 492
+    },
+    {
+     "name": "智慧旅游技术应用",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 488
+    }
+   ],
+   "programNames": "社区康复、现代家政服务与管理、研学旅行管理与服务、智慧健康养老服务与管理、智慧旅游技术应用",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hdyouershifan.html"
+  },
+  {
+   "name": "沧州职业技术学院(任丘学院，就读于沧州任丘市)",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 30,
+   "minScore": 461,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 461
+    }
+   ],
+   "programNames": "旅游管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czzhiyejishu.html"
+  },
+  {
+   "name": "河北资源环境职业技术学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 20,
+   "minScore": 458,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "休闲服务与管理",
+     "plan": 15,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 458
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 5,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 475
+    }
+   ],
+   "programNames": "休闲服务与管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
+  },
+  {
+   "name": "河北司法警官职业学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 257,
+   "minScore": 456,
+   "subClasses": null,
+   "programCount": 8,
+   "programs": [
+    {
+     "name": "安全防范技术",
+     "plan": 38,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 460
+    },
+    {
+     "name": "法律事务",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 486
+    },
+    {
+     "name": "法律事务(企业法务)",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 472
+    },
+    {
+     "name": "法律文秘",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 460
+    },
+    {
+     "name": "公共事务管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 456
+    },
+    {
+     "name": "民事执行",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 459
+    },
+    {
+     "name": "社区矫正",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 463
+    },
+    {
+     "name": "司法信息技术",
+     "plan": 39,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 469
+    }
+   ],
+   "programNames": "安全防范技术、法律事务、法律事务(企业法务)、法律文秘、公共事务管理、民事执行、社区矫正、司法信息技术",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbsifajingguan.html"
+  },
+  {
+   "name": "河北劳动关系职业学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 158,
+   "minScore": 442,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "劳动关系管理与服务",
+     "plan": 110,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 442
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 48,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 463
+    }
+   ],
+   "programNames": "劳动关系管理与服务、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hblaodongguanxi.html"
+  },
+  {
+   "name": "河北青年管理干部学院",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 776,
+   "minScore": 439,
+   "subClasses": null,
+   "programCount": 7,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 144,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 441
+    },
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 439
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 264,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 449
+    },
+    {
+     "name": "社会工作",
+     "plan": 70,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 451
+    },
+    {
+     "name": "社区管理与服务",
+     "plan": 65,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 455
+    },
+    {
+     "name": "行政管理(应急管理)",
+     "plan": 133,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 439
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 476
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、烹饪工艺与营养、人力资源管理、社会工作、社区管理与服务、行政管理(应急管理)、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
+  },
+  {
+   "name": "冀中职业学院",
+   "type": "公办",
+   "city": "其他",
+   "plan": 10,
+   "minScore": 438,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 10,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 438
+    }
+   ],
+   "programNames": "旅游管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/jizhong.html"
+  },
+  {
+   "name": "河北旅游职业学院",
+   "type": "公办",
+   "city": "承德",
+   "plan": 149,
+   "minScore": 438,
+   "subClasses": null,
+   "programCount": 11,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 460
+    },
+    {
+     "name": "旅游管理(国际交流日语方向)",
+     "plan": 12,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 450
+    },
+    {
+     "name": "导游(中文导游方向)",
+     "plan": 12,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 451
+    },
+    {
+     "name": "导游(国际导游英语方向)",
+     "plan": 12,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 438
+    },
+    {
+     "name": "旅行社经营与管理",
+     "plan": 12,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 446
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 12,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 443
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 18,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 443
+    },
+    {
+     "name": "民宿管理与运营",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 438
+    },
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 16,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 445
+    },
+    {
+     "name": "营养配餐",
+     "plan": 13,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 438
+    },
+    {
+     "name": "智慧旅游技术应用",
+     "plan": 12,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 447
+    }
+   ],
+   "programNames": "旅游管理、旅游管理(国际交流日语方向)、导游(中文导游方向)、导游(国际导游英语方向)、旅行社经营与管理、研学旅行管理与服务、酒店管理与数字化运营、民宿管理与运营、烹饪工艺与营养、营养配餐、智慧旅游技术应用",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hblvyou.html"
+  },
+  {
+   "name": "邯郸幼儿师范高等专科学校(大名校区)",
+   "type": "公办",
+   "city": "邯郸",
+   "plan": 245,
+   "minScore": 438,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "会展策划与管理",
+     "plan": 245,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 438
+    }
+   ],
+   "programNames": "会展策划与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hdyouershifan.html"
+  },
+  {
+   "name": "河北女子职业技术学院",
+   "type": "公办",
+   "city": "其他",
+   "plan": 108,
+   "minScore": 437,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "现代家政服务与管理",
+     "plan": 87,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 437
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 21,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 470
+    }
+   ],
+   "programNames": "现代家政服务与管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbnvzi.html"
+  },
+  {
+   "name": "承德应用技术职业学院",
+   "type": "公办",
+   "city": "承德",
+   "plan": 127,
+   "minScore": 436,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 72,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 438
+    },
+    {
+     "name": "社会工作",
+     "plan": 18,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 441
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 37,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 436
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理、社会工作、研学旅行管理与服务",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/cdyingyong.html"
+  },
+  {
+   "name": "保定幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "保定",
+   "plan": 25,
+   "minScore": 435,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 25,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 435
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bdyouershifan.html"
+  },
+  {
+   "name": "保定职业技术学院（阜平校区）",
+   "type": "公办",
+   "city": "保定",
+   "plan": 60,
+   "minScore": 434,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 60,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 434
+    }
+   ],
+   "programNames": "旅游管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bdzhiyejishu.html"
+  },
+  {
+   "name": "河北正定师范高等专科学校",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 240,
+   "minScore": 432,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 160,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 432
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 80,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 441
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
+  },
+  {
+   "name": "石家庄幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "石家庄",
+   "plan": 120,
+   "minScore": 432,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 432
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 50,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 440
+    },
+    {
+     "name": "智慧旅游技术应用",
+     "plan": 20,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 437
+    }
+   ],
+   "programNames": "研学旅行管理与服务、智慧健康养老服务与管理、智慧旅游技术应用",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzyouershifan.html"
+  },
+  {
+   "name": "秦皇岛工业职业技术学院",
+   "type": "公办",
+   "city": "秦皇岛",
+   "plan": 77,
+   "minScore": 432,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "西式烹饪工艺",
+     "plan": 39,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 432
+    },
+    {
+     "name": "中西面点工艺",
+     "plan": 38,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 447
+    }
+   ],
+   "programNames": "西式烹饪工艺、中西面点工艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/qhgongye.html"
+  },
+  {
+   "name": "宣化科技职业学院",
+   "type": "公办",
+   "city": "张家口",
+   "plan": 50,
+   "minScore": 431,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 431
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 20,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 433
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、研学旅行管理与服务",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/xuanhuakeji.html"
+  },
+  {
+   "name": "张家口职业技术学院",
+   "type": "公办",
+   "city": "张家口",
+   "plan": 30,
+   "minScore": 431,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 431
+    }
+   ],
+   "programNames": "旅游管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
+  },
+  {
+   "name": "廊坊职业技术学院",
+   "type": "公办",
+   "city": "廊坊",
+   "plan": 92,
+   "minScore": 430,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 35,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 435
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 37,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 430
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 20,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 445
+    }
+   ],
+   "programNames": "旅游管理、现代家政服务与管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
+  },
+  {
+   "name": "沧州幼儿师范高等专科学校",
+   "type": "公办",
+   "city": "沧州",
+   "plan": 90,
+   "minScore": 429,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 40,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 435
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 429
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理、现代家政服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czyouershifan.html"
+  },
+  {
+   "name": "河北石油职业技术大学(中外合作办学)",
+   "type": "公办",
+   "city": "其他",
+   "plan": 30,
+   "minScore": 426,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "会展策划与管理(中外合作办学)",
+     "plan": 30,
+     "years": 3,
+     "tuition": 16000,
+     "minScore": 426
+    }
+   ],
+   "programNames": "会展策划与管理(中外合作办学)",
+   "programsComplete": true,
+   "tuitionRange": [
+    16000,
+    16000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbshiyou-zw.html"
+  },
+  {
+   "name": "衡水职业技术学院",
+   "type": "公办",
+   "city": "衡水",
+   "plan": 155,
+   "minScore": 426,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "现代家政服务与管理",
+     "plan": 70,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 426
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 426
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 55,
+     "years": 3,
+     "tuition": 5000,
+     "minScore": 429
+    }
+   ],
+   "programNames": "现代家政服务与管理、现代家政服务与管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hszhiyejishu.html"
+  },
+  {
+   "name": "河北工艺美术职业学院(蔚县文化旅游产业学院)",
+   "type": "公办",
+   "city": "保定",
+   "plan": 160,
+   "minScore": 425,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "旅游管理",
+     "plan": 160,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 425
+    }
+   ],
+   "programNames": "旅游管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    5000,
+    5000
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbgongyimeishu.html"
+  },
+  {
+   "name": "铁门关职业技术学院",
+   "type": "公办",
+   "city": "新疆",
+   "plan": 10,
+   "minScore": 424,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "党务工作",
+     "plan": 10,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 424
+    }
+   ],
+   "programNames": "党务工作",
+   "programsComplete": true,
+   "tuitionRange": [
+    3300,
+    3300
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tiemenguan.html"
+  },
+  {
+   "name": "昆玉职业技术学院",
+   "type": "公办",
+   "city": "新疆",
+   "plan": 8,
+   "minScore": 421,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 8,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 421
+    }
+   ],
+   "programNames": "烹饪工艺与营养",
+   "programsComplete": true,
+   "tuitionRange": [
+    3300,
+    3300
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/kunyu.html"
+  },
+  {
+   "name": "塔里木职业技术学院",
+   "type": "公办",
+   "city": "新疆",
+   "plan": 89,
+   "minScore": 418,
+   "subClasses": null,
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 14,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 420
+    },
+    {
+     "name": "旅游管理",
+     "plan": 45,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 418
+    },
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 15,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 418
+    },
+    {
+     "name": "中西面点工艺",
+     "plan": 15,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 422
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、旅游管理、烹饪工艺与营养、中西面点工艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    3300,
+    3300
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/talimu.html"
+  },
+  {
+   "name": "新疆生产建设兵团兴新职业技术学院",
+   "type": "公办",
+   "city": "新疆",
+   "plan": 38,
+   "minScore": 418,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 18,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 418
+    },
+    {
+     "name": "社会工作",
+     "plan": 20,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 423
+    }
+   ],
+   "programNames": "烹饪工艺与营养、社会工作",
+   "programsComplete": true,
+   "tuitionRange": [
+    3300,
+    3300
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
+  },
+  {
+   "name": "图木舒克职业技术学院",
+   "type": "公办",
+   "city": "新疆",
+   "plan": 65,
+   "minScore": 414,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 25,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 419
+    },
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 25,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 414
+    },
+    {
+     "name": "中西面点工艺",
+     "plan": 15,
+     "years": 3,
+     "tuition": 3300,
+     "minScore": 414
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、烹饪工艺与营养、中西面点工艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    3300,
+    3300
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tumushuke.html"
+  },
+  {
+   "name": "石家庄工商职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 410,
+   "minScore": 408,
+   "subClasses": null,
+   "programCount": 5,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 110,
+     "years": 3,
+     "tuition": 12000,
+     "minScore": 412
+    },
+    {
+     "name": "旅游管理",
+     "plan": 100,
+     "years": 3,
+     "tuition": 12000,
+     "minScore": 412
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 70,
+     "years": 3,
+     "tuition": 12800,
+     "minScore": 415
+    },
+    {
+     "name": "社会工作(智慧物业管理方向)",
+     "plan": 65,
+     "years": 3,
+     "tuition": 12800,
+     "minScore": 408
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 65,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 410
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、旅游管理、人力资源管理、社会工作(智慧物业管理方向)、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    12000,
+    13800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzgongshang.html"
+  },
+  {
+   "name": "邢台新能源职业学院",
+   "type": "民办",
+   "city": "邢台",
+   "plan": 450,
+   "minScore": 394,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "社区康复",
+     "plan": 270,
+     "years": 3,
+     "tuition": 9800,
+     "minScore": 394
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 180,
+     "years": 3,
+     "tuition": 9800,
+     "minScore": 402
+    }
+   ],
+   "programNames": "社区康复、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    9800,
+    9800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
+  },
+  {
+   "name": "石家庄理工职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 350,
+   "minScore": 393,
+   "subClasses": null,
+   "programCount": 3,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 150,
+     "years": 3,
+     "tuition": 11700,
+     "minScore": 393
+    },
+    {
+     "name": "旅游管理",
+     "plan": 150,
+     "years": 3,
+     "tuition": 11700,
+     "minScore": 399
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 50,
+     "years": 3,
+     "tuition": 11000,
+     "minScore": 396
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、旅游管理、现代家政服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    11000,
+    11700
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzligong.html"
+  },
+  {
+   "name": "石家庄人民医学高等专科学校",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 30,
+   "minScore": 391,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 30,
+     "years": 3,
+     "tuition": 16900,
+     "minScore": 391
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    16900,
+    16900
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzrenminyixue.html"
+  },
+  {
+   "name": "石家庄医学高等专科学校",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 50,
+   "minScore": 389,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 50,
+     "years": 3,
+     "tuition": 17500,
+     "minScore": 389
+    }
+   ],
+   "programNames": "智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    17500,
+    17500
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzyixue.html"
+  },
+  {
+   "name": "石家庄科技信息职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 300,
+   "minScore": 389,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "智慧旅游技术应用",
+     "plan": 300,
+     "years": 3,
+     "tuition": 12600,
+     "minScore": 389
+    }
+   ],
+   "programNames": "智慧旅游技术应用",
+   "programsComplete": true,
+   "tuitionRange": [
+    12600,
+    12600
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
+  },
+  {
+   "name": "保定理工学院",
+   "type": "民办",
+   "city": "保定",
+   "plan": 30,
+   "minScore": 381,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "西式烹饪工艺",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 381
+    }
+   ],
+   "programNames": "西式烹饪工艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    15800,
+    15800
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bdligong.html"
+  },
+  {
+   "name": "石家庄城市经济职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 260,
+   "minScore": 375,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "党务工作",
+     "plan": 160,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 375
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 100,
+     "years": 3,
+     "tuition": 13800,
+     "minScore": 383
+    }
+   ],
+   "programNames": "党务工作、人力资源管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    13800,
+    13800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
+  },
+  {
+   "name": "华北理工大学轻工学院",
+   "type": "民办",
+   "city": "其他",
+   "plan": 140,
+   "minScore": 374,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 70,
+     "years": 3,
+     "tuition": 15800,
+     "minScore": 374
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 70,
+     "years": 3,
+     "tuition": 15800,
+     "minScore": 376
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    15800,
+    15800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/huabeiligong.html"
+  },
+  {
+   "name": "石家庄财经职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 689,
+   "minScore": 358,
+   "subClasses": null,
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 176,
+     "years": 3,
+     "tuition": 12900,
+     "minScore": 361
+    },
+    {
+     "name": "旅游管理",
+     "plan": 257,
+     "years": 3,
+     "tuition": 12900,
+     "minScore": 367
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 138,
+     "years": 3,
+     "tuition": 12900,
+     "minScore": 383
+    },
+    {
+     "name": "智慧旅游技术应用",
+     "plan": 118,
+     "years": 3,
+     "tuition": 13900,
+     "minScore": 358
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、旅游管理、智慧健康养老服务与管理、智慧旅游技术应用",
+   "programsComplete": true,
+   "tuitionRange": [
+    12900,
+    13900
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzcaijing.html"
+  },
+  {
+   "name": "渤海理工职业学院",
+   "type": "民办",
+   "city": "沧州",
+   "plan": 300,
+   "minScore": 356,
+   "subClasses": null,
+   "programCount": 5,
+   "programs": [
+    {
+     "name": "安全防范技术",
+     "plan": 100,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 356
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 50,
+     "years": "3",
+     "tuition": 11800,
+     "minScore": 380
+    },
+    {
+     "name": "旅游管理",
+     "plan": 50,
+     "years": "3",
+     "tuition": 11800,
+     "minScore": 384
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 50,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 362
+    },
+    {
+     "name": "休闲服务与管理",
+     "plan": 50,
+     "years": "3",
+     "tuition": 11800,
+     "minScore": 370
+    }
+   ],
+   "programNames": "安全防范技术、酒店管理与数字化运营、旅游管理、人力资源管理、休闲服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    11800,
+    13900
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/bohailigong.html"
+  },
+  {
+   "name": "沧州航空职业学院",
+   "type": "民办",
+   "city": "沧州",
+   "plan": 500,
+   "minScore": 354,
+   "subClasses": null,
+   "programCount": 2,
+   "programs": [
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 249,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 363
+    },
+    {
+     "name": "智慧旅游技术应用(航空旅游数字化运营方向)",
+     "plan": 251,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 354
+    }
+   ],
+   "programNames": "研学旅行管理与服务、智慧旅游技术应用(航空旅游数字化运营方向)",
+   "programsComplete": true,
+   "tuitionRange": [
+    12800,
+    12800
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/czhangkong.html"
+  },
+  {
+   "name": "河北科技学院",
+   "type": "民办",
+   "city": "唐山",
+   "plan": 120,
+   "minScore": 344,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 120,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 344
+    }
+   ],
+   "programNames": "酒店管理与数字化运营",
+   "programsComplete": true,
+   "tuitionRange": [
+    15800,
+    15800
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/hbkeji.html"
+  },
+  {
+   "name": "石家庄工程职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 490,
+   "minScore": 342,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "人力资源管理",
+     "plan": 490,
+     "years": 3,
+     "tuition": 14800,
+     "minScore": 342
+    }
+   ],
+   "programNames": "人力资源管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    14800,
+    14800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzgongcheng.html"
+  },
+  {
+   "name": "河北外国语学院",
+   "type": "民办",
+   "city": "其他",
+   "plan": 300,
+   "minScore": 337,
+   "subClasses": null,
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "法律事务(国际法方向)",
+     "plan": 65,
+     "years": 3,
+     "tuition": 15210,
+     "minScore": 366
+    },
+    {
+     "name": "会展策划与管理",
+     "plan": 85,
+     "years": 3,
+     "tuition": 16000,
+     "minScore": 337
+    },
+    {
+     "name": "酒店管理与数字化运营(涉外酒店管理方向)",
+     "plan": 65,
+     "years": 3,
+     "tuition": 15210,
+     "minScore": 341
+    },
+    {
+     "name": "现代文秘(英汉双语速录方向)",
+     "plan": 85,
+     "years": 3,
+     "tuition": 14950,
+     "minScore": 339
+    }
+   ],
+   "programNames": "法律事务(国际法方向)、会展策划与管理、酒店管理与数字化运营(涉外酒店管理方向)、现代文秘(英汉双语速录方向)",
+   "programsComplete": true,
+   "tuitionRange": [
+    14950,
+    16000
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
+  },
+  {
+   "name": "唐山海运职业学院",
+   "type": "民办",
+   "city": "唐山",
+   "plan": 300,
+   "minScore": 333,
+   "subClasses": null,
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 80,
+     "years": 3,
+     "tuition": 17800,
+     "minScore": 336
+    },
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 70,
+     "years": 3,
+     "tuition": 17800,
+     "minScore": 333
+    },
+    {
+     "name": "西式烹饪工艺",
+     "plan": 80,
+     "years": 3,
+     "tuition": 17800,
+     "minScore": 333
+    },
+    {
+     "name": "中西面点工艺",
+     "plan": 70,
+     "years": 3,
+     "tuition": 17800,
+     "minScore": 333
+    }
+   ],
+   "programNames": "酒店管理与数字化运营、烹饪工艺与营养、西式烹饪工艺、中西面点工艺",
+   "programsComplete": true,
+   "tuitionRange": [
+    17800,
+    17800
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/tshaiyun.html"
+  },
+  {
+   "name": "曹妃甸职业技术学院",
+   "type": "民办",
+   "city": "唐山",
+   "plan": 330,
+   "minScore": 333,
+   "subClasses": null,
+   "programCount": 4,
+   "programs": [
+    {
+     "name": "烹饪工艺与营养",
+     "plan": 100,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 333
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 100,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 342
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 70,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 333
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 60,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 357
+    }
+   ],
+   "programNames": "烹饪工艺与营养、酒店管理与数字化运营、现代家政服务与管理、智慧健康养老服务与管理",
+   "programsComplete": true,
+   "tuitionRange": [
+    16800,
+    17800
+   ],
+   "years": [
+    "3"
+   ],
+   "source": "school-page",
+   "url": "https://hbdzxx.com/school/caofeidian.html"
+  },
+  {
+   "name": "石家庄经济职业学院",
+   "type": "民办",
+   "city": "石家庄",
+   "plan": 355,
+   "minScore": 333,
+   "subClasses": null,
+   "programCount": 1,
+   "programs": [
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 355,
+     "years": 3,
+     "tuition": 18500,
+     "minScore": 333
+    }
+   ],
+   "programNames": "酒店管理与数字化运营",
+   "programsComplete": true,
+   "tuitionRange": [
+    18500,
+    18500
+   ],
+   "years": [
+    3
+   ],
+   "source": "repo-fallback",
+   "url": "https://hbdzxx.com/school/sjzjingji.html"
+  }
+ ],
+ "subjects": [
+  {
+   "kind": "文化素质",
+   "subject": "语文 + 数学",
+   "full": "300 分",
+   "syllabus": []
+  },
+  {
+   "kind": "职业技能",
+   "subject": "地理、职业适应性测试",
+   "full": "450 分",
+   "syllabus": []
+  }
+ ]
 }

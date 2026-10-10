@@ -1,624 +1,938 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>河北单招 · 智能估分选校</title>
-<meta name="description" content="基于2026年河北省高职单招公开招生计划与历史投档数据，智能匹配院校与专业">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>河北单招 · 2026 估分选校</title>
+<meta name="description" content="河北省高职单招 2026 年招生院校投档数据查询与估分选校：按分数匹配最接近的院校，支持公办/民办、城市筛选与昼夜模式。">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+<!-- 开源样式基座：Pico CSS v2.1.1 (MIT) — https://github.com/picocss/pico -->
+<link rel="stylesheet" href="assets/pico.min.css">
 <style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+/* ===================================================================
+   站点主题层
+   · 基座为 Pico CSS v2.1.1 (MIT)，此处只做配色/排版/组件覆盖
+   · 昼夜模式：html[data-theme="light|dark"]，Pico 原生支持
+   =================================================================== */
+
+/* ---------- 设计令牌：浅色（默认） ---------- */
 :root{
-  --bg:#0a0a1a;--card:#111128;--glass:rgba(255,255,255,0.03);
-  --border:rgba(255,255,255,0.06);--text:#e8e8f0;--text2:#8888aa;
-  --accent:#6c5ce7;--accent2:#00cec9;--accent3:#fd79a8;
-  --grad1:linear-gradient(135deg,#6c5ce7,#00cec9);
-  --grad2:linear-gradient(135deg,#a29bfe,#74b9ff);
-  --radius:16px;--radius-sm:10px;
+  --pico-font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --pico-font-size:100%;
+  --pico-line-height:1.65;
+  --pico-border-radius:12px;
+  --pico-spacing:1rem;
+
+  --bg:#f4f6fb;
+  --bg-soft:#e9edf7;
+  --surface:#ffffff;
+  --surface-2:#f0f3fa;
+  --text:#141830;
+  --text-2:#5b6478;
+  --text-3:#8b93a7;
+  --border:#dde2ef;
+  --border-2:#c9d1e4;
+  --accent:#4338ca;
+  --accent-soft:#eceafe;
+  --teal:#0f766e;
+  --ok:#15803d;
+  --ok-soft:#e7f6ec;
+  --warn:#b45309;
+  --warn-soft:#fdf3e3;
+  --bad:#b91c1c;
+  --bad-soft:#fdeaea;
+  --pub:#0e7490;
+  --pub-soft:#e2f4f8;
+  --pri:#a21caf;
+  --pri-soft:#fbeafe;
+  --shadow-sm:0 1px 2px rgba(17,24,60,.06);
+  --shadow:0 1px 3px rgba(17,24,60,.07),0 10px 28px rgba(17,24,60,.07);
+  --radius:14px;
+  --radius-sm:10px;
 }
-html{font-size:16px;scroll-behavior:smooth}
+/* ---------- 设计令牌：深色 ---------- */
+html[data-theme="dark"]{
+  --bg:#0c1017;
+  --bg-soft:#121826;
+  --surface:#151b26;
+  --surface-2:#1b2230;
+  --text:#e9edf6;
+  --text-2:#a2adc2;
+  --text-3:#78849b;
+  --border:#28313f;
+  --border-2:#38445a;
+  --accent:#9aa8ff;
+  --accent-soft:#1e2540;
+  --teal:#5eead4;
+  --ok:#5ddb92;
+  --ok-soft:#12301f;
+  --warn:#fbbf24;
+  --warn-soft:#33270c;
+  --bad:#fb8a8a;
+  --bad-soft:#3a1717;
+  --pub:#67d3e8;
+  --pub-soft:#0d2c34;
+  --pri:#f0a6f7;
+  --pri-soft:#2f1233;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.5);
+  --shadow:0 1px 3px rgba(0,0,0,.5),0 12px 30px rgba(0,0,0,.4);
+}
+
+/* ---------- 与 Pico 基座的边界：只借用其排版/表单/主题能力，组件外观全部由本站接管 ---------- */
+article,details,figure,table,blockquote{margin-bottom:0}
+.card,.syl,details.more,table.mini{margin:0}
+details>summary{list-style:none}
+details>summary::-webkit-details-marker{display:none}
+
+/* ---------- 全局排版：可读性优先 ---------- */
+html{font-size:16px;-webkit-text-size-adjust:100%}
 body{
-  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
-  background:var(--bg);color:var(--text);min-height:100vh;
-  overflow-x:hidden;line-height:1.6;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--pico-font-family);
+  line-height:1.65;
+  margin:0;
+  padding-bottom:env(safe-area-inset-bottom);
+  overflow-x:hidden;
 }
-.bg-orbs{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
-.orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.15;animation:float 20s ease-in-out infinite}
-.orb:nth-child(1){width:500px;height:500px;background:#6c5ce7;top:-10%;left:-10%;animation-delay:0s}
-.orb:nth-child(2){width:400px;height:400px;background:#00cec9;bottom:-10%;right:-10%;animation-delay:-7s}
-.orb:nth-child(3){width:350px;height:350px;background:#fd79a8;top:40%;left:50%;animation-delay:-14s}
-@keyframes float{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(30px,-40px) scale(1.1)}50%{transform:translate(-20px,30px) scale(.95)}75%{transform:translate(40px,20px) scale(1.05)}}
+body.modal-open{overflow:hidden}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+h1,h2,h3,h4{color:var(--text);line-height:1.3;margin:0}
+p{margin:0}
+a{color:var(--accent)}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
 
-.container{max-width:1200px;margin:0 auto;padding:16px;position:relative;z-index:1}
+/* ---------- 顶栏 ---------- */
+.topbar{
+  position:sticky;top:0;z-index:40;
+  background:var(--surface);
+  background:color-mix(in srgb,var(--surface) 88%,transparent);
+  backdrop-filter:saturate(180%) blur(12px);
+  -webkit-backdrop-filter:saturate(180%) blur(12px);
+  border-bottom:1px solid var(--border);
+}
+.topbar-in{display:flex;align-items:center;gap:10px;height:56px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:1rem;color:var(--text);text-decoration:none;letter-spacing:-.01em}
+.brand .logo{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:14px;
+  background:linear-gradient(135deg,var(--accent),var(--teal));color:#fff}
+.brand small{display:block;font-size:.68rem;font-weight:500;color:var(--text-3);letter-spacing:0}
+.spacer{flex:1}
+.iconbtn{
+  appearance:none;border:1px solid var(--border);background:var(--surface);
+  color:var(--text);border-radius:999px;height:36px;min-width:36px;padding:0 12px;
+  font-size:.85rem;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px;
+  transition:border-color .2s,background .2s,transform .1s;box-shadow:var(--shadow-sm);
+}
+.iconbtn:hover{border-color:var(--border-2);background:var(--surface-2)}
+.iconbtn:active{transform:scale(.97)}
+.iconbtn.feedback{text-decoration:none}
 
-/* Header */
-.hero{text-align:center;padding:40px 16px 30px;position:relative}
-.hero h1{
-  font-size:clamp(1.8rem,5vw,2.8rem);font-weight:800;
-  background:var(--grad1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;margin-bottom:8px;letter-spacing:-.02em;
-}
-.hero .subtitle{font-size:.9rem;color:var(--text2);font-weight:400}
-.hero .badge{
-  display:inline-block;margin-top:12px;padding:4px 14px;
-  background:var(--glass);border:1px solid var(--border);border-radius:20px;
-  font-size:.75rem;color:var(--accent2);
-}
+/* ---------- Hero ---------- */
+.hero{padding:26px 0 18px;text-align:center}
+.hero h1{font-size:clamp(1.5rem,5vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+.hero h1 .grad{background:linear-gradient(120deg,var(--accent),var(--teal));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{margin-top:8px;color:var(--text-2);font-size:.9rem}
+.hero .pills{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+.pill{font-size:.72rem;padding:4px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text-2)}
 
-/* Glass Card */
-.glass{
-  background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-  border:1px solid var(--border);border-radius:var(--radius);
-  box-shadow:0 8px 32px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.05);
-}
-.glass-strong{
-  background:rgba(255,255,255,0.06);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);
-  border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);
-  box-shadow:0 8px 32px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.08);
-}
+/* ---------- 通用面板 ---------- */
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px;margin-bottom:12px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.row+.row{margin-top:10px}
+.row-label{font-size:.78rem;color:var(--text-3);font-weight:600;min-width:56px;flex-shrink:0}
 
-/* Mode Tabs */
-.mode-tabs{display:flex;gap:8px;margin:20px 0;justify-content:center}
-.mode-tab{
-  flex:1;max-width:280px;padding:14px 20px;border-radius:var(--radius-sm);
-  border:1px solid var(--border);background:var(--glass);color:var(--text2);
-  cursor:pointer;text-align:center;font-size:.9rem;font-weight:600;
-  transition:all .3s ease;position:relative;overflow:hidden;
+/* ---------- 模式切换 ---------- */
+.modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.mode{
+  appearance:none;cursor:pointer;text-align:left;font:inherit;
+  background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius);
+  padding:12px 14px;color:var(--text-2);box-shadow:var(--shadow-sm);transition:all .2s;
 }
-.mode-tab:hover{border-color:rgba(108,92,231,.3);color:var(--text)}
-.mode-tab.active{
-  background:linear-gradient(135deg,rgba(108,92,231,.2),rgba(0,206,201,.1));
-  border-color:var(--accent);color:#fff;
-  box-shadow:0 0 20px rgba(108,92,231,.2);
-}
-.mode-tab .tab-icon{font-size:1.4rem;display:block;margin-bottom:4px}
-.mode-tab .tab-count{font-size:.7rem;color:var(--text2);font-weight:400}
+.mode .t{display:block;font-weight:700;font-size:.92rem;color:var(--text)}
+.mode .s{display:block;font-size:.72rem;margin-top:2px}
+.mode[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.mode[aria-pressed="true"] .t{color:var(--accent)}
 
-/* Filter Panel */
-.filter-panel{padding:20px;margin-bottom:16px}
-.filter-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px;align-items:center}
-.filter-label{font-size:.8rem;color:var(--text2);min-width:60px;font-weight:500}
-.filter-group{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+/* ---------- 筛选 chip ---------- */
+.chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{
-  padding:6px 14px;border-radius:20px;border:1px solid var(--border);
-  background:var(--glass);color:var(--text2);cursor:pointer;font-size:.8rem;
-  transition:all .25s ease;white-space:nowrap;
+  appearance:none;cursor:pointer;font:inherit;font-size:.8rem;font-weight:600;
+  padding:6px 13px;border-radius:999px;border:1px solid var(--border);
+  background:var(--surface);color:var(--text-2);transition:all .18s;white-space:nowrap;
 }
-.chip:hover{border-color:rgba(108,92,231,.4);color:var(--text)}
-.chip.active{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 2px 12px rgba(108,92,231,.3)}
+.chip:hover{border-color:var(--border-2);color:var(--text)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+html[data-theme="dark"] .chip[aria-pressed="true"]{color:#0c1017}
 
-/* Input */
-.input-wrap{position:relative;flex:1;min-width:200px}
-.input-wrap input,.input-wrap select{
-  width:100%;padding:10px 14px 10px 36px;border-radius:var(--radius-sm);
-  border:1px solid var(--border);background:rgba(0,0,0,.3);color:var(--text);
-  font-size:.9rem;outline:none;transition:border-color .3s;
+/* ---------- 输入 ---------- */
+input[type=number],input[type=search],input[type=text],select{
+  font:inherit;font-size:.92rem;color:var(--text);background:var(--surface);
+  border:1px solid var(--border);border-radius:var(--radius-sm);padding:9px 12px;
+  margin:0;height:auto;box-shadow:none;width:auto;
 }
-.input-wrap input:focus,.input-wrap select:focus{border-color:var(--accent)}
-.input-wrap .icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text2);font-size:.9rem}
-.input-wrap select option{background:#1a1a2e;color:#e8e8f0}
+input:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+#userScore{width:110px;text-align:center;font-weight:800;font-size:1.05rem;color:var(--accent);letter-spacing:.02em}
+.search{flex:1;min-width:150px}
+.hint{font-size:.76rem;color:var(--text-3)}
+.toggle{display:inline-flex;align-items:center;gap:7px;font-size:.8rem;color:var(--text-2);cursor:pointer;user-select:none}
+.toggle input{width:16px;height:16px;margin:0;accent-color:var(--accent)}
 
-/* Score Input */
-.score-section{padding:16px 20px;margin-bottom:16px}
-.score-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.score-input{
-  width:120px;padding:10px 14px;border-radius:var(--radius-sm);
-  border:1px solid var(--border);background:rgba(0,0,0,.3);color:var(--accent2);
-  font-size:1.1rem;font-weight:700;text-align:center;outline:none;
+/* ---------- 统计条 ---------- */
+.stats{display:flex;gap:14px;flex-wrap:wrap;font-size:.8rem;color:var(--text-2);padding:10px 14px;margin-bottom:10px;
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-sm)}
+.stats b{color:var(--accent);font-weight:800}
+
+/* ---------- 结果卡片 ---------- */
+.cards{display:flex;flex-direction:column;gap:10px}
+.card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:14px;box-shadow:var(--shadow-sm);transition:border-color .2s,box-shadow .2s;
 }
-.score-input:focus{border-color:var(--accent2);box-shadow:0 0 15px rgba(0,206,201,.2)}
-.score-hint{font-size:.75rem;color:var(--text2)}
+.card:hover{border-color:var(--border-2);box-shadow:var(--shadow)}
+.card-head{display:flex;gap:10px;align-items:flex-start;justify-content:space-between}
+.school{font-size:1.02rem;font-weight:800;line-height:1.35;letter-spacing:-.01em}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}
+.tag{font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:999px;border:1px solid transparent;white-space:nowrap}
+.tag.pub{background:var(--pub-soft);color:var(--pub);border-color:var(--border);border-color:color-mix(in srgb,var(--pub) 25%,transparent)}
+.tag.pri{background:var(--pri-soft);color:var(--pri);border-color:var(--border);border-color:color-mix(in srgb,var(--pri) 25%,transparent)}
+.tag.city{background:var(--surface-2);color:var(--text-2);border-color:var(--border)}
+.tag.sub{background:var(--accent-soft);color:var(--accent);border-color:var(--border);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+.score-big{text-align:right;flex-shrink:0}
+.score-big .v{font-size:1.35rem;font-weight:800;color:var(--text);line-height:1.1}
+.score-big .l{font-size:.66rem;color:var(--text-3)}
 
-/* Sort */
-.sort-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:0 0 12px}
-.sort-btn{
-  padding:5px 12px;border-radius:16px;border:1px solid var(--border);
-  background:transparent;color:var(--text2);cursor:pointer;font-size:.75rem;
-  transition:all .25s;
+.verdict{margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  padding:8px 11px;border-radius:var(--radius-sm);font-size:.85rem;font-weight:700;border:1px solid transparent}
+.verdict .gap{font-weight:800}
+.v-safe{background:var(--ok-soft);color:var(--ok);border-color:var(--border);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.v-rush{background:var(--warn-soft);color:var(--warn);border-color:var(--border);border-color:color-mix(in srgb,var(--warn) 30%,transparent)}
+.v-no{background:var(--bad-soft);color:var(--bad);border-color:var(--border);border-color:color-mix(in srgb,var(--bad) 30%,transparent)}
+.v-none{background:var(--surface-2);color:var(--text-2);border-color:var(--border)}
+
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(94px,1fr));gap:8px;margin-top:10px}
+.meta div{background:var(--surface-2);border-radius:var(--radius-sm);padding:7px 9px;font-size:.86rem;font-weight:700;color:var(--text)}
+.meta span{display:block;font-size:.68rem;font-weight:600;color:var(--text-3);margin-bottom:1px}
+.majors{margin-top:9px;font-size:.83rem;color:var(--text-2);line-height:1.6}
+.majors b{color:var(--text-3);font-weight:700}
+details.more{margin-top:8px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface-2);padding:0}
+details.more>summary{font-size:.78rem;font-weight:700;color:var(--text-2);padding:8px 11px;cursor:pointer;list-style:none}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary::before{content:"▸ ";color:var(--accent)}
+details.more[open]>summary::before{content:"▾ "}
+details.more .inner{padding:0 11px 10px;font-size:.78rem;color:var(--text-2)}
+.mline{display:flex;justify-content:space-between;gap:10px;padding:3px 0;border-bottom:1px dashed var(--border)}
+.mline:last-child{border-bottom:0}
+.src{margin-top:8px;font-size:.72rem;color:var(--text-3)}
+.card.warn-card{border-color:var(--border-2);border-color:color-mix(in srgb,var(--warn) 35%,var(--border))}
+
+/* ---------- 大纲板块 ---------- */
+.sec-title{display:flex;align-items:baseline;gap:10px;margin:26px 0 10px}
+.sec-title h2{font-size:1.15rem;font-weight:800}
+.sec-title p{font-size:.78rem;color:var(--text-3)}
+.syl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+.syl{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden}
+.syl>summary{padding:12px 14px;cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px}
+.syl>summary::-webkit-details-marker{display:none}
+.syl>summary .n{font-weight:800;font-size:.95rem}
+.syl>summary .d{font-size:.7rem;color:var(--text-3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.syl>summary .cl{font-size:.7rem;font-weight:700;color:var(--teal);white-space:nowrap}
+.syl .body{padding:0 14px 14px;border-top:1px solid var(--border)}
+.kv{display:flex;gap:10px;padding:7px 0;font-size:.82rem;border-bottom:1px dashed var(--border)}
+.kv:last-child{border-bottom:0}
+.kv .k{color:var(--text-3);min-width:64px;flex-shrink:0;font-weight:700}
+.kv .v{color:var(--text)}
+.syl-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.syl-links a{font-size:.76rem;font-weight:700;text-decoration:none;padding:5px 10px;border-radius:999px;
+  background:var(--accent-soft);color:var(--accent);border:1px solid var(--border);
+  border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+.points{margin:8px 0 0;padding-left:18px;font-size:.79rem;color:var(--text-2)}
+.points li{margin:3px 0}
+.note{font-size:.75rem;color:var(--text-3);margin-top:8px;line-height:1.6}
+table.mini{width:100%;border-collapse:collapse;font-size:.8rem;margin-top:8px}
+table.mini th,table.mini td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--border)}
+table.mini th{color:var(--text-3);font-weight:700;background:var(--surface-2)}
+table.mini td{color:var(--text)}
+
+/* ---------- 空/加载 ---------- */
+.state{text-align:center;padding:44px 16px;color:var(--text-2);font-size:.88rem}
+.state .em{font-size:2.2rem;display:block;margin-bottom:10px}
+.spin{width:30px;height:30px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;
+  animation:sp .8s linear infinite;margin:0 auto 12px}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+/* ---------- 页脚 ---------- */
+footer.site{margin-top:28px;padding:20px 0 34px;border-top:1px solid var(--border);color:var(--text-3);font-size:.76rem;line-height:1.75}
+footer.site a{color:var(--text-2)}
+footer.site .flinks{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+
+/* ---------- 免责声明弹窗 ---------- */
+.mask{position:fixed;inset:0;z-index:100;background:rgba(8,10,20,.62);display:none;align-items:center;justify-content:center;padding:16px}
+.mask.show{display:flex}
+.modal{
+  width:min(560px,100%);max-height:min(88vh,620px);display:flex;flex-direction:column;
+  background:var(--surface);border:1px solid var(--border);border-radius:18px;
+  box-shadow:0 24px 60px rgba(0,0,0,.4);overflow:hidden;animation:pop .22s ease;
 }
-.sort-btn:hover{border-color:var(--accent);color:var(--text)}
-.sort-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
-
-/* Stats */
-.stats{padding:12px 20px;margin-bottom:16px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
-.stat{font-size:.8rem;color:var(--text2)}
-.stat strong{color:var(--accent2);font-weight:700}
-
-/* Results */
-.results-info{padding:8px 20px;font-size:.8rem;color:var(--text2);margin-bottom:8px}
-
-/* Card Grid */
-.card-grid{display:flex;flex-direction:column;gap:12px;padding-bottom:40px}
-
-/* Program Card */
-.program-card{
-  padding:16px;border-radius:var(--radius);border:1px solid var(--border);
-  background:rgba(255,255,255,0.02);transition:all .3s ease;
-  position:relative;overflow:hidden;
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+.modal header{padding:16px 18px 12px;border-bottom:1px solid var(--border)}
+.modal header h2{font-size:1.05rem;font-weight:800}
+.modal header p{font-size:.75rem;color:var(--text-3);margin-top:3px}
+/* 内容区强制可滚动：确保无论屏幕多高，都必须滑到底部才能点“同意” */
+.modal .scroll{padding:14px 18px;overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1 1 auto;
+  min-height:180px;max-height:min(52vh,430px);overscroll-behavior:contain}
+.modal .scroll ol{padding-left:20px;margin:0}
+.modal .scroll li{font-size:.85rem;color:var(--text-2);margin-bottom:9px;line-height:1.75}
+.modal .scroll li b{color:var(--text)}
+.modal .scroll .lead{font-size:.85rem;color:var(--text-2);margin-bottom:12px;line-height:1.75}
+.modal footer{padding:12px 18px 14px;border-top:1px solid var(--border);background:var(--surface-2)}
+.modal .prog{height:3px;background:var(--border);border-radius:2px;overflow:hidden;margin-bottom:10px}
+.modal .prog i{display:block;height:100%;width:0;background:var(--accent);transition:width .15s linear}
+.modal .foot-row{display:flex;align-items:center;gap:10px}
+.modal .foot-hint{font-size:.74rem;color:var(--text-3);flex:1}
+.modal .foot-hint.ready{color:var(--ok);font-weight:700}
+#disclaimerClose{
+  appearance:none;font:inherit;font-weight:800;font-size:.88rem;cursor:pointer;
+  padding:10px 18px;border-radius:11px;border:1px solid transparent;transition:all .22s;white-space:nowrap;
 }
-.program-card::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:var(--grad1);opacity:0;transition:opacity .3s;
+#disclaimerClose[disabled]{cursor:not-allowed;background:var(--surface-2);color:var(--text-3);
+  border-color:var(--border);box-shadow:none;opacity:.9}
+#disclaimerClose[disabled]:hover{background:var(--surface-2);border-color:var(--border)}
+#disclaimerClose.ready{background:#15803d;color:#fff;border-color:#15803d;box-shadow:0 4px 14px rgba(21,128,61,.35)}
+#disclaimerClose.ready:hover{background:#166534;border-color:#166534}
+html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#22c55e;color:#06210f}
+
+@media (max-width:640px){
+  html{font-size:15.5px}
+  .wrap{padding:0 12px}
+  .panel{padding:11px;margin-bottom:9px}
+  .hero{padding:14px 0 10px}
+  .hero p{font-size:.84rem}
+  .hero .pills{margin-top:9px}
+  .modes{margin-bottom:9px}
+  .mode{padding:10px 12px}
+  .row+.row{margin-top:8px}
+  /* 城市较多，手机上改为单行横向滚动，避免占掉半屏 */
+  #cityChips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+  #cityChips::-webkit-scrollbar{display:none}
+  .stats{gap:10px;padding:9px 12px}
+  .modes{grid-template-columns:1fr}
+  .hero{padding:18px 0 12px}
+  .syl-grid{grid-template-columns:1fr}
+  .score-big .v{font-size:1.2rem}
 }
-.program-card:hover{border-color:rgba(108,92,231,.3);transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,0,0,.3)}
-.program-card:hover::before{opacity:1}
-
-.card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px}
-.school-info{flex:1;min-width:0}
-.school-name{
-  font-size:1rem;font-weight:700;color:#fff;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-}
-.school-meta{display:flex;gap:8px;margin-top:4px;flex-wrap:wrap}
-.tag{
-  display:inline-flex;align-items:center;padding:2px 8px;border-radius:12px;
-  font-size:.7rem;font-weight:500;
-}
-.tag-public{background:rgba(0,206,201,.15);color:#00cec9}
-.tag-private{background:rgba(253,121,168,.15);color:#fd79a8}
-.tag-city{background:rgba(108,92,231,.15);color:#a29bfe}
-
-.program-name{font-size:.9rem;font-weight:600;color:var(--accent2);margin-bottom:8px}
-.program-detail{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:6px;margin-bottom:8px}
-.detail-item{font-size:.78rem;color:var(--text2)}
-.detail-item span{color:var(--text);font-weight:500}
-
-/* Score Compare */
-.score-compare{
-  padding:8px 12px;border-radius:var(--radius-sm);margin-top:8px;
-  font-size:.82rem;font-weight:600;display:flex;align-items:center;gap:6px;
-}
-.score-above{background:rgba(0,206,201,.1);color:#00cec9;border:1px solid rgba(0,206,201,.2)}
-.score-near{background:rgba(253,204,0,.1);color:#fdcb6e;border:1px solid rgba(253,204,0,.2)}
-.score-below{background:rgba(253,121,168,.1);color:#fd79a8;border:1px solid rgba(253,121,168,.2)}
-.score-na{background:rgba(255,255,255,.03);color:var(--text2);border:1px solid var(--border)}
-.tag-chong{background:rgba(253,121,168,.15);color:#fd79a8;border:1px solid rgba(253,121,168,.3)}
-.tag-wen{background:rgba(253,204,0,.15);color:#fdcb6e;border:1px solid rgba(253,204,0,.3)}
-.tag-bao{background:rgba(0,206,201,.15);color:#00cec9;border:1px solid rgba(0,206,201,.3)}
-
-.remark-text{font-size:.72rem;color:var(--text2);margin-top:6px;font-style:italic;line-height:1.4}
-
-/* Loading */
-.loading{text-align:center;padding:60px 20px;color:var(--text2)}
-.loading .spinner{
-  width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--accent);
-  border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px;
-}
-@keyframes spin{to{transform:rotate(360deg)}}
-
-/* Empty */
-.empty{text-align:center;padding:60px 20px;color:var(--text2)}
-.empty .icon{font-size:3rem;margin-bottom:12px}
-
-/* Footer */
-.footer{
-  text-align:center;padding:30px 20px;font-size:.72rem;color:var(--text2);
-  border-top:1px solid var(--border);margin-top:20px;line-height:1.8;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar{width:6px}
-::-webkit-scrollbar-track{background:transparent}
-::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:3px}
-
-/* Animations */
-@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-.fade-in{animation:fadeIn .4s ease forwards}
-
-/* Mobile */
-@media(max-width:640px){
-  .container{padding:10px}
-  .hero{padding:24px 10px 20px}
-  .hero h1{font-size:1.6rem}
-  .mode-tabs{gap:6px}
-  .mode-tab{padding:10px 12px;font-size:.82rem}
-  .filter-panel{padding:14px}
-  .score-section{padding:12px 14px}
-  .program-card{padding:12px}
-  .program-detail{grid-template-columns:repeat(2,1fr)}
-  .stats{padding:10px 14px;gap:10px}
-}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 </style>
 </head>
 <body>
 
-<div class="bg-orbs">
-  <div class="orb"></div><div class="orb"></div><div class="orb"></div>
+<!-- ================= 顶栏 ================= -->
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top">
+      <span class="logo">🎓</span>
+      <span>河北单招 估分选校<small>2026 投档数据</small></span>
+    </a>
+    <span class="spacer"></span>
+    <button class="iconbtn" id="themeToggle" type="button" aria-label="切换深色/浅色模式" title="切换深色/浅色模式">
+      <span id="themeIcon">🌙</span><span id="themeText">深色</span>
+    </button>
+    <a class="iconbtn feedback" id="feedbackTop" href="mailto:2932944216@qq.com" title="邮件反馈">反馈</a>
+  </div>
 </div>
 
-<div class="container">
-  <!-- Hero -->
+<div class="wrap" id="top">
+
+  <!-- ================= Hero ================= -->
   <header class="hero">
-    <h1>河北单招<br>智能估分选校</h1>
-    <p class="subtitle">基于2026年公开招生计划与历史投档数据</p>
-    <span class="badge">数据来源：河北省教育考试院</span>
+    <h1>河北单招 · <span class="grad">2026 估分选校</span></h1>
+    <p>输入你的分数，优先看到<strong>分数最接近</strong>的院校；每所院校一行，专业已合并。</p>
+    <div class="pills">
+      <span class="pill" id="pillSchools">院校 —</span>
+      <span class="pill" id="pillFetched">数据抓取：—</span>
+      <span class="pill">来源：hbdzxx.com</span>
+    </div>
   </header>
 
-  <!-- Mode Tabs -->
-  <div class="mode-tabs">
-    <div class="mode-tab active" onclick="switchSystem('exam')" id="tab-exam">
-      <span class="tab-icon">📚</span>
-      普通高职单招
-      <span class="tab-count">10个考试类</span>
-    </div>
-    <div class="mode-tab" onclick="switchSystem('vocational')" id="tab-vocational">
-      <span class="tab-icon">💻</span>
-      对口计算机类
-      <span class="tab-count">中职对口招生</span>
-    </div>
+  <!-- ================= 模式 ================= -->
+  <div class="modes">
+    <button class="mode" id="mode-exam" type="button" aria-pressed="true" onclick="switchSystem('exam')">
+      <span class="t">📚 普通高职单招</span>
+      <span class="s">考试一类 ~ 考试十类</span>
+    </button>
+    <button class="mode" id="mode-vocational" type="button" aria-pressed="false" onclick="switchSystem('vocational')">
+      <span class="t">💻 对口计算机类</span>
+      <span class="s">中职对口招生</span>
+    </button>
   </div>
 
-  <!-- Category Chips -->
-  <div class="filter-panel glass" id="categoryPanel">
-    <div class="filter-row">
-      <span class="filter-label">考试类</span>
-      <div class="filter-group" id="categoryChips"></div>
+  <!-- ================= 分数 ================= -->
+  <section class="panel">
+    <div class="row">
+      <span class="row-label">我的分数</span>
+      <input type="number" id="userScore" inputmode="numeric" placeholder="如 480" min="0" max="750" aria-label="我的分数">
+      <span class="hint" id="scoreHint">输入后自动按“离我最近”排序</span>
     </div>
-  </div>
-
-  <!-- Score Input -->
-  <div class="score-section glass">
-    <div class="score-row">
-      <span class="filter-label">我的分数</span>
-      <input type="number" class="score-input" id="userScore" placeholder="输入分数" min="0" max="750" oninput="onScoreInput()">
-      <span class="score-hint">输入后自动筛选 · 历史投档参考</span>
+    <div class="row" id="verdictLegend" style="display:none">
+      <span class="row-label">判定</span>
+      <span class="chip" style="cursor:default;background:var(--ok-soft);color:var(--ok);border-color:transparent">比较稳 &gt; +15 分</span>
+      <span class="chip" style="cursor:default;background:var(--warn-soft);color:var(--warn);border-color:transparent">可以冲 +5 ~ +15 分</span>
+      <span class="chip" style="cursor:default;background:var(--bad-soft);color:var(--bad);border-color:transparent">不推荐 ≤ +5 分</span>
     </div>
-  </div>
+  </section>
 
-  <!-- Filters -->
-  <div class="filter-panel glass">
-    <div class="filter-row">
-      <span class="filter-label">办学性质</span>
-      <div class="filter-group" id="typeChips">
-        <span class="chip active" onclick="setType('all',this)">全部</span>
-        <span class="chip" onclick="setType('公办',this)">公办</span>
-        <span class="chip" onclick="setType('民办',this)">民办</span>
+  <!-- ================= 筛选 ================= -->
+  <section class="panel">
+    <div class="row">
+      <span class="row-label">考试类</span>
+      <div class="chips" id="categoryChips"></div>
+    </div>
+    <div class="row">
+      <span class="row-label">办学性质</span>
+      <div class="chips" id="typeChips">
+        <button class="chip" type="button" aria-pressed="true" data-type="all">全部</button>
+        <button class="chip" type="button" aria-pressed="false" data-type="公办">公办</button>
+        <button class="chip" type="button" aria-pressed="false" data-type="民办">民办</button>
       </div>
     </div>
-    <div class="filter-row">
-      <span class="filter-label">城市</span>
-      <div class="filter-group" id="cityChips"></div>
+    <div class="row">
+      <span class="row-label">城市</span>
+      <div class="chips" id="cityChips"></div>
     </div>
-    <div class="filter-row">
-      <span class="filter-label">搜索</span>
-      <div class="input-wrap">
-        <span class="icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="搜索专业或院校名称..." oninput="applyFilters()">
+    <div class="row">
+      <span class="row-label">排序</span>
+      <div class="chips" id="sortChips">
+        <button class="chip" type="button" data-sort="nearest" aria-pressed="true">离我最近</button>
+        <button class="chip" type="button" data-sort="score_desc" aria-pressed="false">投档分↓</button>
+        <button class="chip" type="button" data-sort="score_asc" aria-pressed="false">投档分↑</button>
+        <button class="chip" type="button" data-sort="name" aria-pressed="false">院校名称</button>
       </div>
     </div>
-    <div class="sort-row">
-      <span class="filter-label">排序</span>
-      <span class="sort-btn" onclick="setSort('score_asc',this)">投档分↑</span>
-      <span class="sort-btn active" onclick="setSort('score_desc',this)">投档分↓</span>
-      <span class="sort-btn" onclick="setSort('diff',this)">分数差</span>
-      <span class="sort-btn" onclick="setSort('name',this)">院校名称</span>
+    <div class="row">
+      <span class="row-label">搜索</span>
+      <input type="search" class="search" id="searchInput" placeholder="搜索院校或专业名称…" aria-label="搜索院校或专业">
+      <label class="toggle"><input type="checkbox" id="hideNo"> 隐藏“不推荐”</label>
     </div>
+  </section>
+
+  <!-- ================= 统计 ================= -->
+  <div class="stats" id="statsBar" style="display:none">
+    <span>共 <b id="statTotal">0</b> 所院校</span>
+    <span>公办 <b id="statPublic">0</b></span>
+    <span>民办 <b id="statPrivate">0</b></span>
+    <span>比较稳 <b id="statSafe">0</b></span>
+    <span>可以冲 <b id="statRush">0</b></span>
   </div>
 
-  <!-- Stats -->
-  <div class="stats glass" id="statsBar" style="display:none">
-    <span class="stat">找到 <strong id="statTotal">0</strong> 个专业</span>
-    <span class="stat">公办 <strong id="statPublic">0</strong></span>
-    <span class="stat">民办 <strong id="statPrivate">0</strong></span>
-    <span class="stat">涉及 <strong id="statSchools">0</strong> 所院校</span>
+  <!-- ================= 结果 ================= -->
+  <div class="cards" id="results">
+    <div class="state"><div class="spin"></div>正在加载数据…</div>
   </div>
 
-  <!-- Results -->
-  <div id="results" class="card-grid">
-    <div class="loading"><div class="spinner"></div>正在加载数据...</div>
+  <!-- ================= 1~10类与大纲 ================= -->
+  <div class="sec-title">
+    <h2>考试类与考试大纲</h2>
+    <p>考试一类 ~ 考试十类 · 科目构成与大纲要点来自 <strong>河北省教育考试院官方考试说明</strong>，2026 录取控制线为官方公布值</p>
+  </div>
+  <div class="syl-grid" id="syllabusGrid">
+    <div class="state"><div class="spin"></div>正在加载大纲…</div>
   </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>本系统数据来源于公开招生计划及投档信息，仅用于志愿填报参考。</p>
-    <p>历史投档分不代表下一年度录取结果，实际录取情况会受到招生计划、报考人数、专业志愿等因素影响。</p>
-    <p style="margin-top:8px;color:var(--accent)">河北单招 · 智能估分选校 · 2026</p>
+  <!-- ================= 页脚 ================= -->
+  <footer class="site">
+    <div class="flinks">
+      <a href="javascript:void(0)" onclick="openDisclaimer(true)">免责声明</a>
+      <a href="mailto:2932944216@qq.com">反馈：2932944216@qq.com</a>
+      <a href="https://hbdzxx.com/" target="_blank" rel="noopener nofollow">院校数据 hbdzxx.com</a>
+      <a href="https://gzdz.hebeea.edu.cn/hebdz/" target="_blank" rel="noopener nofollow">大纲来源 河北省教育考试院</a>
+    </div>
+    <p>院校与投档数据抓取自 hbdzxx.com，为第三方整理结果；考试类科目与大纲来自河北省教育考试院及各牵头院校发布的官方考试说明。本站数据仅供参考，招生政策、计划与分数线以河北省教育考试院及各院校官方发布为准。</p>
+    <p>本站与 hbdzxx.com、河北省教育考试院及各招生院校均无隶属、合作或代理关系。</p>
+    <p id="footMeta" style="margin-top:8px"></p>
   </footer>
 </div>
 
+<!-- ================= 免责声明弹窗 ================= -->
+<div class="mask" id="disclaimerMask" role="dialog" aria-modal="true" aria-labelledby="disclaimerTitle">
+  <div class="modal">
+    <header>
+      <h2 id="disclaimerTitle">免责声明与数据来源说明</h2>
+      <p>请向下滑动阅读全部内容，读到底部后“同意”按钮才会变为可点击。</p>
+    </header>
+    <div class="scroll" id="disclaimerBody" tabindex="0">
+      <p class="lead">在使用本网站前，请完整阅读以下条款。继续使用本网站，即表示你已阅读、理解并接受以下全部内容。</p>
+      <ol>
+        <li data-n="1"><b>数据来源。</b>本网站展示的院校名单、专业、招生计划、投档最低分、考试大纲链接等数据，均抓取、整理自第三方网站 hbdzxx.com（河北单招网）及其页面标注的公开来源，本站仅作汇总与展示。</li>
+        <li data-n="2"><b>与来源站无关。</b>本网站不是 hbdzxx.com 的官方网站，也未获得其授权、赞助、认可或数据授权；本网站与 hbdzxx.com、河北省教育考试院、各招生院校及其他任何机构之间，不存在隶属、代理、合作、联营或背书关系。</li>
+        <li data-n="3"><b>不对数据正确性负责。</b>本网站所有者不对数据的正确性、完整性、时效性、适用性作出任何明示或默示的保证。数据可能存在抓取误差、解析偏差、更新滞后、统计口径差异，或原始来源本身即存在错误。</li>
+        <li data-n="4"><b>不构成报考建议。</b>本网站提供的“比较稳 / 可以冲 / 不推荐”等提示，仅为依据历史投档最低分与用户输入分数所做的机械计算与呈现，不构成任何报考建议、录取承诺或结果担保，也不代表任何院校的录取标准。</li>
+        <li data-n="5"><b>以官方发布为准。</b>招生政策、招生计划、报考条件、录取控制线与录取结果，一律以河北省教育考试院及各招生院校官方发布的文件为准。请务必通过官方渠道核实后再做决定。</li>
+        <li data-n="6"><b>责任自负。</b>任何因使用、依赖或无法使用本网站信息而作出的决定及其后果，均由使用者自行承担；本网站所有者不承担任何直接、间接、附带或惩罚性责任。</li>
+        <li data-n="7"><b>权利与更正。</b>本网站不主张对原始数据的任何权利。如相关内容侵犯了你的合法权益、存在错误或需要更正、删除，请发送邮件至 2932944216@qq.com，我们将及时处理。</li>
+        <li data-n="8"><b>解释与变更。</b>本声明的最终解释权归本网站所有者所有，并可能随时更新，更新后即时生效，恕不另行通知。</li>
+      </ol>
+      <p class="note" style="margin-top:14px">继续浏览或点击下方按钮，视为你已完整阅读并同意上述全部条款。</p>
+    </div>
+    <footer>
+      <div class="prog"><i id="disclaimerProg"></i></div>
+      <div class="foot-row">
+        <span class="foot-hint" id="disclaimerHint">还需向下滑动才能同意</span>
+        <button id="disclaimerClose" type="button" disabled>我已阅读并同意</button>
+      </div>
+    </footer>
+  </div>
+</div>
+
 <script>
-// ========== State ==========
-let currentSystem = 'exam';
-let currentCategory = '';
-let currentType = 'all';
-let currentCity = 'all';
-let currentSort = 'score_desc';
-let allData = {};
-let flatResults = [];
+/* ============================================================
+   配置
+   ============================================================ */
+// 分数判定规则：分差 = 我的分数 − 该校该考试类 2026 投档最低分
+const SCORE_RULES = {
+  safe: 15,   // 分差 > 15      → 比较稳
+  rush: 5,    // 5 < 分差 ≤ 15  → 可以冲
+              // 分差 ≤ 5       → 不推荐
+};
+const FEEDBACK_MAIL = '2932944216@qq.com';
+const NOTICE_KEY = 'hbdz_notice_2026_10_10';
+const THEME_KEY = 'hbdz_theme';
 
-const examCategories = [
-  {id:'1',name:'考试一类',desc:'土木建筑、资源环境与安全、水利'},
-  {id:'2',name:'考试二类',desc:'交通运输、能源动力与材料'},
-  {id:'3',name:'考试三类',desc:'装备制造'},
-  {id:'4',name:'考试四类',desc:'农林牧渔、轻工纺织、生物与化工'},
-  {id:'5',name:'考试五类',desc:'公共管理与服务、旅游、公安与司法'},
-  {id:'6',name:'考试六类',desc:'教育与体育'},
-  {id:'7',name:'考试七类',desc:'医药卫生'},
-  {id:'8',name:'考试八类',desc:'文化艺术'},
-  {id:'9',name:'考试九类',desc:'财经商贸'},
-  {id:'10',name:'考试十类',desc:'电子信息'}
+const EXAM_CATEGORIES = [
+  {id:'1', name:'考试一类', desc:'土木建筑、资源环境与安全、水利等'},
+  {id:'2', name:'考试二类', desc:'交通运输、能源动力与材料等'},
+  {id:'3', name:'考试三类', desc:'装备制造等'},
+  {id:'4', name:'考试四类', desc:'农林牧渔、轻工纺织、生物与化工等'},
+  {id:'5', name:'考试五类', desc:'公共管理与服务、旅游、公安与司法等'},
+  {id:'6', name:'考试六类', desc:'教育与体育等'},
+  {id:'7', name:'考试七类', desc:'医药卫生等'},
+  {id:'8', name:'考试八类', desc:'文化艺术（音乐/舞蹈及表演/美术设计/文化服务）'},
+  {id:'9', name:'考试九类', desc:'财经商贸等'},
+  {id:'10',name:'考试十类', desc:'电子信息等'},
 ];
+const VOC_CATEGORIES = [{id:'对口计算机', name:'对口计算机类', desc:'中职对口计算机类'}];
 
-const vocationalCategories = [
-  {id:'对口计算机',name:'对口计算机类',desc:'中职对口计算机类招生'}
-];
+/* ============================================================
+   状态
+   ============================================================ */
+const state = {
+  system:'exam', category:'1', type:'all', city:'all', sort:'nearest',
+  score:0, search:'', hideNo:false,
+};
+const cache = {};        // 类别数据缓存
+let list = [];           // 当前筛选结果
+let meta = null;         // syllabus.json
 
-// ========== Init ==========
-async function init() {
-  const catList = currentSystem === 'exam' ? examCategories : vocationalCategories;
-  renderCategoryChips(catList);
-  if (catList.length > 0) {
-    currentCategory = catList[0].id;
-    await loadCategory(currentCategory);
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num = (n) => (n === null || n === undefined || n === '') ? '—' : Number(n).toLocaleString('zh-CN');
+
+/* ============================================================
+   主题（昼夜切换）
+   ============================================================ */
+function applyTheme(t, persist){
+  document.documentElement.setAttribute('data-theme', t);
+  $('themeIcon').textContent = t === 'dark' ? '☀️' : '🌙';
+  $('themeText').textContent = t === 'dark' ? '浅色' : '深色';
+  $('themeToggle').setAttribute('aria-label', t === 'dark' ? '切换到浅色模式' : '切换到深色模式');
+  if (persist) { try { localStorage.setItem(THEME_KEY, t); } catch(e){} }
+}
+function initTheme(){
+  let t = null;
+  try { t = localStorage.getItem(THEME_KEY); } catch(e){}
+  if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  applyTheme(t, false);
+}
+$('themeToggle').addEventListener('click', () => {
+  applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark', true);
+});
+
+/* ============================================================
+   免责声明弹窗：必须滑到底部才能点“同意”
+   ============================================================ */
+const mask = $('disclaimerMask'), dBody = $('disclaimerBody'),
+      dClose = $('disclaimerClose'), dHint = $('disclaimerHint'), dProg = $('disclaimerProg');
+
+function disclaimerReached(){
+  return dBody.scrollHeight - dBody.scrollTop - dBody.clientHeight <= 8;
+}
+function updateDisclaimer(){
+  const h = dBody.scrollHeight - dBody.clientHeight;
+  const p = h <= 0 ? 1 : Math.min(1, dBody.scrollTop / h);
+  dProg.style.width = (p * 100).toFixed(1) + '%';
+  if (!dClose.disabled) return;
+  if (disclaimerReached()){
+    dClose.disabled = false;
+    dClose.classList.add('ready');
+    dHint.textContent = '已读到底部，可以点击同意';
+    dHint.classList.add('ready');
   }
 }
+dBody.addEventListener('scroll', updateDisclaimer, {passive:true});
+window.addEventListener('resize', () => { if (mask.classList.contains('show')) updateDisclaimer(); });
 
-function renderCategoryChips(categories) {
-  const el = document.getElementById('categoryChips');
-  el.innerHTML = categories.map(c =>
-    `<span class="chip ${c.id===currentCategory?'active':''}" onclick="selectCategory('${c.id}',this)" title="${c.desc}">${c.name}</span>`
-  ).join('');
+function openDisclaimer(force){
+  mask.classList.add('show');
+  document.body.classList.add('modal-open');
+  if (force){
+    dClose.disabled = true; dClose.classList.remove('ready');
+    dHint.textContent = '还需向下滑动才能同意'; dHint.classList.remove('ready');
+    dProg.style.width = '0%';
+    dBody.scrollTop = 0;
+  }
+  requestAnimationFrame(updateDisclaimer);
+  setTimeout(updateDisclaimer, 60);
+}
+function closeDisclaimer(){
+  mask.classList.remove('show');
+  document.body.classList.remove('modal-open');
+  try { localStorage.setItem(NOTICE_KEY, '1'); } catch(e){}
+}
+dClose.addEventListener('click', () => { if (!dClose.disabled) closeDisclaimer(); });
+
+/* ============================================================
+   类别 / 模式
+   ============================================================ */
+function categories(){ return state.system === 'exam' ? EXAM_CATEGORIES : VOC_CATEGORIES; }
+
+function renderCategoryChips(){
+  $('categoryChips').innerHTML = categories().map(c =>
+    `<button class="chip" type="button" data-cat="${esc(c.id)}" aria-pressed="${c.id===state.category}"
+       title="${esc(c.desc)}">${esc(c.name)}</button>`).join('');
+}
+$('categoryChips').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-cat]'); if (!b) return;
+  selectCategory(b.dataset.cat);
+});
+
+function switchSystem(sys){
+  if (state.system === sys) return;
+  state.system = sys;
+  $('mode-exam').setAttribute('aria-pressed', String(sys === 'exam'));
+  $('mode-vocational').setAttribute('aria-pressed', String(sys === 'vocational'));
+  state.category = categories()[0].id;
+  state.city = 'all'; state.search = ''; $('searchInput').value = '';
+  renderCategoryChips();
+  loadCategory();
+}
+function selectCategory(id){
+  state.category = id;
+  [...document.querySelectorAll('#categoryChips .chip')]
+    .forEach(b => b.setAttribute('aria-pressed', String(b.dataset.cat === id)));
+  loadCategory();
 }
 
-// ========== Load Data ==========
-async function loadCategory(catId) {
-  if (allData[catId]) {
-    processAndDisplay(allData[catId]);
-    return;
-  }
-  
-  document.getElementById('results').innerHTML = '<div class="loading"><div class="spinner"></div>正在加载数据...</div>';
-  
-  try {
-    let url;
-    if (currentSystem === 'vocational') {
-      url = `data/对口计算机.json`;
-    } else {
-      url = `data/${catId}.json`;
+/* ============================================================
+   筛选控件
+   ============================================================ */
+$('typeChips').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-type]'); if (!b) return;
+  state.type = b.dataset.type;
+  [...$('typeChips').querySelectorAll('.chip')]
+    .forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  apply();
+});
+$('sortChips').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-sort]'); if (!b) return;
+  state.sort = b.dataset.sort;
+  [...$('sortChips').querySelectorAll('.chip')]
+    .forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  apply();
+});
+$('cityChips').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-city]'); if (!b) return;
+  state.city = b.dataset.city;
+  [...$('cityChips').querySelectorAll('.chip')]
+    .forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  apply();
+});
+let searchTimer = null;
+$('searchInput').addEventListener('input', (e) => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { state.search = e.target.value.trim().toLowerCase(); apply(); }, 160);
+});
+$('hideNo').addEventListener('change', (e) => { state.hideNo = e.target.checked; apply(); });
+
+let scoreTimer = null, scoreScrolled = false;
+$('userScore').addEventListener('input', (e) => {
+  clearTimeout(scoreTimer);
+  scoreTimer = setTimeout(() => {
+    const v = parseInt(e.target.value, 10);
+    state.score = Number.isFinite(v) && v > 0 ? Math.min(v, 750) : 0;
+    // 输入分数后自动切到“离我最近”
+    if (state.score > 0 && state.sort !== 'nearest'){
+      state.sort = 'nearest';
+      [...$('sortChips').querySelectorAll('.chip')]
+        .forEach(x => x.setAttribute('aria-pressed', String(x.dataset.sort === 'nearest')));
     }
-    const resp = await fetch(url);
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    allData[catId] = data;
-    processAndDisplay(data);
-  } catch (err) {
-    document.getElementById('results').innerHTML = 
-      `<div class="empty"><div class="icon">⚠️</div><p>数据加载失败: ${err.message}</p><p style="font-size:.75rem;margin-top:8px">请确保通过静态服务器访问</p></div>`;
+    $('scoreHint').textContent = state.score > 0
+      ? `已按“离 ${state.score} 分最近”排序`
+      : '输入后自动按“离我最近”排序';
+    $('verdictLegend').style.display = state.score > 0 ? 'flex' : 'none';
+    apply();
+    // 输完分数后把结果带回视野（避免用户还要手动找）
+    if (state.score > 0 && !scoreScrolled){
+      scoreScrolled = true;
+      const r = $('results');
+      if (r && r.getBoundingClientRect().top > window.innerHeight * 0.8){
+        r.scrollIntoView({behavior:'smooth', block:'start'});
+      }
+    }
+  }, 180);
+});
+
+/* ============================================================
+   数据加载
+   ============================================================ */
+async function loadCategory(){
+  const id = state.category;
+  if (cache[id]) { buildFrom(cache[id]); return; }
+  $('results').innerHTML = '<div class="state"><div class="spin"></div>正在加载数据…</div>';
+  try {
+    const r = await fetch(`data/${encodeURIComponent(id)}.json`, {cache:'no-cache'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+    cache[id] = d;
+    buildFrom(d);
+  } catch (err){
+    $('results').innerHTML = `<div class="state"><span class="em">⚠️</span>数据加载失败：${esc(err.message)}
+      <div class="note">请通过静态服务器访问（例如 <code>python3 -m http.server</code>），直接双击打开本地文件时浏览器会拦截数据读取。</div></div>`;
   }
 }
 
-function processAndDisplay(data) {
-  flatResults = [];
+function buildFrom(d){
   const cities = new Set();
-  
-  data.schools.forEach(school => {
-    cities.add(school.city);
-    school.programs.forEach(prog => {
-      flatResults.push({
-        school: school.name,
-        schoolType: school.type,
-        city: school.city,
-        program: prog.name,
-        subCategory: prog.subCategory || '',
-        plan: prog.plan,
-        years: prog.years,
-        tuition: prog.tuition,
-        minScore: prog.minScore,
-        remark: prog.remark || ''
-      });
-    });
+  list = d.schools.map(s => {
+    if (s.city && s.city !== '—') cities.add(s.city);
+    return {
+      name: s.name, type: s.type, city: s.city,
+      plan: s.plan, minScore: s.minScore,
+      programs: s.programs || [], programCount: s.programCount || (s.programs || []).length,
+      programNames: s.programNames || '',
+      programsComplete: s.programsComplete !== false,
+      tuitionRange: s.tuitionRange, years: s.years, subClasses: s.subClasses,
+      url: s.url, source: s.source,
+    };
   });
-  
-  renderCityChips([...cities].sort());
-  applyFilters();
+  $('pillSchools').textContent = `院校 ${d.schools.length} 所`;
+  renderCityChips([...cities].sort((a,b)=>a.localeCompare(b,'zh-CN')));
+  apply();
 }
 
-// ========== UI Interactions ==========
-function switchSystem(system) {
-  currentSystem = system;
-  document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
-  document.getElementById(`tab-${system}`).classList.add('active');
-  
-  const catList = system === 'exam' ? examCategories : vocationalCategories;
-  renderCategoryChips(catList);
-  currentCategory = catList[0].id;
-  loadCategory(currentCategory);
+function renderCityChips(cities){
+  $('cityChips').innerHTML =
+    `<button class="chip" type="button" data-city="all" aria-pressed="${state.city==='all'}">全部</button>` +
+    cities.map(c => `<button class="chip" type="button" data-city="${esc(c)}" aria-pressed="${state.city===c}">${esc(c)}</button>`).join('');
 }
 
-function selectCategory(catId, el) {
-  currentCategory = catId;
-  document.querySelectorAll('#categoryChips .chip').forEach(c => c.classList.remove('active'));
-  el.classList.add('active');
-  loadCategory(catId);
+/* ============================================================
+   判定（措辞：比较稳 / 可以冲 / 不推荐）
+   ============================================================ */
+function verdict(score, minScore){
+  if (!score || minScore === null || minScore === undefined) return null;
+  const gap = score - minScore;
+  if (gap > SCORE_RULES.safe) return {key:'safe', label:'比较稳', gap, cls:'v-safe'};
+  if (gap > SCORE_RULES.rush) return {key:'rush', label:'可以冲', gap, cls:'v-rush'};
+  return {key:'no', label:'不推荐', gap, cls:'v-no'};
 }
 
-function setType(type, el) {
-  currentType = type;
-  document.querySelectorAll('#typeChips .chip').forEach(c => c.classList.remove('active'));
-  el.classList.add('active');
-  applyFilters();
-}
-
-function setCity(city, el) {
-  currentCity = city;
-  document.querySelectorAll('#cityChips .chip').forEach(c => c.classList.remove('active'));
-  el.classList.add('active');
-  applyFilters();
-}
-
-function setSort(sort, el) {
-  currentSort = sort;
-  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-  el.classList.add('active');
-  applyFilters();
-}
-
-function renderCityChips(cities) {
-  const el = document.getElementById('cityChips');
-  el.innerHTML = `<span class="chip active" onclick="setCity('all',this)">全部</span>` +
-    cities.map(c => `<span class="chip" onclick="setCity('${c}',this)">${c}</span>`).join('');
-}
-
-// ========== Score Input ==========
-function onScoreInput() {
-  const score = parseInt(document.getElementById('userScore').value) || 0;
-  if (score > 0 && currentSort !== 'diff') {
-    currentSort = 'diff';
-    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-    document.querySelector('[onclick="setSort(\'diff\',this)"]').classList.add('active');
-  }
-  applyFilters();
-}
-
-// ========== Filter & Sort ==========
-function applyFilters() {
-  const score = parseInt(document.getElementById('userScore').value) || 0;
-  const search = document.getElementById('searchInput').value.trim().toLowerCase();
-  
-  let filtered = flatResults.filter(item => {
-    if (currentType !== 'all' && item.schoolType !== currentType) return false;
-    if (currentCity !== 'all' && item.city !== currentCity) return false;
-    if (search) {
-      const hay = `${item.school} ${item.program}`.toLowerCase();
-      if (!hay.includes(search)) return false;
+/* ============================================================
+   筛选 + 排序 + 渲染
+   ============================================================ */
+function apply(){
+  const kw = state.search;
+  let out = list.filter(s => {
+    if (state.type !== 'all' && s.type !== state.type) return false;   // 公办/民办严格相等
+    if (state.city !== 'all' && s.city !== state.city) return false;
+    if (kw && !((s.name + ' ' + s.programNames).toLowerCase().includes(kw))) return false;
+    if (state.hideNo && state.score > 0){
+      const v = verdict(state.score, s.minScore);
+      if (v && v.key === 'no') return false;
     }
     return true;
   });
-  
-  // Sort
-  filtered.sort((a, b) => {
-    switch (currentSort) {
-      case 'score_asc':
-        if (a.minScore === null) return 1;
-        if (b.minScore === null) return -1;
-        return a.minScore - b.minScore;
-      case 'score_desc':
-        if (a.minScore === null) return 1;
-        if (b.minScore === null) return -1;
-        return b.minScore - a.minScore;
-      case 'diff':
-        if (!score) return 0;
-        const diffA = a.minScore !== null ? score - a.minScore : -9999;
-        const diffB = b.minScore !== null ? score - b.minScore : -9999;
-        return diffB - diffA;
-      case 'name':
-        return a.school.localeCompare(b.school, 'zh-CN');
-      default:
-        return 0;
+
+  const sc = state.score;
+  out.sort((a, b) => {
+    const ax = a.minScore, bx = b.minScore;
+    switch (state.sort){
+      case 'score_asc':  return (ax ?? 1e6) - (bx ?? 1e6);
+      case 'score_desc': return (bx ?? -1e6) - (ax ?? -1e6);
+      case 'name':       return a.name.localeCompare(b.name, 'zh-CN');
+      case 'nearest':
+      default: {
+        if (!sc) return (bx ?? -1) - (ax ?? -1);
+        const da = ax == null ? 1e6 : Math.abs(sc - ax);
+        const db = bx == null ? 1e6 : Math.abs(sc - bx);
+        if (da !== db) return da - db;                 // 越接近越靠前
+        return (bx ?? -1) - (ax ?? -1);                // 同距离：分高的在前
+      }
     }
   });
-  
-  renderStats(filtered);
-  renderResults(filtered, score);
+
+  renderStats(out);
+  renderCards(out);
 }
 
-function renderStats(filtered) {
-  const bar = document.getElementById('statsBar');
-  if (filtered.length === 0) { bar.style.display = 'none'; return; }
+function renderStats(rows){
+  const bar = $('statsBar');
+  if (!rows.length){ bar.style.display = 'none'; return; }
   bar.style.display = 'flex';
-  
-  document.getElementById('statTotal').textContent = filtered.length;
-  document.getElementById('statPublic').textContent = filtered.filter(i => i.schoolType === '公办').length;
-  document.getElementById('statPrivate').textContent = filtered.filter(i => i.schoolType === '民办').length;
-  document.getElementById('statSchools').textContent = new Set(filtered.map(i => i.school)).size;
-}
-
-function renderResults(filtered, score) {
-  const el = document.getElementById('results');
-  
-  if (filtered.length === 0) {
-    el.innerHTML = `<div class="empty"><div class="icon">📭</div><p>未找到符合条件的专业</p><p style="font-size:.75rem;margin-top:8px">请尝试调整筛选条件</p></div>`;
-    return;
-  }
-  
-  // Virtual scroll: render first 50, lazy load rest
-  const initial = filtered.slice(0, 50);
-  const rest = filtered.slice(50);
-  
-  el.innerHTML = initial.map((item, i) => renderCard(item, score, i)).join('');
-  
-  if (rest.length > 0) {
-    const loadMore = document.createElement('div');
-    loadMore.style.cssText = 'text-align:center;padding:20px;';
-    loadMore.innerHTML = `<button onclick="loadMore(this)" style="padding:10px 24px;border-radius:20px;border:1px solid var(--border);background:var(--glass);color:var(--text);cursor:pointer;font-size:.85rem">加载更多 (${rest.length} 个专业)</button>`;
-    el.appendChild(loadMore);
-    window._restCards = rest;
-    window._restScore = score;
+  $('statTotal').textContent = rows.length;
+  $('statPublic').textContent = rows.filter(x => x.type === '公办').length;
+  $('statPrivate').textContent = rows.filter(x => x.type === '民办').length;
+  if (state.score > 0){
+    let safe = 0, rush = 0;
+    rows.forEach(x => { const v = verdict(state.score, x.minScore); if (v?.key === 'safe') safe++; else if (v?.key === 'rush') rush++; });
+    $('statSafe').textContent = safe;
+    $('statRush').textContent = rush;
+    $('statSafe').parentElement.style.display = '';
+    $('statRush').parentElement.style.display = '';
+  } else {
+    $('statSafe').parentElement.style.display = 'none';
+    $('statRush').parentElement.style.display = 'none';
   }
 }
 
-function loadMore(btn) {
-  const rest = window._restCards || [];
-  const score = window._restScore || 0;
-  const el = document.getElementById('results');
-  btn.parentElement.remove();
-  
-  const fragment = document.createDocumentFragment();
-  rest.forEach((item, i) => {
-    const div = document.createElement('div');
-    div.innerHTML = renderCard(item, score, i);
-    fragment.appendChild(div.firstElementChild);
-  });
-  el.appendChild(fragment);
-}
+function cardHtml(s, idx){
+  const v = verdict(state.score, s.minScore);
+  const near = v && Math.abs(v.gap) <= 20 ? ' near' : '';
+  const tags = [
+    s.type === '公办' ? '<span class="tag pub">公办</span>'
+      : s.type === '民办' ? '<span class="tag pri">民办</span>'
+      : '<span class="tag city">性质未知</span>',
+    s.city && s.city !== '—' ? `<span class="tag city">${esc(s.city)}</span>` : '',
+    (s.subClasses && s.subClasses.length) ? `<span class="tag sub">${esc(s.subClasses.map(x=>x.replace('考试八类-','')).join('/'))}</span>` : '',
+  ].join('');
 
-function renderCard(item, score, idx) {
-  let scoreHtml = '';
-  if (score > 0 && item.minScore !== null) {
-    const diff = score - item.minScore;
-    if (diff > 50) {
-      scoreHtml = `<div class="score-compare score-above"><span class="tag tag-bao" style="margin-right:4px">保</span>高于历史参考线 ${diff} 分</div>`;
-    } else if (diff >= 20) {
-      scoreHtml = `<div class="score-compare score-above"><span class="tag tag-wen" style="margin-right:4px">稳</span>高于历史参考线 ${diff} 分</div>`;
-    } else if (diff >= 0) {
-      scoreHtml = `<div class="score-compare score-near"><span class="tag tag-chong" style="margin-right:4px">冲</span>接近历史参考线（+${diff}分）</div>`;
-    } else {
-      scoreHtml = `<div class="score-compare score-below">低于历史参考线 ${Math.abs(diff)} 分</div>`;
-    }
-  } else if (score > 0 && item.minScore === null) {
-    scoreHtml = `<div class="score-compare score-na">暂无2026投档数据</div>`;
-  }
-  
-  const typeTag = item.schoolType === '公办' ? 
-    '<span class="tag tag-public">公办</span>' : 
-    '<span class="tag tag-private">民办</span>';
-  
-  const scoreDisplay = item.minScore !== null ? item.minScore : '—';
-  
-  let remarkHtml = '';
-  if (item.remark) {
-    const cleanRemark = item.remark.replace(/\[|\]/g, '').trim();
-    if (cleanRemark) {
-      remarkHtml = `<div class="remark-text">📌 ${cleanRemark}</div>`;
-    }
-  }
-  
-  return `
-  <div class="program-card fade-in" style="animation-delay:${Math.min(idx * 0.02, 0.5)}s">
-    <div class="card-header">
-      <div class="school-info">
-        <div class="school-name">${item.school}</div>
-        <div class="school-meta">
-          ${typeTag}
-          <span class="tag tag-city">${item.city}</span>
-        </div>
+  const verdictHtml = v ? `<div class="verdict ${v.cls}">
+      <span>${v.label}</span>
+      <span class="gap">${v.gap >= 0 ? '高于' : '低于'}投档线 ${Math.abs(v.gap)} 分</span>
+      <span style="font-weight:600;opacity:.85">（我 ${state.score} 分）</span>
+    </div>` : (state.score > 0 && s.minScore == null
+      ? `<div class="verdict v-none">该校暂无投档最低分数据，无法判定</div>` : '');
+
+  const names = s.programs.map(p => p.name);
+  const shown = names.slice(0, 6).join('、');
+  const more = names.length > 6 ? ` 等 ${names.length} 个专业` : '';
+  const tuition = s.tuitionRange ? (s.tuitionRange[0] === s.tuitionRange[1]
+      ? `${num(s.tuitionRange[0])} 元/年` : `${num(s.tuitionRange[0])} ~ ${num(s.tuitionRange[1])} 元/年`) : '—';
+  const years = (s.years && s.years.length) ? s.years.join('/') + ' 年' : '—';
+
+  const detail = s.programs.length ? `<details class="more">
+      <summary>查看 ${s.programs.length} 个专业的明细${s.programsComplete ? '' : '（部分专业未公开，仅供参考）'}</summary>
+      <div class="inner">${s.programs.map(p => `<div class="mline">
+          <span>${esc(p.name)}</span>
+          <span class="num">${p.plan != null ? p.plan + ' 人' : '—'} · ${p.minScore != null ? p.minScore + ' 分' : '—'}</span>
+        </div>`).join('')}</div>
+    </details>` : '';
+
+  return `<article class="card${near}${v && v.key === 'no' ? ' warn-card' : ''}">
+    <div class="card-head">
+      <div style="min-width:0">
+        <h3 class="school">${esc(s.name)}</h3>
+        <div class="tags">${tags}</div>
+      </div>
+      <div class="score-big">
+        <div class="v num">${s.minScore == null ? '—' : s.minScore}</div>
+        <div class="l">2026投档最低分</div>
       </div>
     </div>
-    <div class="program-name">${item.program}</div>
-    <div class="program-detail">
-      <div class="detail-item">招生计划：<span>${item.plan}人</span></div>
-      <div class="detail-item">学制：<span>${item.years}年</span></div>
-      <div class="detail-item">学费：<span>${item.tuition.toLocaleString()}元/年</span></div>
-      <div class="detail-item">2026投档分：<span style="color:${item.minScore!==null?'var(--accent2)':'var(--text2)'};font-weight:700">${scoreDisplay}</span></div>
+    ${verdictHtml}
+    <div class="meta">
+      <div><span>2026计划总数</span>${s.plan == null ? '—' : num(s.plan) + ' 人'}</div>
+      <div><span>专业数</span>${s.programCount || names.length || '—'} 个</div>
+      <div><span>学制</span>${years}</div>
+      <div><span>学费</span>${tuition}</div>
     </div>
-    ${score > 0 ? `<div style="font-size:.78rem;color:var(--text2)">我的分数：<span style="color:var(--accent2);font-weight:700">${score}</span></div>` : ''}
-    ${scoreHtml}
-    ${remarkHtml}
-  </div>`;
+    <div class="majors"><b>专业：</b>${esc(shown)}${esc(more)}</div>
+    ${detail}
+    <div class="src">来源：<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">hbdzxx.com 院校页</a>${s.programsComplete ? '' : ' · 明细未完全公开'}</div>
+  </article>`;
 }
 
-// ========== Start ==========
-init();
+function renderCards(rows){
+  const el = $('results');
+  if (!rows.length){
+    el.innerHTML = `<div class="state"><span class="em">📭</span>没有符合条件的院校
+      <div class="note">试试更换考试类、城市，或取消“隐藏不推荐”。</div></div>`;
+    return;
+  }
+  const top = rows.slice(0, 120);
+  el.innerHTML = top.map(cardHtml).join('') +
+    (rows.length > top.length ? `<div class="state">仅显示前 ${top.length} 所，请用搜索或筛选缩小范围</div>` : '');
+}
+
+/* ============================================================
+   1~10 类与大纲
+   ============================================================ */
+async function loadSyllabus(){
+  try {
+    const r = await fetch('data/syllabus.json', {cache:'no-cache'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    meta = await r.json();
+    renderSyllabus();
+    $('pillFetched').textContent = '数据抓取：' + (meta.fetchedAt || '—');
+    $('footMeta').textContent = `数据整理时间：${meta.fetchedAt || '—'} · 覆盖 ${meta.schoolCount ?? '—'} 所院校 / ${meta.entryCount ?? '—'} 条“考试类 × 院校”记录 · 校验：招生计划一致率 ${meta.planAgree ?? '—'}，投档分一致率 ${meta.scoreAgree ?? '—'}`;
+  } catch (err){
+    $('syllabusGrid').innerHTML = `<div class="state"><span class="em">⚠️</span>大纲数据加载失败：${esc(err.message)}</div>`;
+  }
+}
+
+function renderSyllabus(){
+  const items = (meta && meta.categories) || [];
+  $('syllabusGrid').innerHTML = items.map(c => {
+    const subs = (c.subjects || []).map(s => `<div class="kv">
+        <span class="k">${esc(s.kind)}</span>
+        <span class="v">${esc(s.subject)} · 满分 ${esc(s.full)}</span>
+      </div>`).join('');
+    const links = [];
+    (c.subjects || []).forEach(s => (s.syllabus || []).forEach(l => {
+      if (!links.some(x => x.url === l.url)) links.push(l);
+    }));
+    const linkHtml = links.length
+      ? `<div class="syl-links">${links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener nofollow">${esc(l.label)}</a>`).join('')}</div>`
+      : '';
+    const pts = (c.points && c.points.length)
+      ? `<ul class="points">${c.points.map(p => `<li>${esc(p)}</li>`).join('')}</ul>` : '';
+    const noteText = c.note ? `<div class="note">${esc(c.note)}</div>` : '';
+    const extra = c.extra ? `<div class="note">${c.extra}</div>` : '';
+    return `<details class="syl">
+      <summary>
+        <span class="n">${esc(c.name)}</span>
+        <span class="d">${esc(c.desc || '')}</span>
+        <span class="cl">${c.controlLineText ? esc(c.controlLineText) : (c.controlLine != null ? '控制线 ' + c.controlLine + ' 分' : '')}</span>
+      </summary>
+      <div class="body">
+        ${subs}
+        ${pts}
+        ${extra}
+        ${linkHtml}
+        ${noteText}
+      </div>
+    </details>`;
+  }).join('') + (meta && meta.computerNote ? `<details class="syl" style="grid-column:1/-1">
+      <summary><span class="n">💻 计算机大纲补充资料</span><span class="d">分值占比与教材清单（来自你提供的备考资料）</span></summary>
+      <div class="body">${meta.computerNote}</div>
+    </details>` : '');
+}
+
+/* ============================================================
+   启动
+   ============================================================ */
+function boot(){
+  initTheme();
+  renderCategoryChips();
+  loadCategory();
+  loadSyllabus();
+  $('pillSchools').textContent = '院校 —';
+
+  let seen = null;
+  try { seen = localStorage.getItem(NOTICE_KEY); } catch(e){}
+  if (!seen) openDisclaimer(true);
+}
+boot();
 </script>
 </body>
 </html>
