@@ -81,6 +81,9 @@ html[data-theme="dark"]{
 
 /* ---------- 与 Pico 基座的边界：只借用其排版/表单/主题能力，组件外观全部由本站接管 ---------- */
 article,details,figure,table,blockquote{margin-bottom:0}
+/* Pico 会给 [type=button] 加 margin-bottom:var(--pico-spacing)，
+   导致 <button> 与 <a> 混排时错位（顶栏两个图标按钮、各类 chip 都受影响），这里统一清零 */
+button,[type=button],[type=submit],[type=reset],.iconbtn,.chip,.mode,#disclaimerClose{margin:0}
 .card,.syl,details.more,table.mini{margin:0}
 details>summary{list-style:none}
 details>summary::-webkit-details-marker{display:none}
