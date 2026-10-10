@@ -129,6 +129,7 @@ a:hover{color:var(--accent)}
 .iconbtn:hover{border-color:var(--border-2);background:var(--surface-2)}
 .iconbtn:active{transform:scale(.97)}
 .iconbtn.feedback{text-decoration:none;padding:0 10px}
+.iconbtn.theme-btn{padding:0 10px}
 .iconbtn .ico{display:block;flex-shrink:0}
 .iconbtn.feedback:hover .ico{transform:translateY(-1px)}
 .iconbtn .ico{transition:transform .16s ease}
@@ -339,8 +340,11 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
       <span>河北单招 估分选校<small>2026 投档数据</small></span>
     </a>
     <span class="spacer"></span>
-    <button class="iconbtn" id="themeToggle" type="button" aria-label="切换深色/浅色模式" title="切换深色/浅色模式">
-      <span id="themeIcon">🌙</span><span id="themeText">深色</span>
+    <button class="iconbtn theme-btn" id="themeToggle" type="button" aria-label="切换深色/浅色模式" title="切换深色/浅色模式">
+      <svg class="ico" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor"
+           stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <path id="themeIconPath" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
     </button>
     <a class="iconbtn feedback" id="feedbackTop" href="mailto:2932944216@qq.com"
        data-u="2932944216" data-d="qq.com" aria-label="反馈（发送邮件）" title="反馈 · 发送邮件">
@@ -541,11 +545,20 @@ const num = (n) => (n === null || n === undefined || n === '') ? '—' : Number(
 /* ============================================================
    主题（昼夜切换）
    ============================================================ */
+// 深色模式显示太阳（点击回浅色），浅色模式显示月亮（点击进深色）
+const THEME_PATHS = {
+  moon: 'M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z',
+  sun:  'M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'
+      + ' M12 1v2 M12 21v2 M4.22 4.22l1.42 1.42 M18.36 18.36l1.42 1.42'
+      + ' M1 12h2 M21 12h2 M4.22 19.78l1.42-1.42 M18.36 5.64l1.42-1.42',
+};
 function applyTheme(t, persist){
   document.documentElement.setAttribute('data-theme', t);
-  $('themeIcon').textContent = t === 'dark' ? '☀️' : '🌙';
-  $('themeText').textContent = t === 'dark' ? '浅色' : '深色';
-  $('themeToggle').setAttribute('aria-label', t === 'dark' ? '切换到浅色模式' : '切换到深色模式');
+  const path = $('themeIconPath');
+  if (path) path.setAttribute('d', t === 'dark' ? THEME_PATHS.sun : THEME_PATHS.moon);
+  const btn = $('themeToggle');
+  btn.setAttribute('aria-label', t === 'dark' ? '当前深色模式，点击切换到浅色' : '当前浅色模式，点击切换到深色');
+  btn.setAttribute('title', t === 'dark' ? '切换到浅色模式' : '切换到深色模式');
   if (persist) { try { localStorage.setItem(THEME_KEY, t); } catch(e){} }
 }
 function initTheme(){
