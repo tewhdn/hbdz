@@ -23,7 +23,7 @@
     {
      "name": "大数据与会计",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 631
     }
@@ -35,9 +35,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyoudian.html"
   },
   {
@@ -50,30 +50,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "电子商务",
-     "plan": 4,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 634
-    },
-    {
      "name": "现代物流管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 623
+    },
+    {
+     "name": "电子商务",
+     "plan": 4,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 634
     }
    ],
-   "programNames": "电子商务、现代物流管理",
+   "programNames": "现代物流管理、电子商务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -86,37 +86,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "大数据与会计",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 634
-    },
-    {
      "name": "电子商务",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 621
     },
     {
      "name": "现代物流管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 622
+    },
+    {
+     "name": "大数据与会计",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 634
     }
    ],
-   "programNames": "大数据与会计、电子商务、现代物流管理",
+   "programNames": "电子商务、现代物流管理、大数据与会计",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -129,65 +129,65 @@
    "programCount": 7,
    "programs": [
     {
+     "name": "金融科技应用",
+     "plan": 6,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 597
+    },
+    {
      "name": "大数据与财务管理",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 624
     },
     {
      "name": "大数据与会计",
      "plan": 1,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 637
     },
     {
-     "name": "电子商务",
-     "plan": 2,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 620
-    },
-    {
      "name": "工商企业管理",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 595
     },
     {
-     "name": "金融科技应用",
-     "plan": 6,
-     "years": 3,
+     "name": "数智营销",
+     "plan": 7,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 597
+     "minScore": 596
+    },
+    {
+     "name": "电子商务",
+     "plan": 2,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 620
     },
     {
      "name": "商务数据分析与应用",
      "plan": 7,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 593
-    },
-    {
-     "name": "数智营销",
-     "plan": 7,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 596
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、电子商务、工商企业管理、金融科技应用、商务数据分析与应用、数智营销",
+   "programNames": "金融科技应用、大数据与财务管理、大数据与会计、工商企业管理、数智营销、电子商务、商务数据分析与应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -252,28 +252,28 @@
     {
      "name": "大数据与会计",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     },
     {
      "name": "供应链运营",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 585
     },
     {
      "name": "铁路物流管理",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 589
     },
     {
      "name": "现代物流管理",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 588
     }
@@ -285,9 +285,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -302,70 +302,70 @@
     {
      "name": "大数据与会计",
      "plan": 47,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 616
     },
     {
      "name": "电子商务",
      "plan": 46,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 593
     },
     {
      "name": "金融服务与管理",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 603
     },
     {
      "name": "跨境电子商务",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 590
     },
     {
      "name": "连锁经营与管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 581
     },
     {
-     "name": "市场营销",
-     "plan": 9,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 589
-    },
-    {
      "name": "市场营销(新媒体营销)",
      "plan": 18,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 585
     },
     {
+     "name": "市场营销",
+     "plan": 9,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 589
+    },
+    {
      "name": "现代物流管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 595
     }
    ],
-   "programNames": "大数据与会计、电子商务、金融服务与管理、跨境电子商务、连锁经营与管理、市场营销、市场营销(新媒体营销)、现代物流管理",
+   "programNames": "大数据与会计、电子商务、金融服务与管理、跨境电子商务、连锁经营与管理、市场营销(新媒体营销)、市场营销、现代物流管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -536,7 +536,7 @@
   {
    "name": "河北司法警官职业学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "邯郸",
    "plan": 10,
    "minScore": 569,
    "subClasses": null,
@@ -545,7 +545,7 @@
     {
      "name": "大数据与会计",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 569
     }
@@ -557,9 +557,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbsifajingguan.html"
   },
   {
@@ -574,63 +574,63 @@
     {
      "name": "大数据与财务管理(注册会计师方向)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 580
     },
     {
      "name": "大数据与会计",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 586
     },
     {
      "name": "大数据与审计",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 578
     },
     {
      "name": "电子商务",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 570
     },
     {
      "name": "供应链运营",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 564
     },
     {
      "name": "国际经济与贸易",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 565
     },
     {
      "name": "金融服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 568
     },
     {
      "name": "市场营销",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 565
     },
     {
      "name": "现代物流管理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 568
     }
@@ -642,9 +642,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -659,35 +659,35 @@
     {
      "name": "财富管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 554
     },
     {
      "name": "关务与外贸服务(进出口关务管理方向)",
      "plan": 34,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 550
     },
     {
      "name": "金融科技应用",
      "plan": 34,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 549
     },
     {
      "name": "市场营销",
      "plan": 32,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 550
     },
     {
      "name": "现代物流管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 565
     }
@@ -699,9 +699,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
   },
   {
@@ -714,58 +714,58 @@
    "programCount": 6,
    "programs": [
     {
+     "name": "金融服务与管理",
+     "plan": 45,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 550
+    },
+    {
      "name": "大数据与会计",
      "plan": 42,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 576
     },
     {
      "name": "大数据与审计",
      "plan": 43,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 569
     },
     {
-     "name": "工商企业管理",
-     "plan": 25,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 544
-    },
-    {
-     "name": "金融服务与管理",
-     "plan": 45,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 550
-    },
-    {
      "name": "网络营销与直播电商",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 549
     },
     {
      "name": "现代物流管理",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 556
+    },
+    {
+     "name": "工商企业管理",
+     "plan": 25,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 544
     }
    ],
-   "programNames": "大数据与会计、大数据与审计、工商企业管理、金融服务与管理、网络营销与直播电商、现代物流管理",
+   "programNames": "金融服务与管理、大数据与会计、大数据与审计、网络营销与直播电商、现代物流管理、工商企业管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -780,56 +780,56 @@
     {
      "name": "财税大数据应用",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 560
     },
     {
      "name": "大数据与财务管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 571
     },
     {
      "name": "大数据与会计",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 580
     },
     {
      "name": "电子商务",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 549
     },
     {
      "name": "会计信息管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 562
     },
     {
      "name": "跨境电子商务",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 546
     },
     {
      "name": "市场营销",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 538
     },
     {
      "name": "网络营销与直播电商",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     }
@@ -841,9 +841,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -878,58 +878,58 @@
   {
    "name": "河北软件职业技术学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 240,
    "minScore": 531,
    "subClasses": null,
    "programCount": 5,
    "programs": [
     {
-     "name": "大数据与会计",
-     "plan": 59,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 575
-    },
-    {
      "name": "电子商务",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 551
     },
     {
      "name": "跨境电子商务",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 537
     },
     {
      "name": "数智营销",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 540
     },
     {
      "name": "网络营销与直播电商",
      "plan": 47,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 531
+    },
+    {
+     "name": "大数据与会计",
+     "plan": 59,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 575
     }
    ],
-   "programNames": "大数据与会计、电子商务、跨境电子商务、数智营销、网络营销与直播电商",
+   "programNames": "电子商务、跨境电子商务、数智营销、网络营销与直播电商、大数据与会计",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -944,7 +944,7 @@
     {
      "name": "会计信息管理",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 529
     }
@@ -956,9 +956,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhgongye.html"
   },
   {
@@ -971,58 +971,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "大数据与财务管理",
-     "plan": 98,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 554
-    },
-    {
-     "name": "电子商务",
-     "plan": 131,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 530
-    },
-    {
      "name": "会计信息管理",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 551
     },
     {
+     "name": "电子商务",
+     "plan": 131,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 530
+    },
+    {
      "name": "金融服务与管理",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 540
     },
     {
-     "name": "跨境电子商务(跨境电商运营)",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 534
-    },
-    {
      "name": "连锁经营与管理",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 528
+    },
+    {
+     "name": "大数据与财务管理",
+     "plan": 98,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 554
+    },
+    {
+     "name": "跨境电子商务(跨境电商运营)",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 534
     }
    ],
-   "programNames": "大数据与财务管理、电子商务、会计信息管理、金融服务与管理、跨境电子商务(跨境电商运营)、连锁经营与管理",
+   "programNames": "会计信息管理、电子商务、金融服务与管理、连锁经营与管理、大数据与财务管理、跨境电子商务(跨境电商运营)",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -1236,21 +1236,21 @@
     {
      "name": "大数据与会计",
      "plan": 105,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 548
     },
     {
      "name": "网络营销与直播电商",
      "plan": 107,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 519
     },
     {
      "name": "现代物流管理",
      "plan": 61,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 525
     }
@@ -1262,9 +1262,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfyanjing.html"
   },
   {
@@ -1541,7 +1541,7 @@
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 238,
    "minScore": 508,
    "subClasses": null,
@@ -1550,21 +1550,21 @@
     {
      "name": "大数据与财务管理",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 525
     },
     {
      "name": "大数据与会计",
      "plan": 99,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 529
     },
     {
      "name": "电子商务",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     }
@@ -1576,9 +1576,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -1591,51 +1591,51 @@
    "programCount": 5,
    "programs": [
     {
+     "name": "金融服务与管理",
+     "plan": 49,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 506
+    },
+    {
      "name": "大数据与会计",
      "plan": 51,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     },
     {
      "name": "电子商务",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 512
     },
     {
-     "name": "金融服务与管理",
-     "plan": 49,
-     "years": 3,
+     "name": "现代物流管理",
+     "plan": 41,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 506
+     "minScore": 507
     },
     {
      "name": "跨境电子商务",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 506
-    },
-    {
-     "name": "现代物流管理",
-     "plan": 41,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 507
     }
    ],
-   "programNames": "大数据与会计、电子商务、金融服务与管理、跨境电子商务、现代物流管理",
+   "programNames": "金融服务与管理、大数据与会计、电子商务、现代物流管理、跨境电子商务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -1648,58 +1648,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "财税大数据应用",
-     "plan": 80,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 522
-    },
-    {
      "name": "大数据与会计",
      "plan": 84,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 537
     },
     {
      "name": "电子商务",
      "plan": 100,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 512
-    },
-    {
-     "name": "工商企业管理",
-     "plan": 128,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 506
-    },
-    {
-     "name": "金融服务与管理",
-     "plan": 92,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 512
     },
     {
      "name": "商务数据分析与应用",
      "plan": 102,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 509
+    },
+    {
+     "name": "金融服务与管理",
+     "plan": 92,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 512
+    },
+    {
+     "name": "财税大数据应用",
+     "plan": 80,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 522
+    },
+    {
+     "name": "工商企业管理",
+     "plan": 128,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 506
     }
    ],
-   "programNames": "财税大数据应用、大数据与会计、电子商务、工商企业管理、金融服务与管理、商务数据分析与应用",
+   "programNames": "大数据与会计、电子商务、商务数据分析与应用、金融服务与管理、财税大数据应用、工商企业管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -1798,37 +1798,37 @@
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 18,
    "minScore": 502,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "大数据与会计",
-     "plan": 8,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 520
-    },
-    {
      "name": "电子商务",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 502
+    },
+    {
+     "name": "大数据与会计",
+     "plan": 8,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 520
     }
    ],
-   "programNames": "大数据与会计、电子商务",
+   "programNames": "电子商务、大数据与会计",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
@@ -1843,21 +1843,21 @@
     {
      "name": "大数据与会计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     },
     {
      "name": "电子商务",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     },
     {
      "name": "网络营销与直播电商",
      "plan": 105,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 502
     }
@@ -1869,15 +1869,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
    "name": "河北能源职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 199,
    "minScore": 502,
    "subClasses": null,
@@ -1886,42 +1886,42 @@
     {
      "name": "大数据与会计",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 520
     },
     {
      "name": "电子商务",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 503
     },
     {
-     "name": "数智营销",
-     "plan": 39,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 502
-    },
-    {
      "name": "现代物流管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 504
+    },
+    {
+     "name": "数智营销",
+     "plan": 39,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 502
     }
    ],
-   "programNames": "大数据与会计、电子商务、数智营销、现代物流管理",
+   "programNames": "大数据与会计、电子商务、现代物流管理、数智营销",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -1936,35 +1936,35 @@
     {
      "name": "大数据与会计",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 521
     },
     {
      "name": "电子商务",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 507
     },
     {
      "name": "金融科技应用",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 504
     },
     {
      "name": "市场营销",
      "plan": 34,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 501
     },
     {
      "name": "现代物流管理",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 513
     }
@@ -1976,9 +1976,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
@@ -1993,35 +1993,35 @@
     {
      "name": "大数据与会计",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 524
     },
     {
-     "name": "电子商务",
-     "plan": 14,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 501
-    },
-    {
      "name": "会计信息管理",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 517
+    },
+    {
+     "name": "电子商务",
+     "plan": 14,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 501
     }
    ],
-   "programNames": "大数据与会计、电子商务、会计信息管理",
+   "programNames": "大数据与会计、会计信息管理、电子商务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -2036,21 +2036,21 @@
     {
      "name": "大数据与会计",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 518
     },
     {
      "name": "市场营销",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 499
     },
     {
      "name": "现代物流管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 503
     }
@@ -2062,9 +2062,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tskeji.html"
   },
   {
@@ -2223,21 +2223,21 @@
     {
      "name": "电子商务",
      "plan": 68,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 501
     },
     {
      "name": "跨境电子商务",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 497
     },
     {
      "name": "网络营销与直播电商",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 496
     }
@@ -2249,9 +2249,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -2264,44 +2264,44 @@
    "programCount": 4,
    "programs": [
     {
+     "name": "金融服务与管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 500
+    },
+    {
      "name": "大数据与会计",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 514
     },
     {
      "name": "电子商务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 497
     },
     {
-     "name": "金融服务与管理",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 500
-    },
-    {
      "name": "网络营销与直播电商",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 495
     }
    ],
-   "programNames": "大数据与会计、电子商务、金融服务与管理、网络营销与直播电商",
+   "programNames": "金融服务与管理、大数据与会计、电子商务、网络营销与直播电商",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -2336,44 +2336,44 @@
   {
    "name": "河北软件职业技术学院(阜平校区)",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 276,
    "minScore": 494,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "大数据与财务管理",
-     "plan": 67,
-     "years": 3,
+     "name": "网络营销与直播电商",
+     "plan": 90,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 518
+     "minScore": 494
     },
     {
      "name": "电子商务",
      "plan": 119,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 498
     },
     {
-     "name": "网络营销与直播电商",
-     "plan": 90,
-     "years": 3,
+     "name": "大数据与财务管理",
+     "plan": 67,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 494
+     "minScore": 518
     }
    ],
-   "programNames": "大数据与财务管理、电子商务、网络营销与直播电商",
+   "programNames": "网络营销与直播电商、电子商务、大数据与财务管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -2388,42 +2388,42 @@
     {
      "name": "电子商务",
      "plan": 25,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 495
-    },
-    {
-     "name": "供应链运营",
-     "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 495
     },
     {
      "name": "跨境电子商务",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 494
     },
     {
      "name": "网络营销与直播电商",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 493
+    },
+    {
+     "name": "供应链运营",
+     "plan": 25,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 495
     }
    ],
-   "programNames": "电子商务、供应链运营、跨境电子商务、网络营销与直播电商",
+   "programNames": "电子商务、跨境电子商务、网络营销与直播电商、供应链运营",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -2438,7 +2438,7 @@
     {
      "name": "网络营销与直播电商",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 493
     }
@@ -2450,9 +2450,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hsjiankangkeji.html"
   },
   {
@@ -2590,7 +2590,7 @@
     {
      "name": "电子商务",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 491
     }
@@ -2602,9 +2602,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -2619,7 +2619,7 @@
     {
      "name": "电子商务",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 491
     }
@@ -2631,9 +2631,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -2648,7 +2648,7 @@
     {
      "name": "电子商务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 489
     }
@@ -2660,9 +2660,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -2762,7 +2762,7 @@
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 41,
    "minScore": 485,
    "subClasses": null,
@@ -2771,14 +2771,14 @@
     {
      "name": "大数据与审计",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 490
     },
     {
      "name": "现代物流管理",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 485
     }
@@ -2790,15 +2790,15 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
    "name": "河北石油职业技术大学(中外合作办学)",
    "type": "公办",
-   "city": "其他",
+   "city": "承德",
    "plan": 30,
    "minScore": 485,
    "subClasses": null,
@@ -2807,7 +2807,7 @@
     {
      "name": "电子商务(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 485
     }
@@ -2819,9 +2819,9 @@
     16000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbshiyou-zw.html"
   },
   {
@@ -2836,7 +2836,7 @@
     {
      "name": "大数据与会计(中外合作办学)",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 482
     }
@@ -2848,15 +2848,15 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 65,
    "minScore": 479,
    "subClasses": null,
@@ -2865,21 +2865,21 @@
     {
      "name": "大数据与会计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 484
     },
     {
      "name": "电子商务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 479
     },
     {
      "name": "智能物流技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 482
     }
@@ -2891,51 +2891,51 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 24,
    "minScore": 478,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "大数据与会计",
-     "plan": 12,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 481
-    },
-    {
      "name": "电子商务",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 478
+    },
+    {
+     "name": "大数据与会计",
+     "plan": 12,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 481
     }
    ],
-   "programNames": "大数据与会计、电子商务",
+   "programNames": "电子商务、大数据与会计",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 20,
    "minScore": 478,
    "subClasses": null,
@@ -2944,14 +2944,14 @@
     {
      "name": "大数据与会计",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 482
     },
     {
      "name": "电子商务",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 6500,
      "minScore": 478
     }
@@ -2963,15 +2963,15 @@
     6500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 34,
    "minScore": 476,
    "subClasses": null,
@@ -2980,14 +2980,14 @@
     {
      "name": "电子商务",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 477
     },
     {
      "name": "智能物流技术",
      "plan": 21,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 476
     }
@@ -2999,9 +2999,9 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
@@ -3016,42 +3016,42 @@
     {
      "name": "大数据与财务管理",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 474
     },
     {
      "name": "大数据与会计",
      "plan": 467,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 472
     },
     {
      "name": "电子商务",
      "plan": 61,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 480
     },
     {
      "name": "工商企业管理(数字化运营管理方向)",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 481
     },
     {
      "name": "网络营销与直播电商",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 479
     },
     {
      "name": "现代物流管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 479
     }
@@ -3063,9 +3063,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
@@ -3078,78 +3078,78 @@
    "programCount": 8,
    "programs": [
     {
+     "name": "金融服务与管理",
+     "plan": 10,
+     "years": "3",
+     "tuition": 11700,
+     "minScore": 474
+    },
+    {
      "name": "大数据与财务管理",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 467
     },
     {
      "name": "大数据与会计",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 10140,
      "minScore": 472
     },
     {
      "name": "大数据与会计(注册会计师)",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 10140,
      "minScore": 466
     },
     {
-     "name": "电子商务",
-     "plan": 40,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 467
-    },
-    {
      "name": "工商企业管理",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 467
-    },
-    {
-     "name": "金融服务与管理",
-     "plan": 10,
-     "years": 3,
-     "tuition": 11700,
-     "minScore": 474
     },
     {
      "name": "市场营销",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 471
     },
     {
+     "name": "电子商务",
+     "plan": 40,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 467
+    },
+    {
      "name": "现代物流管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 467
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、大数据与会计(注册会计师)、电子商务、工商企业管理、金融服务与管理、市场营销、现代物流管理",
+   "programNames": "金融服务与管理、大数据与财务管理、大数据与会计、大数据与会计(注册会计师)、工商企业管理、市场营销、电子商务、现代物流管理",
    "programsComplete": true,
    "tuitionRange": [
     10140,
     13000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
    "name": "华北理工大学轻工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 70,
    "minScore": 464,
    "subClasses": null,
@@ -3158,7 +3158,7 @@
     {
      "name": "大数据与会计",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 464
     }
@@ -3170,9 +3170,9 @@
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/huabeiligong.html"
   },
   {
@@ -3187,63 +3187,63 @@
     {
      "name": "财税大数据应用",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 462
     },
     {
      "name": "大数据与财务管理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 466
     },
     {
      "name": "大数据与会计",
      "plan": 300,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 464
     },
     {
      "name": "大数据与会计(注册会计师方向)",
      "plan": 190,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 461
     },
     {
      "name": "电子商务",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 464
     },
     {
      "name": "跨境电子商务",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 477
     },
     {
      "name": "数智营销",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 465
     },
     {
      "name": "网络营销与直播电商",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 467
     },
     {
      "name": "现代物流管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 469
     }
@@ -3255,52 +3255,52 @@
     13600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 200,
    "minScore": 447,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
+     "name": "金融服务与管理",
+     "plan": 40,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 451
+    },
+    {
      "name": "大数据与财务管理",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 447
     },
     {
      "name": "大数据与会计",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 447
-    },
-    {
-     "name": "金融服务与管理",
-     "plan": 40,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 451
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、金融服务与管理",
+   "programNames": "金融服务与管理、大数据与财务管理、大数据与会计",
    "programsComplete": true,
    "tuitionRange": [
     19800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
@@ -3313,49 +3313,49 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "大数据与财务管理",
-     "plan": 80,
-     "years": 3,
+     "name": "智能物流技术",
+     "plan": 30,
+     "years": "3",
      "tuition": 12800,
-     "minScore": 447
+     "minScore": 449
     },
     {
      "name": "大数据与会计",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 456
     },
     {
      "name": "电子商务",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 451
     },
     {
-     "name": "智能物流技术",
-     "plan": 30,
-     "years": 3,
+     "name": "大数据与财务管理",
+     "plan": 80,
+     "years": "3",
      "tuition": 12800,
-     "minScore": 449
+     "minScore": 447
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、电子商务、智能物流技术",
+   "programNames": "智能物流技术、大数据与会计、电子商务、大数据与财务管理",
    "programsComplete": true,
    "tuitionRange": [
     12800,
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
    "name": "邯郸应用技术职业学院",
-   "type": "公办",
+   "type": "民办",
    "city": "邯郸",
    "plan": 300,
    "minScore": 436,
@@ -3365,7 +3365,7 @@
     {
      "name": "会计信息管理",
      "plan": 300,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 436
     }
@@ -3377,9 +3377,9 @@
     12600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyingyongjishu.html"
   },
   {
@@ -3392,121 +3392,121 @@
    "programCount": 15,
    "programs": [
     {
-     "name": "大数据与财务管理",
-     "plan": 299,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 429
-    },
-    {
-     "name": "大数据与会计",
-     "plan": 559,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 444
-    },
-    {
-     "name": "大数据与会计(注册会计师)",
-     "plan": 260,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 452
-    },
-    {
-     "name": "大数据与审计",
-     "plan": 90,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 448
-    },
-    {
      "name": "低空物流技术与运营",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 453
     },
     {
+     "name": "国际经济与贸易",
+     "plan": 120,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 435
+    },
+    {
+     "name": "市场营销",
+     "plan": 100,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 424
+    },
+    {
      "name": "电子商务",
      "plan": 316,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 425
     },
     {
      "name": "工商企业管理",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 416
     },
     {
+     "name": "现代物流管理",
+     "plan": 140,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 426
+    },
+    {
+     "name": "商务数据分析与应用",
+     "plan": 70,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 421
+    },
+    {
+     "name": "智能物流技术",
+     "plan": 70,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 427
+    },
+    {
      "name": "供应链运营",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 420
     },
     {
-     "name": "国际经济与贸易",
-     "plan": 120,
-     "years": 3,
+     "name": "大数据与会计",
+     "plan": 559,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 444
+    },
+    {
+     "name": "大数据与会计(注册会计师)",
+     "plan": 260,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 452
+    },
+    {
+     "name": "大数据与审计",
+     "plan": 90,
+     "years": "3",
      "tuition": 12900,
-     "minScore": 435
+     "minScore": 448
     },
     {
      "name": "会计信息管理",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 434
     },
     {
      "name": "金融服务与管理",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 422
     },
     {
-     "name": "商务数据分析与应用",
-     "plan": 70,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 421
-    },
-    {
-     "name": "市场营销",
-     "plan": 100,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 424
-    },
-    {
-     "name": "现代物流管理",
-     "plan": 140,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 426
-    },
-    {
-     "name": "智能物流技术",
-     "plan": 70,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 427
+     "name": "大数据与财务管理",
+     "plan": 299,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 429
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、大数据与会计(注册会计师)、大数据与审计、低空物流技术与运营、电子商务、工商企业管理、供应链运营、国际经济与贸易、会计信息管理、金融服务与管理、商务数据分析与应用、市场营销、现代物流管理、智能物流技术",
+   "programNames": "低空物流技术与运营、国际经济与贸易、市场营销、电子商务、工商企业管理、现代物流管理、商务数据分析与应用、智能物流技术、供应链运营、大数据与会计、大数据与会计(注册会计师)、大数据与审计、会计信息管理、金融服务与管理、大数据与财务管理",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -3521,7 +3521,7 @@
     {
      "name": "电子商务(中外合作办学)",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 24000,
      "minScore": 415
     }
@@ -3533,9 +3533,9 @@
     24000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
@@ -3550,49 +3550,49 @@
     {
      "name": "大数据与会计",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 442
     },
     {
      "name": "低空物流技术与运营",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 432
     },
     {
      "name": "电子商务",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 422
     },
     {
      "name": "跨境电子商务",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 410
     },
     {
      "name": "网络营销与直播电商",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 415
     },
     {
      "name": "现代物流管理",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 412
     },
     {
      "name": "智能物流技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 410
     }
@@ -3604,9 +3604,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -3664,7 +3664,7 @@
     {
      "name": "大数据与会计(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 19900,
      "minScore": 403
     }
@@ -3676,9 +3676,9 @@
     19900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing-zw.html"
   },
   {
@@ -3693,42 +3693,42 @@
     {
      "name": "大数据与财务管理",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 395
     },
     {
      "name": "大数据与会计",
      "plan": 348,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 403
     },
     {
-     "name": "电子商务",
-     "plan": 88,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 407
-    },
-    {
      "name": "市场营销",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 394
+    },
+    {
+     "name": "电子商务",
+     "plan": 88,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 407
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、电子商务、市场营销",
+   "programNames": "大数据与财务管理、大数据与会计、市场营销、电子商务",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -3743,127 +3743,127 @@
     {
      "name": "大数据与会计",
      "plan": 425,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 392
     },
     {
      "name": "大数据与审计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 419
     },
     {
+     "name": "工商企业管理",
+     "plan": 25,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 401
+    },
+    {
      "name": "低空物流技术与运营",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 405
     },
     {
      "name": "电子商务",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 399
-    },
-    {
-     "name": "工商企业管理",
-     "plan": 25,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 401
     }
    ],
-   "programNames": "大数据与会计、大数据与审计、低空物流技术与运营、电子商务、工商企业管理",
+   "programNames": "大数据与会计、大数据与审计、工商企业管理、低空物流技术与运营、电子商务",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 347,
    "minScore": 385,
    "subClasses": null,
    "programCount": 8,
    "programs": [
     {
-     "name": "大数据与财务管理",
-     "plan": 40,
-     "years": 3,
+     "name": "市场营销(网店销售与经营方向)",
+     "plan": 42,
+     "years": "3",
      "tuition": 15210,
      "minScore": 396
     },
     {
-     "name": "大数据与会计",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 409
-    },
-    {
-     "name": "大数据与会计(注册会计师方向)",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 414
-    },
-    {
-     "name": "大数据与审计",
-     "plan": 50,
-     "years": 3,
-     "tuition": 14300,
-     "minScore": 411
-    },
-    {
-     "name": "电子商务(国际方向)",
-     "plan": 45,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 402
-    },
-    {
      "name": "跨境电子商务",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 388
     },
     {
      "name": "商务数据分析与应用",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 385
     },
     {
-     "name": "市场营销(网店销售与经营方向)",
-     "plan": 42,
-     "years": 3,
+     "name": "电子商务(国际方向)",
+     "plan": 45,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 402
+    },
+    {
+     "name": "大数据与审计",
+     "plan": 50,
+     "years": "3",
+     "tuition": 14300,
+     "minScore": 411
+    },
+    {
+     "name": "大数据与会计(注册会计师方向)",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 414
+    },
+    {
+     "name": "大数据与会计",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 409
+    },
+    {
+     "name": "大数据与财务管理",
+     "plan": 40,
+     "years": "3",
      "tuition": 15210,
      "minScore": 396
     }
    ],
-   "programNames": "大数据与财务管理、大数据与会计、大数据与会计(注册会计师方向)、大数据与审计、电子商务(国际方向)、跨境电子商务、商务数据分析与应用、市场营销(网店销售与经营方向)",
+   "programNames": "市场营销(网店销售与经营方向)、跨境电子商务、商务数据分析与应用、电子商务(国际方向)、大数据与审计、大数据与会计(注册会计师方向)、大数据与会计、大数据与财务管理",
    "programsComplete": true,
    "tuitionRange": [
     14300,
     17500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
@@ -3878,7 +3878,7 @@
     {
      "name": "大数据与会计(中外合作办学)",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 18000,
      "minScore": 381
     }
@@ -3890,9 +3890,9 @@
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -3997,37 +3997,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "航空物流管理",
-     "plan": 140,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 387
-    },
-    {
      "name": "会计信息管理",
      "plan": 280,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 395
     },
     {
      "name": "农村电子商务",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 379
+    },
+    {
+     "name": "航空物流管理",
+     "plan": 140,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 387
     }
    ],
-   "programNames": "航空物流管理、会计信息管理、农村电子商务",
+   "programNames": "会计信息管理、农村电子商务、航空物流管理",
    "programsComplete": true,
    "tuitionRange": [
     12800,
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -4104,114 +4104,114 @@
    "programCount": 14,
    "programs": [
     {
-     "name": "财富管理",
-     "plan": 40,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 393
-    },
-    {
-     "name": "财富管理",
-     "plan": 10,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 393
-    },
-    {
-     "name": "财税大数据应用",
-     "plan": 20,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 391
-    },
-    {
-     "name": "大数据与财务管理",
+     "name": "网络营销与直播电商",
      "plan": 80,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 395
-    },
-    {
-     "name": "大数据与会计",
-     "plan": 100,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 406
-    },
-    {
-     "name": "大数据与审计",
-     "plan": 20,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 416
-    },
-    {
-     "name": "金融服务与管理",
-     "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 18800,
-     "minScore": 396
+     "minScore": 371
     },
     {
-     "name": "金融服务与管理",
-     "plan": 10,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 396
-    },
-    {
-     "name": "跨境电子商务",
-     "plan": 20,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 364
+     "name": "商务数据分析与应用",
+     "plan": 80,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 361
     },
     {
      "name": "跨境电子商务",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 18800,
      "minScore": 364
     },
     {
-     "name": "商务数据分析与应用",
-     "plan": 80,
-     "years": 3,
+     "name": "金融服务与管理",
+     "plan": 40,
+     "years": "3",
      "tuition": 18800,
-     "minScore": 389
+     "minScore": 369
+    },
+    {
+     "name": "财富管理",
+     "plan": 40,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 362
+    },
+    {
+     "name": "大数据与会计",
+     "plan": 100,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 406
+    },
+    {
+     "name": "大数据与财务管理",
+     "plan": 80,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 395
+    },
+    {
+     "name": "财税大数据应用",
+     "plan": 20,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 391
+    },
+    {
+     "name": "大数据与审计",
+     "plan": 20,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 416
+    },
+    {
+     "name": "网络营销与直播电商",
+     "plan": 20,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 395
     },
     {
      "name": "商务数据分析与应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 389
     },
     {
-     "name": "网络营销与直播电商",
-     "plan": 80,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 395
+     "name": "跨境电子商务",
+     "plan": 20,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 393
     },
     {
-     "name": "网络营销与直播电商",
-     "plan": 20,
-     "years": 3,
+     "name": "财富管理",
+     "plan": 10,
+     "years": "3",
      "tuition": 14800,
-     "minScore": 395
+     "minScore": 393
+    },
+    {
+     "name": "金融服务与管理",
+     "plan": 10,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 396
     }
    ],
-   "programNames": "财富管理、财富管理、财税大数据应用、大数据与财务管理、大数据与会计、大数据与审计、金融服务与管理、金融服务与管理、跨境电子商务、跨境电子商务、商务数据分析与应用、商务数据分析与应用、网络营销与直播电商、网络营销与直播电商",
-   "programsComplete": false,
+   "programNames": "网络营销与直播电商、商务数据分析与应用、跨境电子商务、金融服务与管理、财富管理、大数据与会计、大数据与财务管理、财税大数据应用、大数据与审计、网络营销与直播电商、商务数据分析与应用、跨境电子商务、财富管理、金融服务与管理",
+   "programsComplete": true,
    "tuitionRange": [
     14800,
     18800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjinrong.html"
   },
   {
@@ -4224,37 +4224,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "电子商务",
-     "plan": 150,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 358
-    },
-    {
      "name": "金融服务与管理(汽车金融)",
      "plan": 150,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 366
     },
     {
+     "name": "电子商务",
+     "plan": 150,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 358
+    },
+    {
      "name": "现代物流管理",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 362
     }
    ],
-   "programNames": "电子商务、金融服务与管理(汽车金融)、现代物流管理",
+   "programNames": "金融服务与管理(汽车金融)、电子商务、现代物流管理",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinbinhai.html"
   },
   {
@@ -4310,30 +4310,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "财税大数据应用",
-     "plan": 40,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 355
-    },
-    {
      "name": "大数据与会计",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 365
+    },
+    {
+     "name": "财税大数据应用",
+     "plan": 40,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 355
     }
    ],
-   "programNames": "财税大数据应用、大数据与会计",
+   "programNames": "大数据与会计、财税大数据应用",
    "programsComplete": true,
    "tuitionRange": [
     18800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
@@ -4377,21 +4377,21 @@
     {
      "name": "航空物流管理",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 349
     },
     {
      "name": "会计信息管理",
      "plan": 180,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 349
     },
     {
      "name": "网络营销与直播电商",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 350
     }
@@ -4403,9 +4403,9 @@
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -4484,70 +4484,70 @@
     {
      "name": "保险实务",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15500,
      "minScore": 393
     },
     {
      "name": "大数据与财务管理",
      "plan": 130,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 349
     },
     {
      "name": "大数据与会计",
      "plan": 199,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 349
     },
     {
      "name": "电子商务",
      "plan": 97,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 353
     },
     {
      "name": "工商企业管理",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 358
     },
     {
      "name": "国际金融",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 355
     },
     {
      "name": "国际经济与贸易",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 366
     },
     {
      "name": "金融科技应用",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 349
     },
     {
      "name": "市场营销",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 15500,
      "minScore": 391
     },
     {
      "name": "现代物流管理",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 377
     }
@@ -4559,9 +4559,9 @@
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   }
  ],
@@ -4570,13 +4570,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试九类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试九类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "政治、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试九类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10926.html"
+    }
+   ]
   }
  ]
 }

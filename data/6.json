@@ -23,14 +23,14 @@
     {
      "name": "影视动画",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 605
     },
     {
      "name": "影视多媒体技术",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 609
     }
@@ -42,9 +42,9 @@
     6000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -57,30 +57,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "学前教育",
-     "plan": 6,
-     "years": 3,
-     "tuition": 3500,
-     "minScore": 609
-    },
-    {
      "name": "早期教育",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 598
+    },
+    {
+     "name": "学前教育",
+     "plan": 6,
+     "years": "3",
+     "tuition": 3500,
+     "minScore": 609
     }
    ],
-   "programNames": "学前教育、早期教育",
+   "programNames": "早期教育、学前教育",
    "programsComplete": true,
    "tuitionRange": [
     3500,
     3500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -95,41 +95,41 @@
     {
      "name": "学前教育",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 582
     },
     {
-     "name": "影视编导",
-     "plan": 35,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 560
-    },
-    {
      "name": "早期教育",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 576
+    },
+    {
+     "name": "影视编导",
+     "plan": 35,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 560
     }
    ],
-   "programNames": "学前教育、影视编导、早期教育",
+   "programNames": "学前教育、早期教育、影视编导",
    "programsComplete": true,
    "tuitionRange": [
     3500,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
    "name": "河北软件职业技术学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 60,
    "minScore": 557,
    "subClasses": null,
@@ -138,7 +138,7 @@
     {
      "name": "影视多媒体技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 557
     }
@@ -150,9 +150,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -167,7 +167,7 @@
     {
      "name": "新闻采编与制作",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 548
     }
@@ -179,9 +179,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -196,14 +196,14 @@
     {
      "name": "网络新闻与传播",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 548
     },
     {
      "name": "应用英语(法务英语方向)",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 538
     }
@@ -215,9 +215,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -259,58 +259,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "美术教育",
-     "plan": 20,
-     "years": 3,
+     "name": "音乐教育",
+     "plan": 18,
+     "years": "3",
      "tuition": 3500,
-     "minScore": 513
+     "minScore": 522
     },
     {
      "name": "舞蹈教育",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 519
     },
     {
+     "name": "美术教育",
+     "plan": 20,
+     "years": "3",
+     "tuition": 3500,
+     "minScore": 513
+    },
+    {
+     "name": "学前教育",
+     "plan": 4,
+     "years": "3",
+     "tuition": 3500,
+     "minScore": 597
+    },
+    {
      "name": "小学科学教育",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 550
     },
     {
      "name": "小学语文教育",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 565
-    },
-    {
-     "name": "学前教育",
-     "plan": 4,
-     "years": 3,
-     "tuition": 3500,
-     "minScore": 597
-    },
-    {
-     "name": "音乐教育",
-     "plan": 18,
-     "years": 3,
-     "tuition": 3500,
-     "minScore": 522
     }
    ],
-   "programNames": "美术教育、舞蹈教育、小学科学教育、小学语文教育、学前教育、音乐教育",
+   "programNames": "音乐教育、舞蹈教育、美术教育、学前教育、小学科学教育、小学语文教育",
    "programsComplete": true,
    "tuitionRange": [
     3500,
     3500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -323,30 +323,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "融媒体技术与运营",
-     "plan": 170,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 511
-    },
-    {
      "name": "学前教育",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 536
+    },
+    {
+     "name": "融媒体技术与运营",
+     "plan": 170,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 511
     }
    ],
-   "programNames": "融媒体技术与运营、学前教育",
+   "programNames": "学前教育、融媒体技术与运营",
    "programsComplete": true,
    "tuitionRange": [
     3500,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -359,30 +359,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "学前教育",
-     "plan": 15,
-     "years": 3,
-     "tuition": 3500,
-     "minScore": 538
-    },
-    {
      "name": "早期教育",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 508
+    },
+    {
+     "name": "学前教育",
+     "plan": 15,
+     "years": "3",
+     "tuition": 3500,
+     "minScore": 538
     }
    ],
-   "programNames": "学前教育、早期教育",
+   "programNames": "早期教育、学前教育",
    "programsComplete": true,
    "tuitionRange": [
     3500,
     3500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -397,7 +397,7 @@
     {
      "name": "融媒体技术与运营",
      "plan": 250,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     }
@@ -409,9 +409,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -498,7 +498,7 @@
     {
      "name": "中文",
      "plan": 172,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 501
     }
@@ -510,9 +510,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsyouershifan.html"
   },
   {
@@ -554,7 +554,7 @@
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 5,
    "minScore": 495,
    "subClasses": null,
@@ -563,7 +563,7 @@
     {
      "name": "早期教育",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 495
     }
@@ -575,15 +575,15 @@
     3500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 141,
    "minScore": 485,
    "subClasses": null,
@@ -592,14 +592,14 @@
     {
      "name": "学前教育",
      "plan": 91,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 495
     },
     {
      "name": "早期教育",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 485
     }
@@ -611,15 +611,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
    "name": "河北软件职业技术学院(阜平校区)",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 145,
    "minScore": 485,
    "subClasses": null,
@@ -628,7 +628,7 @@
     {
      "name": "影视多媒体技术",
      "plan": 145,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 485
     }
@@ -640,9 +640,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -657,7 +657,7 @@
     {
      "name": "学前教育",
      "plan": 26,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 480
     }
@@ -669,9 +669,9 @@
     3500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -713,30 +713,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "学前教育",
-     "plan": 45,
-     "years": 3,
-     "tuition": 3500,
-     "minScore": 474
-    },
-    {
      "name": "影视动画",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 489
+    },
+    {
+     "name": "学前教育",
+     "plan": 45,
+     "years": "3",
+     "tuition": 3500,
+     "minScore": 474
     }
    ],
-   "programNames": "学前教育、影视动画",
+   "programNames": "影视动画、学前教育",
    "programsComplete": true,
    "tuitionRange": [
     3500,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -751,7 +751,7 @@
     {
      "name": "学前教育",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 473
     }
@@ -763,9 +763,9 @@
     3500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -780,7 +780,7 @@
     {
      "name": "应用英语",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 470
     }
@@ -792,15 +792,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
    "name": "河北艺术职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 305,
    "minScore": 465,
    "subClasses": null,
@@ -809,21 +809,21 @@
     {
      "name": "广播影视节目制作",
      "plan": 170,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 466
     },
     {
      "name": "学前教育",
      "plan": 105,
-     "years": 3,
+     "years": "3",
      "tuition": 3500,
      "minScore": 465
     },
     {
      "name": "影视照明技术与艺术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 470
     }
@@ -835,15 +835,15 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbyishu.html"
   },
   {
    "name": "天津体育职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "天津",
    "plan": 80,
    "minScore": 463,
    "subClasses": null,
@@ -852,7 +852,7 @@
     {
      "name": "体育运营与管理",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 463
     }
@@ -864,9 +864,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjintiyu.html"
   },
   {
@@ -881,7 +881,7 @@
     {
      "name": "早期教育",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 459
     }
@@ -893,9 +893,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -946,7 +946,7 @@
     {
      "name": "商务英语(中外合作办学)",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 452
     }
@@ -958,9 +958,9 @@
     16000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -1108,7 +1108,7 @@
   {
    "name": "河北艺术职业学院（中外合作办学）",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 20,
    "minScore": 442,
    "subClasses": null,
@@ -1117,7 +1117,7 @@
     {
      "name": "学前教育(中外合作办学)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 442
     }
@@ -1129,15 +1129,15 @@
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbyishu.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 5,
    "minScore": 441,
    "subClasses": null,
@@ -1146,7 +1146,7 @@
     {
      "name": "学前教育",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 441
     }
@@ -1158,15 +1158,15 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 40,
    "minScore": 441,
    "subClasses": null,
@@ -1175,14 +1175,14 @@
     {
      "name": "融媒体技术与运营",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 450
     },
     {
      "name": "学前教育",
      "plan": 23,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 441
     }
@@ -1194,9 +1194,9 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
@@ -1211,14 +1211,14 @@
     {
      "name": "学前教育",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 439
     },
     {
      "name": "影视多媒体技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 447
     }
@@ -1230,9 +1230,9 @@
     13600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -1247,7 +1247,7 @@
     {
      "name": "全媒体广告策划与营销",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 438
     }
@@ -1259,45 +1259,45 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 30,
    "minScore": 436,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "网络直播与运营",
-     "plan": 15,
-     "years": 3,
-     "tuition": 6500,
-     "minScore": 441
-    },
-    {
      "name": "早期教育",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 436
+    },
+    {
+     "name": "网络直播与运营",
+     "plan": 15,
+     "years": "3",
+     "tuition": 6500,
+     "minScore": 441
     }
    ],
-   "programNames": "网络直播与运营、早期教育",
+   "programNames": "早期教育、网络直播与运营",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     6500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
@@ -1341,7 +1341,7 @@
     {
      "name": "小学教育(中外合作办学)",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 18000,
      "minScore": 416
     }
@@ -1353,9 +1353,9 @@
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -1399,63 +1399,63 @@
     {
      "name": "播音与主持",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 410
     },
     {
+     "name": "新闻采编与制作",
+     "plan": 40,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 408
+    },
+    {
+     "name": "摄影摄像技术",
+     "plan": 39,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 412
+    },
+    {
+     "name": "融媒体技术与运营",
+     "plan": 50,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 433
+    },
+    {
      "name": "传播与策划",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 421
     },
     {
      "name": "广播影视节目制作",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 417
     },
     {
-     "name": "融媒体技术与运营",
-     "plan": 50,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 433
-    },
-    {
-     "name": "摄影摄像技术",
-     "plan": 39,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 412
-    },
-    {
-     "name": "新闻采编与制作",
-     "plan": 40,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 408
-    },
-    {
      "name": "学前教育",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 414
     }
    ],
-   "programNames": "播音与主持、传播与策划、广播影视节目制作、融媒体技术与运营、摄影摄像技术、新闻采编与制作、学前教育",
+   "programNames": "播音与主持、新闻采编与制作、摄影摄像技术、融媒体技术与运营、传播与策划、广播影视节目制作、学前教育",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -1470,7 +1470,7 @@
     {
      "name": "广播影视节目制作(中外合作办学)",
      "plan": 79,
-     "years": 3,
+     "years": "3",
      "tuition": 21000,
      "minScore": 405
     }
@@ -1482,9 +1482,9 @@
     21000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -1499,42 +1499,42 @@
     {
      "name": "播音与主持",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 15600,
      "minScore": 406
     },
     {
-     "name": "学前教育",
-     "plan": 170,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 398
-    },
-    {
      "name": "影视动画",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 420
     },
     {
      "name": "影视动画(3D动画)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 404
+    },
+    {
+     "name": "学前教育",
+     "plan": 170,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 398
     }
    ],
-   "programNames": "播音与主持、学前教育、影视动画、影视动画(3D动画)",
+   "programNames": "播音与主持、影视动画、影视动画(3D动画)、学前教育",
    "programsComplete": true,
    "tuitionRange": [
     13000,
     16900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -1549,14 +1549,14 @@
     {
      "name": "商务英语",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 406
     },
     {
      "name": "影视编导",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 397
     }
@@ -1568,9 +1568,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -1583,37 +1583,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "体育运营与管理",
-     "plan": 10,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 405
-    },
-    {
      "name": "学前教育",
      "plan": 85,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 392
     },
     {
      "name": "影视动画",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 408
+    },
+    {
+     "name": "体育运营与管理",
+     "plan": 10,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 405
     }
    ],
-   "programNames": "体育运营与管理、学前教育、影视动画",
+   "programNames": "学前教育、影视动画、体育运营与管理",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -1628,7 +1628,7 @@
     {
      "name": "广播影视节目制作",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 392
     }
@@ -1640,9 +1640,9 @@
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -1657,7 +1657,7 @@
     {
      "name": "全媒体广告策划与营销",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 389
     }
@@ -1669,9 +1669,9 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -1751,7 +1751,7 @@
     {
      "name": "融媒体技术与运营",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 369
     }
@@ -1763,9 +1763,9 @@
     17800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -1821,36 +1821,36 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "融媒体技术与运营",
-     "plan": 15,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 371
-    },
-    {
      "name": "摄影摄像技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 369
+    },
+    {
+     "name": "融媒体技术与运营",
+     "plan": 15,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 371
     }
    ],
-   "programNames": "融媒体技术与运营、摄影摄像技术",
+   "programNames": "摄影摄像技术、融媒体技术与运营",
    "programsComplete": true,
    "tuitionRange": [
     18800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 100,
    "minScore": 368,
    "subClasses": null,
@@ -1859,14 +1859,14 @@
     {
      "name": "摄影摄像技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 377
     },
     {
      "name": "网络直播与运营",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 368
     }
@@ -1878,226 +1878,226 @@
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 500,
    "minScore": 345,
    "subClasses": null,
    "programCount": 27,
    "programs": [
     {
-     "name": "播音与主持(外语播音员方向)",
+     "name": "应用英语(英汉同声传译)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 358
+    },
+    {
+     "name": "应用英语(小学英语)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 359
+    },
+    {
+     "name": "应用英语(文本翻译)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
+     "tuition": 14300,
+     "minScore": 382
+    },
+    {
+     "name": "应用英语(随行交替翻译)",
+     "plan": 13,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 356
+    },
+    {
+     "name": "应用英语(对外汉语)",
+     "plan": 15,
+     "years": "3",
+     "tuition": 14300,
+     "minScore": 369
+    },
+    {
+     "name": "应用西班牙语",
+     "plan": 13,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 349
+    },
+    {
+     "name": "应用外语(意大利语)",
+     "plan": 13,
+     "years": "3",
      "tuition": 16250,
      "minScore": 361
     },
     {
-     "name": "广播影视节目制作(电视节目策划采编与制作)",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 365
-    },
-    {
-     "name": "商务英语",
-     "plan": 20,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 364
-    },
-    {
-     "name": "摄影摄像技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 366
-    },
-    {
-     "name": "数字影像档案技术",
+     "name": "应用外语(葡萄牙语)",
      "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 363
-    },
-    {
-     "name": "网络直播与运营",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 372
-    },
-    {
-     "name": "学前教育",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 380
-    },
-    {
-     "name": "应用阿拉伯语",
-     "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 346
     },
     {
-     "name": "应用德语(商务德语方向)",
+     "name": "应用日语(商务日语方向)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
-     "minScore": 348
-    },
-    {
-     "name": "应用俄语(商务俄语方向)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 347
-    },
-    {
-     "name": "应用法语(商务法语方向)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 345
-    },
-    {
-     "name": "应用法语(随行翻译方向)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 345
-    },
-    {
-     "name": "应用韩语(韩汉同声传译)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 345
-    },
-    {
-     "name": "应用韩语(商务韩语)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 348
+     "minScore": 364
     },
     {
      "name": "应用日语(动漫方向)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 345
     },
     {
      "name": "应用日语(日汉同声传译方向)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 351
     },
     {
-     "name": "应用日语(商务日语方向)",
+     "name": "应用韩语(商务韩语)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
-     "minScore": 364
+     "minScore": 348
     },
     {
-     "name": "应用外语(葡萄牙语)",
+     "name": "应用韩语(韩汉同声传译)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 345
+    },
+    {
+     "name": "摄影摄像技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 366
+    },
+    {
+     "name": "应用法语(商务法语方向)",
+     "plan": 13,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 345
+    },
+    {
+     "name": "应用法语(随行翻译方向)",
+     "plan": 13,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 345
+    },
+    {
+     "name": "应用俄语(商务俄语方向)",
+     "plan": 13,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 347
+    },
+    {
+     "name": "应用德语(商务德语方向)",
+     "plan": 13,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 348
+    },
+    {
+     "name": "应用阿拉伯语",
+     "plan": 13,
+     "years": "3",
      "tuition": 16250,
      "minScore": 346
     },
     {
-     "name": "应用外语(意大利语)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 361
-    },
-    {
-     "name": "应用西班牙语",
-     "plan": 13,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 349
-    },
-    {
-     "name": "应用英语(对外汉语)",
-     "plan": 15,
-     "years": 3,
-     "tuition": 14300,
-     "minScore": 369
-    },
-    {
-     "name": "应用英语(随行交替翻译)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 356
-    },
-    {
-     "name": "应用英语(文本翻译)",
-     "plan": 15,
-     "years": 3,
-     "tuition": 14300,
-     "minScore": 382
-    },
-    {
-     "name": "应用英语(小学英语)",
+     "name": "网络直播与运营",
      "plan": 30,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 359
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 372
+    },
+    {
+     "name": "商务英语",
+     "plan": 20,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 364
+    },
+    {
+     "name": "广播影视节目制作(电视节目策划采编与制作)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 365
     },
     {
      "name": "应用英语(学前英语)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 15210,
      "minScore": 349
     },
     {
-     "name": "应用英语(英汉同声传译)",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 358
+     "name": "播音与主持(外语播音员方向)",
+     "plan": 15,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 361
+    },
+    {
+     "name": "数字影像档案技术",
+     "plan": 13,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 363
     },
     {
      "name": "中文",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 361
+    },
+    {
+     "name": "学前教育",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 380
     }
    ],
-   "programNames": "播音与主持(外语播音员方向)、广播影视节目制作(电视节目策划采编与制作)、商务英语、摄影摄像技术、数字影像档案技术、网络直播与运营、学前教育、应用阿拉伯语、应用德语(商务德语方向)、应用俄语(商务俄语方向)、应用法语(商务法语方向)、应用法语(随行翻译方向)、应用韩语(韩汉同声传译)、应用韩语(商务韩语)、应用日语(动漫方向)、应用日语(日汉同声传译方向)、应用日语(商务日语方向)、应用外语(葡萄牙语)、应用外语(意大利语)、应用西班牙语、应用英语(对外汉语)、应用英语(随行交替翻译)、应用英语(文本翻译)、应用英语(小学英语)、应用英语(学前英语)、应用英语(英汉同声传译)、中文",
+   "programNames": "应用英语(英汉同声传译)、应用英语(小学英语)、应用英语(文本翻译)、应用英语(随行交替翻译)、应用英语(对外汉语)、应用西班牙语、应用外语(意大利语)、应用外语(葡萄牙语)、应用日语(商务日语方向)、应用日语(动漫方向)、应用日语(日汉同声传译方向)、应用韩语(商务韩语)、应用韩语(韩汉同声传译)、摄影摄像技术、应用法语(商务法语方向)、应用法语(随行翻译方向)、应用俄语(商务俄语方向)、应用德语(商务德语方向)、应用阿拉伯语、网络直播与运营、商务英语、广播影视节目制作(电视节目策划采编与制作)、应用英语(学前英语)、播音与主持(外语播音员方向)、数字影像档案技术、中文、学前教育",
    "programsComplete": true,
    "tuitionRange": [
     14300,
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
    "name": "河北美术学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 100,
    "minScore": 345,
    "subClasses": null,
@@ -2106,49 +2106,49 @@
     {
      "name": "播音与主持",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 350
     },
     {
      "name": "广播影视节目制作",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 345
     },
     {
-     "name": "摄影摄像技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 346
-    },
-    {
      "name": "影视编导",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 352
     },
     {
      "name": "影视动画",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 345
+    },
+    {
+     "name": "摄影摄像技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 346
     }
    ],
-   "programNames": "播音与主持、广播影视节目制作、摄影摄像技术、影视编导、影视动画",
+   "programNames": "播音与主持、广播影视节目制作、影视编导、影视动画、摄影摄像技术",
    "programsComplete": true,
    "tuitionRange": [
     30000,
     30000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbmeishu.html"
   },
   {
@@ -2163,14 +2163,14 @@
     {
      "name": "摄影摄像技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 347
     },
     {
      "name": "学前教育",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 345
     }
@@ -2182,9 +2182,9 @@
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   }
  ],
@@ -2193,13 +2193,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试六类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试六类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "英语、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试六类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10954.html"
+    }
+   ]
   }
  ]
 }

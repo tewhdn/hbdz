@@ -23,7 +23,7 @@
     {
      "name": "会展策划与管理",
      "plan": 3,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 604
     }
@@ -35,9 +35,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -52,7 +52,7 @@
     {
      "name": "酒店管理与数字化运营",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 591
     }
@@ -64,9 +64,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -79,30 +79,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "酒店管理与数字化运营",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 591
-    },
-    {
      "name": "智慧健康养老服务与管理",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 590
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 591
     }
    ],
-   "programNames": "酒店管理与数字化运营、智慧健康养老服务与管理",
+   "programNames": "智慧健康养老服务与管理、酒店管理与数字化运营",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -146,21 +146,21 @@
     {
      "name": "会展策划与管理",
      "plan": 33,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 546
     },
     {
      "name": "酒店管理与数字化运营",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 541
     },
     {
      "name": "旅游管理",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 562
     }
@@ -172,9 +172,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -332,21 +332,21 @@
     {
      "name": "会展策划与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 516
     },
     {
      "name": "酒店管理与数字化运营",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     },
     {
      "name": "智慧景区开发与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 510
     }
@@ -358,9 +358,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -373,37 +373,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "法律事务",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 512
-    },
-    {
      "name": "旅游管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 509
     },
     {
+     "name": "法律事务",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 512
+    },
+    {
      "name": "知识产权管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 500
     }
    ],
-   "programNames": "法律事务、旅游管理、知识产权管理",
+   "programNames": "旅游管理、法律事务、知识产权管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -418,21 +418,21 @@
     {
      "name": "旅游管理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 497
     },
     {
      "name": "人力资源管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 493
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 37,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 507
     }
@@ -444,9 +444,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -459,23 +459,23 @@
    "programCount": 1,
    "programs": [
     {
-     "name": "智慧健康养老服务与管理(养老机构运营管理)]",
+     "name": "智慧健康养老服务与管理(养老机构运营管",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 492
     }
    ],
-   "programNames": "智慧健康养老服务与管理(养老机构运营管理)]",
+   "programNames": "智慧健康养老服务与管理(养老机构运营管",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -490,7 +490,7 @@
     {
      "name": "智慧健康养老服务与管理(幸福家园订单班)",
      "plan": 37,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 491
     }
@@ -502,9 +502,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -519,105 +519,105 @@
     {
      "name": "安全保卫管理(安全员方向)",
      "plan": 59,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 489
     },
     {
      "name": "安全防范技术",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 532
     },
     {
+     "name": "法律事务(书记官方向)",
+     "plan": 45,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 526
+    },
+    {
+     "name": "法律事务(涉外法务方向)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 503
+    },
+    {
      "name": "法律事务(电商法务方向)",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 510
     },
     {
      "name": "法律事务(法务会计方向)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 505
     },
     {
      "name": "法律事务(建设工程法务方向)",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 497
     },
     {
-     "name": "法律事务(涉外法务方向)",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 503
-    },
-    {
-     "name": "法律事务(书记官方向)",
-     "plan": 45,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 526
-    },
-    {
      "name": "法律事务(智慧法治方向)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     },
     {
      "name": "旅游管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 501
     },
     {
      "name": "民事执行",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 502
     },
     {
      "name": "人力资源管理",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 503
     },
     {
      "name": "司法鉴定技术(生态环境损害鉴定方向)",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 498
     },
     {
      "name": "知识产权管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 497
     }
    ],
-   "programNames": "安全保卫管理(安全员方向)、安全防范技术、法律事务(电商法务方向)、法律事务(法务会计方向)、法律事务(建设工程法务方向)、法律事务(涉外法务方向)、法律事务(书记官方向)、法律事务(智慧法治方向)、旅游管理、民事执行、人力资源管理、司法鉴定技术(生态环境损害鉴定方向)、知识产权管理",
+   "programNames": "安全保卫管理(安全员方向)、安全防范技术、法律事务(书记官方向)、法律事务(涉外法务方向)、法律事务(电商法务方向)、法律事务(法务会计方向)、法律事务(建设工程法务方向)、法律事务(智慧法治方向)、旅游管理、民事执行、人力资源管理、司法鉴定技术(生态环境损害鉴定方向)、知识产权管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -632,42 +632,42 @@
     {
      "name": "导游",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 484
     },
     {
      "name": "酒店管理与数字化运营",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 496
     },
     {
      "name": "旅游管理",
      "plan": 105,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 489
     },
     {
      "name": "研学旅行管理与服务",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 481
     },
     {
      "name": "智慧健康养老服务与管理(养老产业经营管理方向)",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 517
     },
     {
      "name": "中西面点工艺(西点工艺方向)",
      "plan": 68,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 474
     }
@@ -679,9 +679,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
   },
   {
@@ -760,21 +760,21 @@
     {
      "name": "旅游管理",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 471
     },
     {
      "name": "人力资源管理",
      "plan": 61,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 471
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 486
     }
@@ -786,9 +786,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfyanjing.html"
   },
   {
@@ -887,51 +887,51 @@
    "programCount": 5,
    "programs": [
     {
+     "name": "智慧旅游技术应用",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 488
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 28,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 492
+    },
+    {
      "name": "社区康复",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 477
     },
     {
      "name": "现代家政服务与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 467
     },
     {
      "name": "研学旅行管理与服务",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 470
-    },
-    {
-     "name": "智慧健康养老服务与管理",
-     "plan": 28,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 492
-    },
-    {
-     "name": "智慧旅游技术应用",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 488
     }
    ],
-   "programNames": "社区康复、现代家政服务与管理、研学旅行管理与服务、智慧健康养老服务与管理、智慧旅游技术应用",
+   "programNames": "智慧旅游技术应用、智慧健康养老服务与管理、社区康复、现代家政服务与管理、研学旅行管理与服务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -975,14 +975,14 @@
     {
      "name": "休闲服务与管理",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 458
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 475
     }
@@ -994,87 +994,87 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
    "name": "河北司法警官职业学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "邯郸",
    "plan": 257,
    "minScore": 456,
    "subClasses": null,
    "programCount": 8,
    "programs": [
     {
-     "name": "安全防范技术",
-     "plan": 38,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 460
-    },
-    {
-     "name": "法律事务",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 486
-    },
-    {
-     "name": "法律事务(企业法务)",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 472
-    },
-    {
-     "name": "法律文秘",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 460
-    },
-    {
-     "name": "公共事务管理",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 456
-    },
-    {
-     "name": "民事执行",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 459
-    },
-    {
      "name": "社区矫正",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 463
     },
     {
+     "name": "安全防范技术",
+     "plan": 38,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 460
+    },
+    {
      "name": "司法信息技术",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 469
+    },
+    {
+     "name": "法律事务",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 486
+    },
+    {
+     "name": "法律文秘",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 460
+    },
+    {
+     "name": "民事执行",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 459
+    },
+    {
+     "name": "公共事务管理",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 456
+    },
+    {
+     "name": "法律事务(企业法务)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 472
     }
    ],
-   "programNames": "安全防范技术、法律事务、法律事务(企业法务)、法律文秘、公共事务管理、民事执行、社区矫正、司法信息技术",
+   "programNames": "社区矫正、安全防范技术、司法信息技术、法律事务、法律文秘、民事执行、公共事务管理、法律事务(企业法务)",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbsifajingguan.html"
   },
   {
@@ -1123,71 +1123,71 @@
    "programCount": 7,
    "programs": [
     {
+     "name": "社区管理与服务",
+     "plan": 65,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 455
+    },
+    {
+     "name": "社会工作",
+     "plan": 70,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 451
+    },
+    {
+     "name": "人力资源管理",
+     "plan": 264,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 449
+    },
+    {
+     "name": "行政管理(应急管理)",
+     "plan": 133,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 439
+    },
+    {
      "name": "酒店管理与数字化运营",
      "plan": 144,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 441
     },
     {
      "name": "烹饪工艺与营养",
      "plan": 50,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 439
-    },
-    {
-     "name": "人力资源管理",
-     "plan": 264,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 449
-    },
-    {
-     "name": "社会工作",
-     "plan": 70,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 451
-    },
-    {
-     "name": "社区管理与服务",
-     "plan": 65,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 455
-    },
-    {
-     "name": "行政管理(应急管理)",
-     "plan": 133,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 439
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 476
     }
    ],
-   "programNames": "酒店管理与数字化运营、烹饪工艺与营养、人力资源管理、社会工作、社区管理与服务、行政管理(应急管理)、智慧健康养老服务与管理",
+   "programNames": "社区管理与服务、社会工作、人力资源管理、行政管理(应急管理)、酒店管理与数字化运营、烹饪工艺与营养、智慧健康养老服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 10,
    "minScore": 438,
    "subClasses": null,
@@ -1196,7 +1196,7 @@
     {
      "name": "旅游管理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 438
     }
@@ -1208,9 +1208,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
@@ -1324,7 +1324,7 @@
     {
      "name": "会展策划与管理",
      "plan": 245,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 438
     }
@@ -1336,15 +1336,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 108,
    "minScore": 437,
    "subClasses": null,
@@ -1353,14 +1353,14 @@
     {
      "name": "现代家政服务与管理",
      "plan": 87,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 437
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 21,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 470
     }
@@ -1372,9 +1372,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -1490,14 +1490,14 @@
     {
      "name": "酒店管理与数字化运营",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 432
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 441
     }
@@ -1509,9 +1509,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -1524,37 +1524,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "研学旅行管理与服务",
-     "plan": 50,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 432
-    },
-    {
      "name": "智慧健康养老服务与管理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 440
     },
     {
      "name": "智慧旅游技术应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 437
+    },
+    {
+     "name": "研学旅行管理与服务",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 432
     }
    ],
-   "programNames": "研学旅行管理与服务、智慧健康养老服务与管理、智慧旅游技术应用",
+   "programNames": "智慧健康养老服务与管理、智慧旅游技术应用、研学旅行管理与服务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -1567,30 +1567,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "西式烹饪工艺",
-     "plan": 39,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 432
-    },
-    {
      "name": "中西面点工艺",
      "plan": 38,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 447
+    },
+    {
+     "name": "西式烹饪工艺",
+     "plan": 39,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 432
     }
    ],
-   "programNames": "西式烹饪工艺、中西面点工艺",
+   "programNames": "中西面点工艺、西式烹饪工艺",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhgongye.html"
   },
   {
@@ -1603,30 +1603,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "酒店管理与数字化运营",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 431
-    },
-    {
      "name": "研学旅行管理与服务",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 433
+    },
+    {
+     "name": "酒店管理与数字化运营",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 431
     }
    ],
-   "programNames": "酒店管理与数字化运营、研学旅行管理与服务",
+   "programNames": "研学旅行管理与服务、酒店管理与数字化运营",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -1641,7 +1641,7 @@
     {
      "name": "旅游管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 431
     }
@@ -1653,9 +1653,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -1670,35 +1670,35 @@
     {
      "name": "旅游管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 435
     },
     {
-     "name": "现代家政服务与管理",
-     "plan": 37,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 430
-    },
-    {
      "name": "智慧健康养老服务与管理",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 445
+    },
+    {
+     "name": "现代家政服务与管理",
+     "plan": 37,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 430
     }
    ],
-   "programNames": "旅游管理、现代家政服务与管理、智慧健康养老服务与管理",
+   "programNames": "旅游管理、智慧健康养老服务与管理、现代家政服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -1740,7 +1740,7 @@
   {
    "name": "河北石油职业技术大学(中外合作办学)",
    "type": "公办",
-   "city": "其他",
+   "city": "承德",
    "plan": 30,
    "minScore": 426,
    "subClasses": null,
@@ -1749,7 +1749,7 @@
     {
      "name": "会展策划与管理(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 426
     }
@@ -1761,9 +1761,9 @@
     16000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbshiyou-zw.html"
   },
   {
@@ -1776,37 +1776,37 @@
    "programCount": 3,
    "programs": [
     {
+     "name": "智慧健康养老服务与管理",
+     "plan": 55,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 429
+    },
+    {
      "name": "现代家政服务与管理",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 426
     },
     {
      "name": "现代家政服务与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 426
-    },
-    {
-     "name": "智慧健康养老服务与管理",
-     "plan": 55,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 429
     }
    ],
-   "programNames": "现代家政服务与管理、现代家政服务与管理、智慧健康养老服务与管理",
+   "programNames": "智慧健康养老服务与管理、现代家政服务与管理、现代家政服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -1841,7 +1841,7 @@
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 10,
    "minScore": 424,
    "subClasses": null,
@@ -1850,7 +1850,7 @@
     {
      "name": "党务工作",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 424
     }
@@ -1862,15 +1862,15 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 8,
    "minScore": 421,
    "subClasses": null,
@@ -1879,7 +1879,7 @@
     {
      "name": "烹饪工艺与营养",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 421
     }
@@ -1891,65 +1891,65 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 89,
    "minScore": 418,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "酒店管理与数字化运营",
-     "plan": 14,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 420
-    },
-    {
      "name": "旅游管理",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 418
     },
     {
+     "name": "酒店管理与数字化运营",
+     "plan": 14,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 420
+    },
+    {
      "name": "烹饪工艺与营养",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 418
     },
     {
      "name": "中西面点工艺",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 422
     }
    ],
-   "programNames": "酒店管理与数字化运营、旅游管理、烹饪工艺与营养、中西面点工艺",
+   "programNames": "旅游管理、酒店管理与数字化运营、烹饪工艺与营养、中西面点工艺",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 38,
    "minScore": 418,
    "subClasses": null,
@@ -1958,14 +1958,14 @@
     {
      "name": "烹饪工艺与营养",
      "plan": 18,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 418
     },
     {
      "name": "社会工作",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 423
     }
@@ -1977,52 +1977,52 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 65,
    "minScore": 414,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
+     "name": "烹饪工艺与营养",
+     "plan": 25,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 414
+    },
+    {
      "name": "酒店管理与数字化运营",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 419
     },
     {
-     "name": "烹饪工艺与营养",
-     "plan": 25,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 414
-    },
-    {
      "name": "中西面点工艺",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 414
     }
    ],
-   "programNames": "酒店管理与数字化运营、烹饪工艺与营养、中西面点工艺",
+   "programNames": "烹饪工艺与营养、酒店管理与数字化运营、中西面点工艺",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
@@ -2037,35 +2037,35 @@
     {
      "name": "酒店管理与数字化运营",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 412
     },
     {
      "name": "旅游管理",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 412
     },
     {
      "name": "人力资源管理",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 415
     },
     {
      "name": "社会工作(智慧物业管理方向)",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 408
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 410
     }
@@ -2077,9 +2077,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
@@ -2094,14 +2094,14 @@
     {
      "name": "社区康复",
      "plan": 270,
-     "years": 3,
+     "years": "3",
      "tuition": 9800,
      "minScore": 394
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 180,
-     "years": 3,
+     "years": "3",
      "tuition": 9800,
      "minScore": 402
     }
@@ -2113,9 +2113,9 @@
     9800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
@@ -2128,37 +2128,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "酒店管理与数字化运营",
-     "plan": 150,
-     "years": 3,
-     "tuition": 11700,
-     "minScore": 393
-    },
-    {
      "name": "旅游管理",
      "plan": 150,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 399
     },
     {
+     "name": "酒店管理与数字化运营",
+     "plan": 150,
+     "years": "3",
+     "tuition": 11700,
+     "minScore": 393
+    },
+    {
      "name": "现代家政服务与管理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 11000,
      "minScore": 396
     }
    ],
-   "programNames": "酒店管理与数字化运营、旅游管理、现代家政服务与管理",
+   "programNames": "旅游管理、酒店管理与数字化运营、现代家政服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     11000,
     11700
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -2173,7 +2173,7 @@
     {
      "name": "智慧健康养老服务与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 391
     }
@@ -2185,9 +2185,9 @@
     16900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzrenminyixue.html"
   },
   {
@@ -2202,7 +2202,7 @@
     {
      "name": "智慧健康养老服务与管理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 389
     }
@@ -2214,9 +2214,9 @@
     17500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyixue.html"
   },
   {
@@ -2231,7 +2231,7 @@
     {
      "name": "智慧旅游技术应用",
      "plan": 300,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 389
     }
@@ -2243,9 +2243,9 @@
     12600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -2289,14 +2289,14 @@
     {
      "name": "党务工作",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 375
     },
     {
      "name": "人力资源管理",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 383
     }
@@ -2308,15 +2308,15 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
    "name": "华北理工大学轻工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 140,
    "minScore": 374,
    "subClasses": null,
@@ -2325,14 +2325,14 @@
     {
      "name": "酒店管理与数字化运营",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 374
     },
     {
      "name": "智慧健康养老服务与管理",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 376
     }
@@ -2344,9 +2344,9 @@
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/huabeiligong.html"
   },
   {
@@ -2359,44 +2359,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "酒店管理与数字化运营",
-     "plan": 176,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 361
-    },
-    {
      "name": "旅游管理",
      "plan": 257,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 367
     },
     {
-     "name": "智慧健康养老服务与管理",
-     "plan": 138,
-     "years": 3,
+     "name": "酒店管理与数字化运营",
+     "plan": 176,
+     "years": "3",
      "tuition": 12900,
-     "minScore": 383
+     "minScore": 361
     },
     {
      "name": "智慧旅游技术应用",
      "plan": 118,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 358
+    },
+    {
+     "name": "智慧健康养老服务与管理",
+     "plan": 138,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 383
     }
    ],
-   "programNames": "酒店管理与数字化运营、旅游管理、智慧健康养老服务与管理、智慧旅游技术应用",
+   "programNames": "旅游管理、酒店管理与数字化运营、智慧旅游技术应用、智慧健康养老服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -2533,7 +2533,7 @@
     {
      "name": "人力资源管理",
      "plan": 490,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 342
     }
@@ -2545,59 +2545,59 @@
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 300,
    "minScore": 337,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "法律事务(国际法方向)",
-     "plan": 65,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 366
+     "name": "现代文秘(英汉双语速录方向)",
+     "plan": 85,
+     "years": "3",
+     "tuition": 14950,
+     "minScore": 339
     },
     {
      "name": "会展策划与管理",
      "plan": 85,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 337
     },
     {
-     "name": "酒店管理与数字化运营(涉外酒店管理方向)",
+     "name": "法律事务(国际法方向)",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 15210,
-     "minScore": 341
+     "minScore": 366
     },
     {
-     "name": "现代文秘(英汉双语速录方向)",
-     "plan": 85,
-     "years": 3,
-     "tuition": 14950,
-     "minScore": 339
+     "name": "酒店管理与数字化运营(涉外酒店管理方向)",
+     "plan": 65,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 341
     }
    ],
-   "programNames": "法律事务(国际法方向)、会展策划与管理、酒店管理与数字化运营(涉外酒店管理方向)、现代文秘(英汉双语速录方向)",
+   "programNames": "现代文秘(英汉双语速录方向)、会展策划与管理、法律事务(国际法方向)、酒店管理与数字化运营(涉外酒店管理方向)",
    "programsComplete": true,
    "tuitionRange": [
     14950,
     16000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
@@ -2610,44 +2610,44 @@
    "programCount": 4,
    "programs": [
     {
+     "name": "西式烹饪工艺",
+     "plan": 80,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 333
+    },
+    {
      "name": "酒店管理与数字化运营",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 336
     },
     {
      "name": "烹饪工艺与营养",
      "plan": 70,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 333
-    },
-    {
-     "name": "西式烹饪工艺",
-     "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 333
     },
     {
      "name": "中西面点工艺",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 333
     }
    ],
-   "programNames": "酒店管理与数字化运营、烹饪工艺与营养、西式烹饪工艺、中西面点工艺",
+   "programNames": "西式烹饪工艺、酒店管理与数字化运营、烹饪工艺与营养、中西面点工艺",
    "programsComplete": true,
    "tuitionRange": [
     17800,
     17800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -2712,7 +2712,7 @@
     {
      "name": "酒店管理与数字化运营",
      "plan": 355,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 333
     }
@@ -2724,9 +2724,9 @@
     18500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   }
  ],
@@ -2735,13 +2735,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试五类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试五类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "地理、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试五类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10946.html"
+    }
+   ]
   }
  ]
 }

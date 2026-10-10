@@ -150,84 +150,84 @@
     {
      "name": "护理",
      "plan": 56,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 602
     },
     {
-     "name": "康复治疗技术",
-     "plan": 11,
-     "years": 3,
+     "name": "助产",
+     "plan": 8,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 592
-    },
-    {
-     "name": "口腔医学技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 585
-    },
-    {
-     "name": "眼视光技术",
-     "plan": 9,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 578
+     "minScore": 575
     },
     {
      "name": "药学",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 590
-    },
-    {
-     "name": "医学检验技术",
-     "plan": 9,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 590
-    },
-    {
-     "name": "医学影像技术",
-     "plan": 11,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 585
     },
     {
      "name": "中药学",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 585
     },
     {
      "name": "中医养生保健",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 574
     },
     {
-     "name": "助产",
-     "plan": 8,
-     "years": 3,
+     "name": "医学检验技术",
+     "plan": 9,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 575
+     "minScore": 590
+    },
+    {
+     "name": "医学影像技术",
+     "plan": 11,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 585
+    },
+    {
+     "name": "口腔医学技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 585
+    },
+    {
+     "name": "康复治疗技术",
+     "plan": 11,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 592
+    },
+    {
+     "name": "眼视光技术",
+     "plan": 9,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 578
     }
    ],
-   "programNames": "护理、康复治疗技术、口腔医学技术、眼视光技术、药学、医学检验技术、医学影像技术、中药学、中医养生保健、助产",
+   "programNames": "护理、助产、药学、中药学、中医养生保健、医学检验技术、医学影像技术、口腔医学技术、康复治疗技术、眼视光技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyixue.html"
   },
   {
@@ -242,63 +242,63 @@
     {
      "name": "公共卫生管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 561
     },
     {
      "name": "护理",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     },
     {
      "name": "康复治疗技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 576
     },
     {
      "name": "口腔医学技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 573
     },
     {
      "name": "老年保健与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 566
     },
     {
      "name": "眼视光技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 572
     },
     {
      "name": "药学",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 573
     },
     {
      "name": "医学影像技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 576
     },
     {
      "name": "助产",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 571
     }
@@ -310,9 +310,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -327,14 +327,14 @@
     {
      "name": "护理",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 559
     },
     {
      "name": "中医康复技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 561
     }
@@ -346,9 +346,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -427,14 +427,14 @@
     {
      "name": "护理",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 564
     },
     {
      "name": "健康管理",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 544
     }
@@ -446,9 +446,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -463,14 +463,14 @@
     {
      "name": "护理",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 552
     },
     {
      "name": "助产",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 541
     }
@@ -482,9 +482,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -497,30 +497,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "心理咨询",
-     "plan": 10,
-     "years": 3,
+     "name": "婴幼儿托育服务与管理",
+     "plan": 5,
+     "years": "3",
      "tuition": 5000,
      "minScore": 536
     },
     {
-     "name": "婴幼儿托育服务与管理",
-     "plan": 5,
-     "years": 3,
+     "name": "心理咨询",
+     "plan": 10,
+     "years": "3",
      "tuition": 5000,
      "minScore": 536
     }
    ],
-   "programNames": "心理咨询、婴幼儿托育服务与管理",
+   "programNames": "婴幼儿托育服务与管理、心理咨询",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -571,7 +571,7 @@
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 534
     }
@@ -583,9 +583,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -771,7 +771,7 @@
     {
      "name": "老年保健与管理(首佳订单班)",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 526
     }
@@ -783,9 +783,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -800,7 +800,7 @@
     {
      "name": "护理",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 526
     }
@@ -812,9 +812,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -856,44 +856,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "康复治疗技术",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 526
-    },
-    {
      "name": "医学检验技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 525
     },
     {
+     "name": "康复治疗技术",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 526
+    },
+    {
      "name": "中药学",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 524
     },
     {
      "name": "中医康复技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     }
    ],
-   "programNames": "康复治疗技术、医学检验技术、中药学、中医康复技术",
+   "programNames": "医学检验技术、康复治疗技术、中药学、中医康复技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hsjiankangkeji.html"
   },
   {
@@ -908,7 +908,7 @@
     {
      "name": "护理(中外合作办学)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 519
     }
@@ -920,9 +920,9 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -935,79 +935,79 @@
    "programCount": 9,
    "programs": [
     {
-     "name": "放射治疗技术",
-     "plan": 45,
-     "years": 3,
+     "name": "助产",
+     "plan": 20,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 519
-    },
-    {
-     "name": "康复治疗技术",
-     "plan": 45,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 525
+     "minScore": 523
     },
     {
      "name": "药学",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 539
     },
     {
-     "name": "医学检验技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 529
-    },
-    {
-     "name": "医学美容技术",
-     "plan": 45,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 520
-    },
-    {
-     "name": "医学影像技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 525
-    },
-    {
      "name": "中药学",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 532
     },
     {
-     "name": "中医康复技术",
-     "plan": 55,
-     "years": 3,
+     "name": "医学影像技术",
+     "plan": 40,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 522
+     "minScore": 525
     },
     {
-     "name": "助产",
-     "plan": 20,
-     "years": 3,
+     "name": "医学检验技术",
+     "plan": 40,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 523
+     "minScore": 529
+    },
+    {
+     "name": "放射治疗技术",
+     "plan": 45,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 519
+    },
+    {
+     "name": "医学美容技术",
+     "plan": 45,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 520
+    },
+    {
+     "name": "康复治疗技术",
+     "plan": 45,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 525
+    },
+    {
+     "name": "中医康复技术",
+     "plan": 55,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 522
     }
    ],
-   "programNames": "放射治疗技术、康复治疗技术、药学、医学检验技术、医学美容技术、医学影像技术、中药学、中医康复技术、助产",
+   "programNames": "助产、药学、中药学、医学影像技术、医学检验技术、放射治疗技术、医学美容技术、康复治疗技术、中医康复技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfweisheng.html"
   },
   {
@@ -1101,7 +1101,7 @@
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 517
     }
@@ -1113,15 +1113,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 80,
    "minScore": 517,
    "subClasses": null,
@@ -1130,28 +1130,28 @@
     {
      "name": "护理",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 544
     },
     {
      "name": "老年保健与管理",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     },
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 517
     },
     {
      "name": "助产",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 524
     }
@@ -1163,15 +1163,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 5,
    "minScore": 516,
    "subClasses": null,
@@ -1180,7 +1180,7 @@
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 516
     }
@@ -1192,9 +1192,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
@@ -1209,7 +1209,7 @@
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 7,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 516
     }
@@ -1221,15 +1221,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsyouershifan.html"
   },
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 23,
    "minScore": 514,
    "subClasses": null,
@@ -1238,7 +1238,7 @@
     {
      "name": "护理",
      "plan": 23,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 514
     }
@@ -1250,9 +1250,9 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
@@ -1265,30 +1265,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "健康管理",
-     "plan": 9,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 521
-    },
-    {
      "name": "婴幼儿托育服务与管理",
      "plan": 34,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 514
+    },
+    {
+     "name": "健康管理",
+     "plan": 9,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 521
     }
    ],
-   "programNames": "健康管理、婴幼儿托育服务与管理",
+   "programNames": "婴幼儿托育服务与管理、健康管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -1303,7 +1303,7 @@
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 18,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 512
     }
@@ -1315,9 +1315,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -1332,7 +1332,7 @@
     {
      "name": "婴幼儿托育服务与管理(中外合作办学)",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 18000,
      "minScore": 509
     }
@@ -1344,9 +1344,9 @@
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -1410,7 +1410,7 @@
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 50,
    "minScore": 499,
    "subClasses": null,
@@ -1419,21 +1419,21 @@
     {
      "name": "护理",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 509
     },
     {
      "name": "康复治疗技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 506
     },
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 499
     }
@@ -1445,9 +1445,9 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
@@ -1462,35 +1462,35 @@
     {
      "name": "护理",
      "plan": 88,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 492
     },
     {
      "name": "健康管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 495
     },
     {
      "name": "药学",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 504
     },
     {
      "name": "医学检验技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 499
     },
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 491
     }
@@ -1502,9 +1502,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -1519,42 +1519,42 @@
     {
      "name": "护理",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 486
     },
     {
+     "name": "助产",
+     "plan": 15,
+     "years": "3",
+     "tuition": 11700,
+     "minScore": 477
+    },
+    {
      "name": "健康管理",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 480
     },
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 466
-    },
-    {
-     "name": "助产",
-     "plan": 15,
-     "years": 3,
-     "tuition": 11700,
-     "minScore": 477
     }
    ],
-   "programNames": "护理、健康管理、婴幼儿托育服务与管理、助产",
+   "programNames": "护理、助产、健康管理、婴幼儿托育服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     11700,
     13000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -1569,21 +1569,21 @@
     {
      "name": "护理",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 460
     },
     {
      "name": "眼视光仪器技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 436
     },
     {
      "name": "中医养生保健",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 443
     }
@@ -1595,9 +1595,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
@@ -1641,112 +1641,112 @@
     {
      "name": "护理",
      "plan": 128,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 408
     },
     {
-     "name": "康复治疗技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 447
-    },
-    {
      "name": "药学",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 428
     },
     {
      "name": "医学检验技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 421
+    },
+    {
+     "name": "康复治疗技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 447
     }
    ],
-   "programNames": "护理、康复治疗技术、药学、医学检验技术",
+   "programNames": "护理、药学、医学检验技术、康复治疗技术",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 47,
    "minScore": 405,
    "subClasses": null,
    "programCount": 6,
    "programs": [
     {
-     "name": "护理",
-     "plan": 5,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 456
-    },
-    {
-     "name": "康复治疗技术",
-     "plan": 7,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 420
-    },
-    {
-     "name": "口腔医学技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 422
-    },
-    {
      "name": "心理咨询",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 14300,
      "minScore": 405
     },
     {
      "name": "中医康复技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 408
     },
     {
      "name": "助产",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 14300,
      "minScore": 429
+    },
+    {
+     "name": "口腔医学技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 422
+    },
+    {
+     "name": "康复治疗技术",
+     "plan": 7,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 420
+    },
+    {
+     "name": "护理",
+     "plan": 5,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 456
     }
    ],
-   "programNames": "护理、康复治疗技术、口腔医学技术、心理咨询、中医康复技术、助产",
+   "programNames": "心理咨询、中医康复技术、助产、口腔医学技术、康复治疗技术、护理",
    "programsComplete": true,
    "tuitionRange": [
     14300,
     17500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 128,
    "minScore": 393,
    "subClasses": null,
@@ -1755,28 +1755,28 @@
     {
      "name": "护理",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 399
     },
     {
-     "name": "医学检验技术公办院校]",
+     "name": "医学检验技术",
      "plan": 38,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 393
     }
    ],
-   "programNames": "护理、医学检验技术公办院校]",
+   "programNames": "护理、医学检验技术",
    "programsComplete": true,
    "tuitionRange": [
     19800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
@@ -1789,156 +1789,156 @@
    "programCount": 20,
    "programs": [
     {
-     "name": "公共卫生管理",
-     "plan": 20,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 391
-    },
-    {
      "name": "护理",
      "plan": 594,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 436
     },
     {
-     "name": "健康大数据管理与服务",
+     "name": "助产",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
-     "minScore": 395
-    },
-    {
-     "name": "健康管理",
-     "plan": 20,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 396
-    },
-    {
-     "name": "康复治疗技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 476
-    },
-    {
-     "name": "口腔医学技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 21900,
-     "minScore": 432
-    },
-    {
-     "name": "老年保健与管理",
-     "plan": 20,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 406
-    },
-    {
-     "name": "卫生信息管理",
-     "plan": 20,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 416
-    },
-    {
-     "name": "心理咨询",
-     "plan": 30,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 424
-    },
-    {
-     "name": "眼视光技术",
-     "plan": 25,
-     "years": 3,
-     "tuition": 21900,
-     "minScore": 453
-    },
-    {
-     "name": "药膳与食疗",
-     "plan": 20,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 408
+     "minScore": 430
     },
     {
      "name": "药学",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 455
     },
     {
-     "name": "医学检验技术",
-     "plan": 45,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 467
-    },
-    {
-     "name": "医学美容技术",
-     "plan": 25,
-     "years": 3,
-     "tuition": 21900,
-     "minScore": 428
-    },
-    {
-     "name": "医学影像技术",
-     "plan": 45,
-     "years": 3,
-     "tuition": 21900,
-     "minScore": 442
-    },
-    {
      "name": "中药学",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 469
     },
     {
      "name": "中药制药",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 429
     },
     {
+     "name": "医学检验技术",
+     "plan": 45,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 467
+    },
+    {
      "name": "中医康复技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 478
     },
     {
-     "name": "中医养生保健",
-     "plan": 25,
-     "years": 3,
+     "name": "康复治疗技术",
+     "plan": 40,
+     "years": "3",
      "tuition": 17500,
      "minScore": 476
     },
     {
-     "name": "助产",
-     "plan": 20,
-     "years": 3,
+     "name": "中医养生保健",
+     "plan": 25,
+     "years": "3",
      "tuition": 17500,
-     "minScore": 430
+     "minScore": 476
+    },
+    {
+     "name": "心理咨询",
+     "plan": 30,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 424
+    },
+    {
+     "name": "卫生信息管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 416
+    },
+    {
+     "name": "老年保健与管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 406
+    },
+    {
+     "name": "健康管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 396
+    },
+    {
+     "name": "公共卫生管理",
+     "plan": 20,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 391
+    },
+    {
+     "name": "药膳与食疗",
+     "plan": 20,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 408
+    },
+    {
+     "name": "健康大数据管理与服务",
+     "plan": 20,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 395
+    },
+    {
+     "name": "口腔医学技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 21900,
+     "minScore": 432
+    },
+    {
+     "name": "医学影像技术",
+     "plan": 45,
+     "years": "3",
+     "tuition": 21900,
+     "minScore": 442
+    },
+    {
+     "name": "医学美容技术",
+     "plan": 25,
+     "years": "3",
+     "tuition": 21900,
+     "minScore": 428
+    },
+    {
+     "name": "眼视光技术",
+     "plan": 25,
+     "years": "3",
+     "tuition": 21900,
+     "minScore": 453
     }
    ],
-   "programNames": "公共卫生管理、护理、健康大数据管理与服务、健康管理、康复治疗技术、口腔医学技术、老年保健与管理、卫生信息管理、心理咨询、眼视光技术、药膳与食疗、药学、医学检验技术、医学美容技术、医学影像技术、中药学、中药制药、中医康复技术、中医养生保健、助产",
+   "programNames": "护理、助产、药学、中药学、中药制药、医学检验技术、中医康复技术、康复治疗技术、中医养生保健、心理咨询、卫生信息管理、老年保健与管理、健康管理、公共卫生管理、药膳与食疗、健康大数据管理与服务、口腔医学技术、医学影像技术、医学美容技术、眼视光技术",
    "programsComplete": true,
    "tuitionRange": [
     17500,
     21900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyixue.html"
   },
   {
@@ -1953,7 +1953,7 @@
     {
      "name": "健康大数据管理与服务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 387
     }
@@ -1965,9 +1965,9 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
@@ -1982,63 +1982,63 @@
     {
      "name": "护理",
      "plan": 99,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 384
     },
     {
-     "name": "健康管理",
-     "plan": 5,
-     "years": 3,
+     "name": "中药学",
+     "plan": 30,
+     "years": "3",
      "tuition": 15000,
-     "minScore": 413
-    },
-    {
-     "name": "康复治疗技术",
-     "plan": 14,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 453
-    },
-    {
-     "name": "口腔医学技术",
-     "plan": 12,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 472
+     "minScore": 398
     },
     {
      "name": "医学检验技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 408
     },
     {
-     "name": "婴幼儿托育服务与管理",
-     "plan": 5,
-     "years": 3,
+     "name": "口腔医学技术",
+     "plan": 12,
+     "years": "3",
      "tuition": 15000,
-     "minScore": 382
+     "minScore": 472
     },
     {
-     "name": "中药学",
-     "plan": 30,
-     "years": 3,
+     "name": "康复治疗技术",
+     "plan": 14,
+     "years": "3",
      "tuition": 15000,
-     "minScore": 398
+     "minScore": 453
+    },
+    {
+     "name": "健康管理",
+     "plan": 5,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 413
+    },
+    {
+     "name": "婴幼儿托育服务与管理",
+     "plan": 5,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 382
     }
    ],
-   "programNames": "护理、健康管理、康复治疗技术、口腔医学技术、医学检验技术、婴幼儿托育服务与管理、中药学",
+   "programNames": "护理、中药学、医学检验技术、口腔医学技术、康复治疗技术、健康管理、婴幼儿托育服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -2053,42 +2053,42 @@
     {
      "name": "护理",
      "plan": 122,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 410
     },
     {
+     "name": "助产",
+     "plan": 20,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 400
+    },
+    {
      "name": "健康大数据管理与服务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 393
     },
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 381
-    },
-    {
-     "name": "助产",
-     "plan": 20,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 400
     }
    ],
-   "programNames": "护理、健康大数据管理与服务、婴幼儿托育服务与管理、助产",
+   "programNames": "护理、助产、健康大数据管理与服务、婴幼儿托育服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -2132,14 +2132,14 @@
     {
      "name": "中药学",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 400
     },
     {
      "name": "中医养生保健",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 359
     }
@@ -2151,14 +2151,14 @@
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
    "name": "邯郸应用技术职业学院",
-   "type": "公办",
+   "type": "民办",
    "city": "邯郸",
    "plan": 300,
    "minScore": 345,
@@ -2168,63 +2168,63 @@
     {
      "name": "护理",
      "plan": 175,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 361
     },
     {
-     "name": "康复治疗技术",
-     "plan": 20,
-     "years": 3,
+     "name": "助产",
+     "plan": 15,
+     "years": "3",
      "tuition": 13600,
-     "minScore": 372
-    },
-    {
-     "name": "医学检验技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 13600,
-     "minScore": 376
-    },
-    {
-     "name": "医学美容技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 13600,
-     "minScore": 418
+     "minScore": 345
     },
     {
      "name": "中药学",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 398
     },
     {
      "name": "中医康复技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 374
     },
     {
-     "name": "助产",
-     "plan": 15,
-     "years": 3,
+     "name": "医学检验技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 13600,
-     "minScore": 345
+     "minScore": 376
+    },
+    {
+     "name": "医学美容技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13600,
+     "minScore": 418
+    },
+    {
+     "name": "康复治疗技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13600,
+     "minScore": 372
     }
    ],
-   "programNames": "护理、康复治疗技术、医学检验技术、医学美容技术、中药学、中医康复技术、助产",
+   "programNames": "护理、助产、中药学、中医康复技术、医学检验技术、医学美容技术、康复治疗技术",
    "programsComplete": true,
    "tuitionRange": [
     13600,
     13600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyingyongjishu.html"
   },
   {
@@ -2275,63 +2275,63 @@
     {
      "name": "护理",
      "plan": 300,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 402
     },
     {
      "name": "康复治疗技术",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 406
     },
     {
      "name": "口腔卫生保健",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 383
     },
     {
      "name": "卫生信息管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 345
     },
     {
      "name": "药学",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 384
     },
     {
      "name": "医学检验技术",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 373
     },
     {
      "name": "医学美容技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 375
     },
     {
      "name": "医学影像技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 370
     },
     {
      "name": "助产",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 334
     }
@@ -2343,9 +2343,9 @@
     16900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzrenminyixue.html"
   },
   {
@@ -2474,14 +2474,14 @@
     {
      "name": "护理",
      "plan": 99,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 360
     },
     {
      "name": "医学影像技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 330
     }
@@ -2493,9 +2493,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -2510,7 +2510,7 @@
     {
      "name": "健康大数据管理与服务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 309
     }
@@ -2522,9 +2522,9 @@
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -2537,65 +2537,65 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "护理(康复护理)",
-     "plan": 15,
-     "years": 3,
+     "name": "言语听觉康复技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 16800,
-     "minScore": 359
+     "minScore": 293
     },
     {
      "name": "康复治疗技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 371
     },
     {
      "name": "口腔医学技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 370
     },
     {
-     "name": "言语听觉康复技术",
-     "plan": 20,
-     "years": 3,
+     "name": "护理(康复护理)",
+     "plan": 15,
+     "years": "3",
      "tuition": 16800,
-     "minScore": 293
+     "minScore": 359
     },
     {
      "name": "眼视光技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 438
     },
     {
-     "name": "医养照护服务",
-     "plan": 5,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 321
-    },
-    {
      "name": "婴幼儿托育服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 292
+    },
+    {
+     "name": "医养照护服务",
+     "plan": 5,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 321
     }
    ],
-   "programNames": "护理(康复护理)、康复治疗技术、口腔医学技术、言语听觉康复技术、眼视光技术、医养照护服务、婴幼儿托育服务与管理",
+   "programNames": "言语听觉康复技术、康复治疗技术、口腔医学技术、护理(康复护理)、眼视光技术、婴幼儿托育服务与管理、医养照护服务",
    "programsComplete": true,
    "tuitionRange": [
     16800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinbinhai.html"
   },
   {
@@ -2608,37 +2608,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "护理",
-     "plan": 35,
-     "years": 3,
-     "tuition": 22000,
-     "minScore": 304
-    },
-    {
      "name": "护理(中外合作办学)",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 23000,
      "minScore": 288
     },
     {
+     "name": "护理",
+     "plan": 35,
+     "years": "3",
+     "tuition": 22000,
+     "minScore": 304
+    },
+    {
      "name": "康复治疗技术(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 27000,
      "minScore": 281
     }
    ],
-   "programNames": "护理、护理(中外合作办学)、康复治疗技术(中外合作办学)",
+   "programNames": "护理(中外合作办学)、护理、康复治疗技术(中外合作办学)",
    "programsComplete": true,
    "tuitionRange": [
     22000,
     27000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyixue.html"
   },
   {
@@ -2653,35 +2653,35 @@
     {
      "name": "护理",
      "plan": 81,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 332
     },
     {
      "name": "眼视光技术",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 277
     },
     {
      "name": "婴幼儿托育服务与管理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 325
     },
     {
      "name": "中药学",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 278
     },
     {
      "name": "中医康复技术",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 273
     }
@@ -2693,9 +2693,9 @@
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
@@ -2708,58 +2708,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "健康大数据管理与服务",
-     "plan": 40,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 293
-    },
-    {
-     "name": "健康管理",
-     "plan": 45,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 273
-    },
-    {
-     "name": "康复治疗技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 339
-    },
-    {
      "name": "药学",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 376
     },
     {
      "name": "医学检验技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 335
     },
     {
+     "name": "康复治疗技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 339
+    },
+    {
+     "name": "健康大数据管理与服务",
+     "plan": 40,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 293
+    },
+    {
+     "name": "健康管理",
+     "plan": 45,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 273
+    },
+    {
      "name": "婴幼儿托育服务与管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 278
     }
    ],
-   "programNames": "健康大数据管理与服务、健康管理、康复治疗技术、药学、医学检验技术、婴幼儿托育服务与管理",
+   "programNames": "药学、医学检验技术、康复治疗技术、健康大数据管理与服务、健康管理、婴幼儿托育服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     12800,
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   }
  ],
@@ -2768,13 +2768,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试七类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试七类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "英语、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试七类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2025/10861.html"
+    }
+   ]
   }
  ]
 }

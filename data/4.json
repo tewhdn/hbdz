@@ -64,37 +64,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "宠物医疗技术",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 672
-    },
-    {
      "name": "畜牧兽医",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 655
     },
     {
+     "name": "宠物医疗技术",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 672
+    },
+    {
      "name": "药品经营与管理",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 621
     }
    ],
-   "programNames": "宠物医疗技术、畜牧兽医、药品经营与管理",
+   "programNames": "畜牧兽医、宠物医疗技术、药品经营与管理",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -109,7 +109,7 @@
     {
      "name": "分析检验技术",
      "plan": 108,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 592
     }
@@ -121,9 +121,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -138,35 +138,35 @@
     {
      "name": "生物制药技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 607
     },
     {
      "name": "食品检验检测技术",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 605
     },
     {
      "name": "食品药品监督管理",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 591
     },
     {
      "name": "药品经营与管理",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 588
     },
     {
      "name": "药品生产技术",
      "plan": 38,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     }
@@ -178,9 +178,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -195,28 +195,28 @@
     {
      "name": "动物医学",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 593
     },
     {
      "name": "设施农业与装备",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 567
     },
     {
      "name": "现代农业技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 573
     },
     {
      "name": "园林技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 568
     }
@@ -228,9 +228,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -245,7 +245,7 @@
     {
      "name": "服装设计与工艺",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 553
     }
@@ -257,9 +257,9 @@
     5500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -274,14 +274,14 @@
     {
      "name": "分析检验技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 549
     },
     {
      "name": "石油化工技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 548
     }
@@ -293,9 +293,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinshiyou.html"
   },
   {
@@ -499,37 +499,37 @@
    "programCount": 3,
    "programs": [
     {
+     "name": "食品智能加工技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 529
+    },
+    {
      "name": "食品检验检测技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 536
     },
     {
      "name": "食品质量与安全",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
-    },
-    {
-     "name": "食品智能加工技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 529
     }
    ],
-   "programNames": "食品检验检测技术、食品质量与安全、食品智能加工技术",
+   "programNames": "食品智能加工技术、食品检验检测技术、食品质量与安全",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -600,51 +600,51 @@
    "programCount": 5,
    "programs": [
     {
-     "name": "宠物医疗技术",
-     "plan": 25,
-     "years": 3,
+     "name": "园林技术",
+     "plan": 47,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 579
-    },
-    {
-     "name": "酿酒技术",
-     "plan": 70,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 519
+     "minScore": 521
     },
     {
      "name": "畜牧兽医",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 583
     },
     {
+     "name": "酿酒技术",
+     "plan": 70,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 519
+    },
+    {
      "name": "药物制剂技术",
      "plan": 37,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 546
     },
     {
-     "name": "园林技术",
-     "plan": 47,
-     "years": 3,
+     "name": "宠物医疗技术",
+     "plan": 25,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 521
+     "minScore": 579
     }
    ],
-   "programNames": "宠物医疗技术、酿酒技术、畜牧兽医、药物制剂技术、园林技术",
+   "programNames": "园林技术、畜牧兽医、酿酒技术、药物制剂技术、宠物医疗技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -659,7 +659,7 @@
     {
      "name": "园林技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 518
     }
@@ -671,9 +671,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -752,7 +752,7 @@
     {
      "name": "药品经营与管理",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 510
     }
@@ -764,9 +764,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfweisheng.html"
   },
   {
@@ -871,58 +871,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "宠物养护与驯导",
-     "plan": 21,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 526
-    },
-    {
-     "name": "动物医学",
-     "plan": 42,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 564
-    },
-    {
-     "name": "食品质量与安全",
-     "plan": 24,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 522
-    },
-    {
      "name": "现代农业技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 509
     },
     {
+     "name": "园林技术",
+     "plan": 21,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 508
+    },
+    {
+     "name": "动物医学",
+     "plan": 42,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 564
+    },
+    {
      "name": "畜牧兽医",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 534
     },
     {
-     "name": "园林技术",
+     "name": "宠物养护与驯导",
      "plan": 21,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 508
+     "minScore": 526
+    },
+    {
+     "name": "食品质量与安全",
+     "plan": 24,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 522
     }
    ],
-   "programNames": "宠物养护与驯导、动物医学、食品质量与安全、现代农业技术、畜牧兽医、园林技术",
+   "programNames": "现代农业技术、园林技术、动物医学、畜牧兽医、宠物养护与驯导、食品质量与安全",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -935,44 +935,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "宠物医疗技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 541
-    },
-    {
      "name": "现代农业技术",
      "plan": 18,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 506
     },
     {
+     "name": "园林技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 505
+    },
+    {
      "name": "畜牧兽医",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
     },
     {
-     "name": "园林技术",
+     "name": "宠物医疗技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 505
+     "minScore": 541
     }
    ],
-   "programNames": "宠物医疗技术、现代农业技术、畜牧兽医、园林技术",
+   "programNames": "现代农业技术、园林技术、畜牧兽医、宠物医疗技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -987,7 +987,7 @@
     {
      "name": "服装设计与工艺(童装方向)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 505
     }
@@ -999,9 +999,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -1036,7 +1036,7 @@
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 25,
    "minScore": 504,
    "subClasses": null,
@@ -1045,7 +1045,7 @@
     {
      "name": "服装设计与工艺",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 504
     }
@@ -1057,9 +1057,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -1101,30 +1101,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "酿酒技术",
-     "plan": 100,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 490
-    },
-    {
      "name": "食品营养与健康",
      "plan": 250,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 496
+    },
+    {
+     "name": "酿酒技术",
+     "plan": 100,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 490
     }
    ],
-   "programNames": "酿酒技术、食品营养与健康",
+   "programNames": "食品营养与健康、酿酒技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -1211,7 +1211,7 @@
     {
      "name": "森林生态旅游与康养",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 488
     }
@@ -1223,15 +1223,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
    "name": "河北能源职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 70,
    "minScore": 487,
    "subClasses": null,
@@ -1240,28 +1240,28 @@
     {
      "name": "煤化工技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 514
+     "minScore": 487
     },
     {
      "name": "煤化工技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 514
     }
    ],
    "programNames": "煤化工技术、煤化工技术",
-   "programsComplete": false,
+   "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -1296,7 +1296,7 @@
   {
    "name": "河北石油职业技术大学(中外合作办学)",
    "type": "公办",
-   "city": "其他",
+   "city": "承德",
    "plan": 30,
    "minScore": 478,
    "subClasses": null,
@@ -1305,7 +1305,7 @@
     {
      "name": "应用化工技术(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 18000,
      "minScore": 478
     }
@@ -1317,9 +1317,9 @@
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbshiyou-zw.html"
   },
   {
@@ -1334,7 +1334,7 @@
     {
      "name": "宠物养护与驯导(中外合作办学)",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 14000,
      "minScore": 476
     }
@@ -1346,9 +1346,9 @@
     14000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -1392,28 +1392,28 @@
     {
      "name": "生物制药技术",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 462
     },
     {
      "name": "食品检验检测技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 477
     },
     {
      "name": "药品经营与管理",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 467
     },
     {
      "name": "药品生产技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 468
     }
@@ -1425,59 +1425,59 @@
     13600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 60,
    "minScore": 460,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "服装设计与工艺",
-     "plan": 18,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 460
-    },
-    {
-     "name": "石油化工技术",
-     "plan": 14,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 474
-    },
-    {
      "name": "现代农业技术",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 473
     },
     {
      "name": "应用化工技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 481
+    },
+    {
+     "name": "石油化工技术",
+     "plan": 14,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 474
+    },
+    {
+     "name": "服装设计与工艺",
+     "plan": 18,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 460
     }
    ],
-   "programNames": "服装设计与工艺、石油化工技术、现代农业技术、应用化工技术",
+   "programNames": "现代农业技术、应用化工技术、石油化工技术、服装设计与工艺",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
@@ -1492,135 +1492,135 @@
     {
      "name": "食品检验检测技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 461
     },
     {
-     "name": "食品质量与安全",
-     "plan": 20,
-     "years": 3,
-     "tuition": 12000,
-     "minScore": 466
-    },
-    {
      "name": "食品智能加工技术",
      "plan": 27,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 459
     },
     {
+     "name": "食品质量与安全",
+     "plan": 20,
+     "years": "3",
+     "tuition": 12000,
+     "minScore": 466
+    },
+    {
      "name": "药品经营与管理",
      "plan": 75,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 457
     }
    ],
-   "programNames": "食品检验检测技术、食品质量与安全、食品智能加工技术、药品经营与管理",
+   "programNames": "食品检验检测技术、食品智能加工技术、食品质量与安全、药品经营与管理",
    "programsComplete": true,
    "tuitionRange": [
     12000,
     12000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 40,
    "minScore": 455,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "分析检验技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 467
-    },
-    {
      "name": "化工智能制造技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 462
     },
     {
      "name": "现代农业经济管理",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 455
+    },
+    {
+     "name": "分析检验技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 467
     }
    ],
-   "programNames": "分析检验技术、化工智能制造技术、现代农业经济管理",
+   "programNames": "化工智能制造技术、现代农业经济管理、分析检验技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 34,
    "minScore": 450,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "农产品加工与质量检测",
-     "plan": 6,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 458
-    },
-    {
      "name": "现代农业技术",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 469
     },
     {
      "name": "现代农业装备应用技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 450
     },
     {
+     "name": "农产品加工与质量检测",
+     "plan": 6,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 458
+    },
+    {
      "name": "畜牧兽医",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 497
     }
    ],
-   "programNames": "农产品加工与质量检测、现代农业技术、现代农业装备应用技术、畜牧兽医",
+   "programNames": "现代农业技术、现代农业装备应用技术、农产品加工与质量检测、畜牧兽医",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
@@ -1635,7 +1635,7 @@
     {
      "name": "食品营养与健康",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 9800,
      "minScore": 449
     }
@@ -1647,9 +1647,9 @@
     9800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
@@ -1664,7 +1664,7 @@
     {
      "name": "药品经营与管理",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 442
     }
@@ -1676,66 +1676,66 @@
     11700
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 68,
    "minScore": 436,
    "subClasses": null,
    "programCount": 5,
    "programs": [
     {
-     "name": "纺织品检验与贸易",
-     "plan": 10,
-     "years": 3,
+     "name": "现代农业装备应用技术",
+     "plan": 18,
+     "years": "3",
      "tuition": 3300,
-     "minScore": 442
-    },
-    {
-     "name": "纺织品设计",
-     "plan": 15,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 436
-    },
-    {
-     "name": "服装设计与工艺",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 447
+     "minScore": 452
     },
     {
      "name": "现代纺织技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 445
     },
     {
-     "name": "现代农业装备应用技术",
-     "plan": 18,
-     "years": 3,
+     "name": "纺织品设计",
+     "plan": 15,
+     "years": "3",
      "tuition": 3300,
-     "minScore": 452
+     "minScore": 436
+    },
+    {
+     "name": "纺织品检验与贸易",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 442
+    },
+    {
+     "name": "服装设计与工艺",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 447
     }
    ],
-   "programNames": "纺织品检验与贸易、纺织品设计、服装设计与工艺、现代纺织技术、现代农业装备应用技术",
+   "programNames": "现代农业装备应用技术、现代纺织技术、纺织品设计、纺织品检验与贸易、服装设计与工艺",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
@@ -1750,7 +1750,7 @@
     {
      "name": "畜牧兽医",
      "plan": 397,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 421
     }
@@ -1762,9 +1762,9 @@
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -1779,7 +1779,7 @@
     {
      "name": "药品经营与管理",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 414
     }
@@ -1791,9 +1791,9 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -1808,7 +1808,7 @@
     {
      "name": "药品经营与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 412
     }
@@ -1820,9 +1820,9 @@
     16900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzrenminyixue.html"
   },
   {
@@ -1835,120 +1835,120 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "药品经营与管理",
-     "plan": 50,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 411
-    },
-    {
      "name": "药品生产技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 405
+    },
+    {
+     "name": "药品经营与管理",
+     "plan": 50,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 411
     }
    ],
-   "programNames": "药品经营与管理、药品生产技术",
+   "programNames": "药品生产技术、药品经营与管理",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 185,
    "minScore": 393,
    "subClasses": null,
    "programCount": 9,
    "programs": [
     {
-     "name": "服装设计与工艺",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 421
-    },
-    {
-     "name": "农产品加工与质量检测",
-     "plan": 30,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 407
-    },
-    {
-     "name": "设施农业与装备",
-     "plan": 25,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 402
-    },
-    {
-     "name": "数字化染整技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 447
-    },
-    {
      "name": "现代纺织技术",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 425
     },
     {
+     "name": "服装设计与工艺",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 421
+    },
+    {
+     "name": "针织技术与针织服装",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 416
+    },
+    {
+     "name": "数字化染整技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 447
+    },
+    {
+     "name": "设施农业与装备",
+     "plan": 25,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 402
+    },
+    {
      "name": "现代农业技术",
      "plan": 27,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 418
     },
     {
      "name": "园艺技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 408
     },
     {
-     "name": "针织技术与针织服装",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 416
-    },
-    {
      "name": "作物生产与经营管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 393
+    },
+    {
+     "name": "农产品加工与质量检测",
+     "plan": 30,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 407
     }
    ],
-   "programNames": "服装设计与工艺、农产品加工与质量检测、设施农业与装备、数字化染整技术、现代纺织技术、现代农业技术、园艺技术、针织技术与针织服装、作物生产与经营管理",
+   "programNames": "现代纺织技术、服装设计与工艺、针织技术与针织服装、数字化染整技术、设施农业与装备、现代农业技术、园艺技术、作物生产与经营管理、农产品加工与质量检测",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
    "name": "邯郸应用技术职业学院",
-   "type": "公办",
+   "type": "民办",
    "city": "邯郸",
    "plan": 200,
    "minScore": 387,
@@ -1958,7 +1958,7 @@
     {
      "name": "食品质量与安全",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 387
     }
@@ -1970,9 +1970,9 @@
     12600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyingyongjishu.html"
   },
   {
@@ -1985,65 +1985,65 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "宠物养护与驯导",
-     "plan": 5,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 452
-    },
-    {
      "name": "设施农业与装备",
      "plan": 3,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 389
     },
     {
-     "name": "现代农业技术",
-     "plan": 2,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 454
+     "name": "种子生产与经营",
+     "plan": 3,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 415
     },
     {
      "name": "现代农业经济管理",
      "plan": 3,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 384
     },
     {
      "name": "畜牧兽医",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 18800,
      "minScore": 444
     },
     {
+     "name": "宠物养护与驯导",
+     "plan": 5,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 452
+    },
+    {
      "name": "园林技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 396
     },
     {
-     "name": "种子生产与经营",
-     "plan": 3,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 415
+     "name": "现代农业技术",
+     "plan": 2,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 454
     }
    ],
-   "programNames": "宠物养护与驯导、设施农业与装备、现代农业技术、现代农业经济管理、畜牧兽医、园林技术、种子生产与经营",
+   "programNames": "设施农业与装备、种子生产与经营、现代农业经济管理、畜牧兽医、宠物养护与驯导、园林技术、现代农业技术",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     18800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
@@ -2056,50 +2056,50 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "生物制药技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 17500,
-     "minScore": 383
-    },
-    {
-     "name": "药品经营与管理",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 393
-    },
-    {
      "name": "药品生产技术",
      "plan": 75,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 394
     },
     {
+     "name": "药品经营与管理",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 393
+    },
+    {
+     "name": "生物制药技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 17500,
+     "minScore": 383
+    },
+    {
      "name": "医疗器械维护与管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 379
     }
    ],
-   "programNames": "生物制药技术、药品经营与管理、药品生产技术、医疗器械维护与管理",
+   "programNames": "药品生产技术、药品经营与管理、生物制药技术、医疗器械维护与管理",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     17500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyixue.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 150,
    "minScore": 373,
    "subClasses": null,
@@ -2108,14 +2108,14 @@
     {
      "name": "宠物医疗技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 440
     },
     {
      "name": "药品生产技术",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 373
     }
@@ -2127,9 +2127,9 @@
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
@@ -2299,44 +2299,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "咖啡加工与应用技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 346
-    },
-    {
-     "name": "水产养殖技术",
-     "plan": 40,
-     "years": 3,
+     "name": "水生动物医学",
+     "plan": 80,
+     "years": "3",
      "tuition": 16800,
      "minScore": 336
     },
     {
-     "name": "水生动物医学",
-     "plan": 80,
-     "years": 3,
+     "name": "水产养殖技术",
+     "plan": 40,
+     "years": "3",
      "tuition": 16800,
      "minScore": 336
     },
     {
      "name": "水族科学与技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 344
+    },
+    {
+     "name": "咖啡加工与应用技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 346
     }
    ],
-   "programNames": "咖啡加工与应用技术、水产养殖技术、水生动物医学、水族科学与技术",
+   "programNames": "水生动物医学、水产养殖技术、水族科学与技术、咖啡加工与应用技术",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -2351,35 +2351,35 @@
     {
      "name": "绿色食品生产技术",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 345
     },
     {
      "name": "畜牧兽医",
      "plan": 79,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 392
     },
     {
      "name": "药品生物技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 352
     },
     {
      "name": "园林技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 336
     },
     {
      "name": "智能医疗装备技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 336
     }
@@ -2391,9 +2391,9 @@
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
@@ -2406,37 +2406,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "休闲农业经营与管理",
-     "plan": 150,
-     "years": 3,
+     "name": "植物保护与检疫技术",
+     "plan": 200,
+     "years": "3",
      "tuition": 12900,
-     "minScore": 336
+     "minScore": 346
     },
     {
      "name": "园林技术",
      "plan": 150,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 356
     },
     {
-     "name": "植物保护与检疫技术",
-     "plan": 200,
-     "years": 3,
+     "name": "休闲农业经营与管理",
+     "plan": 150,
+     "years": "3",
      "tuition": 12900,
-     "minScore": 346
+     "minScore": 336
     }
    ],
-   "programNames": "休闲农业经营与管理、园林技术、植物保护与检疫技术",
+   "programNames": "植物保护与检疫技术、园林技术、休闲农业经营与管理",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     12900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   }
  ],
@@ -2445,13 +2445,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试四类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试四类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "英语、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试四类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10940.html"
+    }
+   ]
   }
  ]
 }

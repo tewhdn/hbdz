@@ -25,7 +25,7 @@
     {
      "name": "人物形象设计",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 8000,
      "minScore": 651
     }
@@ -37,9 +37,9 @@
     8000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -56,7 +56,7 @@
     {
      "name": "广告艺术设计",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 597
     }
@@ -68,9 +68,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -87,42 +87,42 @@
     {
      "name": "环境艺术设计",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 581
     },
     {
+     "name": "艺术设计",
+     "plan": 39,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 584
+    },
+    {
      "name": "数字媒体艺术设计",
      "plan": 36,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 615
     },
     {
      "name": "陶瓷设计与工艺",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 567
-    },
-    {
-     "name": "艺术设计",
-     "plan": 39,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 584
     }
    ],
-   "programNames": "环境艺术设计、数字媒体艺术设计、陶瓷设计与工艺、艺术设计",
+   "programNames": "环境艺术设计、艺术设计、数字媒体艺术设计、陶瓷设计与工艺",
    "programsComplete": true,
    "tuitionRange": [
     7000,
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -139,7 +139,7 @@
     {
      "name": "数字媒体艺术设计",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 555
     }
@@ -151,9 +151,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -170,14 +170,14 @@
     {
      "name": "广告艺术设计",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 552
     },
     {
      "name": "视觉传达设计",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 559
     }
@@ -189,9 +189,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -209,42 +209,42 @@
     {
      "name": "音乐制作",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 538
     },
     {
      "name": "广告艺术设计",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 587
     },
     {
      "name": "环境艺术设计",
      "plan": 26,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 572
     },
     {
      "name": "室内艺术设计",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 576
     },
     {
      "name": "数字媒体艺术设计",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 609
     },
     {
      "name": "游戏艺术设计",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 597
     }
@@ -256,15 +256,15 @@
     6000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
    "name": "河北软件职业技术学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 196,
    "minScore": 514,
    "subClasses": [
@@ -275,35 +275,35 @@
     {
      "name": "动漫设计",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 529
     },
     {
-     "name": "广告艺术设计",
-     "plan": 77,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 518
-    },
-    {
      "name": "游戏艺术设计",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 514
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 77,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 518
     }
    ],
-   "programNames": "动漫设计、广告艺术设计、游戏艺术设计",
+   "programNames": "动漫设计、游戏艺术设计、广告艺术设计",
    "programsComplete": true,
    "tuitionRange": [
     7000,
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -351,14 +351,14 @@
     {
      "name": "环境艺术设计",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 502
     },
     {
      "name": "数字媒体艺术设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 512
     }
@@ -370,9 +370,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -387,30 +387,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "产品艺术设计(木艺)",
-     "plan": 50,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 501
-    },
-    {
      "name": "广告艺术设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 513
+    },
+    {
+     "name": "产品艺术设计(木艺)",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 501
     }
    ],
-   "programNames": "产品艺术设计(木艺)、广告艺术设计",
+   "programNames": "广告艺术设计、产品艺术设计(木艺)",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -503,7 +503,7 @@
     {
      "name": "广告艺术设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 492
     }
@@ -515,9 +515,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tskeji.html"
   },
   {
@@ -534,7 +534,7 @@
     {
      "name": "艺术设计",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 490
     }
@@ -546,9 +546,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -585,7 +585,7 @@
   {
    "name": "河北能源职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 78,
    "minScore": 482,
    "subClasses": [
@@ -596,14 +596,14 @@
     {
      "name": "视觉传达设计",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 495
     },
     {
      "name": "室内艺术设计",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 482
     }
@@ -615,9 +615,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -634,7 +634,7 @@
     {
      "name": "数字媒体艺术设计",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 480
     }
@@ -646,9 +646,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -665,7 +665,7 @@
     {
      "name": "室内艺术设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 477
     }
@@ -677,15 +677,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 96,
    "minScore": 471,
    "subClasses": [
@@ -696,49 +696,49 @@
     {
      "name": "服装与服饰设计",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 472
     },
     {
      "name": "人物形象设计",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 471
     },
     {
-     "name": "视觉传达设计",
-     "plan": 20,
-     "years": 3,
-     "tuition": 6000,
-     "minScore": 487
-    },
-    {
      "name": "室内艺术设计",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 476
     },
     {
+     "name": "视觉传达设计",
+     "plan": 20,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 487
+    },
+    {
      "name": "艺术设计",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 474
     }
    ],
-   "programNames": "服装与服饰设计、人物形象设计、视觉传达设计、室内艺术设计、艺术设计",
+   "programNames": "服装与服饰设计、人物形象设计、室内艺术设计、视觉传达设计、艺术设计",
    "programsComplete": true,
    "tuitionRange": [
     6000,
     6000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -757,21 +757,21 @@
     {
      "name": "音乐表演",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 463
     },
     {
      "name": "舞蹈表演",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 492
     },
     {
      "name": "书画艺术",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 484
     }
@@ -783,9 +783,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsyouershifan.html"
   },
   {
@@ -803,14 +803,14 @@
     {
      "name": "表演艺术(航空服务方向)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 459
     },
     {
      "name": "环境艺术设计(高端别墅设计方向)",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 514
     }
@@ -822,9 +822,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -841,14 +841,14 @@
     {
      "name": "室内艺术设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 6800,
      "minScore": 459
     },
     {
      "name": "数字媒体艺术设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 6800,
      "minScore": 463
     }
@@ -860,9 +860,9 @@
     6800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -879,14 +879,14 @@
     {
      "name": "广告艺术设计",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 471
     },
     {
      "name": "民族传统技艺",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 457
     }
@@ -898,9 +898,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -987,14 +987,14 @@
     {
      "name": "视觉传达设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 455
     },
     {
      "name": "游戏艺术设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 446
     }
@@ -1006,15 +1006,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 15,
    "minScore": 445,
    "subClasses": [
@@ -1025,21 +1025,21 @@
     {
      "name": "广告艺术设计",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 458
     },
     {
      "name": "环境艺术设计",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 451
     },
     {
      "name": "民族传统技艺(绛丝方向)",
      "plan": 7,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 445
     }
@@ -1051,9 +1051,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
@@ -1108,7 +1108,7 @@
     {
      "name": "广告艺术设计(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 20000,
      "minScore": 436
     }
@@ -1120,9 +1120,9 @@
     20000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -1140,35 +1140,35 @@
     {
      "name": "音乐表演",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 436
     },
     {
-     "name": "产品艺术设计(玩教具方向)",
-     "plan": 15,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 524
-    },
-    {
      "name": "陶瓷设计与工艺",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 513
+    },
+    {
+     "name": "产品艺术设计(玩教具方向)",
+     "plan": 15,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 524
     }
    ],
-   "programNames": "音乐表演、产品艺术设计(玩教具方向)、陶瓷设计与工艺",
+   "programNames": "音乐表演、陶瓷设计与工艺、产品艺术设计(玩教具方向)",
    "programsComplete": true,
    "tuitionRange": [
     7000,
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -1225,35 +1225,35 @@
     {
      "name": "音乐表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 430
     },
     {
      "name": "歌舞表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 479
     },
     {
      "name": "舞蹈表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 491
     },
     {
      "name": "环境艺术设计",
      "plan": 75,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 536
     },
     {
      "name": "艺术设计",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 548
     }
@@ -1265,9 +1265,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
   },
   {
@@ -1458,21 +1458,21 @@
     {
      "name": "广告艺术设计",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 427
     },
     {
      "name": "数字媒体艺术设计",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 433
     },
     {
      "name": "数字媒体艺术设计(AI未来影视)",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 419
     }
@@ -1484,9 +1484,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -1504,28 +1504,28 @@
     {
      "name": "舞蹈表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 442
     },
     {
      "name": "广告艺术设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 417
     },
     {
      "name": "环境艺术设计",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 419
     },
     {
      "name": "视觉传达设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 420
     }
@@ -1537,9 +1537,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
@@ -1595,14 +1595,14 @@
     {
      "name": "舞蹈表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 445
     },
     {
      "name": "广告艺术设计",
      "plan": 33,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 408
     }
@@ -1614,9 +1614,9 @@
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -1664,7 +1664,7 @@
     {
      "name": "数字媒体艺术设计",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 405
     }
@@ -1676,9 +1676,9 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -1753,7 +1753,7 @@
   {
    "name": "河北艺术职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 431,
    "minScore": 400,
    "subClasses": [
@@ -1765,135 +1765,135 @@
    "programCount": 17,
    "programs": [
     {
-     "name": "现代流行音乐",
-     "plan": 15,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 477
-    },
-    {
      "name": "音乐表演(管弦打击乐器演奏)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 425
     },
     {
+     "name": "音乐制作",
+     "plan": 5,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 489
+    },
+    {
+     "name": "现代流行音乐",
+     "plan": 15,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 477
+    },
+    {
+     "name": "音乐表演(中国乐器演奏方向)",
+     "plan": 20,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 442
+    },
+    {
      "name": "音乐表演(键盘方向)",
      "plan": 3,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 472
     },
     {
      "name": "音乐表演(声乐方向)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 461
     },
     {
-     "name": "音乐表演(中国乐器演奏方向)",
+     "name": "舞蹈表演",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
-     "minScore": 442
-    },
-    {
-     "name": "音乐制作",
-     "plan": 5,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 489
-    },
-    {
-     "name": "国际标准舞",
-     "plan": 10,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 483
+     "minScore": 506
     },
     {
      "name": "时尚表演与传播",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 464
     },
     {
      "name": "舞蹈编导",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 498
     },
     {
-     "name": "舞蹈表演",
-     "plan": 20,
-     "years": 3,
-     "tuition": 7000,
-     "minScore": 506
-    },
-    {
      "name": "戏剧影视表演",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 475
     },
     {
-     "name": "产品艺术设计(文创方向)",
-     "plan": 30,
-     "years": 3,
-     "tuition": 6000,
-     "minScore": 516
-    },
-    {
-     "name": "动漫设计",
-     "plan": 60,
-     "years": 3,
-     "tuition": 6000,
-     "minScore": 526
-    },
-    {
-     "name": "环境艺术设计",
-     "plan": 45,
-     "years": 3,
-     "tuition": 6000,
-     "minScore": 518
+     "name": "国际标准舞",
+     "plan": 10,
+     "years": "3",
+     "tuition": 7000,
+     "minScore": 483
     },
     {
      "name": "视觉传达设计",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 530
     },
     {
      "name": "舞台艺术设计与制作",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 6000,
      "minScore": 513
     },
     {
+     "name": "动漫设计",
+     "plan": 60,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 526
+    },
+    {
+     "name": "产品艺术设计(文创方向)",
+     "plan": 30,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 516
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 45,
+     "years": "3",
+     "tuition": 6000,
+     "minScore": 518
+    },
+    {
      "name": "文物修复与保护",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 400
     }
    ],
-   "programNames": "现代流行音乐、音乐表演(管弦打击乐器演奏)、音乐表演(键盘方向)、音乐表演(声乐方向)、音乐表演(中国乐器演奏方向)、音乐制作、国际标准舞、时尚表演与传播、舞蹈编导、舞蹈表演、戏剧影视表演、产品艺术设计(文创方向)、动漫设计、环境艺术设计、视觉传达设计、舞台艺术设计与制作、文物修复与保护",
+   "programNames": "音乐表演(管弦打击乐器演奏)、音乐制作、现代流行音乐、音乐表演(中国乐器演奏方向)、音乐表演(键盘方向)、音乐表演(声乐方向)、舞蹈表演、时尚表演与传播、舞蹈编导、戏剧影视表演、国际标准舞、视觉传达设计、舞台艺术设计与制作、动漫设计、产品艺术设计(文创方向)、环境艺术设计、文物修复与保护",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbyishu.html"
   },
   {
@@ -1910,7 +1910,7 @@
     {
      "name": "艺术设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 399
     }
@@ -1922,9 +1922,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -1988,14 +1988,14 @@
     {
      "name": "舞蹈表演",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 429
     },
     {
      "name": "数字媒体艺术设计",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 397
     }
@@ -2007,9 +2007,9 @@
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -2024,30 +2024,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "广告艺术设计",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 397
-    },
-    {
      "name": "环境艺术设计",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 393
+    },
+    {
+     "name": "广告艺术设计",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 397
     }
    ],
-   "programNames": "广告艺术设计、环境艺术设计",
+   "programNames": "环境艺术设计、广告艺术设计",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -2064,7 +2064,7 @@
     {
      "name": "数字时尚设计",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 388
     }
@@ -2076,9 +2076,9 @@
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjinrong.html"
   },
   {
@@ -2093,58 +2093,58 @@
    "programCount": 6,
    "programs": [
     {
+     "name": "艺术设计",
+     "plan": 10,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 400
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 15,
+     "years": "3",
+     "tuition": 16300,
+     "minScore": 390
+    },
+    {
      "name": "广告艺术设计",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 389
     },
     {
      "name": "广告艺术设计(UI)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 387
     },
     {
-     "name": "环境艺术设计",
-     "plan": 15,
-     "years": 3,
-     "tuition": 16300,
-     "minScore": 390
-    },
-    {
      "name": "室内艺术设计",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 12300,
      "minScore": 398
     },
     {
      "name": "室内艺术设计(VR)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 388
-    },
-    {
-     "name": "艺术设计",
-     "plan": 10,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 400
     }
    ],
-   "programNames": "广告艺术设计、广告艺术设计(UI)、环境艺术设计、室内艺术设计、室内艺术设计(VR)、艺术设计",
+   "programNames": "艺术设计、环境艺术设计、广告艺术设计、广告艺术设计(UI)、室内艺术设计、室内艺术设计(VR)",
    "programsComplete": true,
    "tuitionRange": [
     12300,
     16900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -2225,7 +2225,7 @@
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 45,
    "minScore": 357,
    "subClasses": [
@@ -2239,63 +2239,63 @@
     {
      "name": "音乐表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 415
     },
     {
      "name": "舞蹈表演",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 438
     },
     {
+     "name": "游戏艺术设计",
+     "plan": 4,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 414
+    },
+    {
+     "name": "艺术设计",
+     "plan": 4,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 411
+    },
+    {
      "name": "视觉传达设计(室内外装修设计)",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 411
     },
     {
      "name": "书画艺术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 14300,
      "minScore": 409
     },
     {
-     "name": "艺术设计",
-     "plan": 4,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 411
-    },
-    {
-     "name": "游戏艺术设计",
-     "plan": 4,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 414
-    },
-    {
      "name": "文化创意与策划",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 16500,
      "minScore": 357
     }
    ],
-   "programNames": "音乐表演、舞蹈表演、视觉传达设计(室内外装修设计)、书画艺术、艺术设计、游戏艺术设计、文化创意与策划",
+   "programNames": "音乐表演、舞蹈表演、游戏艺术设计、艺术设计、视觉传达设计(室内外装修设计)、书画艺术、文化创意与策划",
    "programsComplete": true,
    "tuitionRange": [
     14300,
     16500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
@@ -2314,69 +2314,69 @@
     {
      "name": "表演艺术(影视方向)",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 421
     },
     {
      "name": "广告艺术设计",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 391
     },
     {
      "name": "民族传统技艺",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 386
     },
     {
      "name": "人物形象设计",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 386
     },
     {
      "name": "艺术设计(平面设计方向)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 385
     },
     {
      "name": "艺术设计(室内装潢方向)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 385
     },
     {
-     "name": "公共文化服务与管理公办院校]",
+     "name": "公共文化服务与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 323
     }
    ],
-   "programNames": "表演艺术(影视方向)、广告艺术设计、民族传统技艺、人物形象设计、艺术设计(平面设计方向)、艺术设计(室内装潢方向)、公共文化服务与管理公办院校]",
+   "programNames": "表演艺术(影视方向)、广告艺术设计、民族传统技艺、人物形象设计、艺术设计(平面设计方向)、艺术设计(室内装潢方向)、公共文化服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     18500,
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
    "name": "河北美术学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 479,
    "minScore": 181,
    "subClasses": [
@@ -2387,128 +2387,128 @@
    "programCount": 16,
    "programs": [
     {
-     "name": "现代流行音乐",
-     "plan": 5,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 238
-    },
-    {
      "name": "音乐表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 361
     },
     {
+     "name": "现代流行音乐",
+     "plan": 5,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 238
+    },
+    {
      "name": "音乐制作",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 181
     },
     {
      "name": "歌舞表演",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 395
     },
     {
-     "name": "产品艺术设计",
-     "plan": 35,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 362
-    },
-    {
-     "name": "雕塑设计",
-     "plan": 40,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 351
-    },
-    {
-     "name": "动漫设计",
-     "plan": 35,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 366
-    },
-    {
-     "name": "公共艺术设计",
-     "plan": 35,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 349
-    },
-    {
-     "name": "环境艺术设计",
-     "plan": 35,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 354
-    },
-    {
-     "name": "摄影与摄像艺术(VR艺术)",
-     "plan": 35,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 350
-    },
-    {
      "name": "视觉传达设计",
      "plan": 59,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 374
     },
     {
+     "name": "数字媒体艺术设计",
+     "plan": 40,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 370
+    },
+    {
+     "name": "产品艺术设计",
+     "plan": 35,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 362
+    },
+    {
+     "name": "环境艺术设计",
+     "plan": 35,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 354
+    },
+    {
      "name": "书画艺术(绘画方向)",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 349
     },
     {
      "name": "书画艺术(书法方向)",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 361
     },
     {
-     "name": "数字媒体艺术设计",
-     "plan": 40,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 370
-    },
-    {
-     "name": "陶瓷设计与工艺",
+     "name": "公共艺术设计",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
-     "minScore": 351
+     "minScore": 349
     },
     {
      "name": "游戏艺术设计",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 349
+    },
+    {
+     "name": "动漫设计",
+     "plan": 35,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 366
+    },
+    {
+     "name": "摄影与摄像艺术(VR艺术)",
+     "plan": 35,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 350
+    },
+    {
+     "name": "陶瓷设计与工艺",
+     "plan": 35,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 351
+    },
+    {
+     "name": "雕塑设计",
+     "plan": 40,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 351
     }
    ],
-   "programNames": "现代流行音乐、音乐表演、音乐制作、歌舞表演、产品艺术设计、雕塑设计、动漫设计、公共艺术设计、环境艺术设计、摄影与摄像艺术(VR艺术)、视觉传达设计、书画艺术(绘画方向)、书画艺术(书法方向)、数字媒体艺术设计、陶瓷设计与工艺、游戏艺术设计",
+   "programNames": "音乐表演、现代流行音乐、音乐制作、歌舞表演、视觉传达设计、数字媒体艺术设计、产品艺术设计、环境艺术设计、书画艺术(绘画方向)、书画艺术(书法方向)、公共艺术设计、游戏艺术设计、动漫设计、摄影与摄像艺术(VR艺术)、陶瓷设计与工艺、雕塑设计",
    "programsComplete": true,
    "tuitionRange": [
     30000,
     30000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbmeishu.html"
   }
  ],
@@ -2517,13 +2517,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试八类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试八类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "历史、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试八类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10944.html"
+    }
+   ]
   }
  ]
 }

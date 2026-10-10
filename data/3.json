@@ -52,28 +52,28 @@
     {
      "name": "电气自动化技术",
      "plan": 44,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 658
     },
     {
      "name": "机电设备技术(盾构机运用与维护)",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 649
     },
     {
      "name": "机电一体化技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 655
     },
     {
      "name": "无人机应用技术",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 640
     }
@@ -85,9 +85,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -100,65 +100,65 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "工业机器人技术",
-     "plan": 6,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 655
-    },
-    {
-     "name": "机电设备技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 658
-    },
-    {
-     "name": "机电一体化技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 668
-    },
-    {
      "name": "数控技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 654
     },
     {
-     "name": "新能源汽车技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 647
-    },
-    {
      "name": "智能焊接技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 646
     },
     {
+     "name": "机电一体化技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 668
+    },
+    {
+     "name": "机电设备技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 658
+    },
+    {
+     "name": "工业机器人技术",
+     "plan": 6,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 655
+    },
+    {
+     "name": "新能源汽车技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 647
+    },
+    {
      "name": "智能网联汽车技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 639
     }
    ],
-   "programNames": "工业机器人技术、机电设备技术、机电一体化技术、数控技术、新能源汽车技术、智能焊接技术、智能网联汽车技术",
+   "programNames": "数控技术、智能焊接技术、机电一体化技术、机电设备技术、工业机器人技术、新能源汽车技术、智能网联汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -171,44 +171,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "工业产品质量检测技术",
-     "plan": 3,
-     "years": 3,
+     "name": "数字化设计与制造技术",
+     "plan": 10,
+     "years": "3",
      "tuition": 5500,
      "minScore": 633
     },
     {
      "name": "模具设计与制造",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 644
     },
     {
-     "name": "数字化设计与制造技术",
-     "plan": 10,
-     "years": 3,
+     "name": "工业产品质量检测技术",
+     "plan": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 633
     },
     {
      "name": "智能制造装备技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 636
     }
    ],
-   "programNames": "工业产品质量检测技术、模具设计与制造、数字化设计与制造技术、智能制造装备技术",
+   "programNames": "数字化设计与制造技术、模具设计与制造、工业产品质量检测技术、智能制造装备技术",
    "programsComplete": true,
    "tuitionRange": [
     5500,
     5500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -223,21 +223,21 @@
     {
      "name": "机械制造及自动化",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 636
     },
     {
      "name": "数控技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 636
     },
     {
      "name": "无人机应用技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 633
     }
@@ -249,9 +249,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -266,49 +266,49 @@
     {
      "name": "电气自动化技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 650
     },
     {
      "name": "工业机器人技术",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 635
     },
     {
      "name": "机电一体化技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 650
     },
     {
      "name": "机械制造及自动化",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 638
     },
     {
      "name": "数控技术",
      "plan": 3,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 640
     },
     {
      "name": "新能源汽车技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 635
     },
     {
      "name": "智能网联汽车技术",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 633
     }
@@ -320,9 +320,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -337,14 +337,14 @@
     {
      "name": "无人机应用技术",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 629
     },
     {
      "name": "智能机器人技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 629
     }
@@ -356,9 +356,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyoudian.html"
   },
   {
@@ -373,21 +373,21 @@
     {
      "name": "电气自动化技术",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 630
     },
     {
      "name": "工业机器人技术",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 622
     },
     {
      "name": "机电一体化技术",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 627
     }
@@ -399,9 +399,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
   },
   {
@@ -516,28 +516,28 @@
     {
      "name": "电气自动化技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 611
     },
     {
      "name": "工业机器人技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 597
     },
     {
      "name": "机电一体化技术",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 607
     },
     {
      "name": "新能源汽车技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     }
@@ -549,15 +549,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
    "name": "河北软件职业技术学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 72,
    "minScore": 592,
    "subClasses": null,
@@ -566,14 +566,14 @@
     {
      "name": "电气自动化技术",
      "plan": 43,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 605
     },
     {
      "name": "智能机器人技术",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 592
     }
@@ -585,9 +585,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -680,14 +680,14 @@
     {
      "name": "汽车制造与试验技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 582
     },
     {
      "name": "智能焊接技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 582
     }
@@ -699,9 +699,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinshiyou.html"
   },
   {
@@ -815,7 +815,7 @@
     {
      "name": "无人机应用技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 578
     }
@@ -827,9 +827,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -842,37 +842,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "工业互联网应用(数据采集与应用)",
-     "plan": 25,
-     "years": 3,
+     "name": "智能控制技术",
+     "plan": 32,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 577
+     "minScore": 589
     },
     {
      "name": "新能源装备技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 581
     },
     {
-     "name": "智能控制技术",
-     "plan": 32,
-     "years": 3,
+     "name": "工业互联网应用(数据采集与应用)",
+     "plan": 25,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 589
+     "minScore": 577
     }
    ],
-   "programNames": "工业互联网应用(数据采集与应用)、新能源装备技术、智能控制技术",
+   "programNames": "智能控制技术、新能源装备技术、工业互联网应用(数据采集与应用)",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -1268,58 +1268,58 @@
   {
    "name": "河北能源职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 72,
    "minScore": 550,
    "subClasses": null,
    "programCount": 5,
    "programs": [
     {
+     "name": "智能机器人技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 550
+    },
+    {
      "name": "电气自动化技术",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 575
     },
     {
      "name": "机电一体化技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 569
     },
     {
      "name": "机械制造及自动化",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 562
     },
     {
      "name": "新能源装备技术",
      "plan": 7,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 566
-    },
-    {
-     "name": "智能机器人技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 550
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、机械制造及自动化、新能源装备技术、智能机器人技术",
+   "programNames": "智能机器人技术、电气自动化技术、机电一体化技术、机械制造及自动化、新能源装备技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -1442,28 +1442,28 @@
     {
      "name": "工业机器人技术",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 553
     },
     {
      "name": "机械制造及自动化",
      "plan": 64,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 551
     },
     {
      "name": "数控技术",
      "plan": 57,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 549
     },
     {
      "name": "无人机应用技术",
      "plan": 61,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 546
     }
@@ -1475,9 +1475,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfyanjing.html"
   },
   {
@@ -1521,7 +1521,7 @@
     {
      "name": "无人机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 544
     }
@@ -1533,9 +1533,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -1550,35 +1550,35 @@
     {
      "name": "机电一体化技术",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 547
     },
     {
-     "name": "数控技术",
-     "plan": 28,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 546
-    },
-    {
      "name": "智能制造装备技术",
      "plan": 59,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 543
+    },
+    {
+     "name": "数控技术",
+     "plan": 28,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 546
     }
    ],
-   "programNames": "机电一体化技术、数控技术、智能制造装备技术",
+   "programNames": "机电一体化技术、智能制造装备技术、数控技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tskeji.html"
   },
   {
@@ -1680,14 +1680,14 @@
     {
      "name": "汽车制造与试验技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 536
     },
     {
      "name": "智能制造装备技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 537
     }
@@ -1699,9 +1699,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
@@ -1714,44 +1714,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 38,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 566
-    },
-    {
      "name": "机电一体化技术",
      "plan": 73,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 566
     },
     {
-     "name": "机械设计与制造",
-     "plan": 90,
-     "years": 3,
+     "name": "电气自动化技术",
+     "plan": 38,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 539
+     "minScore": 566
     },
     {
      "name": "数字化设计与制造技术",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 534
+    },
+    {
+     "name": "机械设计与制造",
+     "plan": 90,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 539
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、机械设计与制造、数字化设计与制造技术",
+   "programNames": "机电一体化技术、电气自动化技术、数字化设计与制造技术、机械设计与制造",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -1766,56 +1766,56 @@
     {
      "name": "机电一体化技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 542
     },
     {
-     "name": "汽车制造与试验技术",
-     "plan": 10,
-     "years": 3,
+     "name": "智能控制技术",
+     "plan": 30,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     },
     {
-     "name": "无人机应用技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 536
-    },
-    {
      "name": "智能机器人技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 536
     },
     {
-     "name": "智能控制技术",
-     "plan": 30,
-     "years": 3,
+     "name": "无人机应用技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 536
+    },
+    {
+     "name": "汽车制造与试验技术",
+     "plan": 10,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     },
     {
      "name": "智能网联汽车技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 537
     }
    ],
-   "programNames": "机电一体化技术、汽车制造与试验技术、无人机应用技术、智能机器人技术、智能控制技术、智能网联汽车技术",
+   "programNames": "机电一体化技术、智能控制技术、智能机器人技术、无人机应用技术、汽车制造与试验技术、智能网联汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -1828,58 +1828,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "工业机器人技术",
-     "plan": 39,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 536
-    },
-    {
-     "name": "工业设计",
-     "plan": 28,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 533
-    },
-    {
-     "name": "机电一体化技术",
-     "plan": 22,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 545
-    },
-    {
      "name": "机械制造及自动化",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 538
     },
     {
-     "name": "无人机应用技术",
-     "plan": 31,
-     "years": 3,
+     "name": "工业设计",
+     "plan": 28,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 539
+     "minScore": 533
     },
     {
      "name": "智能制造装备技术",
      "plan": 32,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 534
+    },
+    {
+     "name": "工业机器人技术",
+     "plan": 39,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 536
+    },
+    {
+     "name": "机电一体化技术",
+     "plan": 22,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 545
+    },
+    {
+     "name": "无人机应用技术",
+     "plan": 31,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 539
     }
    ],
-   "programNames": "工业机器人技术、工业设计、机电一体化技术、机械制造及自动化、无人机应用技术、智能制造装备技术",
+   "programNames": "机械制造及自动化、工业设计、智能制造装备技术、工业机器人技术、机电一体化技术、无人机应用技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -1914,7 +1914,7 @@
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 39,
    "minScore": 532,
    "subClasses": null,
@@ -1923,7 +1923,7 @@
     {
      "name": "无人机应用技术",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 532
     }
@@ -1935,9 +1935,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -1952,7 +1952,7 @@
     {
      "name": "智能控制技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 532
     }
@@ -1964,9 +1964,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -1981,7 +1981,7 @@
     {
      "name": "机电一体化技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 532
     }
@@ -1993,52 +1993,52 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
    "name": "河北软件职业技术学院(阜平校区)",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 137,
    "minScore": 531,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 28,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 570
-    },
-    {
      "name": "机电一体化技术",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 558
     },
     {
      "name": "汽车电子技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 531
+    },
+    {
+     "name": "电气自动化技术",
+     "plan": 28,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 570
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、汽车电子技术",
+   "programNames": "机电一体化技术、汽车电子技术、电气自动化技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -2189,21 +2189,21 @@
     {
      "name": "飞行器维修技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     },
     {
      "name": "机电一体化技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 541
     },
     {
      "name": "智能机器人技术",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
     }
@@ -2215,9 +2215,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -2232,14 +2232,14 @@
     {
      "name": "机电一体化技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
     },
     {
      "name": "智能机器人技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 521
     }
@@ -2251,9 +2251,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -2266,65 +2266,65 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 9,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 556
-    },
-    {
-     "name": "机电一体化技术",
-     "plan": 7,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 541
-    },
-    {
      "name": "机械制造及自动化",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     },
     {
-     "name": "汽车制造与试验技术",
-     "plan": 20,
-     "years": 3,
+     "name": "机电一体化技术",
+     "plan": 7,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 521
+     "minScore": 541
+    },
+    {
+     "name": "电气自动化技术",
+     "plan": 9,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 556
     },
     {
      "name": "数字化设计与制造技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 523
     },
     {
+     "name": "智能网联汽车技术",
+     "plan": 29,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 520
+    },
+    {
      "name": "智能机器人技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 524
     },
     {
-     "name": "智能网联汽车技术",
-     "plan": 29,
-     "years": 3,
+     "name": "汽车制造与试验技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 520
+     "minScore": 521
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、机械制造及自动化、汽车制造与试验技术、数字化设计与制造技术、智能机器人技术、智能网联汽车技术",
+   "programNames": "机械制造及自动化、机电一体化技术、电气自动化技术、数字化设计与制造技术、智能网联汽车技术、智能机器人技术、汽车制造与试验技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -2366,58 +2366,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "工业过程自动化技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 522
-    },
-    {
-     "name": "机械装备制造技术",
-     "plan": 90,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 526
-    },
-    {
-     "name": "汽车电子技术",
-     "plan": 90,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 520
-    },
-    {
      "name": "数控技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 532
     },
     {
-     "name": "新能源汽车技术",
-     "plan": 30,
-     "years": 3,
+     "name": "机械装备制造技术",
+     "plan": 90,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 533
+     "minScore": 526
     },
     {
      "name": "智能机电技术",
      "plan": 121,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 523
+    },
+    {
+     "name": "工业过程自动化技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 522
+    },
+    {
+     "name": "汽车电子技术",
+     "plan": 90,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 520
+    },
+    {
+     "name": "新能源汽车技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 533
     }
    ],
-   "programNames": "工业过程自动化技术、机械装备制造技术、汽车电子技术、数控技术、新能源汽车技术、智能机电技术",
+   "programNames": "数控技术、机械装备制造技术、智能机电技术、工业过程自动化技术、汽车电子技术、新能源汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhgongye.html"
   },
   {
@@ -2459,80 +2459,80 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "工业过程自动化技术",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 522
-    },
-    {
      "name": "数字化设计与制造技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 519
     },
     {
      "name": "智能机电技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 523
+    },
+    {
+     "name": "工业过程自动化技术",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 522
     }
    ],
-   "programNames": "工业过程自动化技术、数字化设计与制造技术、智能机电技术",
+   "programNames": "数字化设计与制造技术、智能机电技术、工业过程自动化技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hsjiankangkeji.html"
   },
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 52,
    "minScore": 517,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 16,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 529
-    },
-    {
      "name": "机电一体化技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 520
     },
     {
+     "name": "电气自动化技术",
+     "plan": 16,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 529
+    },
+    {
      "name": "新能源汽车技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 517
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、新能源汽车技术",
+   "programNames": "机电一体化技术、电气自动化技术、新能源汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
@@ -2588,44 +2588,44 @@
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 90,
    "minScore": 512,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "工业机器人技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 512
-    },
-    {
      "name": "机电一体化技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 514
     },
     {
+     "name": "工业机器人技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 512
+    },
+    {
      "name": "无人机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 512
     }
    ],
-   "programNames": "工业机器人技术、机电一体化技术、无人机应用技术",
+   "programNames": "机电一体化技术、工业机器人技术、无人机应用技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
@@ -2640,7 +2640,7 @@
     {
      "name": "机电一体化技术(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 512
     }
@@ -2652,52 +2652,52 @@
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 45,
    "minScore": 510,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "机械制造及自动化",
+     "name": "智能焊接技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
-     "minScore": 515
+     "minScore": 511
     },
     {
      "name": "数字化设计与制造技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 510
     },
     {
-     "name": "智能焊接技术",
+     "name": "机械制造及自动化",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
-     "minScore": 511
+     "minScore": 515
     }
    ],
-   "programNames": "机械制造及自动化、数字化设计与制造技术、智能焊接技术",
+   "programNames": "智能焊接技术、数字化设计与制造技术、机械制造及自动化",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
@@ -2732,7 +2732,7 @@
   {
    "name": "河北石油职业技术大学(中外合作办学)",
    "type": "公办",
-   "city": "其他",
+   "city": "承德",
    "plan": 60,
    "minScore": 507,
    "subClasses": null,
@@ -2741,7 +2741,7 @@
     {
      "name": "机械制造及自动化(中外合作办学)",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 18000,
      "minScore": 507
     }
@@ -2753,108 +2753,108 @@
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbshiyou-zw.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 81,
    "minScore": 506,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 508
-    },
-    {
      "name": "机电一体化技术",
      "plan": 21,
-     "years": 3,
+     "years": "3",
      "tuition": 7800,
      "minScore": 509
     },
     {
+     "name": "电气自动化技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 508
+    },
+    {
      "name": "智能焊接技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 506
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、智能焊接技术",
+   "programNames": "机电一体化技术、电气自动化技术、智能焊接技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     7800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 56,
    "minScore": 505,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 12,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 508
-    },
-    {
      "name": "机电一体化技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 507
     },
     {
+     "name": "电气自动化技术",
+     "plan": 12,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 508
+    },
+    {
      "name": "汽车制造与试验技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 506
     },
     {
      "name": "智能网联汽车技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 505
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、汽车制造与试验技术、智能网联汽车技术",
+   "programNames": "机电一体化技术、电气自动化技术、汽车制造与试验技术、智能网联汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
    "name": "河北能源职业技术学院(中外合作办学)",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 60,
    "minScore": 502,
    "subClasses": null,
@@ -2863,7 +2863,7 @@
     {
      "name": "电气自动化技术(中外合作办学)",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 502
     }
@@ -2875,9 +2875,9 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -2892,63 +2892,63 @@
     {
      "name": "电气自动化技术",
      "plan": 125,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 503
     },
     {
      "name": "工业互联网应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 504
     },
     {
      "name": "工业机器人技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 511
     },
     {
      "name": "机电一体化技术",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 502
     },
     {
      "name": "机械制造及自动化",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 507
     },
     {
      "name": "无人机应用技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 505
     },
     {
      "name": "新能源汽车技术",
      "plan": 22,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 502
     },
     {
      "name": "智能机器人技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 516
     },
     {
      "name": "智能网联汽车技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 509
     }
@@ -2960,9 +2960,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -2975,79 +2975,79 @@
    "programCount": 9,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 219,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 489
-    },
-    {
-     "name": "工业机器人技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 16900,
-     "minScore": 487
-    },
-    {
-     "name": "机电一体化技术",
-     "plan": 310,
-     "years": 3,
-     "tuition": 11700,
-     "minScore": 493
-    },
-    {
-     "name": "机械制造及自动化",
-     "plan": 40,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 495
-    },
-    {
-     "name": "数控技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 496
-    },
-    {
      "name": "数字化设计与制造技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 498
     },
     {
+     "name": "数控技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 496
+    },
+    {
+     "name": "机械制造及自动化",
+     "plan": 40,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 495
+    },
+    {
+     "name": "机电一体化技术",
+     "plan": 310,
+     "years": "3",
+     "tuition": 11700,
+     "minScore": 493
+    },
+    {
+     "name": "工业机器人技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16900,
+     "minScore": 487
+    },
+    {
+     "name": "电气自动化技术",
+     "plan": 219,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 489
+    },
+    {
      "name": "无人机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 491
     },
     {
      "name": "新能源汽车技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 488
     },
     {
      "name": "智能网联汽车技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 498
     }
    ],
-   "programNames": "电气自动化技术、工业机器人技术、机电一体化技术、机械制造及自动化、数控技术、数字化设计与制造技术、无人机应用技术、新能源汽车技术、智能网联汽车技术",
+   "programNames": "数字化设计与制造技术、数控技术、机械制造及自动化、机电一体化技术、工业机器人技术、电气自动化技术、无人机应用技术、新能源汽车技术、智能网联汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     11700,
     16900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -3062,49 +3062,49 @@
     {
      "name": "电气自动化技术",
      "plan": 260,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 478
     },
     {
      "name": "机电一体化技术",
      "plan": 245,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 477
     },
     {
      "name": "汽车制造与试验技术",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 484
     },
     {
      "name": "无人机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 480
     },
     {
      "name": "新能源汽车技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 485
     },
     {
      "name": "智能机器人技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 485
     },
     {
      "name": "智能制造装备技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 480
     }
@@ -3116,9 +3116,9 @@
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
@@ -3128,68 +3128,89 @@
    "plan": 270,
    "minScore": 470,
    "subClasses": null,
-   "programCount": 7,
+   "programCount": 10,
    "programs": [
     {
-     "name": "电气自动化技术",
+     "name": "新能源装备技术",
+     "plan": 15,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 476
+    },
+    {
+     "name": "机电一体化技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 488
     },
     {
      "name": "机电一体化技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 485
+    },
+    {
+     "name": "机电一体化技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 13800,
      "minScore": 483
     },
     {
-     "name": "无人机应用技术",
-     "plan": 30,
-     "years": 3,
+     "name": "电气自动化技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 13800,
-     "minScore": 470
+     "minScore": 486
+    },
+    {
+     "name": "电气自动化技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 488
     },
     {
      "name": "新能源汽车技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 476
     },
     {
-     "name": "新能源装备技术",
-     "plan": 15,
-     "years": 3,
+     "name": "无人机应用技术",
+     "plan": 30,
+     "years": "3",
      "tuition": 13800,
-     "minScore": 476
+     "minScore": 470
     },
     {
      "name": "智能机器人技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 475
     },
     {
      "name": "智能网联汽车技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 471
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、无人机应用技术、新能源汽车技术、新能源装备技术、智能机器人技术、智能网联汽车技术",
+   "programNames": "新能源装备技术、机电一体化技术、机电一体化技术、机电一体化技术、电气自动化技术、电气自动化技术、新能源汽车技术、无人机应用技术、智能机器人技术、智能网联汽车技术",
    "programsComplete": false,
    "tuitionRange": [
     12800,
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
@@ -3202,65 +3223,65 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 100,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 473
-    },
-    {
      "name": "机电一体化技术",
      "plan": 145,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 469
     },
     {
+     "name": "电气自动化技术",
+     "plan": 100,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 473
+    },
+    {
+     "name": "智能机器人技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 467
+    },
+    {
      "name": "机械制造及自动化",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 474
     },
     {
-     "name": "数控技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 477
-    },
-    {
      "name": "无人机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 472
     },
     {
      "name": "新能源汽车技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 471
     },
     {
-     "name": "智能机器人技术",
-     "plan": 50,
-     "years": 3,
+     "name": "数控技术",
+     "plan": 10,
+     "years": "3",
      "tuition": 14800,
-     "minScore": 467
+     "minScore": 477
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术、机械制造及自动化、数控技术、无人机应用技术、新能源汽车技术、智能机器人技术",
+   "programNames": "机电一体化技术、电气自动化技术、智能机器人技术、机械制造及自动化、无人机应用技术、新能源汽车技术、数控技术",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -3273,144 +3294,144 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 490
-    },
-    {
-     "name": "工业机器人技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 14900,
-     "minScore": 472
-    },
-    {
-     "name": "工业设计",
-     "plan": 30,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 471
-    },
-    {
-     "name": "机电一体化技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 507
-    },
-    {
      "name": "汽车制造与试验技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 500
     },
     {
+     "name": "机电一体化技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 507
+    },
+    {
+     "name": "工业设计",
+     "plan": 30,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 471
+    },
+    {
+     "name": "电气自动化技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 490
+    },
+    {
      "name": "无人机应用技术",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 466
     },
     {
      "name": "新能源汽车技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 484
+    },
+    {
+     "name": "工业机器人技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 14900,
+     "minScore": 472
     }
    ],
-   "programNames": "电气自动化技术、工业机器人技术、工业设计、机电一体化技术、汽车制造与试验技术、无人机应用技术、新能源汽车技术",
+   "programNames": "汽车制造与试验技术、机电一体化技术、工业设计、电气自动化技术、无人机应用技术、新能源汽车技术、工业机器人技术",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     14900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 150,
    "minScore": 456,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "电气自动化技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 456
-    },
-    {
      "name": "机电一体化技术",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 458
+    },
+    {
+     "name": "电气自动化技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 456
     }
    ],
-   "programNames": "电气自动化技术、机电一体化技术",
+   "programNames": "机电一体化技术、电气自动化技术",
    "programsComplete": true,
    "tuitionRange": [
     19800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 69,
    "minScore": 448,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "低空飞行器装备技术",
-     "plan": 25,
-     "years": 3,
-     "tuition": 18000,
-     "minScore": 448
-    },
-    {
      "name": "工业设计(3D设计方向)",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 15210,
      "minScore": 458
     },
     {
+     "name": "低空飞行器装备技术",
+     "plan": 25,
+     "years": "3",
+     "tuition": 18000,
+     "minScore": 448
+    },
+    {
      "name": "无人机应用技术",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 455
     }
    ],
-   "programNames": "低空飞行器装备技术、工业设计(3D设计方向)、无人机应用技术",
+   "programNames": "工业设计(3D设计方向)、低空飞行器装备技术、无人机应用技术",
    "programsComplete": true,
    "tuitionRange": [
     15210,
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
@@ -3538,35 +3559,35 @@
     {
      "name": "电气自动化技术",
      "plan": 145,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 450
     },
     {
      "name": "工业机器人技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 441
     },
     {
      "name": "机电一体化技术",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 452
     },
     {
      "name": "无人机应用技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 430
     },
     {
      "name": "新能源汽车技术",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 433
     }
@@ -3578,9 +3599,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -3742,72 +3763,72 @@
    "programCount": 8,
    "programs": [
     {
-     "name": "低空飞行器装备技术",
-     "plan": 70,
-     "years": 3,
+     "name": "智能制造装备技术",
+     "plan": 150,
+     "years": "3",
      "tuition": 15000,
-     "minScore": 410
+     "minScore": 413
     },
     {
      "name": "机电设备技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 419
+    },
+    {
+     "name": "低空飞行器装备技术",
+     "plan": 70,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 410
     },
     {
      "name": "机电一体化技术",
      "plan": 491,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 419
     },
     {
-     "name": "汽车制造与试验技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 449
-    },
-    {
-     "name": "无人机应用技术",
-     "plan": 70,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 414
-    },
-    {
-     "name": "新能源汽车技术",
-     "plan": 80,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 417
-    },
-    {
      "name": "智能机器人技术",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 416
     },
     {
-     "name": "智能制造装备技术",
-     "plan": 150,
-     "years": 3,
+     "name": "无人机应用技术",
+     "plan": 70,
+     "years": "3",
      "tuition": 15000,
-     "minScore": 413
+     "minScore": 414
+    },
+    {
+     "name": "汽车制造与试验技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 449
+    },
+    {
+     "name": "新能源汽车技术",
+     "plan": 80,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 417
     }
    ],
-   "programNames": "低空飞行器装备技术、机电设备技术、机电一体化技术、汽车制造与试验技术、无人机应用技术、新能源汽车技术、智能机器人技术、智能制造装备技术",
+   "programNames": "智能制造装备技术、机电设备技术、低空飞行器装备技术、机电一体化技术、智能机器人技术、无人机应用技术、汽车制造与试验技术、新能源汽车技术",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -3820,37 +3841,37 @@
    "programCount": 3,
    "programs": [
     {
+     "name": "智能网联汽车技术",
+     "plan": 105,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 391
+    },
+    {
      "name": "汽车电子技术",
      "plan": 114,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 388
     },
     {
      "name": "无人机应用技术",
      "plan": 130,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 387
-    },
-    {
-     "name": "智能网联汽车技术",
-     "plan": 105,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 391
     }
    ],
-   "programNames": "汽车电子技术、无人机应用技术、智能网联汽车技术",
+   "programNames": "智能网联汽车技术、汽车电子技术、无人机应用技术",
    "programsComplete": true,
    "tuitionRange": [
     16800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -3863,37 +3884,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "机械装备制造技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 378
-    },
-    {
      "name": "无人机应用技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 376
     },
     {
      "name": "新能源汽车技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 364
+    },
+    {
+     "name": "机械装备制造技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 378
     }
    ],
-   "programNames": "机械装备制造技术、无人机应用技术、新能源汽车技术",
+   "programNames": "无人机应用技术、新能源汽车技术、机械装备制造技术",
    "programsComplete": true,
    "tuitionRange": [
     18800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
@@ -3908,42 +3929,42 @@
     {
      "name": "机电一体化技术",
      "plan": 56,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 412
     },
     {
      "name": "机械装备制造技术",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 374
     },
     {
      "name": "汽车电子技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 373
     },
     {
      "name": "汽车制造与试验技术",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 364
     },
     {
      "name": "无人机应用技术",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 365
     },
     {
      "name": "新能源汽车技术",
      "plan": 74,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 365
     }
@@ -3955,9 +3976,9 @@
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
@@ -3972,14 +3993,14 @@
     {
      "name": "无人机应用技术",
      "plan": 180,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 369
     },
     {
      "name": "智能机器人技术(金属材料焊接)",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 363
     }
@@ -3991,9 +4012,9 @@
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjinrong.html"
   },
   {
@@ -4008,42 +4029,42 @@
     {
      "name": "汽车电子技术",
      "plan": 180,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 365
     },
     {
-     "name": "无人机应用技术",
-     "plan": 70,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 371
-    },
-    {
      "name": "新能源汽车技术",
      "plan": 150,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 361
     },
     {
      "name": "新能源装备技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 390
+    },
+    {
+     "name": "无人机应用技术",
+     "plan": 70,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 371
     }
    ],
-   "programNames": "汽车电子技术、无人机应用技术、新能源汽车技术、新能源装备技术",
+   "programNames": "汽车电子技术、新能源汽车技术、新能源装备技术、无人机应用技术",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     17800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinbinhai.html"
   },
   {
@@ -4115,7 +4136,7 @@
     {
      "name": "机电设备技术(中外合作办学)",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 20000,
      "minScore": 336
     }
@@ -4127,9 +4148,9 @@
     20000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -4142,100 +4163,100 @@
    "programCount": 12,
    "programs": [
     {
-     "name": "船舶电气工程技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 311
-    },
-    {
-     "name": "船舶工程技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 310
-    },
-    {
-     "name": "飞行器维修技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 309
-    },
-    {
-     "name": "工业机器人技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 309
-    },
-    {
      "name": "工业机器人技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
-     "minScore": 309
-    },
-    {
-     "name": "海洋工程装备技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 17800,
      "minScore": 309
     },
     {
      "name": "机电设备技术",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 312
     },
     {
-     "name": "新能源汽车技术",
-     "plan": 80,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 309
-    },
-    {
-     "name": "液压与气动技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 327
-    },
-    {
      "name": "智能机器人技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 309
     },
     {
-     "name": "智能控制技术",
-     "plan": 50,
-     "years": 3,
+     "name": "飞行器维修技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 309
+    },
+    {
+     "name": "新能源汽车技术",
+     "plan": 80,
+     "years": "3",
      "tuition": 17800,
      "minScore": 309
     },
     {
      "name": "智能网联汽车技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 333
+    },
+    {
+     "name": "工业机器人技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 309
+    },
+    {
+     "name": "智能控制技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 309
+    },
+    {
+     "name": "船舶电气工程技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 311
+    },
+    {
+     "name": "船舶工程技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 310
+    },
+    {
+     "name": "海洋工程装备技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 309
+    },
+    {
+     "name": "液压与气动技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 327
     }
    ],
-   "programNames": "船舶电气工程技术、船舶工程技术、飞行器维修技术、工业机器人技术、工业机器人技术、海洋工程装备技术、机电设备技术、新能源汽车技术、液压与气动技术、智能机器人技术、智能控制技术、智能网联汽车技术",
+   "programNames": "工业机器人技术、机电设备技术、智能机器人技术、飞行器维修技术、新能源汽车技术、智能网联汽车技术、工业机器人技术、智能控制技术、船舶电气工程技术、船舶工程技术、海洋工程装备技术、液压与气动技术",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -4340,7 +4361,7 @@
   {
    "name": "河北美术学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 160,
    "minScore": 309,
    "subClasses": null,
@@ -4349,7 +4370,7 @@
     {
      "name": "无人机应用技术",
      "plan": 160,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 309
     }
@@ -4361,9 +4382,9 @@
     30000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbmeishu.html"
   }
  ],
@@ -4372,13 +4393,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试三类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试三类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "信息技术、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试三类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2025/10864.html"
+    }
+   ]
   }
  ]
 }

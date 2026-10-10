@@ -21,44 +21,44 @@
    "programCount": 4,
    "programs": [
     {
+     "name": "云计算技术应用",
+     "plan": 7,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 635
+    },
+    {
      "name": "计算机网络技术",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 636
     },
     {
-     "name": "计算机应用技术",
-     "plan": 7,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 639
-    },
-    {
      "name": "数字媒体技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 656
     },
     {
-     "name": "云计算技术应用",
+     "name": "计算机应用技术",
      "plan": 7,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 635
+     "minScore": 639
     }
    ],
-   "programNames": "计算机网络技术、计算机应用技术、数字媒体技术、云计算技术应用",
+   "programNames": "云计算技术应用、计算机网络技术、数字媒体技术、计算机应用技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -71,79 +71,79 @@
    "programCount": 9,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 643
-    },
-    {
      "name": "动漫制作技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 640
     },
     {
-     "name": "计算机网络技术",
+     "name": "虚拟现实技术应用",
      "plan": 5,
-     "years": 3,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 633
+    },
+    {
+     "name": "软件技术",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 645
+    },
+    {
+     "name": "移动应用开发",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 638
+    },
+    {
+     "name": "信息安全技术应用",
+     "plan": 6,
+     "years": "3",
      "tuition": 5000,
      "minScore": 644
     },
     {
      "name": "计算机应用技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 648
     },
     {
+     "name": "大数据技术",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 643
+    },
+    {
      "name": "人工智能技术应用",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 640
     },
     {
-     "name": "软件技术",
+     "name": "计算机网络技术",
      "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 645
-    },
-    {
-     "name": "信息安全技术应用",
-     "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 644
-    },
-    {
-     "name": "虚拟现实技术应用",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 633
-    },
-    {
-     "name": "移动应用开发",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 638
     }
    ],
-   "programNames": "大数据技术、动漫制作技术、计算机网络技术、计算机应用技术、人工智能技术应用、软件技术、信息安全技术应用、虚拟现实技术应用、移动应用开发",
+   "programNames": "动漫制作技术、虚拟现实技术应用、软件技术、移动应用开发、信息安全技术应用、计算机应用技术、大数据技术、人工智能技术应用、计算机网络技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzxinxigongcheng.html"
   },
   {
@@ -187,7 +187,7 @@
     {
      "name": "工业互联网技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 629
     }
@@ -199,9 +199,9 @@
     5500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -216,14 +216,14 @@
     {
      "name": "物联网应用技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 617
     },
     {
      "name": "现代移动通信技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 616
     }
@@ -235,9 +235,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyoudian.html"
   },
   {
@@ -252,70 +252,70 @@
     {
      "name": "大数据技术",
      "plan": 36,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 621
     },
     {
      "name": "动漫制作技术",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 631
     },
     {
      "name": "集成电路技术",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 610
     },
     {
      "name": "计算机网络技术",
      "plan": 18,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 623
     },
     {
      "name": "人工智能技术应用",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 626
     },
     {
      "name": "软件技术",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 629
     },
     {
      "name": "物联网应用技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 621
     },
     {
      "name": "信息安全技术应用",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 629
     },
     {
      "name": "应用电子技术",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 613
     },
     {
      "name": "云计算技术应用",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 619
     }
@@ -327,9 +327,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -344,21 +344,21 @@
     {
      "name": "计算机应用技术(轨道交通BIM方向)",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 612
     },
     {
      "name": "人工智能技术应用",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 606
     },
     {
      "name": "现代通信技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 602
     }
@@ -370,9 +370,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -387,28 +387,28 @@
     {
      "name": "低空安全与技术",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 597
     },
     {
      "name": "人工智能技术应用",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     },
     {
      "name": "软件技术",
      "plan": 2,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 608
     },
     {
      "name": "数字媒体技术",
      "plan": 44,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 584
     }
@@ -420,9 +420,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -492,128 +492,128 @@
   {
    "name": "河北软件职业技术学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 357,
    "minScore": 582,
    "subClasses": null,
    "programCount": 15,
    "programs": [
     {
-     "name": "工业互联网技术",
-     "plan": 20,
-     "years": 3,
+     "name": "人工智能技术应用",
+     "plan": 29,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 582
+     "minScore": 593
+    },
+    {
+     "name": "软件技术",
+     "plan": 73,
+     "years": "3",
+     "tuition": 8000,
+     "minScore": 598
+    },
+    {
+     "name": "人工智能数据工程技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 588
+    },
+    {
+     "name": "智能体技术应用",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 585
     },
     {
      "name": "工业软件开发技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 587
+    },
+    {
+     "name": "物联网应用技术",
+     "plan": 37,
+     "years": "3",
      "tuition": 5000,
      "minScore": 587
     },
     {
      "name": "计算机网络技术(智能网络运维与优化)",
      "plan": 23,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 595
     },
     {
-     "name": "计算机应用技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 606
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 29,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 593
-    },
-    {
-     "name": "人工智能数据工程技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 588
-    },
-    {
-     "name": "软件技术",
-     "plan": 73,
-     "years": 3,
-     "tuition": 8000,
-     "minScore": 598
-    },
-    {
-     "name": "数字媒体技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 614
-    },
-    {
-     "name": "物联网应用技术",
-     "plan": 37,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 587
-    },
-    {
      "name": "现代移动通信技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     },
     {
-     "name": "信创系统技术应用",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 582
-    },
-    {
-     "name": "信息安全技术应用",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 602
-    },
-    {
-     "name": "云计算技术应用",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 592
-    },
-    {
      "name": "智能产品开发与应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 583
     },
     {
-     "name": "智能体技术应用",
+     "name": "工业互联网技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 585
+     "minScore": 582
+    },
+    {
+     "name": "云计算技术应用",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 592
+    },
+    {
+     "name": "信息安全技术应用",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 602
+    },
+    {
+     "name": "计算机应用技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 606
+    },
+    {
+     "name": "信创系统技术应用",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 582
+    },
+    {
+     "name": "数字媒体技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 614
     }
    ],
-   "programNames": "工业互联网技术、工业软件开发技术、计算机网络技术(智能网络运维与优化)、计算机应用技术、人工智能技术应用、人工智能数据工程技术、软件技术、数字媒体技术、物联网应用技术、现代移动通信技术、信创系统技术应用、信息安全技术应用、云计算技术应用、智能产品开发与应用、智能体技术应用",
+   "programNames": "人工智能技术应用、软件技术、人工智能数据工程技术、智能体技术应用、工业软件开发技术、物联网应用技术、计算机网络技术(智能网络运维与优化)、现代移动通信技术、智能产品开发与应用、工业互联网技术、云计算技术应用、信息安全技术应用、计算机应用技术、信创系统技术应用、数字媒体技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     8000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -628,14 +628,14 @@
     {
      "name": "计算机应用技术",
      "plan": 69,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 582
     },
     {
      "name": "信息安全技术应用",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 581
     }
@@ -647,9 +647,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
   },
   {
@@ -664,7 +664,7 @@
     {
      "name": "计算机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 576
     }
@@ -676,9 +676,9 @@
     5500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinguotuziyuan.html"
   },
   {
@@ -691,51 +691,51 @@
    "programCount": 5,
    "programs": [
     {
-     "name": "计算机网络技术",
-     "plan": 22,
-     "years": 3,
+     "name": "物联网应用技术",
+     "plan": 26,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 573
+     "minScore": 571
     },
     {
      "name": "计算机应用技术",
      "plan": 22,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 575
     },
     {
-     "name": "人工智能技术应用",
-     "plan": 13,
-     "years": 3,
+     "name": "计算机网络技术",
+     "plan": 22,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 577
+     "minScore": 573
     },
     {
      "name": "软件技术",
      "plan": 32,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 577
     },
     {
-     "name": "物联网应用技术",
-     "plan": 26,
-     "years": 3,
+     "name": "人工智能技术应用",
+     "plan": 13,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 571
+     "minScore": 577
     }
    ],
-   "programNames": "计算机网络技术、计算机应用技术、人工智能技术应用、软件技术、物联网应用技术",
+   "programNames": "物联网应用技术、计算机应用技术、计算机网络技术、软件技术、人工智能技术应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -750,35 +750,35 @@
     {
      "name": "大数据技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 566
     },
     {
      "name": "计算机网络技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 568
     },
     {
      "name": "计算机应用技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 572
     },
     {
      "name": "人工智能技术应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 565
     },
     {
      "name": "信息安全技术应用",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 571
     }
@@ -790,9 +790,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -834,58 +834,58 @@
   {
    "name": "河北软件职业技术学院(阜平校区)",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 60,
    "minScore": 562,
    "subClasses": null,
    "programCount": 5,
    "programs": [
     {
-     "name": "计算机网络技术(智能网络运维与优化)",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 565
-    },
-    {
      "name": "计算机应用技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 572
     },
     {
+     "name": "计算机网络技术(智能网络运维与优化)",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 565
+    },
+    {
      "name": "人工智能数据工程技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 564
     },
     {
      "name": "数字媒体技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 575
     },
     {
      "name": "智能体技术应用",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 562
     }
    ],
-   "programNames": "计算机网络技术(智能网络运维与优化)、计算机应用技术、人工智能数据工程技术、数字媒体技术、智能体技术应用",
+   "programNames": "计算机应用技术、计算机网络技术(智能网络运维与优化)、人工智能数据工程技术、数字媒体技术、智能体技术应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -898,50 +898,50 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 55,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 565
-    },
-    {
      "name": "计算机网络技术",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 573
     },
     {
      "name": "软件技术",
      "plan": 63,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 569
     },
     {
+     "name": "大数据技术",
+     "plan": 55,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 565
+    },
+    {
      "name": "云计算技术应用",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 562
     }
    ],
-   "programNames": "大数据技术、计算机网络技术、软件技术、云计算技术应用",
+   "programNames": "计算机网络技术、软件技术、大数据技术、云计算技术应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
    "name": "河北司法警官职业学院",
    "type": "公办",
-   "city": "石家庄",
+   "city": "邯郸",
    "plan": 10,
    "minScore": 561,
    "subClasses": null,
@@ -950,7 +950,7 @@
     {
      "name": "计算机应用技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 561
     }
@@ -962,9 +962,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbsifajingguan.html"
   },
   {
@@ -1200,21 +1200,21 @@
     {
      "name": "动漫制作技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 547
     },
     {
      "name": "计算机网络技术",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 549
     },
     {
      "name": "软件技术",
      "plan": 33,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 547
     }
@@ -1226,9 +1226,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfyanjing.html"
   },
   {
@@ -1300,7 +1300,7 @@
     {
      "name": "人工智能技术应用",
      "plan": 34,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 546
     }
@@ -1312,9 +1312,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzyouershifan.html"
   },
   {
@@ -1436,85 +1436,85 @@
     {
      "name": "计算机应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 553
     },
     {
-     "name": "人工智能技术应用",
-     "plan": 60,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 542
-    },
-    {
      "name": "现代移动通信技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 548
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 60,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 542
     }
    ],
-   "programNames": "计算机应用技术、人工智能技术应用、现代移动通信技术",
+   "programNames": "计算机应用技术、现代移动通信技术、人工智能技术应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
    "name": "河北能源职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 93,
    "minScore": 539,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
+     "name": "物联网应用技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 539
+    },
+    {
      "name": "计算机网络技术",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 541
     },
     {
      "name": "数字媒体技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 544
     },
     {
-     "name": "物联网应用技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 539
-    },
-    {
      "name": "云计算技术应用",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 539
     }
    ],
-   "programNames": "计算机网络技术、数字媒体技术、物联网应用技术、云计算技术应用",
+   "programNames": "物联网应用技术、计算机网络技术、数字媒体技术、云计算技术应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -1529,7 +1529,7 @@
     {
      "name": "工业互联网技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
     }
@@ -1541,9 +1541,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -1628,7 +1628,7 @@
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 46,
    "minScore": 526,
    "subClasses": null,
@@ -1637,14 +1637,14 @@
     {
      "name": "计算机应用技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 539
     },
     {
      "name": "人工智能技术应用",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 526
     }
@@ -1656,9 +1656,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -1729,72 +1729,72 @@
    "programCount": 8,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 536
-    },
-    {
-     "name": "电子信息工程技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 528
-    },
-    {
-     "name": "计算机网络技术",
-     "plan": 100,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 532
-    },
-    {
      "name": "计算机应用技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 538
     },
     {
+     "name": "计算机网络技术",
+     "plan": 100,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 532
+    },
+    {
      "name": "人工智能技术应用",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 529
     },
     {
-     "name": "数字媒体技术",
-     "plan": 50,
-     "years": 3,
+     "name": "云计算技术应用",
+     "plan": 60,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 548
+     "minScore": 527
+    },
+    {
+     "name": "大数据技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 536
     },
     {
      "name": "移动互联应用技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 525
     },
     {
-     "name": "云计算技术应用",
+     "name": "电子信息工程技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 527
+     "minScore": 528
+    },
+    {
+     "name": "数字媒体技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 548
     }
    ],
-   "programNames": "大数据技术、电子信息工程技术、计算机网络技术、计算机应用技术、人工智能技术应用、数字媒体技术、移动互联应用技术、云计算技术应用",
+   "programNames": "计算机应用技术、计算机网络技术、人工智能技术应用、云计算技术应用、大数据技术、移动互联应用技术、电子信息工程技术、数字媒体技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -1888,7 +1888,7 @@
     {
      "name": "移动应用开发",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     }
@@ -1900,9 +1900,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhgongye.html"
   },
   {
@@ -1915,37 +1915,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "计算机网络技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 521
-    },
-    {
      "name": "计算机应用技术",
      "plan": 27,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 526
     },
     {
      "name": "数字媒体技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
+    },
+    {
+     "name": "计算机网络技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 521
     }
    ],
-   "programNames": "计算机网络技术、计算机应用技术、数字媒体技术",
+   "programNames": "计算机应用技术、数字媒体技术、计算机网络技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tskeji.html"
   },
   {
@@ -1996,28 +1996,28 @@
     {
      "name": "计算机网络技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     },
     {
      "name": "计算机应用技术",
      "plan": 41,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 521
     },
     {
      "name": "软件技术",
      "plan": 41,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 523
     },
     {
      "name": "云计算技术应用",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 520
     }
@@ -2029,9 +2029,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
@@ -2095,65 +2095,65 @@
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 29,
    "minScore": 518,
    "subClasses": null,
    "programCount": 6,
    "programs": [
     {
-     "name": "动漫制作技术",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 521
-    },
-    {
-     "name": "计算机网络技术",
-     "plan": 5,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 519
-    },
-    {
      "name": "计算机应用技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 524
     },
     {
+     "name": "计算机网络技术",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 519
+    },
+    {
+     "name": "虚拟现实技术应用",
+     "plan": 5,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 518
+    },
+    {
      "name": "软件技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 519
     },
     {
      "name": "物联网应用技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 518
     },
     {
-     "name": "虚拟现实技术应用",
+     "name": "动漫制作技术",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 518
+     "minScore": 521
     }
    ],
-   "programNames": "动漫制作技术、计算机网络技术、计算机应用技术、软件技术、物联网应用技术、虚拟现实技术应用",
+   "programNames": "计算机应用技术、计算机网络技术、虚拟现实技术应用、软件技术、物联网应用技术、动漫制作技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
@@ -2259,44 +2259,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 69,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 518
-    },
-    {
-     "name": "计算机网络技术",
-     "plan": 54,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 517
-    },
-    {
      "name": "汽车智能技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 515
     },
     {
+     "name": "计算机网络技术",
+     "plan": 54,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 517
+    },
+    {
      "name": "数字媒体技术",
      "plan": 85,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 516
+    },
+    {
+     "name": "大数据技术",
+     "plan": 69,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 518
     }
    ],
-   "programNames": "大数据技术、计算机网络技术、汽车智能技术、数字媒体技术",
+   "programNames": "汽车智能技术、计算机网络技术、数字媒体技术、大数据技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -2311,7 +2311,7 @@
     {
      "name": "虚拟现实技术应用",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 512
     }
@@ -2323,15 +2323,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hsjiankangkeji.html"
   },
   {
    "name": "天津体育职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "天津",
    "plan": 40,
    "minScore": 511,
    "subClasses": null,
@@ -2340,7 +2340,7 @@
     {
      "name": "电子竞技运动与管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 511
     }
@@ -2352,9 +2352,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjintiyu.html"
   },
   {
@@ -2398,49 +2398,49 @@
     {
      "name": "大数据技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 513
     },
     {
      "name": "计算机网络技术",
      "plan": 41,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 514
     },
     {
      "name": "计算机应用技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 520
     },
     {
      "name": "人工智能技术应用",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 515
     },
     {
      "name": "软件技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 518
     },
     {
      "name": "虚拟现实技术应用",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 512
     },
     {
      "name": "云计算技术应用",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 511
     }
@@ -2452,15 +2452,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
    "name": "河北软件职业技术学院(中外合作办学)",
    "type": "公办",
-   "city": "石家庄",
+   "city": "保定",
    "plan": 30,
    "minScore": 508,
    "subClasses": null,
@@ -2469,7 +2469,7 @@
     {
      "name": "云计算技术应用(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 508
     }
@@ -2481,9 +2481,9 @@
     13000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbruanjian.html"
   },
   {
@@ -2525,79 +2525,79 @@
    "programCount": 9,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 506
-    },
-    {
      "name": "电子信息工程技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 510
     },
     {
+     "name": "信息安全技术应用",
+     "plan": 19,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 508
+    },
+    {
      "name": "动漫制作技术",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     },
     {
      "name": "计算机网络技术",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 507
     },
     {
      "name": "计算机应用技术",
      "plan": 28,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 508
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     },
     {
      "name": "软件技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 506
+    },
+    {
+     "name": "大数据技术",
+     "plan": 30,
+     "years": "3",
      "tuition": 5000,
      "minScore": 506
     },
     {
      "name": "物联网应用技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 506
     },
     {
-     "name": "信息安全技术应用",
-     "plan": 19,
-     "years": 3,
+     "name": "人工智能技术应用",
+     "plan": 20,
+     "years": "3",
      "tuition": 5000,
      "minScore": 508
     }
    ],
-   "programNames": "大数据技术、电子信息工程技术、动漫制作技术、计算机网络技术、计算机应用技术、人工智能技术应用、软件技术、物联网应用技术、信息安全技术应用",
+   "programNames": "电子信息工程技术、信息安全技术应用、动漫制作技术、计算机网络技术、计算机应用技术、软件技术、大数据技术、物联网应用技术、人工智能技术应用",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -2610,65 +2610,65 @@
    "programCount": 7,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 30,
-     "years": 3,
+     "name": "物联网应用技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 510
+     "minScore": 509
     },
     {
      "name": "计算机网络技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 510
     },
     {
-     "name": "人工智能技术应用",
+     "name": "大数据技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 509
+     "minScore": 510
     },
     {
      "name": "软件技术",
      "plan": 29,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 509
-    },
-    {
-     "name": "物联网应用技术",
-     "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 509
     },
     {
      "name": "信息安全技术应用",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 507
     },
     {
+     "name": "人工智能技术应用",
+     "plan": 30,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 509
+    },
+    {
      "name": "移动应用开发",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 506
     }
    ],
-   "programNames": "大数据技术、计算机网络技术、人工智能技术应用、软件技术、物联网应用技术、信息安全技术应用、移动应用开发",
+   "programNames": "物联网应用技术、计算机网络技术、大数据技术、软件技术、信息安全技术应用、人工智能技术应用、移动应用开发",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -2712,7 +2712,7 @@
     {
      "name": "大数据技术(中外合作办学)",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 14000,
      "minScore": 501
     }
@@ -2724,79 +2724,79 @@
     14000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 88,
    "minScore": 498,
    "subClasses": null,
    "programCount": 6,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 20,
-     "years": 3,
+     "name": "物联网应用技术",
+     "plan": 14,
+     "years": "3",
      "tuition": 3300,
-     "minScore": 499
+     "minScore": 498
     },
     {
      "name": "计算机网络技术",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 504
     },
     {
-     "name": "人工智能技术应用",
-     "plan": 17,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 499
-    },
-    {
      "name": "数字媒体技术",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 502
     },
     {
-     "name": "物联网应用技术",
-     "plan": 14,
-     "years": 3,
+     "name": "大数据技术",
+     "plan": 20,
+     "years": "3",
      "tuition": 3300,
-     "minScore": 498
+     "minScore": 499
     },
     {
      "name": "信息安全技术应用",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 498
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 17,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 499
     }
    ],
-   "programNames": "大数据技术、计算机网络技术、人工智能技术应用、数字媒体技术、物联网应用技术、信息安全技术应用",
+   "programNames": "物联网应用技术、计算机网络技术、数字媒体技术、大数据技术、信息安全技术应用、人工智能技术应用",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
    "name": "河北石油职业技术大学(中外合作办学)",
    "type": "公办",
-   "city": "其他",
+   "city": "承德",
    "plan": 60,
    "minScore": 494,
    "subClasses": null,
@@ -2805,14 +2805,14 @@
     {
      "name": "软件技术(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 500
     },
     {
      "name": "应用电子技术(中外合作办学)",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 18000,
      "minScore": 494
     }
@@ -2824,15 +2824,15 @@
     18000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbshiyou-zw.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 55,
    "minScore": 493,
    "subClasses": null,
@@ -2841,7 +2841,7 @@
     {
      "name": "数字媒体技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 493
     }
@@ -2853,9 +2853,9 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
@@ -2870,7 +2870,7 @@
     {
      "name": "软件技术(中外合作办学)",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 492
     }
@@ -2882,108 +2882,108 @@
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 45,
    "minScore": 491,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "计算机网络技术",
+     "name": "汽车智能技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 491
     },
     {
-     "name": "汽车智能技术",
+     "name": "计算机网络技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 491
+    },
+    {
+     "name": "物联网应用技术",
+     "plan": 10,
+     "years": "3",
      "tuition": 3300,
      "minScore": 491
     },
     {
      "name": "数字媒体技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 6500,
      "minScore": 493
-    },
-    {
-     "name": "物联网应用技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 491
     }
    ],
-   "programNames": "计算机网络技术、汽车智能技术、数字媒体技术、物联网应用技术",
+   "programNames": "汽车智能技术、计算机网络技术、物联网应用技术、数字媒体技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     6500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 32,
    "minScore": 490,
    "subClasses": null,
    "programCount": 3,
    "programs": [
     {
-     "name": "计算机网络技术",
-     "plan": 16,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 490
-    },
-    {
      "name": "计算机应用技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 498
     },
     {
+     "name": "计算机网络技术",
+     "plan": 16,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 490
+    },
+    {
      "name": "数字媒体技术",
      "plan": 6,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 493
     }
    ],
-   "programNames": "计算机网络技术、计算机应用技术、数字媒体技术",
+   "programNames": "计算机应用技术、计算机网络技术、数字媒体技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 88,
    "minScore": 480,
    "subClasses": null,
@@ -2992,35 +2992,35 @@
     {
      "name": "计算机网络技术",
      "plan": 31,
-     "years": 3,
+     "years": "3",
      "tuition": 7800,
-     "minScore": 487
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 15,
-     "years": 3,
-     "tuition": 3300,
      "minScore": 487
     },
     {
      "name": "物联网应用技术",
      "plan": 42,
-     "years": 3,
+     "years": "3",
      "tuition": 7800,
      "minScore": 480
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 15,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 487
     }
    ],
-   "programNames": "计算机网络技术、人工智能技术应用、物联网应用技术",
+   "programNames": "计算机网络技术、物联网应用技术、人工智能技术应用",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     7800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
@@ -3064,7 +3064,7 @@
     {
      "name": "软件技术(中外合作办学)",
      "plan": 73,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 474
     }
@@ -3076,14 +3076,14 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfyanjing-zw.html"
   },
   {
    "name": "唐山科技职业技术学院(中外合作办学)",
-   "type": "民办",
+   "type": "公办",
    "city": "唐山",
    "plan": 90,
    "minScore": 469,
@@ -3093,7 +3093,7 @@
     {
      "name": "计算机应用技术(中外合作办学)",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 469
     }
@@ -3105,15 +3105,15 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tskeji.html"
   },
   {
    "name": "华北理工大学轻工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 70,
    "minScore": 465,
    "subClasses": null,
@@ -3122,7 +3122,7 @@
     {
      "name": "计算机应用技术",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 465
     }
@@ -3134,9 +3134,9 @@
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/huabeiligong.html"
   },
   {
@@ -3185,100 +3185,100 @@
    "programCount": 12,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 65,
-     "years": 3,
-     "tuition": 17000,
-     "minScore": 459
+     "name": "移动互联应用技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 16900,
+     "minScore": 467
+    },
+    {
+     "name": "智能产品开发与应用",
+     "plan": 15,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 478
     },
     {
      "name": "计算机网络技术",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 477
     },
     {
-     "name": "人工智能技术应用",
-     "plan": 50,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 458
-    },
-    {
      "name": "软件技术",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 468
     },
     {
      "name": "数字媒体技术",
      "plan": 139,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 474
     },
     {
+     "name": "大数据技术",
+     "plan": 65,
+     "years": "3",
+     "tuition": 17000,
+     "minScore": 459
+    },
+    {
+     "name": "云计算技术应用",
+     "plan": 15,
+     "years": "3",
+     "tuition": 17000,
+     "minScore": 486
+    },
+    {
+     "name": "信息安全技术应用",
+     "plan": 80,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 465
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 50,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 458
+    },
+    {
+     "name": "智能体技术应用",
+     "plan": 80,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 459
+    },
+    {
      "name": "现代移动通信技术",
      "plan": 85,
-     "years": 3,
+     "years": "3",
      "tuition": 10920,
      "minScore": 488
     },
     {
      "name": "现代移动通信技术(5G)",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 494
-    },
-    {
-     "name": "信息安全技术应用",
-     "plan": 80,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 465
-    },
-    {
-     "name": "移动互联应用技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 16900,
-     "minScore": 467
-    },
-    {
-     "name": "云计算技术应用",
-     "plan": 15,
-     "years": 3,
-     "tuition": 17000,
-     "minScore": 486
-    },
-    {
-     "name": "智能产品开发与应用",
-     "plan": 15,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 478
-    },
-    {
-     "name": "智能体技术应用",
-     "plan": 80,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 459
     }
    ],
-   "programNames": "大数据技术、计算机网络技术、人工智能技术应用、软件技术、数字媒体技术、现代移动通信技术、现代移动通信技术(5G)、信息安全技术应用、移动互联应用技术、云计算技术应用、智能产品开发与应用、智能体技术应用",
+   "programNames": "移动互联应用技术、智能产品开发与应用、计算机网络技术、软件技术、数字媒体技术、大数据技术、云计算技术应用、信息安全技术应用、人工智能技术应用、智能体技术应用、现代移动通信技术、现代移动通信技术(5G)",
    "programsComplete": true,
    "tuitionRange": [
     10920,
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -3291,44 +3291,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 65,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 446
-    },
-    {
      "name": "软件技术",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 460
     },
     {
+     "name": "大数据技术",
+     "plan": 65,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 446
+    },
+    {
      "name": "物联网应用技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 446
     },
     {
      "name": "信息安全技术应用",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 448
     }
    ],
-   "programNames": "大数据技术、软件技术、物联网应用技术、信息安全技术应用",
+   "programNames": "软件技术、大数据技术、物联网应用技术、信息安全技术应用",
    "programsComplete": true,
    "tuitionRange": [
     12800,
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
@@ -3343,154 +3343,154 @@
     {
      "name": "大数据技术",
      "plan": 350,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 444
     },
     {
      "name": "低空智联网技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 469
     },
     {
      "name": "电子信息工程技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 442
     },
     {
      "name": "电子信息工程技术(人工智能终端与边缘计算)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 450
     },
     {
      "name": "计算机网络技术",
      "plan": 218,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 439
     },
     {
-     "name": "人工智能技术应用",
-     "plan": 99,
-     "years": 3,
-     "tuition": 13800,
-     "minScore": 442
-    },
-    {
      "name": "人工智能技术应用(新工业智能化方向)",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 465
     },
     {
+     "name": "人工智能技术应用",
+     "plan": 99,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 442
+    },
+    {
      "name": "人工智能数据工程技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 464
     },
     {
      "name": "软件技术",
      "plan": 220,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 441
     },
     {
      "name": "软件技术(JAVA方向)",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 439
     },
     {
      "name": "通信软件技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 439
     },
     {
      "name": "网络规划与优化技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 494
     },
     {
      "name": "物联网应用技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 470
     },
     {
-     "name": "现代移动通信技术",
-     "plan": 15,
-     "years": 3,
-     "tuition": 13600,
-     "minScore": 443
-    },
-    {
      "name": "现代移动通信技术(5G方向)",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 454
     },
     {
+     "name": "现代移动通信技术",
+     "plan": 15,
+     "years": "3",
+     "tuition": 13600,
+     "minScore": 443
+    },
+    {
      "name": "信息安全技术应用",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 445
     },
     {
      "name": "移动互联应用技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 470
     },
     {
      "name": "云计算技术应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 467
     },
     {
      "name": "智能互联网络技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 483
     },
     {
      "name": "智能体技术应用",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 444
     }
    ],
-   "programNames": "大数据技术、低空智联网技术、电子信息工程技术、电子信息工程技术(人工智能终端与边缘计算)、计算机网络技术、人工智能技术应用、人工智能技术应用(新工业智能化方向)、人工智能数据工程技术、软件技术、软件技术(JAVA方向)、通信软件技术、网络规划与优化技术、物联网应用技术、现代移动通信技术、现代移动通信技术(5G方向)、信息安全技术应用、移动互联应用技术、云计算技术应用、智能互联网络技术、智能体技术应用",
+   "programNames": "大数据技术、低空智联网技术、电子信息工程技术、电子信息工程技术(人工智能终端与边缘计算)、计算机网络技术、人工智能技术应用(新工业智能化方向)、人工智能技术应用、人工智能数据工程技术、软件技术、软件技术(JAVA方向)、通信软件技术、网络规划与优化技术、物联网应用技术、现代移动通信技术(5G方向)、现代移动通信技术、信息安全技术应用、移动互联应用技术、云计算技术应用、智能互联网络技术、智能体技术应用",
    "programsComplete": true,
    "tuitionRange": [
     13600,
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -3505,77 +3505,77 @@
     {
      "name": "大数据技术",
      "plan": 255,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 446
     },
     {
      "name": "集成电路技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 468
     },
     {
      "name": "计算机网络技术",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 443
     },
     {
      "name": "计算机应用技术",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 441
     },
     {
      "name": "人工智能技术应用",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 445
     },
     {
      "name": "软件技术",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 438
     },
     {
      "name": "数字媒体技术(影视与平面设计方向)",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 451
     },
     {
      "name": "信息安全技术应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 455
     },
     {
      "name": "虚拟现实技术应用",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 446
     },
     {
      "name": "云计算技术应用",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 484
     },
     {
      "name": "智能体技术应用",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 453
     }
@@ -3587,14 +3587,14 @@
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
    "name": "邯郸应用技术职业学院",
-   "type": "公办",
+   "type": "民办",
    "city": "邯郸",
    "plan": 350,
    "minScore": 427,
@@ -3602,30 +3602,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "人工智能技术应用",
-     "plan": 175,
-     "years": 3,
-     "tuition": 12600,
-     "minScore": 427
-    },
-    {
      "name": "信息安全技术应用",
      "plan": 175,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 435
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 175,
+     "years": "3",
+     "tuition": 12600,
+     "minScore": 427
     }
    ],
-   "programNames": "人工智能技术应用、信息安全技术应用",
+   "programNames": "信息安全技术应用、人工智能技术应用",
    "programsComplete": true,
    "tuitionRange": [
     12600,
     12600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyingyongjishu.html"
   },
   {
@@ -3719,7 +3719,7 @@
     {
      "name": "软件技术(中外合作办学)",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 406
     }
@@ -3731,9 +3731,9 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -3746,120 +3746,120 @@
    "programCount": 14,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 430
-    },
-    {
-     "name": "动漫制作技术",
-     "plan": 120,
-     "years": 3,
-     "tuition": 12900,
-     "minScore": 422
-    },
-    {
-     "name": "工业软件开发技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 434
-    },
-    {
-     "name": "计算机应用技术",
-     "plan": 90,
-     "years": 3,
-     "tuition": 14900,
-     "minScore": 409
-    },
-    {
-     "name": "计算机应用技术",
-     "plan": 237,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 409
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 39,
-     "years": 3,
-     "tuition": 14900,
-     "minScore": 423
-    },
-    {
-     "name": "软件技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 14900,
-     "minScore": 405
-    },
-    {
-     "name": "软件技术",
-     "plan": 127,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 405
-    },
-    {
      "name": "数字媒体技术",
      "plan": 98,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 437
     },
     {
-     "name": "物联网应用技术",
-     "plan": 30,
-     "years": 3,
+     "name": "动漫制作技术",
+     "plan": 120,
+     "years": "3",
+     "tuition": 12900,
+     "minScore": 422
+    },
+    {
+     "name": "计算机应用技术",
+     "plan": 90,
+     "years": "3",
      "tuition": 14900,
-     "minScore": 413
+     "minScore": 426
+    },
+    {
+     "name": "计算机应用技术",
+     "plan": 237,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 409
+    },
+    {
+     "name": "软件技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 14900,
+     "minScore": 420
+    },
+    {
+     "name": "软件技术",
+     "plan": 127,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 405
     },
     {
      "name": "现代移动通信技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 408
     },
     {
+     "name": "大数据技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 430
+    },
+    {
+     "name": "物联网应用技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 14900,
+     "minScore": 413
+    },
+    {
      "name": "信息安全技术应用",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 425
     },
     {
      "name": "虚拟现实技术应用",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 411
     },
     {
+     "name": "人工智能技术应用",
+     "plan": 39,
+     "years": "3",
+     "tuition": 14900,
+     "minScore": 423
+    },
+    {
+     "name": "工业软件开发技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 434
+    },
+    {
      "name": "移动互联应用技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 14900,
      "minScore": 407
     }
    ],
-   "programNames": "大数据技术、动漫制作技术、工业软件开发技术、计算机应用技术、计算机应用技术、人工智能技术应用、软件技术、软件技术、数字媒体技术、物联网应用技术、现代移动通信技术、信息安全技术应用、虚拟现实技术应用、移动互联应用技术",
+   "programNames": "数字媒体技术、动漫制作技术、计算机应用技术、计算机应用技术、软件技术、软件技术、现代移动通信技术、大数据技术、物联网应用技术、信息安全技术应用、虚拟现实技术应用、人工智能技术应用、工业软件开发技术、移动互联应用技术",
    "programsComplete": true,
    "tuitionRange": [
     12900,
     14900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 200,
    "minScore": 390,
    "subClasses": null,
@@ -3868,14 +3868,14 @@
     {
      "name": "电子信息工程技术",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 390
     },
     {
      "name": "计算机应用技术",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 403
     }
@@ -3887,9 +3887,9 @@
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
@@ -3938,72 +3938,72 @@
    "programCount": 8,
    "programs": [
     {
+     "name": "计算机应用技术",
+     "plan": 310,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 368
+    },
+    {
+     "name": "计算机网络技术",
+     "plan": 46,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 404
+    },
+    {
+     "name": "软件技术",
+     "plan": 70,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 390
+    },
+    {
      "name": "大数据技术",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 387
     },
     {
+     "name": "人工智能技术应用",
+     "plan": 50,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 384
+    },
+    {
+     "name": "物联网应用技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 381
+    },
+    {
      "name": "低空安全与技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 383
     },
     {
      "name": "动漫制作技术",
      "plan": 65,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 380
-    },
-    {
-     "name": "计算机网络技术",
-     "plan": 46,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 404
-    },
-    {
-     "name": "计算机应用技术",
-     "plan": 310,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 368
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 50,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 384
-    },
-    {
-     "name": "软件技术",
-     "plan": 70,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 390
-    },
-    {
-     "name": "物联网应用技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 381
     }
    ],
-   "programNames": "大数据技术、低空安全与技术、动漫制作技术、计算机网络技术、计算机应用技术、人工智能技术应用、软件技术、物联网应用技术",
+   "programNames": "计算机应用技术、计算机网络技术、软件技术、大数据技术、人工智能技术应用、物联网应用技术、低空安全与技术、动漫制作技术",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -4073,107 +4073,107 @@
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 248,
    "minScore": 362,
    "subClasses": null,
    "programCount": 12,
    "programs": [
     {
+     "name": "物联网应用技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 371
+    },
+    {
+     "name": "数字媒体技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15210,
+     "minScore": 396
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 388
+    },
+    {
      "name": "大数据技术",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 376
     },
     {
-     "name": "动漫制作技术",
-     "plan": 10,
-     "years": 3,
+     "name": "云计算技术应用",
+     "plan": 30,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 363
+    },
+    {
+     "name": "密码技术应用",
+     "plan": 30,
+     "years": "3",
      "tuition": 15210,
-     "minScore": 401
+     "minScore": 362
+    },
+    {
+     "name": "软件技术(Android与Web应用开发方向)",
+     "plan": 20,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 373
     },
     {
      "name": "动漫制作技术(三维动画设计方向)",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15210,
      "minScore": 402
     },
     {
      "name": "动漫制作技术(影视后期处理方向)",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15210,
      "minScore": 392
     },
     {
-     "name": "计算机网络技术",
-     "plan": 9,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 400
-    },
-    {
-     "name": "密码技术应用",
-     "plan": 30,
-     "years": 3,
-     "tuition": 15210,
-     "minScore": 362
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 30,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 388
-    },
-    {
      "name": "软件技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 393
     },
     {
-     "name": "软件技术(Android与Web应用开发方向)",
-     "plan": 20,
-     "years": 3,
+     "name": "计算机网络技术",
+     "plan": 9,
+     "years": "3",
      "tuition": 16000,
-     "minScore": 373
+     "minScore": 400
     },
     {
-     "name": "数字媒体技术",
-     "plan": 30,
-     "years": 3,
+     "name": "动漫制作技术",
+     "plan": 10,
+     "years": "3",
      "tuition": 15210,
-     "minScore": 396
-    },
-    {
-     "name": "物联网应用技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 371
-    },
-    {
-     "name": "云计算技术应用",
-     "plan": 30,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 363
+     "minScore": 401
     }
    ],
-   "programNames": "大数据技术、动漫制作技术、动漫制作技术(三维动画设计方向)、动漫制作技术(影视后期处理方向)、计算机网络技术、密码技术应用、人工智能技术应用、软件技术、软件技术(Android与Web应用开发方向)、数字媒体技术、物联网应用技术、云计算技术应用",
+   "programNames": "物联网应用技术、数字媒体技术、人工智能技术应用、大数据技术、云计算技术应用、密码技术应用、软件技术(Android与Web应用开发方向)、动漫制作技术(三维动画设计方向)、动漫制作技术(影视后期处理方向)、软件技术、计算机网络技术、动漫制作技术",
    "programsComplete": true,
    "tuitionRange": [
     15210,
     16250
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
@@ -4188,56 +4188,56 @@
     {
      "name": "大数据技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 403
     },
     {
      "name": "动漫制作技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 389
     },
     {
      "name": "计算机应用技术",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 385
     },
     {
      "name": "人工智能技术应用",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 371
     },
     {
      "name": "数字媒体技术",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 406
     },
     {
      "name": "物联网应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 416
     },
     {
      "name": "移动应用开发",
      "plan": 55,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 364
     },
     {
      "name": "云计算技术应用",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 362
     }
@@ -4249,9 +4249,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -4295,56 +4295,56 @@
     {
      "name": "大数据技术",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 379
     },
     {
-     "name": "工业互联网技术",
-     "plan": 120,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 349
-    },
-    {
-     "name": "工业软件开发技术",
-     "plan": 110,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 357
-    },
-    {
      "name": "人工智能技术应用",
      "plan": 180,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 368
     },
     {
+     "name": "工业软件开发技术",
+     "plan": 110,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 357
+    },
+    {
+     "name": "工业互联网技术",
+     "plan": 120,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 349
+    },
+    {
      "name": "信息安全技术应用",
      "plan": 110,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 359
     },
     {
      "name": "应用电子技术",
      "plan": 130,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 351
     }
    ],
-   "programNames": "大数据技术、工业互联网技术、工业软件开发技术、人工智能技术应用、信息安全技术应用、应用电子技术",
+   "programNames": "大数据技术、人工智能技术应用、工业软件开发技术、工业互联网技术、信息安全技术应用、应用电子技术",
    "programsComplete": true,
    "tuitionRange": [
     12800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -4357,58 +4357,58 @@
    "programCount": 6,
    "programs": [
     {
-     "name": "大数据技术",
-     "plan": 98,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 374
-    },
-    {
-     "name": "动漫制作技术",
-     "plan": 120,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 358
-    },
-    {
-     "name": "计算机网络技术",
-     "plan": 209,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 362
-    },
-    {
      "name": "汽车智能技术",
      "plan": 180,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 346
     },
     {
+     "name": "计算机网络技术",
+     "plan": 209,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 362
+    },
+    {
      "name": "软件技术",
      "plan": 150,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 360
     },
     {
      "name": "数字媒体技术",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 393
+    },
+    {
+     "name": "大数据技术",
+     "plan": 98,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 374
+    },
+    {
+     "name": "动漫制作技术",
+     "plan": 120,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 358
     }
    ],
-   "programNames": "大数据技术、动漫制作技术、计算机网络技术、汽车智能技术、软件技术、数字媒体技术",
+   "programNames": "汽车智能技术、计算机网络技术、软件技术、数字媒体技术、大数据技术、动漫制作技术",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -4423,14 +4423,14 @@
     {
      "name": "计算机应用技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 18800,
      "minScore": 375
     },
     {
      "name": "物联网应用技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 18800,
      "minScore": 345
     }
@@ -4442,9 +4442,9 @@
     18800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
@@ -4454,89 +4454,96 @@
    "plan": 400,
    "minScore": 330,
    "subClasses": null,
-   "programCount": 10,
+   "programCount": 11,
    "programs": [
     {
      "name": "大数据技术",
      "plan": 60,
-     "years": 3,
-     "tuition": 15800,
+     "years": "3",
+     "tuition": 18800,
      "minScore": 356
+    },
+    {
+     "name": "移动应用开发",
+     "plan": 50,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 338
+    },
+    {
+     "name": "人工智能数据工程技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 331
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 50,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 339
+    },
+    {
+     "name": "区块链技术应用",
+     "plan": 30,
+     "years": "3",
+     "tuition": 18800,
+     "minScore": 330
+    },
+    {
+     "name": "大数据技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 353
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 352
+    },
+    {
+     "name": "人工智能数据工程技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 345
+    },
+    {
+     "name": "移动应用开发",
+     "plan": 20,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 346
     },
     {
      "name": "集成电路技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 388
     },
     {
      "name": "区块链技术应用",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
-     "minScore": 330
-    },
-    {
-     "name": "区块链技术应用",
-     "plan": 30,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 330
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 339
-    },
-    {
-     "name": "人工智能技术应用",
-     "plan": 50,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 339
-    },
-    {
-     "name": "人工智能数据工程技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 345
-    },
-    {
-     "name": "人工智能数据工程技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 345
-    },
-    {
-     "name": "移动应用开发",
-     "plan": 20,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 338
-    },
-    {
-     "name": "移动应用开发",
-     "plan": 50,
-     "years": 3,
-     "tuition": 18800,
-     "minScore": 338
+     "minScore": 383
     }
    ],
-   "programNames": "大数据技术、集成电路技术、区块链技术应用、区块链技术应用、人工智能技术应用、人工智能技术应用、人工智能数据工程技术、人工智能数据工程技术、移动应用开发、移动应用开发",
-   "programsComplete": false,
+   "programNames": "大数据技术、移动应用开发、人工智能数据工程技术、人工智能技术应用、区块链技术应用、大数据技术、人工智能技术应用、人工智能数据工程技术、移动应用开发、集成电路技术、区块链技术应用",
+   "programsComplete": true,
    "tuitionRange": [
     14800,
     18800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjinrong.html"
   },
   {
@@ -4686,56 +4693,56 @@
     {
      "name": "大数据技术",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
-     "minScore": 317
+     "minScore": 314
     },
     {
-     "name": "大数据技术",
-     "plan": 99,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 317
+     "name": "人工智能数据工程技术",
+     "plan": 80,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 313
     },
     {
      "name": "工业软件开发技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 310
     },
     {
      "name": "集成电路技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 319
     },
     {
-     "name": "人工智能数据工程技术",
-     "plan": 80,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 313
+     "name": "大数据技术",
+     "plan": 99,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 317
     },
     {
      "name": "现代移动通信技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 314
     }
    ],
-   "programNames": "大数据技术、大数据技术、工业软件开发技术、集成电路技术、人工智能数据工程技术、现代移动通信技术",
+   "programNames": "大数据技术、人工智能数据工程技术、工业软件开发技术、集成电路技术、大数据技术、现代移动通信技术",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     17800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -4750,113 +4757,113 @@
     {
      "name": "大数据技术",
      "plan": 220,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 308
     },
     {
      "name": "汽车智能技术(智能网联)",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 336
     },
     {
+     "name": "软件技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 316
+    },
+    {
      "name": "人工智能技术应用",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 320
     },
     {
-     "name": "软件技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 316
-    },
-    {
-     "name": "数字媒体技术",
-     "plan": 100,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 316
-    },
-    {
      "name": "物联网应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 311
     },
     {
      "name": "信息安全技术应用",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 313
+    },
+    {
+     "name": "数字媒体技术",
+     "plan": 100,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 316
     }
    ],
-   "programNames": "大数据技术、汽车智能技术(智能网联)、人工智能技术应用、软件技术、数字媒体技术、物联网应用技术、信息安全技术应用",
+   "programNames": "大数据技术、汽车智能技术(智能网联)、软件技术、人工智能技术应用、物联网应用技术、信息安全技术应用、数字媒体技术",
    "programsComplete": true,
    "tuitionRange": [
     16800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinbinhai.html"
   },
   {
    "name": "河北美术学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 300,
    "minScore": 308,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "人工智能技术应用",
-     "plan": 75,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 308
-    },
-    {
-     "name": "人工智能数据工程技术",
-     "plan": 75,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 311
-    },
-    {
      "name": "数字媒体技术",
      "plan": 75,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 308
     },
     {
      "name": "虚拟现实技术应用",
      "plan": 75,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 308
+    },
+    {
+     "name": "人工智能技术应用",
+     "plan": 75,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 308
+    },
+    {
+     "name": "人工智能数据工程技术",
+     "plan": 75,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 311
     }
    ],
-   "programNames": "人工智能技术应用、人工智能数据工程技术、数字媒体技术、虚拟现实技术应用",
+   "programNames": "数字媒体技术、虚拟现实技术应用、人工智能技术应用、人工智能数据工程技术",
    "programsComplete": true,
    "tuitionRange": [
     30000,
     30000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbmeishu.html"
   },
   {
@@ -4871,56 +4878,56 @@
     {
      "name": "大数据技术",
      "plan": 79,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 339
     },
     {
      "name": "电子信息工程技术",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 331
     },
     {
      "name": "动漫制作技术",
      "plan": 85,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 315
     },
     {
      "name": "计算机网络技术",
      "plan": 69,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 333
     },
     {
      "name": "计算机应用技术",
      "plan": 124,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 317
     },
     {
      "name": "软件技术",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 325
     },
     {
      "name": "移动互联应用技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 308
     },
     {
      "name": "云计算技术应用",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 19500,
      "minScore": 308
     }
@@ -4932,9 +4939,9 @@
     19500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   }
  ],
@@ -4943,13 +4950,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试十类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试十类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "英语、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试十类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2025/10865.html"
+    }
+   ]
   }
  ]
 }

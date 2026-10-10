@@ -23,14 +23,14 @@
     {
      "name": "钢铁冶金设备维护",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 606
     },
     {
      "name": "汽车检测与维修技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 601
     }
@@ -42,9 +42,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -57,44 +57,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "电力储能应用技术",
-     "plan": 11,
-     "years": 3,
-     "tuition": 5500,
-     "minScore": 600
-    },
-    {
      "name": "电力系统自动化技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 606
     },
     {
-     "name": "风力发电工程技术",
-     "plan": 16,
-     "years": 3,
+     "name": "电力储能应用技术",
+     "plan": 11,
+     "years": "3",
      "tuition": 5500,
-     "minScore": 597
+     "minScore": 600
     },
     {
      "name": "光伏工程技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 600
+    },
+    {
+     "name": "风力发电工程技术",
+     "plan": 16,
+     "years": "3",
+     "tuition": 5500,
+     "minScore": 597
     }
    ],
-   "programNames": "电力储能应用技术、电力系统自动化技术、风力发电工程技术、光伏工程技术",
+   "programNames": "电力系统自动化技术、电力储能应用技术、光伏工程技术、风力发电工程技术",
    "programsComplete": true,
    "tuitionRange": [
     5500,
     5500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinqinggong.html"
   },
   {
@@ -109,140 +109,140 @@
     {
      "name": "城市轨道车辆应用技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 610
     },
     {
      "name": "城市轨道交通工程技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 602
     },
     {
      "name": "城市轨道交通供配电技术",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 606
     },
     {
      "name": "城市轨道交通机电技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 602
     },
     {
      "name": "城市轨道交通通信信号技术",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 606
     },
     {
      "name": "城市轨道交通运营管理",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 607
     },
     {
      "name": "道路与桥梁工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 598
     },
     {
      "name": "动车组检修技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 626
     },
     {
      "name": "高速铁路客运服务",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 607
     },
     {
      "name": "高速铁路施工与维护",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 606
     },
     {
      "name": "高速铁路综合维修技术",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 610
     },
     {
      "name": "建筑材料工程技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 596
     },
     {
      "name": "铁道车辆技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 622
     },
     {
      "name": "铁道工程技术",
      "plan": 36,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 619
     },
     {
      "name": "铁道供电技术",
      "plan": 44,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 629
     },
     {
      "name": "铁道机车运用与维护",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 652
     },
     {
      "name": "铁道交通运营管理",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 631
     },
     {
      "name": "铁道通信与信息化技术",
      "plan": 48,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 625
     },
     {
      "name": "铁道信号自动控制",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 656
     },
     {
      "name": "铁道养路机械应用技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 613
     }
@@ -254,9 +254,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -271,7 +271,7 @@
     {
      "name": "汽车检测与维修技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 595
     }
@@ -283,9 +283,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -534,7 +534,7 @@
     {
      "name": "动车组检修技术",
      "plan": 37,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 575
     }
@@ -546,9 +546,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -590,51 +590,51 @@
    "programCount": 5,
    "programs": [
     {
-     "name": "城市轨道交通机电技术(中外合作办学)",
-     "plan": 13,
-     "years": 3,
-     "tuition": 22500,
-     "minScore": 576
-    },
-    {
-     "name": "道路与桥梁工程技术(中外合作办学)",
-     "plan": 15,
-     "years": 3,
-     "tuition": 22500,
-     "minScore": 574
-    },
-    {
      "name": "铁道工程技术(中外合作办学)",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 22500,
      "minScore": 579
     },
     {
      "name": "铁道供电技术(中外合作办学)",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 22500,
      "minScore": 582
     },
     {
      "name": "铁道信号自动控制(中外合作办学)",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 22500,
      "minScore": 582
+    },
+    {
+     "name": "道路与桥梁工程技术(中外合作办学)",
+     "plan": 15,
+     "years": "3",
+     "tuition": 22500,
+     "minScore": 574
+    },
+    {
+     "name": "城市轨道交通机电技术(中外合作办学)",
+     "plan": 13,
+     "years": "3",
+     "tuition": 22500,
+     "minScore": 576
     }
    ],
-   "programNames": "城市轨道交通机电技术(中外合作办学)、道路与桥梁工程技术(中外合作办学)、铁道工程技术(中外合作办学)、铁道供电技术(中外合作办学)、铁道信号自动控制(中外合作办学)",
+   "programNames": "铁道工程技术(中外合作办学)、铁道供电技术(中外合作办学)、铁道信号自动控制(中外合作办学)、道路与桥梁工程技术(中外合作办学)、城市轨道交通机电技术(中外合作办学)",
    "programsComplete": true,
    "tuitionRange": [
     22500,
     22500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -721,14 +721,14 @@
     {
      "name": "高速铁路客运服务",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 561
     },
     {
      "name": "汽车检测与维修技术",
      "plan": 28,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 560
     }
@@ -740,9 +740,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -807,7 +807,7 @@
     {
      "name": "新能源汽车检测与维修技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 558
     }
@@ -819,9 +819,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
@@ -836,14 +836,14 @@
     {
      "name": "材料工程技术",
      "plan": 43,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 559
     },
     {
      "name": "钢铁智能冶金技术(智能冶炼控制)",
      "plan": 42,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 557
     }
@@ -855,9 +855,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -1042,7 +1042,7 @@
     {
      "name": "钢铁智能冶金技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 548
     }
@@ -1054,9 +1054,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
@@ -1150,21 +1150,21 @@
     {
      "name": "机场运行服务与管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 555
     },
     {
      "name": "空中乘务",
      "plan": 31,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 543
     },
     {
      "name": "民航运输服务(地勤服务方向)",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 551
     }
@@ -1176,9 +1176,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/qhdzhiyejishu.html"
   },
   {
@@ -1193,14 +1193,14 @@
     {
      "name": "空中乘务",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 540
     },
     {
      "name": "民航安全技术管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 546
     }
@@ -1212,9 +1212,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -1227,51 +1227,51 @@
    "programCount": 5,
    "programs": [
     {
-     "name": "钢铁冶金设备维护",
-     "plan": 60,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 539
-    },
-    {
      "name": "钢铁智能冶金技术",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 544
     },
     {
+     "name": "智能轧钢技术",
+     "plan": 90,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 538
+    },
+    {
+     "name": "钢铁冶金设备维护",
+     "plan": 60,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 539
+    },
+    {
      "name": "铁道供电技术",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 8500,
      "minScore": 551
     },
     {
      "name": "铁道信号自动控制",
      "plan": 90,
-     "years": 3,
+     "years": "3",
      "tuition": 8500,
      "minScore": 547
-    },
-    {
-     "name": "智能轧钢技术",
-     "plan": 90,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 538
     }
    ],
-   "programNames": "钢铁冶金设备维护、钢铁智能冶金技术、铁道供电技术、铁道信号自动控制、智能轧钢技术",
+   "programNames": "钢铁智能冶金技术、智能轧钢技术、钢铁冶金设备维护、铁道供电技术、铁道信号自动控制",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     8500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tskeji.html"
   },
   {
@@ -1315,14 +1315,14 @@
     {
      "name": "民航运输服务",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 537
     },
     {
      "name": "铁道信号自动控制",
      "plan": 19,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 557
     }
@@ -1334,9 +1334,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
@@ -1349,44 +1349,44 @@
    "programCount": 4,
    "programs": [
     {
-     "name": "道路与桥梁工程技术",
-     "plan": 20,
-     "years": 3,
+     "name": "高速铁路客运服务",
+     "plan": 15,
+     "years": "3",
      "tuition": 5000,
      "minScore": 535
     },
     {
      "name": "风力发电工程技术",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 553
     },
     {
-     "name": "高速铁路客运服务",
-     "plan": 15,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 535
-    },
-    {
      "name": "汽车检测与维修技术",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 542
+    },
+    {
+     "name": "道路与桥梁工程技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 535
     }
    ],
-   "programNames": "道路与桥梁工程技术、风力发电工程技术、高速铁路客运服务、汽车检测与维修技术",
+   "programNames": "高速铁路客运服务、风力发电工程技术、汽车检测与维修技术、道路与桥梁工程技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -1471,65 +1471,65 @@
    "programCount": 7,
    "programs": [
     {
+     "name": "新能源汽车检测与维修技术",
+     "plan": 19,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 543
+    },
+    {
      "name": "电力储能应用技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 545
     },
     {
      "name": "电力系统自动化技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 556
     },
     {
-     "name": "风力发电工程技术",
+     "name": "光伏工程技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 535
     },
     {
-     "name": "高速铁路客运服务",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 529
-    },
-    {
-     "name": "光伏工程技术",
+     "name": "风力发电工程技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 535
     },
     {
      "name": "氢能技术应用",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 533
     },
     {
-     "name": "新能源汽车检测与维修技术",
-     "plan": 19,
-     "years": 3,
+     "name": "高速铁路客运服务",
+     "plan": 20,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 543
+     "minScore": 529
     }
    ],
-   "programNames": "电力储能应用技术、电力系统自动化技术、风力发电工程技术、高速铁路客运服务、光伏工程技术、氢能技术应用、新能源汽车检测与维修技术",
+   "programNames": "新能源汽车检测与维修技术、电力储能应用技术、电力系统自动化技术、光伏工程技术、风力发电工程技术、氢能技术应用、高速铁路客运服务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -1709,7 +1709,7 @@
     {
      "name": "空中乘务",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     }
@@ -1721,9 +1721,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
@@ -1765,51 +1765,51 @@
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 79,
    "minScore": 518,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "道路与桥梁工程技术",
-     "plan": 16,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 518
-    },
-    {
      "name": "电力系统自动化技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 538
     },
     {
      "name": "热能动力工程技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 521
     },
     {
+     "name": "道路与桥梁工程技术",
+     "plan": 16,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 518
+    },
+    {
      "name": "智能交通技术",
      "plan": 23,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 519
     }
    ],
-   "programNames": "道路与桥梁工程技术、电力系统自动化技术、热能动力工程技术、智能交通技术",
+   "programNames": "电力系统自动化技术、热能动力工程技术、道路与桥梁工程技术、智能交通技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
@@ -1824,55 +1824,55 @@
     {
      "name": "高速铁路客运服务",
      "plan": 48,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     },
     {
-     "name": "空中乘务",
-     "plan": 35,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 516
-    },
-    {
-     "name": "民航运输服务",
-     "plan": 58,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 519
-    },
-    {
      "name": "汽车技术服务与营销",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 525
     },
     {
      "name": "汽车检测与维修技术",
      "plan": 23,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 531
+    },
+    {
+     "name": "民航运输服务",
+     "plan": 58,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 519
+    },
+    {
+     "name": "空中乘务",
+     "plan": 35,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 516
     }
    ],
-   "programNames": "高速铁路客运服务、空中乘务、民航运输服务、汽车技术服务与营销、汽车检测与维修技术",
+   "programNames": "高速铁路客运服务、汽车技术服务与营销、汽车检测与维修技术、民航运输服务、空中乘务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
    "name": "铁门关职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 10,
    "minScore": 516,
    "subClasses": null,
@@ -1881,7 +1881,7 @@
     {
      "name": "新能源汽车检测与维修技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 516
     }
@@ -1893,9 +1893,9 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tiemenguan.html"
   },
   {
@@ -1910,21 +1910,21 @@
     {
      "name": "高速铁路客运服务",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 526
     },
     {
      "name": "空中乘务",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 513
     },
     {
      "name": "民航安全技术管理",
      "plan": 54,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 518
     }
@@ -1936,15 +1936,15 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfyanjing.html"
   },
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 49,
    "minScore": 513,
    "subClasses": null,
@@ -1953,14 +1953,14 @@
     {
      "name": "高速铁路客运服务",
      "plan": 24,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 529
     },
     {
      "name": "空中乘务",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 513
     }
@@ -1972,45 +1972,45 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
    "name": "河北艺术职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 119,
    "minScore": 510,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "高速铁路客运服务",
-     "plan": 60,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 517
-    },
-    {
      "name": "空中乘务",
      "plan": 59,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 510
+    },
+    {
+     "name": "高速铁路客运服务",
+     "plan": 60,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 517
     }
    ],
-   "programNames": "高速铁路客运服务、空中乘务",
+   "programNames": "空中乘务、高速铁路客运服务",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbyishu.html"
   },
   {
@@ -2025,7 +2025,7 @@
     {
      "name": "铁道供电技术(中外合作办学)",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 16000,
      "minScore": 508
     }
@@ -2037,15 +2037,15 @@
     16000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hszhiyejishu.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 16,
    "minScore": 507,
    "subClasses": null,
@@ -2054,7 +2054,7 @@
     {
      "name": "汽车检测与维修技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 507
     }
@@ -2066,15 +2066,15 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 28,
    "minScore": 507,
    "subClasses": null,
@@ -2083,14 +2083,14 @@
     {
      "name": "汽车检测与维修技术",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 508
     },
     {
      "name": "新能源汽车检测与维修技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 507
     }
@@ -2102,59 +2102,59 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 85,
    "minScore": 504,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
-     "name": "机场运行服务与管理",
-     "plan": 25,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 508
-    },
-    {
-     "name": "空中乘务",
-     "plan": 10,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 504
-    },
-    {
      "name": "汽车检测与维修技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 511
     },
     {
+     "name": "空中乘务",
+     "plan": 10,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 504
+    },
+    {
      "name": "通用航空器维修",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 510
+    },
+    {
+     "name": "机场运行服务与管理",
+     "plan": 25,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 508
     }
    ],
-   "programNames": "机场运行服务与管理、空中乘务、汽车检测与维修技术、通用航空器维修",
+   "programNames": "汽车检测与维修技术、空中乘务、通用航空器维修、机场运行服务与管理",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
@@ -2169,49 +2169,49 @@
     {
      "name": "城市轨道交通通信信号技术",
      "plan": 48,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 499
     },
     {
      "name": "城市轨道交通运营管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 501
     },
     {
      "name": "高速铁路客运服务",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 500
     },
     {
      "name": "机场运行服务与管理",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 516
     },
     {
      "name": "空中乘务",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 496
     },
     {
      "name": "汽车检测与维修技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 504
     },
     {
      "name": "新能源汽车检测与维修技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13600,
      "minScore": 505
     }
@@ -2223,9 +2223,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -2240,49 +2240,49 @@
     {
      "name": "城市轨道交通机电技术",
      "plan": 95,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 495
     },
     {
      "name": "城市轨道交通运营管理",
      "plan": 45,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 501
     },
     {
      "name": "高速铁路综合维修技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 497
     },
     {
      "name": "空中乘务",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 499
     },
     {
      "name": "铁道供电技术",
      "plan": 95,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 496
     },
     {
      "name": "铁道机车运用与维护",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 505
     },
     {
      "name": "铁道交通运营管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 504
     }
@@ -2294,9 +2294,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
@@ -2309,30 +2309,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "城市轨道交通运营管理",
-     "plan": 80,
-     "years": 3,
-     "tuition": 13900,
-     "minScore": 486
-    },
-    {
      "name": "新能源汽车检测与维修技术",
      "plan": 89,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 489
+    },
+    {
+     "name": "城市轨道交通运营管理",
+     "plan": 80,
+     "years": "3",
+     "tuition": 13900,
+     "minScore": 486
     }
    ],
-   "programNames": "城市轨道交通运营管理、新能源汽车检测与维修技术",
+   "programNames": "新能源汽车检测与维修技术、城市轨道交通运营管理",
    "programsComplete": true,
    "tuitionRange": [
     13900,
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -2345,114 +2345,114 @@
    "programCount": 14,
    "programs": [
     {
-     "name": "城市轨道交通通信信号技术",
-     "plan": 50,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 473
-    },
-    {
-     "name": "城市轨道交通运营管理",
-     "plan": 70,
-     "years": 3,
-     "tuition": 11700,
-     "minScore": 481
-    },
-    {
-     "name": "飞机机电设备维修",
-     "plan": 15,
-     "years": 3,
-     "tuition": 17000,
-     "minScore": 482
-    },
-    {
-     "name": "国际邮轮乘务管理",
-     "plan": 10,
-     "years": 3,
-     "tuition": 16900,
-     "minScore": 486
-    },
-    {
-     "name": "空中乘务",
-     "plan": 15,
-     "years": 3,
-     "tuition": 13500,
-     "minScore": 478
-    },
-    {
-     "name": "民航运输服务",
-     "plan": 10,
-     "years": 3,
-     "tuition": 16900,
-     "minScore": 482
-    },
-    {
-     "name": "汽车技术服务与营销",
-     "plan": 10,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 479
-    },
-    {
-     "name": "汽车检测与维修技术",
-     "plan": 15,
-     "years": 3,
-     "tuition": 16900,
-     "minScore": 477
-    },
-    {
      "name": "铁道工程技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 11700,
      "minScore": 483
     },
     {
-     "name": "铁道供电技术",
-     "plan": 140,
-     "years": 3,
-     "tuition": 10920,
-     "minScore": 481
-    },
-    {
-     "name": "铁道供电技术(运营与维修)",
-     "plan": 20,
-     "years": 3,
-     "tuition": 16900,
-     "minScore": 478
-    },
-    {
      "name": "铁道机车运用与维护",
      "plan": 86,
-     "years": 3,
+     "years": "3",
      "tuition": 10920,
      "minScore": 487
     },
     {
      "name": "铁道机车运用与维护(机车驾驶与维修)",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 478
     },
     {
+     "name": "铁道供电技术",
+     "plan": 140,
+     "years": "3",
+     "tuition": 10920,
+     "minScore": 481
+    },
+    {
+     "name": "铁道供电技术(运营与维修)",
+     "plan": 20,
+     "years": "3",
+     "tuition": 16900,
+     "minScore": 478
+    },
+    {
+     "name": "汽车技术服务与营销",
+     "plan": 10,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 479
+    },
+    {
+     "name": "汽车检测与维修技术",
+     "plan": 15,
+     "years": "3",
+     "tuition": 16900,
+     "minScore": 477
+    },
+    {
      "name": "新能源汽车检测与维修技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 16900,
      "minScore": 475
+    },
+    {
+     "name": "国际邮轮乘务管理",
+     "plan": 10,
+     "years": "3",
+     "tuition": 16900,
+     "minScore": 486
+    },
+    {
+     "name": "民航运输服务",
+     "plan": 10,
+     "years": "3",
+     "tuition": 16900,
+     "minScore": 482
+    },
+    {
+     "name": "空中乘务",
+     "plan": 15,
+     "years": "3",
+     "tuition": 13500,
+     "minScore": 478
+    },
+    {
+     "name": "飞机机电设备维修",
+     "plan": 15,
+     "years": "3",
+     "tuition": 17000,
+     "minScore": 482
+    },
+    {
+     "name": "城市轨道交通通信信号技术",
+     "plan": 50,
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 473
+    },
+    {
+     "name": "城市轨道交通运营管理",
+     "plan": 70,
+     "years": "3",
+     "tuition": 11700,
+     "minScore": 481
     }
    ],
-   "programNames": "城市轨道交通通信信号技术、城市轨道交通运营管理、飞机机电设备维修、国际邮轮乘务管理、空中乘务、民航运输服务、汽车技术服务与营销、汽车检测与维修技术、铁道工程技术、铁道供电技术、铁道供电技术(运营与维修)、铁道机车运用与维护、铁道机车运用与维护(机车驾驶与维修)、新能源汽车检测与维修技术",
+   "programNames": "铁道工程技术、铁道机车运用与维护、铁道机车运用与维护(机车驾驶与维修)、铁道供电技术、铁道供电技术(运营与维修)、汽车技术服务与营销、汽车检测与维修技术、新能源汽车检测与维修技术、国际邮轮乘务管理、民航运输服务、空中乘务、飞机机电设备维修、城市轨道交通通信信号技术、城市轨道交通运营管理",
    "programsComplete": true,
    "tuitionRange": [
     10920,
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -2467,14 +2467,14 @@
     {
      "name": "高速铁路客运服务",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 474
     },
     {
      "name": "空中乘务",
      "plan": 49,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 460
     }
@@ -2486,9 +2486,9 @@
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -2501,107 +2501,107 @@
    "programCount": 13,
    "programs": [
     {
-     "name": "城市轨道交通运营管理",
-     "plan": 30,
-     "years": 3,
+     "name": "热能动力工程技术",
+     "plan": 60,
+     "years": "3",
      "tuition": 15000,
-     "minScore": 467
-    },
-    {
-     "name": "高速铁路客运服务",
-     "plan": 45,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 458
-    },
-    {
-     "name": "高速铁路施工与维护",
-     "plan": 15,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 462
+     "minScore": 459
     },
     {
      "name": "光伏工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 462
-    },
-    {
-     "name": "民航空中安全保卫",
-     "plan": 5,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 471
-    },
-    {
-     "name": "汽车技术服务与营销",
-     "plan": 15,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 465
-    },
-    {
-     "name": "热能动力工程技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 459
-    },
-    {
-     "name": "铁道车辆技术",
-     "plan": 25,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 464
     },
     {
      "name": "铁道工程技术",
      "plan": 75,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 459
     },
     {
-     "name": "铁道供电技术",
-     "plan": 110,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 458
-    },
-    {
-     "name": "铁道交通运营管理",
-     "plan": 39,
-     "years": 3,
+     "name": "高速铁路施工与维护",
+     "plan": 15,
+     "years": "3",
      "tuition": 15000,
      "minScore": 462
     },
     {
+     "name": "铁道车辆技术",
+     "plan": 25,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 464
+    },
+    {
+     "name": "铁道供电技术",
+     "plan": 110,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 458
+    },
+    {
      "name": "铁道通信与信息化技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 461
     },
     {
-     "name": "新能源汽车检测与维修技术",
-     "plan": 110,
-     "years": 3,
+     "name": "铁道交通运营管理",
+     "plan": 39,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 462
+    },
+    {
+     "name": "高速铁路客运服务",
+     "plan": 45,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 458
+    },
+    {
+     "name": "汽车技术服务与营销",
+     "plan": 15,
+     "years": "3",
      "tuition": 15000,
      "minScore": 465
+    },
+    {
+     "name": "新能源汽车检测与维修技术",
+     "plan": 110,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 465
+    },
+    {
+     "name": "民航空中安全保卫",
+     "plan": 5,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 471
+    },
+    {
+     "name": "城市轨道交通运营管理",
+     "plan": 30,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 467
     }
    ],
-   "programNames": "城市轨道交通运营管理、高速铁路客运服务、高速铁路施工与维护、光伏工程技术、民航空中安全保卫、汽车技术服务与营销、热能动力工程技术、铁道车辆技术、铁道工程技术、铁道供电技术、铁道交通运营管理、铁道通信与信息化技术、新能源汽车检测与维修技术",
+   "programNames": "热能动力工程技术、光伏工程技术、铁道工程技术、高速铁路施工与维护、铁道车辆技术、铁道供电技术、铁道通信与信息化技术、铁道交通运营管理、高速铁路客运服务、汽车技术服务与营销、新能源汽车检测与维修技术、民航空中安全保卫、城市轨道交通运营管理",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -2611,132 +2611,146 @@
    "plan": 320,
    "minScore": 447,
    "subClasses": null,
-   "programCount": 7,
+   "programCount": 9,
    "programs": [
     {
-     "name": "电力储能应用技术",
-     "plan": 40,
-     "years": 3,
-     "tuition": 13800,
-     "minScore": 479
-    },
-    {
-     "name": "电力储能应用技术",
+     "name": "光伏工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
-     "minScore": 479
-    },
-    {
-     "name": "光伏材料制备技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 13800,
-     "minScore": 449
+     "minScore": 459
     },
     {
      "name": "光伏工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 466
     },
     {
+     "name": "光伏材料制备技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 447
+    },
+    {
+     "name": "光伏材料制备技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 449
+    },
+    {
      "name": "新能源材料应用技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
-     "minScore": 453
+     "minScore": 449
     },
     {
      "name": "新能源材料应用技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 453
     },
     {
+     "name": "电力储能应用技术",
+     "plan": 40,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 455
+    },
+    {
+     "name": "电力储能应用技术",
+     "plan": 30,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 479
+    },
+    {
      "name": "新能源汽车检测与维修技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13800,
      "minScore": 462
     }
    ],
-   "programNames": "电力储能应用技术、电力储能应用技术、光伏材料制备技术、光伏工程技术、新能源材料应用技术、新能源材料应用技术、新能源汽车检测与维修技术",
-   "programsComplete": false,
+   "programNames": "光伏工程技术、光伏工程技术、光伏材料制备技术、光伏材料制备技术、新能源材料应用技术、新能源材料应用技术、电力储能应用技术、电力储能应用技术、新能源汽车检测与维修技术",
+   "programsComplete": true,
    "tuitionRange": [
     13800,
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 58,
    "minScore": 446,
    "subClasses": null,
    "programCount": 6,
    "programs": [
     {
-     "name": "道路与桥梁工程技术",
+     "name": "铁道交通运营管理",
      "plan": 10,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 457
+     "years": "3",
+     "tuition": 16000,
+     "minScore": 473
     },
     {
-     "name": "高速铁路客运服务",
-     "plan": 8,
-     "years": 3,
+     "name": "民航空中安全保卫",
+     "plan": 10,
+     "years": "3",
      "tuition": 15600,
-     "minScore": 456
+     "minScore": 448
     },
     {
      "name": "空中乘务(空乘英语服务方向)",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15600,
      "minScore": 451
     },
     {
      "name": "空中乘务(空港英语服务方向)",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15600,
      "minScore": 446
     },
     {
-     "name": "民航空中安全保卫",
+     "name": "道路与桥梁工程技术",
      "plan": 10,
-     "years": 3,
-     "tuition": 15600,
-     "minScore": 448
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 457
     },
     {
-     "name": "铁道交通运营管理",
-     "plan": 10,
-     "years": 3,
-     "tuition": 16000,
-     "minScore": 473
+     "name": "高速铁路客运服务",
+     "plan": 8,
+     "years": "3",
+     "tuition": 15600,
+     "minScore": 456
     }
    ],
-   "programNames": "道路与桥梁工程技术、高速铁路客运服务、空中乘务(空乘英语服务方向)、空中乘务(空港英语服务方向)、民航空中安全保卫、铁道交通运营管理",
+   "programNames": "铁道交通运营管理、民航空中安全保卫、空中乘务(空乘英语服务方向)、空中乘务(空港英语服务方向)、道路与桥梁工程技术、高速铁路客运服务",
    "programsComplete": true,
    "tuitionRange": [
     15600,
     16250
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
@@ -2751,7 +2765,7 @@
     {
      "name": "新能源汽车检测与维修技术(中外合作办学)",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 17000,
      "minScore": 443
     }
@@ -2763,9 +2777,9 @@
     17000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
@@ -2886,14 +2900,14 @@
     {
      "name": "高速铁路客运服务",
      "plan": 70,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 429
     },
     {
      "name": "机场运行服务与管理",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 422
     }
@@ -2905,9 +2919,9 @@
     14800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjinrong.html"
   },
   {
@@ -3006,44 +3020,44 @@
    "programCount": 4,
    "programs": [
     {
+     "name": "新能源汽车检测与维修技术",
+     "plan": 210,
+     "years": "3",
+     "tuition": 12800,
+     "minScore": 411
+    },
+    {
      "name": "城市轨道交通运营管理",
      "plan": 120,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 398
     },
     {
-     "name": "光伏工程技术",
-     "plan": 115,
-     "years": 3,
-     "tuition": 12800,
-     "minScore": 392
-    },
-    {
      "name": "农业电气化技术",
      "plan": 115,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 378
     },
     {
-     "name": "新能源汽车检测与维修技术",
-     "plan": 210,
-     "years": 3,
+     "name": "光伏工程技术",
+     "plan": 115,
+     "years": "3",
      "tuition": 12800,
-     "minScore": 411
+     "minScore": 392
     }
    ],
-   "programNames": "城市轨道交通运营管理、光伏工程技术、农业电气化技术、新能源汽车检测与维修技术",
+   "programNames": "新能源汽车检测与维修技术、城市轨道交通运营管理、农业电气化技术、光伏工程技术",
    "programsComplete": true,
    "tuitionRange": [
     12800,
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -3056,72 +3070,72 @@
    "programCount": 8,
    "programs": [
     {
-     "name": "城市轨道交通运营管理",
-     "plan": 200,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 391
-    },
-    {
-     "name": "道路与桥梁工程技术",
-     "plan": 35,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 437
-    },
-    {
      "name": "飞机机电设备维修",
      "plan": 226,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 371
     },
     {
-     "name": "高速铁路客运服务",
-     "plan": 120,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 383
-    },
-    {
-     "name": "空中乘务",
-     "plan": 40,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 395
-    },
-    {
      "name": "汽车检测与维修技术",
      "plan": 200,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 398
     },
     {
      "name": "铁道工程技术",
      "plan": 305,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 376
     },
     {
+     "name": "城市轨道交通运营管理",
+     "plan": 200,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 391
+    },
+    {
      "name": "铁道交通运营管理",
      "plan": 140,
-     "years": 3,
+     "years": "3",
      "tuition": 14800,
      "minScore": 384
+    },
+    {
+     "name": "高速铁路客运服务",
+     "plan": 120,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 383
+    },
+    {
+     "name": "道路与桥梁工程技术",
+     "plan": 35,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 437
+    },
+    {
+     "name": "空中乘务",
+     "plan": 40,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 395
     }
    ],
-   "programNames": "城市轨道交通运营管理、道路与桥梁工程技术、飞机机电设备维修、高速铁路客运服务、空中乘务、汽车检测与维修技术、铁道工程技术、铁道交通运营管理",
+   "programNames": "飞机机电设备维修、汽车检测与维修技术、铁道工程技术、城市轨道交通运营管理、铁道交通运营管理、高速铁路客运服务、道路与桥梁工程技术、空中乘务",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -3136,49 +3150,49 @@
     {
      "name": "城市轨道交通运营管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 379
     },
     {
      "name": "发电运行技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 391
     },
     {
      "name": "高速铁路客运服务",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 376
     },
     {
      "name": "空中乘务",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 381
     },
     {
      "name": "铁道工程技术",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 368
     },
     {
      "name": "铁道供电技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 367
     },
     {
      "name": "铁道交通运营管理",
      "plan": 35,
-     "years": 3,
+     "years": "3",
      "tuition": 18500,
      "minScore": 371
     }
@@ -3190,9 +3204,9 @@
     18500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
@@ -3241,51 +3255,51 @@
    "programCount": 5,
    "programs": [
     {
+     "name": "汽车检测与维修技术",
+     "plan": 230,
+     "years": "3",
+     "tuition": 15800,
+     "minScore": 352
+    },
+    {
      "name": "空中乘务",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 347
     },
     {
      "name": "汽车技术服务与营销",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 357
     },
     {
-     "name": "汽车技术服务与营销(二手车鉴定与评估)",
-     "plan": 15,
-     "years": 3,
-     "tuition": 15800,
-     "minScore": 363
-    },
-    {
      "name": "汽车技术服务与营销(汽车保险与理赔)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 362
     },
     {
-     "name": "汽车检测与维修技术",
-     "plan": 230,
-     "years": 3,
+     "name": "汽车技术服务与营销(二手车鉴定与评估)",
+     "plan": 15,
+     "years": "3",
      "tuition": 15800,
-     "minScore": 352
+     "minScore": 363
     }
    ],
-   "programNames": "空中乘务、汽车技术服务与营销、汽车技术服务与营销(二手车鉴定与评估)、汽车技术服务与营销(汽车保险与理赔)、汽车检测与维修技术",
+   "programNames": "汽车检测与维修技术、空中乘务、汽车技术服务与营销、汽车技术服务与营销(汽车保险与理赔)、汽车技术服务与营销(二手车鉴定与评估)",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinbinhai.html"
   },
   {
@@ -3298,114 +3312,114 @@
    "programCount": 14,
    "programs": [
     {
-     "name": "城市轨道交通机电技术",
-     "plan": 80,
-     "years": 3,
+     "name": "机场运行服务与管理",
+     "plan": 130,
+     "years": "3",
      "tuition": 19800,
-     "minScore": 292
+     "minScore": 315
     },
     {
      "name": "城市轨道交通运营管理",
      "plan": 130,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 324
     },
     {
-     "name": "飞机机电设备维修",
-     "plan": 50,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 296
-    },
-    {
-     "name": "风力发电工程技术",
-     "plan": 60,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 326
-    },
-    {
-     "name": "港口机械与智能控制",
-     "plan": 100,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 292
-    },
-    {
-     "name": "国际邮轮乘务管理",
-     "plan": 50,
-     "years": 3,
+     "name": "民航安全技术管理",
+     "plan": 80,
+     "years": "3",
      "tuition": 19800,
      "minScore": 291
     },
     {
      "name": "航海技术",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 291
-    },
-    {
-     "name": "机场运行服务与管理",
-     "plan": 130,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 315
-    },
-    {
-     "name": "集装箱运输管理",
-     "plan": 40,
-     "years": 3,
-     "tuition": 16800,
-     "minScore": 319
-    },
-    {
-     "name": "民航安全技术管理",
-     "plan": 80,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 291
-    },
-    {
-     "name": "汽车技术服务与营销",
-     "plan": 50,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 293
-    },
-    {
-     "name": "铁道供电技术",
-     "plan": 100,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 292
-    },
-    {
-     "name": "铁道信号自动控制",
-     "plan": 100,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 292
     },
     {
      "name": "通用航空器维修",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 339
+    },
+    {
+     "name": "铁道信号自动控制",
+     "plan": 100,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 292
+    },
+    {
+     "name": "铁道供电技术",
+     "plan": 100,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 292
+    },
+    {
+     "name": "飞机机电设备维修",
+     "plan": 50,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 296
+    },
+    {
+     "name": "城市轨道交通机电技术",
+     "plan": 80,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 292
+    },
+    {
+     "name": "汽车技术服务与营销",
+     "plan": 50,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 293
+    },
+    {
+     "name": "集装箱运输管理",
+     "plan": 40,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 319
+    },
+    {
+     "name": "港口机械与智能控制",
+     "plan": 100,
+     "years": "3",
+     "tuition": 16800,
+     "minScore": 292
+    },
+    {
+     "name": "风力发电工程技术",
+     "plan": 60,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 326
+    },
+    {
+     "name": "国际邮轮乘务管理",
+     "plan": 50,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 291
     }
    ],
-   "programNames": "城市轨道交通机电技术、城市轨道交通运营管理、飞机机电设备维修、风力发电工程技术、港口机械与智能控制、国际邮轮乘务管理、航海技术、机场运行服务与管理、集装箱运输管理、民航安全技术管理、汽车技术服务与营销、铁道供电技术、铁道信号自动控制、通用航空器维修",
+   "programNames": "机场运行服务与管理、城市轨道交通运营管理、民航安全技术管理、航海技术、通用航空器维修、铁道信号自动控制、铁道供电技术、飞机机电设备维修、城市轨道交通机电技术、汽车技术服务与营销、集装箱运输管理、港口机械与智能控制、风力发电工程技术、国际邮轮乘务管理",
    "programsComplete": true,
    "tuitionRange": [
     16800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -3478,13 +3492,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试二类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试二类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "英语、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试二类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2025/10862.html"
+    }
+   ]
   }
  ]
 }

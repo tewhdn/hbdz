@@ -23,7 +23,7 @@
     {
      "name": "市政工程技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 651
     }
@@ -35,9 +35,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tsgongye.html"
   },
   {
@@ -81,49 +81,49 @@
     {
      "name": "工程造价",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 621
     },
     {
      "name": "供热通风与空调工程技术",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 560
     },
     {
      "name": "建筑工程技术",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 595
     },
     {
      "name": "建筑设计",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 591
     },
     {
      "name": "市政工程技术",
      "plan": 9,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 592
     },
     {
      "name": "智慧城市管理技术",
      "plan": 26,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 562
     },
     {
      "name": "智能建造技术",
      "plan": 44,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 557
     }
@@ -135,9 +135,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzzhiyejishu.html"
   },
   {
@@ -152,7 +152,7 @@
     {
      "name": "工程造价",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 551
     }
@@ -164,9 +164,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tszhiyejishu.html"
   },
   {
@@ -217,70 +217,70 @@
     {
      "name": "测绘地理信息技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 556
     },
     {
      "name": "测绘工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 551
     },
     {
      "name": "地下与隧道工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 566
     },
     {
      "name": "工程测量技术",
      "plan": 59,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 569
     },
     {
      "name": "工程造价",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 578
     },
     {
      "name": "建筑工程技术",
      "plan": 37,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 553
     },
     {
      "name": "建筑设备工程技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 544
     },
     {
      "name": "建筑智能化工程技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 553
     },
     {
      "name": "无人机测绘技术",
      "plan": 29,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 585
     },
     {
      "name": "智能建造技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 569
     }
@@ -292,9 +292,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjztielu.html"
   },
   {
@@ -367,21 +367,21 @@
     {
      "name": "工程造价",
      "plan": 32,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 536
     },
     {
      "name": "建筑室内设计",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 7000,
      "minScore": 536
     },
     {
      "name": "摄影测量与遥感技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 529
     }
@@ -393,9 +393,9 @@
     7000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdzhiyejishu.html"
   },
   {
@@ -408,51 +408,51 @@
    "programCount": 5,
    "programs": [
     {
-     "name": "工程造价",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5500,
-     "minScore": 544
-    },
-    {
      "name": "古建筑工程技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 531
     },
     {
+     "name": "智能建造技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5500,
+     "minScore": 538
+    },
+    {
+     "name": "工程造价",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5500,
+     "minScore": 544
+    },
+    {
      "name": "建筑智能化工程技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 531
     },
     {
      "name": "现代物业管理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5500,
      "minScore": 524
-    },
-    {
-     "name": "智能建造技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5500,
-     "minScore": 538
     }
    ],
-   "programNames": "工程造价、古建筑工程技术、建筑智能化工程技术、现代物业管理、智能建造技术",
+   "programNames": "古建筑工程技术、智能建造技术、工程造价、建筑智能化工程技术、现代物业管理",
    "programsComplete": true,
    "tuitionRange": [
     5500,
     5500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinguotuziyuan.html"
   },
   {
@@ -467,21 +467,21 @@
     {
      "name": "摄影测量与遥感技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 522
     },
     {
      "name": "石油工程技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 541
     },
     {
      "name": "油气地质勘探技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 527
     }
@@ -493,9 +493,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinshiyou.html"
   },
   {
@@ -553,7 +553,7 @@
     {
      "name": "环境监测技术",
      "plan": 39,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 519
     }
@@ -565,9 +565,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdkeji.html"
   },
   {
@@ -582,35 +582,35 @@
     {
      "name": "风景园林设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 519
     },
     {
      "name": "工程安全评价与监理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 519
     },
     {
      "name": "工程造价",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 530
     },
     {
      "name": "环境工程技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 517
     },
     {
      "name": "建筑室内设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 526
     }
@@ -622,9 +622,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengfa.html"
   },
   {
@@ -723,7 +723,7 @@
   {
    "name": "河北女子职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 15,
    "minScore": 507,
    "subClasses": null,
@@ -732,7 +732,7 @@
     {
      "name": "建筑室内设计",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 507
     }
@@ -744,9 +744,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnvzi.html"
   },
   {
@@ -802,30 +802,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "工程造价",
-     "plan": 15,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 503
-    },
-    {
      "name": "建筑室内设计",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 492
+    },
+    {
+     "name": "工程造价",
+     "plan": 15,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 503
     }
    ],
-   "programNames": "工程造价、建筑室内设计",
+   "programNames": "建筑室内设计、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbzhengdingshifan.html"
   },
   {
@@ -981,36 +981,36 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "安全智能监测技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 494
-    },
-    {
      "name": "消防救援技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 475
+    },
+    {
+     "name": "安全智能监测技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 494
     }
    ],
-   "programNames": "安全智能监测技术、消防救援技术",
+   "programNames": "消防救援技术、安全智能监测技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hdyouershifan.html"
   },
   {
    "name": "冀中职业学院",
    "type": "公办",
-   "city": "其他",
+   "city": "保定",
    "plan": 14,
    "minScore": 468,
    "subClasses": null,
@@ -1019,35 +1019,35 @@
     {
      "name": "建筑工程技术",
      "plan": 3,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 474
     },
     {
-     "name": "智能建造技术",
-     "plan": 7,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 473
-    },
-    {
      "name": "装配式建筑工程技术",
      "plan": 4,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 468
+    },
+    {
+     "name": "智能建造技术",
+     "plan": 7,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 473
     }
    ],
-   "programNames": "建筑工程技术、智能建造技术、装配式建筑工程技术",
+   "programNames": "建筑工程技术、装配式建筑工程技术、智能建造技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/jizhong.html"
   },
   {
@@ -1062,14 +1062,14 @@
     {
      "name": "工程造价",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 491
     },
     {
      "name": "环境监测技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 464
     }
@@ -1081,73 +1081,73 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbqingnianguanli.html"
   },
   {
    "name": "河北能源职业技术学院",
    "type": "公办",
-   "city": "其他",
+   "city": "唐山",
    "plan": 176,
    "minScore": 462,
    "subClasses": null,
    "programCount": 6,
    "programs": [
     {
-     "name": "工程测量技术",
-     "plan": 30,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 484
-    },
-    {
      "name": "工程造价",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 490
     },
     {
      "name": "建筑工程技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 487
     },
     {
-     "name": "煤矿智能开采技术",
-     "plan": 36,
-     "years": 3,
+     "name": "工程测量技术",
+     "plan": 30,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 473
+     "minScore": 484
     },
     {
      "name": "煤矿智能开采技术",
-     "plan": 25,
-     "years": 3,
+     "plan": 36,
+     "years": "3",
      "tuition": 5000,
-     "minScore": 473
+     "minScore": 468
     },
     {
      "name": "应急救援技术",
      "plan": 50,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 462
+    },
+    {
+     "name": "煤矿智能开采技术",
+     "plan": 25,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 473
     }
    ],
-   "programNames": "工程测量技术、工程造价、建筑工程技术、煤矿智能开采技术、煤矿智能开采技术、应急救援技术",
+   "programNames": "工程造价、建筑工程技术、工程测量技术、煤矿智能开采技术、应急救援技术、煤矿智能开采技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbnengyuan.html"
   },
   {
@@ -1162,42 +1162,42 @@
     {
      "name": "风景园林设计",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 461
     },
     {
-     "name": "工程造价",
-     "plan": 46,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 475
-    },
-    {
      "name": "建筑室内设计",
      "plan": 33,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 466
     },
     {
+     "name": "工程造价",
+     "plan": 46,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 475
+    },
+    {
      "name": "智能建造技术",
      "plan": 37,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 462
     }
    ],
-   "programNames": "风景园林设计、工程造价、建筑室内设计、智能建造技术",
+   "programNames": "风景园林设计、建筑室内设计、工程造价、智能建造技术",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/lfzhiyejishu.html"
   },
   {
@@ -1248,63 +1248,63 @@
     {
      "name": "宝玉石鉴定与加工",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 457
     },
     {
      "name": "地质调查与矿产普查",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 460
     },
     {
      "name": "工程测量技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 471
     },
     {
      "name": "工程造价",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 479
     },
     {
      "name": "环境监测技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 460
     },
     {
      "name": "建筑室内设计",
      "plan": 5,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 484
     },
     {
      "name": "摄影测量与遥感技术(无人机操控、数据处理方向)",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 491
     },
     {
      "name": "水文与工程地质",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 459
     },
     {
      "name": "钻探工程技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 456
     }
@@ -1316,9 +1316,9 @@
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbziyuanhuanjing.html"
   },
   {
@@ -1331,37 +1331,37 @@
    "programCount": 3,
    "programs": [
     {
-     "name": "工程造价",
-     "plan": 10,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 470
-    },
-    {
      "name": "建筑工程技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 470
     },
     {
      "name": "建筑消防技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 455
+    },
+    {
+     "name": "工程造价",
+     "plan": 10,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 470
     }
    ],
-   "programNames": "工程造价、建筑工程技术、建筑消防技术",
+   "programNames": "建筑工程技术、建筑消防技术、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xuanhuakeji.html"
   },
   {
@@ -1374,51 +1374,51 @@
    "programCount": 5,
    "programs": [
     {
-     "name": "工程造价",
-     "plan": 15,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 458
-    },
-    {
-     "name": "建筑工程技术",
-     "plan": 13,
-     "years": 3,
-     "tuition": 5000,
-     "minScore": 455
-    },
-    {
      "name": "建筑装饰工程技术",
      "plan": 15,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 454
     },
     {
+     "name": "建筑工程技术",
+     "plan": 13,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 455
+    },
+    {
      "name": "无人机测绘技术",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 466
     },
     {
      "name": "智能建造技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 5000,
      "minScore": 454
+    },
+    {
+     "name": "工程造价",
+     "plan": 15,
+     "years": "3",
+     "tuition": 5000,
+     "minScore": 458
     }
    ],
-   "programNames": "工程造价、建筑工程技术、建筑装饰工程技术、无人机测绘技术、智能建造技术",
+   "programNames": "建筑装饰工程技术、建筑工程技术、无人机测绘技术、智能建造技术、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     5000,
     5000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -1433,7 +1433,7 @@
     {
      "name": "工程造价(造价师方向)",
      "plan": 22,
-     "years": 3,
+     "years": "3",
      "tuition": 12600,
      "minScore": 448
     }
@@ -1445,45 +1445,45 @@
     12600
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkejixinxi.html"
   },
   {
    "name": "塔里木职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)阿拉尔",
    "plan": 33,
    "minScore": 439,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "工程造价",
-     "plan": 13,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 439
-    },
-    {
      "name": "建筑工程技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 441
+    },
+    {
+     "name": "工程造价",
+     "plan": 13,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 439
     }
    ],
-   "programNames": "工程造价、建筑工程技术",
+   "programNames": "建筑工程技术、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/talimu.html"
   },
   {
@@ -1518,7 +1518,7 @@
   {
    "name": "新疆生产建设兵团兴新职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)铁门关",
    "plan": 79,
    "minScore": 433,
    "subClasses": null,
@@ -1527,49 +1527,49 @@
     {
      "name": "风景园林设计",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 437
     },
     {
+     "name": "建筑工程技术",
+     "plan": 15,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 443
+    },
+    {
      "name": "工程造价",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 449
     },
     {
      "name": "建设工程监理",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 433
     },
     {
-     "name": "建筑工程技术",
-     "plan": 15,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 443
-    },
-    {
      "name": "市政工程技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 434
     }
    ],
-   "programNames": "风景园林设计、工程造价、建设工程监理、建筑工程技术、市政工程技术",
+   "programNames": "风景园林设计、建筑工程技术、工程造价、建设工程监理、市政工程技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xjshengchanjianshebingtuan.html"
   },
   {
@@ -1584,28 +1584,28 @@
     {
      "name": "工程造价",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 430
     },
     {
      "name": "建设工程管理(BIM技术应用方向)",
      "plan": 17,
-     "years": 3,
+     "years": "3",
      "tuition": 12000,
      "minScore": 436
     },
     {
      "name": "建筑工程技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 433
     },
     {
      "name": "智能建造技术",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 436
     }
@@ -1617,15 +1617,15 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongshang.html"
   },
   {
    "name": "昆玉职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)昆玉",
    "plan": 78,
    "minScore": 417,
    "subClasses": null,
@@ -1634,35 +1634,35 @@
     {
      "name": "宝玉石鉴定与加工",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 418
     },
     {
      "name": "建筑工程技术",
      "plan": 30,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 417
     },
     {
      "name": "矿山机电与智能装备",
      "plan": 16,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 426
     },
     {
      "name": "水利工程",
      "plan": 8,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 429
     },
     {
      "name": "无人机测绘技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 3300,
      "minScore": 452
     }
@@ -1674,45 +1674,45 @@
     3300
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/kunyu.html"
   },
   {
    "name": "图木舒克职业技术学院",
    "type": "公办",
-   "city": "新疆",
+   "city": "(新疆)图木舒克",
    "plan": 31,
    "minScore": 416,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "建筑智能化工程技术",
-     "plan": 11,
-     "years": 3,
-     "tuition": 3300,
-     "minScore": 416
-    },
-    {
      "name": "应急救援技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 7800,
      "minScore": 428
+    },
+    {
+     "name": "建筑智能化工程技术",
+     "plan": 11,
+     "years": "3",
+     "tuition": 3300,
+     "minScore": 416
     }
    ],
-   "programNames": "建筑智能化工程技术、应急救援技术",
+   "programNames": "应急救援技术、建筑智能化工程技术",
    "programsComplete": true,
    "tuitionRange": [
     3300,
     7800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tumushuke.html"
   },
   {
@@ -1727,14 +1727,14 @@
     {
      "name": "工程造价",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 411
     },
     {
      "name": "无人机测绘技术",
      "plan": 20,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 430
     }
@@ -1746,9 +1746,9 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzchengshijingji.html"
   },
   {
@@ -1761,44 +1761,44 @@
    "programCount": 4,
    "programs": [
     {
+     "name": "建筑设计",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 421
+    },
+    {
+     "name": "建筑工程技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13000,
+     "minScore": 417
+    },
+    {
      "name": "工程造价",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 13000,
      "minScore": 410
     },
     {
      "name": "建设工程管理",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 10140,
      "minScore": 425
-    },
-    {
-     "name": "建筑工程技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 417
-    },
-    {
-     "name": "建筑设计",
-     "plan": 20,
-     "years": 3,
-     "tuition": 13000,
-     "minScore": 421
     }
    ],
-   "programNames": "工程造价、建设工程管理、建筑工程技术、建筑设计",
+   "programNames": "建筑设计、建筑工程技术、工程造价、建设工程管理",
    "programsComplete": true,
    "tuitionRange": [
     10140,
     13000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzligong.html"
   },
   {
@@ -1811,30 +1811,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "工程造价",
-     "plan": 15,
-     "years": 3,
-     "tuition": 14800,
-     "minScore": 407
-    },
-    {
      "name": "建筑室内设计",
      "plan": 25,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 404
+    },
+    {
+     "name": "工程造价",
+     "plan": 15,
+     "years": "3",
+     "tuition": 14800,
+     "minScore": 407
     }
    ],
-   "programNames": "工程造价、建筑室内设计",
+   "programNames": "建筑室内设计、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     14800,
     15800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzgongcheng.html"
   },
   {
@@ -1849,35 +1849,35 @@
     {
      "name": "工程测量技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 408
     },
     {
-     "name": "工程造价",
-     "plan": 20,
-     "years": 3,
-     "tuition": 15000,
-     "minScore": 404
-    },
-    {
      "name": "建筑工程技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15000,
      "minScore": 403
+    },
+    {
+     "name": "工程造价",
+     "plan": 20,
+     "years": "3",
+     "tuition": 15000,
+     "minScore": 404
     }
    ],
-   "programNames": "工程测量技术、工程造价、建筑工程技术",
+   "programNames": "工程测量技术、建筑工程技术、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     15000,
     15000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzkeji.html"
   },
   {
@@ -1890,30 +1890,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "绿色低碳技术",
-     "plan": 20,
-     "years": 3,
-     "tuition": 13800,
-     "minScore": 396
-    },
-    {
      "name": "资源综合利用技术",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 398
+    },
+    {
+     "name": "绿色低碳技术",
+     "plan": 20,
+     "years": "3",
+     "tuition": 13800,
+     "minScore": 396
     }
    ],
-   "programNames": "绿色低碳技术、资源综合利用技术",
+   "programNames": "资源综合利用技术、绿色低碳技术",
    "programsComplete": false,
    "tuitionRange": [
     12800,
     13800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtxinnengyuan.html"
   },
   {
@@ -1928,7 +1928,7 @@
     {
      "name": "无人机测绘技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 12800,
      "minScore": 380
     }
@@ -1940,9 +1940,9 @@
     12800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/xtyingyong.html"
   },
   {
@@ -1957,28 +1957,28 @@
     {
      "name": "工程造价",
      "plan": 40,
-     "years": 3,
+     "years": "3",
      "tuition": 12900,
      "minScore": 402
     },
     {
      "name": "建筑室内设计",
      "plan": 51,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 390
     },
     {
      "name": "无人机测绘技术",
      "plan": 54,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 388
     },
     {
      "name": "智能建造技术",
      "plan": 54,
-     "years": 3,
+     "years": "3",
      "tuition": 13900,
      "minScore": 379
     }
@@ -1990,9 +1990,9 @@
     13900
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzcaijing.html"
   },
   {
@@ -2050,7 +2050,7 @@
     {
      "name": "建筑工程技术(中外合作办学)",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 20000,
      "minScore": 376
     }
@@ -2062,9 +2062,9 @@
     20000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/zjkzhiyejishu.html"
   },
   {
@@ -2127,30 +2127,30 @@
    "programCount": 2,
    "programs": [
     {
-     "name": "工程测量技术",
-     "plan": 10,
-     "years": 3,
-     "tuition": 17800,
-     "minScore": 366
-    },
-    {
      "name": "现代物业管理",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 15800,
      "minScore": 374
+    },
+    {
+     "name": "工程测量技术",
+     "plan": 10,
+     "years": "3",
+     "tuition": 17800,
+     "minScore": 366
     }
    ],
-   "programNames": "工程测量技术、现代物业管理",
+   "programNames": "现代物业管理、工程测量技术",
    "programsComplete": true,
    "tuitionRange": [
     15800,
     17800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjznonglin.html"
   },
   {
@@ -2201,28 +2201,28 @@
     {
      "name": "工程测量技术",
      "plan": 11,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 360
     },
     {
      "name": "工程造价",
      "plan": 14,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 360
     },
     {
      "name": "建设工程管理",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 15500,
      "minScore": 360
     },
     {
      "name": "建设工程监理",
      "plan": 13,
-     "years": 3,
+     "years": "3",
      "tuition": 17500,
      "minScore": 355
     }
@@ -2234,9 +2234,9 @@
     17500
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/sjzjingji.html"
   },
   {
@@ -2251,7 +2251,7 @@
     {
      "name": "环境监测技术",
      "plan": 80,
-     "years": 3,
+     "years": "3",
      "tuition": 16800,
      "minScore": 354
     }
@@ -2263,9 +2263,9 @@
     16800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tshaiyun.html"
   },
   {
@@ -2280,7 +2280,7 @@
     {
      "name": "无人机测绘技术",
      "plan": 100,
-     "years": 3,
+     "years": "3",
      "tuition": 17800,
      "minScore": 353
     }
@@ -2292,9 +2292,9 @@
     17800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/tianjinbinhai.html"
   },
   {
@@ -2329,57 +2329,57 @@
   {
    "name": "河北外国语学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 48,
    "minScore": 350,
    "subClasses": null,
    "programCount": 4,
    "programs": [
     {
+     "name": "古建筑工程技术",
+     "plan": 11,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 350
+    },
+    {
      "name": "工程测量技术",
      "plan": 10,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 351
     },
     {
-     "name": "工程造价",
-     "plan": 15,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 353
-    },
-    {
-     "name": "古建筑工程技术",
-     "plan": 11,
-     "years": 3,
-     "tuition": 16250,
-     "minScore": 350
-    },
-    {
      "name": "建筑设计(中外土木工程设计)",
      "plan": 12,
-     "years": 3,
+     "years": "3",
      "tuition": 16250,
      "minScore": 350
+    },
+    {
+     "name": "工程造价",
+     "plan": 15,
+     "years": "3",
+     "tuition": 16250,
+     "minScore": 353
     }
    ],
-   "programNames": "工程测量技术、工程造价、古建筑工程技术、建筑设计(中外土木工程设计)",
+   "programNames": "古建筑工程技术、工程测量技术、建筑设计(中外土木工程设计)、工程造价",
    "programsComplete": true,
    "tuitionRange": [
     16250,
     16250
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbwaiguoyu.html"
   },
   {
    "name": "燕京理工学院",
    "type": "民办",
-   "city": "其他",
+   "city": "廊坊",
    "plan": 96,
    "minScore": 347,
    "subClasses": null,
@@ -2388,71 +2388,71 @@
     {
      "name": "工程造价",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 347
     },
     {
-     "name": "环境工程技术",
-     "plan": 18,
-     "years": 3,
-     "tuition": 19800,
-     "minScore": 351
-    },
-    {
      "name": "建设工程管理",
      "plan": 18,
-     "years": 3,
+     "years": "3",
      "tuition": 19800,
      "minScore": 355
+    },
+    {
+     "name": "环境工程技术",
+     "plan": 18,
+     "years": "3",
+     "tuition": 19800,
+     "minScore": 351
     }
    ],
-   "programNames": "工程造价、环境工程技术、建设工程管理",
+   "programNames": "工程造价、建设工程管理、环境工程技术",
    "programsComplete": true,
    "tuitionRange": [
     19800,
     19800
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/yanjingligong.html"
   },
   {
    "name": "河北美术学院",
    "type": "民办",
-   "city": "其他",
+   "city": "石家庄",
    "plan": 100,
    "minScore": 330,
    "subClasses": null,
    "programCount": 2,
    "programs": [
     {
-     "name": "建筑室内设计",
-     "plan": 40,
-     "years": 3,
-     "tuition": 30000,
-     "minScore": 332
-    },
-    {
      "name": "无人机测绘技术",
      "plan": 60,
-     "years": 3,
+     "years": "3",
      "tuition": 30000,
      "minScore": 330
+    },
+    {
+     "name": "建筑室内设计",
+     "plan": 40,
+     "years": "3",
+     "tuition": 30000,
+     "minScore": 332
     }
    ],
-   "programNames": "建筑室内设计、无人机测绘技术",
+   "programNames": "无人机测绘技术、建筑室内设计",
    "programsComplete": true,
    "tuitionRange": [
     30000,
     30000
    ],
    "years": [
-    3
+    "3"
    ],
-   "source": "repo-fallback",
+   "source": "school-page",
    "url": "https://hbdzxx.com/school/hbmeishu.html"
   }
  ],
@@ -2461,13 +2461,27 @@
    "kind": "文化素质",
    "subject": "语文 + 数学",
    "full": "300 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试一类(语文)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10915.html"
+    },
+    {
+     "label": "2026年考试一类(数学)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10922.html"
+    }
+   ]
   },
   {
    "kind": "职业技能",
    "subject": "信息技术、职业适应性测试",
    "full": "450 分",
-   "syllabus": []
+   "syllabus": [
+    {
+     "label": "2026年考试一类(职业技能)考试大纲",
+     "url": "https://www.hbdzxx.com/news/2026/10930.html"
+    }
+   ]
   }
  ]
 }
