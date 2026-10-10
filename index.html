@@ -128,7 +128,10 @@ a:hover{color:var(--accent)}
 }
 .iconbtn:hover{border-color:var(--border-2);background:var(--surface-2)}
 .iconbtn:active{transform:scale(.97)}
-.iconbtn.feedback{text-decoration:none}
+.iconbtn.feedback{text-decoration:none;padding:0 10px}
+.iconbtn .ico{display:block;flex-shrink:0}
+.iconbtn.feedback:hover .ico{transform:translateY(-1px)}
+.iconbtn .ico{transition:transform .16s ease}
 
 /* ---------- Hero ---------- */
 .hero{padding:26px 0 18px;text-align:center}
@@ -339,7 +342,14 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
     <button class="iconbtn" id="themeToggle" type="button" aria-label="切换深色/浅色模式" title="切换深色/浅色模式">
       <span id="themeIcon">🌙</span><span id="themeText">深色</span>
     </button>
-    <a class="iconbtn feedback" id="feedbackTop" href="mailto:2932944216@qq.com" title="邮件反馈">反馈</a>
+    <a class="iconbtn feedback" id="feedbackTop" href="mailto:2932944216@qq.com"
+       data-u="2932944216" data-d="qq.com" aria-label="反馈（发送邮件）" title="反馈 · 发送邮件">
+      <svg class="ico" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor"
+        stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        <line x1="8" y1="9.5" x2="16" y2="9.5"/><line x1="8" y1="13.5" x2="13" y2="13.5"/>
+      </svg>
+    </a>
   </div>
 </div>
 
@@ -444,7 +454,7 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
   <footer class="site">
     <div class="flinks">
       <a href="javascript:void(0)" onclick="openDisclaimer(true)">免责声明</a>
-      <a href="mailto:2932944216@qq.com">反馈：2932944216@qq.com</a>
+      <a href="mailto:2932944216@qq.com" data-u="2932944216" data-d="qq.com">反馈：2932944216@qq.com</a>
       <a href="https://hbdzxx.com/" target="_blank" rel="noopener nofollow">院校数据 hbdzxx.com</a>
       <a href="https://gzdz.hebeea.edu.cn/hebdz/" target="_blank" rel="noopener nofollow">大纲来源 河北省教育考试院</a>
     </div>
@@ -874,7 +884,7 @@ async function loadSyllabus(){
     meta = await r.json();
     renderSyllabus();
     $('pillFetched').textContent = '数据抓取：' + (meta.fetchedAt || '—');
-    $('footMeta').textContent = `数据整理时间：${meta.fetchedAt || '—'} · 覆盖 ${meta.schoolCount ?? '—'} 所院校 / ${meta.entryCount ?? '—'} 条“考试类 × 院校”记录 · 校验：招生计划一致率 ${meta.planAgree ?? '—'}，投档分一致率 ${meta.scoreAgree ?? '—'}`;
+    $('footMeta').textContent = `数据整理时间：${meta.fetchedAt || '—'} · 覆盖 ${meta.schoolCount ?? '—'} 所院校 / ${meta.entryCount ?? '—'} 条“考试类 × 院校”记录 / ${meta.majorRows ?? '—'} 条专业明细 · 与官方院校页逐专业汇总的自洽率 ${meta.selfConsistentRate ?? '—'}（${meta.selfConsistentCount ?? '—'}）`;
   } catch (err){
     $('syllabusGrid').innerHTML = `<div class="state"><span class="em">⚠️</span>大纲数据加载失败：${esc(err.message)}</div>`;
   }
@@ -921,8 +931,17 @@ function renderSyllabus(){
 /* ============================================================
    启动
    ============================================================ */
+// 部分 CDN（如 Cloudflare 的 Email Obfuscation）会把 mailto 改写成 /cdn-cgi/l/email-protection，
+// 这里用拆分的 data 属性把真实地址还原回来，确保反馈入口始终可用。
+function restoreMailto(){
+  document.querySelectorAll('a[data-u][data-d]').forEach(a => {
+    a.setAttribute('href', 'mailto:' + a.dataset.u + '@' + a.dataset.d);
+  });
+}
+
 function boot(){
   initTheme();
+  restoreMailto();
   renderCategoryChips();
   loadCategory();
   loadSyllabus();

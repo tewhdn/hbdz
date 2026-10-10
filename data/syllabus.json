@@ -18,8 +18,9 @@
  "schoolCount": 153,
  "entryCount": 753,
  "detailCompleteRate": "99.7%",
- "planAgree": "97.8%",
- "scoreAgree": "98.5%",
+ "selfConsistentRate": "99.7%",
+ "selfConsistentCount": "751/753",
+ "majorRows": 2785,
  "categories": [
   {
    "id": "1",
