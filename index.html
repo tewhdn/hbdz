@@ -322,29 +322,14 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
 
 
 /* ===================================================================
-   液态玻璃皮肤（可切换：data-skin="solid" | "glass"）
-   思路取自 Apple Liquid Glass 的四层结构：模糊 → 边缘高光 → 内部透光 → 噪声去带
-   只作用于「浮层与控件」，内容卡片保持实色，保证长列表可读性与滚动帧率
+   外观皮肤：实色 / 液态玻璃
+   玻璃效果由开源库 @dpawlikowski/liquid-glass (MIT) 提供，本区块只做两件事：
+     1) 与本站主题对接（把配色映射到库的 --lg-* 变量）
+     2) 玻璃模式下才可见的极光背景（玻璃需要有东西可折射）
+   库文件：assets/liquid-glass/  见 assets/README.md
    =================================================================== */
 
-/* 每主题的边缘/透光参数 */
-:root{
-  --g-blur:20px; --g-sat:180%; --g-bright:1.06;
-  --g-rim:rgba(255,255,255,.62);      /* 上边缘镜面高光 */
-  --g-rim-in:rgba(255,255,255,.16);   /* 内圈描边 */
-  --g-sheen:.30;                      /* 顶部斜向光泽强度 */
-  --g-shadow:0 8px 32px rgba(16,22,54,.13);
-  --g-surface:58%;                    /* 玻璃面板的透明度 */
-}
-html[data-theme="dark"]{
-  --g-rim:rgba(255,255,255,.18);
-  --g-rim-in:rgba(255,255,255,.07);
-  --g-sheen:.10;
-  --g-shadow:0 8px 32px rgba(0,0,0,.45);
-  --g-surface:52%;
-}
-
-/* 极光背景：玻璃要有东西可折射才像玻璃，实色模式下完全隐藏 */
+/* —— 极光背景：只在玻璃模式显示，实色模式零开销 —— */
 .bg-aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
   opacity:0;transition:opacity .5s ease}
 html[data-skin="glass"] .bg-aurora{opacity:1}
@@ -361,68 +346,38 @@ html[data-theme="dark"] .bg-aurora i{opacity:.34}
 @keyframes auC{0%,100%{transform:translate3d(0,0,0) scale(.98)}50%{transform:translate3d(4vmax,-5vmax,0) scale(1.1)}}
 @media (prefers-reduced-motion:reduce){.bg-aurora i{animation:none}}
 
-/* —— 通用玻璃面 —— */
-@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
-  html[data-skin="glass"] .topbar,
-  html[data-skin="glass"] .panel,
-  html[data-skin="glass"] .stats,
-  html[data-skin="glass"] .modal{
-    -webkit-backdrop-filter:blur(var(--g-blur)) saturate(var(--g-sat)) brightness(var(--g-bright));
-    backdrop-filter:blur(var(--g-blur)) saturate(var(--g-sat)) brightness(var(--g-bright));
-  }
+/* —— 主题对接：把本站配色映射到库的变量（--lg-* 由 liquid-glass.css 定义）—— */
+html[data-skin="glass"]{
+  --lg-blur:14px;
+  --lg-saturate:180%;
+  --lg-opacity:.30;               /* 白色 tint 浓度，越大越“奶” */
+  --lg-tint:255 255 255;
+  --lg-radius:16px;
+  --lg-border-opacity:.52;
+  --lg-shadow:0 10px 34px rgba(16,22,54,.16);
+  --lg-edge-red:rgb(255 120 150 / .30);
+  --lg-edge-cyan:rgb(90 220 255 / .28);
 }
-html[data-skin="glass"] .topbar,
-html[data-skin="glass"] .panel,
-html[data-skin="glass"] .stats,
-html[data-skin="glass"] .modal{
-  position:relative;
-  background:color-mix(in srgb,var(--surface) var(--g-surface),transparent);
-  border-color:var(--g-rim-in);
-  box-shadow:inset 0 1px 0 var(--g-rim), inset 0 0 0 1px var(--g-rim-in), var(--g-shadow);
+html[data-skin="glass"][data-theme="dark"]{
+  --lg-tint:150 185 235;          /* 深色下用冷调 tint，纯白会发灰 */
+  --lg-opacity:.22;
+  --lg-border-opacity:.22;
+  --lg-shadow:0 10px 34px rgba(0,0,0,.55);
+  --lg-edge-red:rgb(255 130 160 / .16);
+  --lg-edge-cyan:rgb(110 220 255 / .14);
 }
-/* 顶部斜向光泽（Liquid Glass 的 specular sheen） */
-html[data-skin="glass"] .topbar::before,
-html[data-skin="glass"] .panel::before,
-html[data-skin="glass"] .modal::before{
-  content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;
-  background:linear-gradient(155deg,rgba(255,255,255,var(--g-sheen)) 0%,rgba(255,255,255,0) 42%);
+/* 库默认的 --lg-filter 指向它自己的 filter id，这里改指向我们注入的两个 */
+html[data-skin="glass"] .liquid-glass{--lg-filter:url("#lg-static")}
+/* 顶栏是唯一带动画折射的“hero 面”；其余面用静态折射（作者对密集界面的建议） */
+html[data-skin="glass"] .topbar.liquid-glass{
+  --lg-filter:url("#lg-anim"); --lg-blur:16px; --lg-radius:0 0 18px 18px; --lg-opacity:.26;
 }
-/* 极细噪声，消除大面积模糊的色带 */
-html[data-skin="glass"] .topbar::after,
-html[data-skin="glass"] .panel::after,
-html[data-skin="glass"] .modal::after{
-  content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;
-  opacity:.035;mix-blend-mode:overlay;
-  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-html[data-skin="glass"] .panel > *,html[data-skin="glass"] .modal > *,
-html[data-skin="glass"] .stats > *,
-html[data-skin="glass"] .topbar-in{position:relative;z-index:1}
-
-/* —— 控件玻璃化（不叠加 backdrop-filter，避免多层模糊拖慢滚动）—— */
-html[data-skin="glass"] .iconbtn,
-html[data-skin="glass"] .chip,
-html[data-skin="glass"] .mode{
-  background:color-mix(in srgb,var(--surface) 46%,transparent);
-  border-color:var(--g-rim-in);
-  box-shadow:inset 0 1px 0 var(--g-rim),0 2px 10px rgba(16,22,54,.07);
-}
-html[data-skin="glass"] .chip[aria-pressed="true"],
-html[data-skin="glass"] .mode[aria-pressed="true"]{
-  background:color-mix(in srgb,var(--accent) 78%,transparent);
-  border-color:color-mix(in srgb,var(--accent) 55%,transparent);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 3px 14px color-mix(in srgb,var(--accent) 35%,transparent);
-}
-html[data-skin="glass"] .card,
-html[data-skin="glass"] .syl{background:color-mix(in srgb,var(--surface) 82%,transparent);box-shadow:var(--shadow-sm)}
-
-/* 不支持 backdrop-filter 时退回更实的底色，保证文字对比度不塌 */
-@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
-  html[data-skin="glass"] .topbar,
-  html[data-skin="glass"] .panel,
-  html[data-skin="glass"] .stats,
-  html[data-skin="glass"] .modal{background:color-mix(in srgb,var(--surface) 94%,transparent)}
-}
+html[data-skin="glass"] .panel.liquid-glass{--lg-blur:12px; --lg-radius:16px}
+html[data-skin="glass"] .stats.liquid-glass{--lg-blur:10px; --lg-radius:14px; --lg-opacity:.26}
+html[data-skin="glass"] .modal.liquid-glass{--lg-blur:18px; --lg-radius:18px; --lg-opacity:.42}
+/* 玻璃面板里的控件保持实色，保证小字号对比度 */
+html[data-skin="glass"] .card,html[data-skin="glass"] .syl{
+  background:color-mix(in srgb,var(--surface) 88%,transparent)}
 
 @media (max-width:640px){
   html{font-size:15.5px}
@@ -445,6 +400,8 @@ html[data-skin="glass"] .syl{background:color-mix(in srgb,var(--surface) 82%,tra
 }
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 </style>
+<!-- 开源库：liquid glass 折射（@dpawlikowski/liquid-glass, MIT） -->
+<link rel="stylesheet" href="assets/liquid-glass/liquid-glass.css">
 </head>
 <body>
 
@@ -633,6 +590,7 @@ html[data-skin="glass"] .syl{background:color-mix(in srgb,var(--surface) 82%,tra
   </div>
 </div>
 
+<script src="assets/liquid-glass/liquid-glass.js"></script>
 <script>
 /* ============================================================
    配置
@@ -708,10 +666,61 @@ $('themeToggle').addEventListener('click', () => {
 
 /* ============================================================
    外观皮肤：实色 / 液态玻璃
+   玻璃部分调用开源库 LiquidGlass（@dpawlikowski/liquid-glass, MIT）
+   —— 折射由库的 SVG 滤镜完成，这里只负责挂载/卸载与滤镜注入
    ============================================================ */
+const GLASS_TARGETS = '.topbar, .panel, .stats, .modal';
+let lgFilterReady = false;
+
+// 注入两个滤镜：顶栏用带动画的（唯一 hero 面），其余用静态的（密集界面更省）
+function initGlassFilters(){
+  if (lgFilterReady || !window.LiquidGlass) return;
+  window.LiquidGlass.injectLiquidGlassFilter({
+    id: 'lg-anim', baseFrequency: 0.008, numOctaves: 2, scale: 15, duration: '9s'
+  });
+  window.LiquidGlass.injectLiquidGlassFilter({
+    id: 'lg-static', baseFrequency: 0.010, numOctaves: 2, scale: 12, animate: false
+  });
+  lgFilterReady = true;
+}
+
+// 把库需要的 DOM 结构套到已有元素上：<span __refraction> + <div __content>
+function mountGlass(el){
+  if (el.dataset.lgMounted === '1') return;
+  el.dataset.lgMounted = '1';
+  const content = document.createElement('div');
+  content.className = 'liquid-glass__content';
+  while (el.firstChild) content.appendChild(el.firstChild);
+  const refraction = document.createElement('span');
+  refraction.className = 'liquid-glass__refraction';
+  refraction.setAttribute('aria-hidden', 'true');
+  el.appendChild(refraction);
+  el.appendChild(content);
+  el.classList.add('liquid-glass');
+}
+function unmountGlass(el){
+  if (el.dataset.lgMounted !== '1') return;
+  delete el.dataset.lgMounted;
+  const content = el.querySelector(':scope > .liquid-glass__content');
+  if (content){
+    while (content.firstChild) el.insertBefore(content.firstChild, content);
+    content.remove();
+  }
+  el.querySelectorAll(':scope > .liquid-glass__refraction').forEach(n => n.remove());
+  el.classList.remove('liquid-glass');
+}
+
 function applySkin(skin, persist){
   const glass = skin === 'glass';
   document.documentElement.setAttribute('data-skin', glass ? 'glass' : 'solid');
+  if (glass) {
+    initGlassFilters();
+    if (window.LiquidGlass){
+      document.querySelectorAll(GLASS_TARGETS).forEach(mountGlass);
+    }
+  } else {
+    document.querySelectorAll(GLASS_TARGETS).forEach(unmountGlass);
+  }
   const path = $('skinIconPath');
   // 玻璃模式把水滴填实，直观表示“已开启”
   if (path) path.setAttribute('fill', glass ? 'currentColor' : 'none');
