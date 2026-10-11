@@ -14,7 +14,11 @@
 | 院校卡片 | 一所院校一行，同校不同专业已合并；可展开查看每个专业的计划人数与投档分 |
 | 筛选 | 考试类 / 办学性质（公办·民办）/ 城市 / 关键字搜索 / 隐藏“不推荐” |
 | 昼夜切换 | 顶栏按钮切换深色·浅色，跟随系统初始值并记忆选择 |
-| 外观皮肤 | 顶栏水滴按钮在「实色 / 液态玻璃」间切换并记忆。玻璃折射由开源库 [@dpawlikowski/liquid-glass](https://github.com/dpawlikowski/liquid-glass)（MIT）提供，只作用于顶栏、筛选面板、统计条与弹窗；内容卡片保持实色，兼顾长列表可读性与滚动帧率。详见 [assets/README.md](assets/README.md) |
+| 外观皮肤 | 顶栏水滴按钮在「实色 / 液态玻璃」间切换并记忆。玻璃折射由开源库 [@dpawlikowski/liquid-glass](https://github.com/dpawlikowski/liquid-glass)（MIT）提供 |
+| 网格渐变背景 | 玻璃模式下由 [@mesh-gradient/core](https://github.com/mikhailmogilnikov/mesh-gradient)（MIT）渲染 WebGL 实时网格渐变；无 WebGL 时退回静态 CSS 渐变 |
+| 数字滚动 | 玻璃模式下院校投档分由 [number-flow](https://github.com/barvian/number-flow)（MIT）滚动到位；按视野逐个升级，不做全量动画 |
+
+> 以上三套开源库的版本、许可与打包/接入方式见 [assets/README.md](assets/README.md)
 | 考试类与大纲 | 1~10 类的科目构成、2026 录取控制线、大纲原文链接与要点 |
 | 免责声明 | 首次进入弹窗，**滚动到底部后**“同意”按钮才由灰色变为绿色可点击 |
 | 反馈 | 顶栏与页脚均有 `mailto:2932944216@qq.com` 入口 |
@@ -29,6 +33,8 @@ data/syllabus.json      1~10 类大纲、控制线、计算机补充资料、数
 assets/pico.min.css     开源样式基座 Pico CSS v2.1.1（MIT）
 assets/pico.LICENSE     其许可证
 assets/liquid-glass/    液态玻璃折射库 @dpawlikowski/liquid-glass v0.3.0（MIT）
+assets/mesh-gradient/   WebGL 网格渐变 @mesh-gradient/core v2.0.2（MIT）
+assets/number-flow/     数字滚动 number-flow v0.6.2（MIT）
 assets/README.md        第三方资源与数据来源说明（含打包/接入方式）
 DATA-NOTES.md           数据口径、校验报告、已知差异、大纲年份问题
 ```

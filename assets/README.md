@@ -29,6 +29,41 @@
     依据是上游 `docs/performance.md` 的建议：密集界面用静态玻璃，动画折射只留一两个 hero 面。
   - 配色通过覆盖 `--lg-*` 变量与本站主题对接，见 `index.html` 内的「外观皮肤」区块。
 
+## @mesh-gradient/core v2.0.2（WebGL 网格渐变背景）
+- 文件：`mesh-gradient/mesh-gradient.js`
+- 项目：https://github.com/mikhailmogilnikov/mesh-gradient ｜ npm：`@mesh-gradient/core`
+- 许可：MIT License（见 `mesh-gradient/LICENSE.md`）
+- 用途：玻璃模式下的背景场景，SwiftUI MeshGradient 的 Web 移植，WebGL 实时渲染。
+- 本站的接入方式：
+  - `mesh-gradient.js` 为 esbuild 打包的单文件 IIFE（上游为 ESM）：
+    ```sh
+    npx esbuild node_modules/@mesh-gradient/core/dist/index.mjs \
+      --bundle --format=iife --global-name=MeshGradientLib --minify \
+      --outfile=assets/mesh-gradient/mesh-gradient.js
+    ```
+  - 参数按手机端取舍：`targetFps:24`（背景渐变不需要 60 帧）、`pixelRatio:1`（柔和渐变不需要
+    高分屏锐度，省掉一半以上像素）、`animationSpeed:.55`、`reducedMotion:'auto'`。
+  - 初始化前用上游的 `MeshGradient.isSupported()` 探测 WebGL；不支持则画布留空，
+    由 `.bg-scene` 的静态 CSS 网格渐变兜底。切回实色时调用 `destroy()` 释放 WebGL 资源。
+
+## number-flow v0.6.2（投档分数字滚动）
+- 文件：`number-flow/number-flow.js`
+- 项目：https://github.com/barvian/number-flow ｜ npm：`number-flow`
+- 许可：MIT License（见 `number-flow/LICENSE.md`）
+- 用途：玻璃模式下把院校投档分渲染成 `<number-flow>`，数字滚动到位。
+- 本站的接入方式：
+  - 同为 esbuild 打包的单文件 IIFE（上游依赖 `esm-env`，已一并打包）：
+    ```sh
+    npx esbuild node_modules/number-flow/dist/index.mjs \
+      --bundle --format=iife --global-name=NumberFlowLib --minify \
+      --outfile=assets/number-flow/number-flow.js
+    ```
+  - **不做一次性全量升级**：96 张卡同时滚会卡，改为 IntersectionObserver 按视野逐个升级
+    （`rootMargin:160px`），滚动到哪张滚哪张。
+  - 该库的 `value` 是只读属性，必须用 `update(v)`；Shadow DOM 在首次 `update()` 时才建立，
+    因此先 `update(0)` 再于下一帧 `update(真值)` 才会产生滚动动画。
+  - 字号/字重/颜色靠继承穿透 Shadow DOM，滚动遮罩宽度用其 `--number-flow-mask-*` 变量微调。
+
 ## 数据来源
 - 院校、专业、招生计划、2026 投档最低分：抓取自 https://hbdzxx.com （河北单招网）公开页面。
 - 考试类科目与考试大纲：河北省教育考试院及各牵头院校发布的 2026 年官方考试说明。

@@ -218,6 +218,8 @@ input:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--a
 .tag.sub{background:var(--accent-soft);color:var(--accent);border-color:var(--border);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
 .score-big{text-align:right;flex-shrink:0}
 .score-big .v{font-size:1.35rem;font-weight:800;color:var(--text);line-height:1.1}
+/* number-flow 用 Shadow DOM，字号/字重/颜色靠继承穿透，滚动遮罩宽度用它的 CSS 变量调 */
+.score-big .v number-flow{--number-flow-mask-height:.18em;--number-flow-mask-width:.28em}
 .score-big .l{font-size:.66rem;color:var(--text-3)}
 
 .verdict{margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
@@ -329,24 +331,21 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
    库文件：assets/liquid-glass/  见 assets/README.md
    =================================================================== */
 
-/* —— 极光背景：只在玻璃模式显示，实色模式零开销 —— */
-.bg-aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
-  opacity:0;transition:opacity .5s ease}
-html[data-skin="glass"] .bg-aurora{opacity:1}
-/* 不用 filter:blur() —— 径向渐变本身已经是软过渡，
-   而大半径模糊被 transform 动画带着走时，部分引擎会每帧重新栅格化，代价很高 */
-.bg-aurora i{position:absolute;display:block;border-radius:50%;opacity:.5;transform:translateZ(0)}
-.bg-aurora i:nth-child(1){width:56vmax;height:56vmax;left:-16vmax;top:-18vmax;
-  background:radial-gradient(circle at 35% 35%,#7c8cff,#8b5cf6 45%,transparent 76%);animation:auA 26s ease-in-out infinite}
-.bg-aurora i:nth-child(2){width:48vmax;height:48vmax;right:-18vmax;top:22vmax;
-  background:radial-gradient(circle at 40% 40%,#34d3ee,#0ea5e9 45%,transparent 76%);animation:auB 32s ease-in-out infinite}
-.bg-aurora i:nth-child(3){width:44vmax;height:44vmax;left:16vmax;bottom:-20vmax;
-  background:radial-gradient(circle at 50% 50%,#f472b6,#fb7185 45%,transparent 76%);animation:auC 29s ease-in-out infinite}
-html[data-theme="dark"] .bg-aurora i{opacity:.34}
-@keyframes auA{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(6vmax,4vmax,0) scale(1.12)}}
-@keyframes auB{0%,100%{transform:translate3d(0,0,0) scale(1.05)}50%{transform:translate3d(-5vmax,6vmax,0) scale(.94)}}
-@keyframes auC{0%,100%{transform:translate3d(0,0,0) scale(.98)}50%{transform:translate3d(4vmax,-5vmax,0) scale(1.1)}}
-@media (prefers-reduced-motion:reduce){.bg-aurora i{animation:none}}
+/* —— 玻璃模式的背景场景 ——
+   正常情况下由 assets/mesh-gradient 的 WebGL 网格渐变绘制到画布上；
+   若浏览器不支持 WebGL，画布为空，下面这层静态 CSS 网格渐变兜底，观感不至于塌掉。 */
+.bg-scene{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
+  opacity:0;transition:opacity .5s ease;
+  background:
+    radial-gradient(58% 52% at 16% 20%, #8b5cf6 0%, rgba(139,92,246,0) 62%),
+    radial-gradient(54% 50% at 84% 28%, #0ea5e9 0%, rgba(14,165,233,0) 64%),
+    radial-gradient(58% 54% at 38% 88%, #fb7185 0%, rgba(251,113,133,0) 64%),
+    radial-gradient(50% 46% at 78% 78%, #7c8cff 0%, rgba(124,140,255,0) 66%),
+    var(--bg);}
+html[data-skin="glass"] .bg-scene{opacity:1}
+/* 深色下压暗，避免亮底把文字对比度拉低 */
+html[data-skin="glass"][data-theme="dark"] .bg-scene{opacity:.5}
+#bgMesh{display:block;width:100%;height:100%;border:0}
 
 /* —— 主题对接：把本站配色映射到库的变量（--lg-* 由 liquid-glass.css 定义）—— */
 html[data-skin="glass"]{
@@ -444,8 +443,9 @@ html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
 </head>
 <body>
 
-<!-- 液态玻璃模式下可见的极光背景：玻璃需要有东西可折射 -->
-<div class="bg-aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<!-- 玻璃模式下的背景：WebGL 网格渐变（MeshGradient 库渲染到这张画布）。
+     无 WebGL 时画布保持空白，由 .bg-scene 的静态 CSS 网格渐变兜底。 -->
+<div class="bg-scene" aria-hidden="true"><canvas id="bgMesh"></canvas></div>
 
 <!-- ================= 顶栏 ================= -->
 <div class="topbar">
@@ -630,6 +630,10 @@ html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
 </div>
 
 <script src="assets/liquid-glass/liquid-glass.js"></script>
+<!-- 开源库：WebGL 网格渐变（@mesh-gradient/core, MIT） -->
+<script src="assets/mesh-gradient/mesh-gradient.js"></script>
+<!-- 开源库：数字滚动（number-flow, MIT） -->
+<script src="assets/number-flow/number-flow.js"></script>
 <script>
 /* ============================================================
    配置
@@ -741,6 +745,88 @@ function glassifyDynamic(root){
   if (document.documentElement.getAttribute('data-skin') !== 'glass') return;
   (root || document).querySelectorAll('.card, .syl').forEach(el => mountGlass(el, true));
 }
+/* ============================================================
+   玻璃模式专属效果 1：WebGL 网格渐变背景
+   库：@mesh-gradient/core (MIT) —— 无 WebGL 时画布留空，由 .bg-scene 的静态渐变兜底
+   ============================================================ */
+const MESH_COLORS = ['#8b5cf6', '#0ea5e9', '#fb7185', '#7c8cff'];
+let meshInstance = null;
+
+function initMesh(){
+  if (meshInstance || !window.MeshGradientLib) return;
+  const { MeshGradient } = window.MeshGradientLib;
+  if (!MeshGradient || typeof MeshGradient.isSupported !== 'function' || !MeshGradient.isSupported()) return;
+  try {
+    meshInstance = new MeshGradient().init('#bgMesh', {
+      colors: MESH_COLORS,
+      animationSpeed: .55,        // 背景要“慢慢流动”，太快会抢内容
+      targetFps: 24,              // 渐变不需要 60 帧；上游默认也是 30 帧节奏
+      pixelRatio: 1,              // 柔和渐变不需要高分屏锐度，直接省掉一半以上像素
+      pauseOnOutsideViewport: true,
+      reducedMotion: 'auto',      // 系统开了“减弱动态效果”就自动转静态
+      onError: () => { meshInstance = null; },
+    });
+  } catch(e) { meshInstance = null; }
+}
+function destroyMesh(){
+  if (!meshInstance) return;
+  try { meshInstance.destroy(); } catch(e){}
+  meshInstance = null;
+}
+
+/* ============================================================
+   玻璃模式专属效果 2：投档分数字滚动
+   库：number-flow (MIT) —— Shadow DOM 自定义元素 <number-flow>
+   不做全量升级：96 张卡一起滚会卡，改为进入视野才升级，滚动时逐个滚到位
+   ============================================================ */
+const scoreObserver = ('IntersectionObserver' in window)
+  ? new IntersectionObserver((entries) => {
+      entries.forEach(en => {
+        if (!en.isIntersecting) return;
+        scoreObserver.unobserve(en.target);
+        upgradeScore(en.target);
+      });
+    }, { rootMargin: '160px 0px' })
+  : null;
+
+function upgradeScore(el){
+  if (!scoreObserver || el.dataset.nfDone === '1') return;
+  const v = parseInt(el.dataset.score, 10);
+  if (!Number.isFinite(v)) return;
+  el.dataset.nfDone = '1';
+  const nf = document.createElement('number-flow');
+  el.textContent = '';
+  el.appendChild(nf);
+  // 注意：number-flow 的 value 是只读属性，必须用 update()；
+  // 且它的 Shadow DOM 在首次 update() 时才建立 —— 所以先渲染 0，下一帧再滚到真值
+  try {
+    nf.update(0);
+  } catch(e) {
+    el.textContent = String(v);          // 库不可用时退回纯文本
+    delete el.dataset.nfDone;
+    return;
+  }
+  requestAnimationFrame(() => { try { nf.update(v); } catch(e){} });
+}
+function observeScores(root){
+  if (!scoreObserver) return;
+  (root || document).querySelectorAll('.score-big .v[data-score]').forEach(el => {
+    if (el.dataset.nfDone === '1' || el.dataset.nfObs === '1') return;
+    el.dataset.nfObs = '1';
+    scoreObserver.observe(el);
+  });
+}
+function downgradeScores(root){
+  (root || document).querySelectorAll('.score-big .v').forEach(el => {
+    scoreObserver && scoreObserver.unobserve(el);
+    delete el.dataset.nfObs;
+    if (el.dataset.nfDone === '1'){
+      el.textContent = el.dataset.score == null ? '—' : el.dataset.score;
+      delete el.dataset.nfDone;
+    }
+  });
+}
+
 function applySkin(skin, persist){
   const glass = skin === 'glass';
   document.documentElement.setAttribute('data-skin', glass ? 'glass' : 'solid');
@@ -749,8 +835,12 @@ function applySkin(skin, persist){
     document.querySelectorAll(GLASS_REAL).forEach(el => mountGlass(el, false));
     document.querySelectorAll(GLASS_CHEAP).forEach(el => mountGlass(el, true));
     glassifyDynamic(document);            // 卡片 / 大纲卡
+    initMesh();                           // 效果 1：网格渐变背景
+    observeScores(document);              // 效果 2：分数数字滚动
   } else {
     document.querySelectorAll('.liquid-glass').forEach(unmountGlass);
+    destroyMesh();                        // 停掉 WebGL 渲染并释放资源
+    downgradeScores(document);            // 分数退回纯文本
   }
   const path = $('skinIconPath');
   // 玻璃模式把水滴填实，直观表示“已开启”
@@ -1057,7 +1147,7 @@ function cardHtml(s, idx){
         <div class="tags">${tags}</div>
       </div>
       <div class="score-big">
-        <div class="v num">${s.minScore == null ? '—' : s.minScore}</div>
+        <div class="v num"${s.minScore == null ? '' : ` data-score="${s.minScore}"`}>${s.minScore == null ? '—' : s.minScore}</div>
         <div class="l">2026投档最低分</div>
       </div>
     </div>
@@ -1085,6 +1175,7 @@ function renderCards(rows){
   el.innerHTML = top.map(cardHtml).join('') +
     (rows.length > top.length ? `<div class="state">仅显示前 ${top.length} 所，请用搜索或筛选缩小范围</div>` : '');
   glassifyDynamic(el);
+  if (document.documentElement.getAttribute('data-skin') === 'glass') observeScores(el);
 }
 
 /* ============================================================
