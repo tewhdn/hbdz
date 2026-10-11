@@ -333,13 +333,15 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
 .bg-aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
   opacity:0;transition:opacity .5s ease}
 html[data-skin="glass"] .bg-aurora{opacity:1}
-.bg-aurora i{position:absolute;display:block;border-radius:50%;filter:blur(28px);opacity:.5;transform:translateZ(0)}
+/* 不用 filter:blur() —— 径向渐变本身已经是软过渡，
+   而大半径模糊被 transform 动画带着走时，部分引擎会每帧重新栅格化，代价很高 */
+.bg-aurora i{position:absolute;display:block;border-radius:50%;opacity:.5;transform:translateZ(0)}
 .bg-aurora i:nth-child(1){width:56vmax;height:56vmax;left:-16vmax;top:-18vmax;
-  background:radial-gradient(circle at 35% 35%,#7c8cff,#8b5cf6 55%,transparent 72%);animation:auA 26s ease-in-out infinite}
+  background:radial-gradient(circle at 35% 35%,#7c8cff,#8b5cf6 45%,transparent 76%);animation:auA 26s ease-in-out infinite}
 .bg-aurora i:nth-child(2){width:48vmax;height:48vmax;right:-18vmax;top:22vmax;
-  background:radial-gradient(circle at 40% 40%,#34d3ee,#0ea5e9 55%,transparent 72%);animation:auB 32s ease-in-out infinite}
+  background:radial-gradient(circle at 40% 40%,#34d3ee,#0ea5e9 45%,transparent 76%);animation:auB 32s ease-in-out infinite}
 .bg-aurora i:nth-child(3){width:44vmax;height:44vmax;left:16vmax;bottom:-20vmax;
-  background:radial-gradient(circle at 50% 50%,#f472b6,#fb7185 55%,transparent 72%);animation:auC 29s ease-in-out infinite}
+  background:radial-gradient(circle at 50% 50%,#f472b6,#fb7185 45%,transparent 76%);animation:auC 29s ease-in-out infinite}
 html[data-theme="dark"] .bg-aurora i{opacity:.34}
 @keyframes auA{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(6vmax,4vmax,0) scale(1.12)}}
 @keyframes auB{0%,100%{transform:translate3d(0,0,0) scale(1.05)}50%{transform:translate3d(-5vmax,6vmax,0) scale(.94)}}
@@ -350,53 +352,71 @@ html[data-theme="dark"] .bg-aurora i{opacity:.34}
 html[data-skin="glass"]{
   --lg-blur:14px;
   --lg-saturate:180%;
-  --lg-opacity:.30;               /* 白色 tint 浓度，越大越“奶” */
+  --lg-opacity:.26;               /* 白色 tint 浓度，越大越“奶”；调低＝更透＝玻璃感更强 */
   --lg-tint:255 255 255;
   --lg-radius:16px;
-  --lg-border-opacity:.52;
+  --lg-border-opacity:.66;        /* 清晰的玻璃边 */
   --lg-shadow:0 10px 34px rgba(16,22,54,.16);
-  --lg-edge-red:rgb(255 120 150 / .30);
-  --lg-edge-cyan:rgb(90 220 255 / .28);
+  --lg-edge-red:rgb(255 92 128 / .58);    /* 左侧红色散 */
+  --lg-edge-cyan:rgb(60 214 255 / .52);   /* 右侧青色散 */
 }
 html[data-skin="glass"][data-theme="dark"]{
   --lg-tint:150 185 235;          /* 深色下用冷调 tint，纯白会发灰 */
   --lg-opacity:.22;
-  --lg-border-opacity:.22;
+  --lg-border-opacity:.30;
   --lg-shadow:0 10px 34px rgba(0,0,0,.55);
-  --lg-edge-red:rgb(255 130 160 / .16);
-  --lg-edge-cyan:rgb(110 220 255 / .14);
+  --lg-edge-red:rgb(255 120 160 / .26);
+  --lg-edge-cyan:rgb(110 225 255 / .24);
 }
 /* 库默认的 --lg-filter 指向它自己的 filter id，这里改指向我们注入的两个 */
 html[data-skin="glass"] .liquid-glass{--lg-filter:url("#lg-static")}
 /* 顶栏是唯一带动画折射的“hero 面”；其余面用静态折射（作者对密集界面的建议） */
 html[data-skin="glass"] .topbar.liquid-glass{
-  --lg-filter:url("#lg-anim"); --lg-blur:16px; --lg-radius:0 0 18px 18px; --lg-opacity:.26;
+  --lg-filter:url("#lg-static"); --lg-blur:12px; --lg-radius:0 0 18px 18px; --lg-opacity:.24;
 }
-html[data-skin="glass"] .panel.liquid-glass{--lg-blur:12px; --lg-radius:16px}
-html[data-skin="glass"] .stats.liquid-glass{--lg-blur:10px; --lg-radius:14px; --lg-opacity:.26}
-html[data-skin="glass"] .modal.liquid-glass{--lg-blur:18px; --lg-radius:18px; --lg-opacity:.42}
-/* —— 全站玻璃化：内容卡片与大纲卡片 ——
-   卡片用「霜面玻璃」（blur + tint + 边缘高光），不挂位移折射：
-   一屏 6~8 张卡每帧各跑一次 feTurbulence 会明显掉帧，
-   上游 docs/performance.md 同样建议密集界面用轻量玻璃。 */
-html[data-skin="glass"] .card.liquid-glass,
-html[data-skin="glass"] .syl.liquid-glass{
-  --lg-blur:10px; --lg-radius:14px; --lg-opacity:.62; --lg-border-opacity:.38;
-  --lg-shadow:0 6px 22px rgba(16,22,54,.10);
-}
-html[data-skin="glass"][data-theme="dark"] .card.liquid-glass,
-html[data-skin="glass"][data-theme="dark"] .syl.liquid-glass{
-  --lg-opacity:.50; --lg-border-opacity:.20;
-  --lg-shadow:0 6px 22px rgba(0,0,0,.42);
-}
-/* 霜面：只模糊，不做位移折射 */
+html[data-skin="glass"] .panel.liquid-glass{--lg-radius:16px}
+html[data-skin="glass"] .stats.liquid-glass{--lg-radius:14px}
+html[data-skin="glass"] .modal.liquid-glass{--lg-blur:16px; --lg-radius:18px; --lg-opacity:.40}
+/* —— 全站玻璃化：成本分层 ——
+   只有「顶栏」和「免责弹窗」保留 backdrop-filter（它们背后是真的有内容在动：卡片/滚动内容）；
+   面板、统计条、卡片、大纲卡一律不滤背景——这些元素背后只有那层 28px 模糊的极光渐变色，
+   滤与不滤肉眼无差别，但省掉了每帧上百次背景重采样。 */
 html[data-skin="glass"] .liquid-glass--frost{
-  -webkit-backdrop-filter:blur(var(--lg-blur)) saturate(var(--lg-saturate));
-          backdrop-filter:blur(var(--lg-blur)) saturate(var(--lg-saturate));
+  -webkit-backdrop-filter:none;
+          backdrop-filter:none;
 }
+/* 卡片的色散高光改用普通叠加：96 个元素各走一次 mix-blend 太贵 */
+html[data-skin="glass"] .liquid-glass--frost::after{
+  mix-blend-mode:normal;
+  opacity:.95;
+}
+
 /* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层：
    卡片每次筛选都会整体重渲染，包 DOM 既无必要也有开销 */
 html[data-skin="glass"] .liquid-glass > *{position:relative;z-index:2}
+
+/* —— 视觉强化：靠光学特征而不是靠滤镜（更透 + 更亮的边 + 更强的色散，见上方变量）—— */
+/* 卡片：背景是柔和渐变，透明度可以更低＝更像玻璃，同时靠 tint 保住文字对比度 */
+html[data-skin="glass"] .card.liquid-glass,
+html[data-skin="glass"] .syl.liquid-glass{
+  --lg-blur:0px; --lg-radius:14px;
+  --lg-opacity:.30;                 /* 浅色：白色奶膜 30%，背景透出 70% */
+  --lg-shadow:0 6px 22px rgba(16,22,54,.13);
+}
+/* 浅色卡片：为了文字对比度，底色用纯白 tint 叠在浅色页面上 */
+html[data-skin="glass"][data-theme="light"] .card.liquid-glass,
+html[data-skin="glass"][data-theme="light"] .syl.liquid-glass{
+  --lg-tint:255 255 255; --lg-opacity:.44;
+}
+/* 深色卡片：改用深色 tint，避免白字压在中灰面上 */
+html[data-skin="glass"][data-theme="dark"] .card.liquid-glass,
+html[data-skin="glass"][data-theme="dark"] .syl.liquid-glass{
+  --lg-tint:12 18 30; --lg-opacity:.66;
+}
+/* 顶栏是唯一的「真折射面」：静态位移滤镜 + 糊化，省掉动画噪声 */
+html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
+  --lg-blur:12px;
+}
 
 @media (max-width:640px){
   html{font-size:15.5px}
@@ -688,17 +708,20 @@ $('themeToggle').addEventListener('click', () => {
    玻璃部分调用开源库 LiquidGlass（@dpawlikowski/liquid-glass, MIT）
    —— 折射由库的 SVG 滤镜完成，这里只负责挂载/卸载与滤镜注入
    ============================================================ */
-const GLASS_TARGETS = '.topbar, .panel, .stats, .modal';   // 固定玻璃面；卡片另由 glassifyDynamic 处理
+// 真玻璃：背后确实有滚动内容/遮罩，值得每帧滤背景 —— 只有 2 个，面积也小
+const GLASS_REAL  = '.topbar, .modal';
+// 轻量玻璃：背后只有那层柔和渐变，不滤背景也看不出差别 —— 用来覆盖数量多的元素
+const GLASS_CHEAP = '.panel, .stats';
 let lgFilterReady = false;
 
-// 注入两个滤镜：顶栏用带动画的（唯一 hero 面），其余用静态的（密集界面更省）
+// 只注入一个「静态」滤镜。
+// 上游默认会动画 baseFrequency，但那等于每帧重新生成一次分形噪声、完全无法缓存，
+// 是这套效果里最贵的一项；而 Liquid Glass 的“流动感”本就来自玻璃后面滚动的真实内容，
+// 不靠自身抖动，所以这里关掉动画。
 function initGlassFilters(){
   if (lgFilterReady || !window.LiquidGlass) return;
   window.LiquidGlass.injectLiquidGlassFilter({
-    id: 'lg-anim', baseFrequency: 0.008, numOctaves: 2, scale: 15, duration: '9s'
-  });
-  window.LiquidGlass.injectLiquidGlassFilter({
-    id: 'lg-static', baseFrequency: 0.010, numOctaves: 2, scale: 12, animate: false
+    id: 'lg-static', baseFrequency: 0.010, numOctaves: 2, scale: 14, animate: false
   });
   lgFilterReady = true;
 }
@@ -723,10 +746,11 @@ function applySkin(skin, persist){
   document.documentElement.setAttribute('data-skin', glass ? 'glass' : 'solid');
   if (glass) {
     initGlassFilters();
-    document.querySelectorAll(GLASS_TARGETS).forEach(el => mountGlass(el, false));
-    if (window.LiquidGlass) glassifyDynamic(document);
+    document.querySelectorAll(GLASS_REAL).forEach(el => mountGlass(el, false));
+    document.querySelectorAll(GLASS_CHEAP).forEach(el => mountGlass(el, true));
+    glassifyDynamic(document);            // 卡片 / 大纲卡
   } else {
-    document.querySelectorAll(GLASS_TARGETS + ', .liquid-glass').forEach(unmountGlass);
+    document.querySelectorAll('.liquid-glass').forEach(unmountGlass);
   }
   const path = $('skinIconPath');
   // 玻璃模式把水滴填实，直观表示“已开启”
