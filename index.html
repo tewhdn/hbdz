@@ -133,6 +133,14 @@ a:hover{color:var(--accent)}
 .iconbtn:active{transform:scale(.97)}
 .iconbtn.feedback{text-decoration:none;padding:0 10px}
 .iconbtn.theme-btn{padding:0 10px}
+.iconbtn.donate{text-decoration:none;padding:0 10px}
+.iconbtn.donate:hover{color:#e0457b;border-color:rgba(224,69,123,.45);background:var(--surface-2)}
+html[data-theme="dark"] .iconbtn.donate:hover{color:#ff7aa8;border-color:rgba(255,122,168,.5)}
+/* 窄屏下顶栏有三个图标按钮：品牌名可收缩截断，副标题让位，保证按钮永不被挤出屏幕 */
+.brand{min-width:0;flex-shrink:1}
+.brand>span:last-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar-in>.iconbtn{flex:0 0 auto}
+@media (max-width:390px){.brand small{display:none}}
 .iconbtn .ico{display:block;flex-shrink:0}
 .iconbtn.feedback:hover .ico{transform:translateY(-1px)}
 .iconbtn .ico{transition:transform .16s ease}
@@ -357,6 +365,14 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
         <line x1="8" y1="9.5" x2="16" y2="9.5"/><line x1="8" y1="13.5" x2="13" y2="13.5"/>
       </svg>
     </a>
+
+    <a class="iconbtn donate" id="donateTop" href="https://zanzhu.shandiana.cn/" target="_blank" rel="noopener"
+       aria-label="赞助支持（在新窗口打开）" title="赞助支持">
+      <svg class="ico" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor"
+           stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </svg>
+    </a>
   </div>
 </div>
 
@@ -464,6 +480,7 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
       <a href="mailto:2932944216@qq.com" data-u="2932944216" data-d="qq.com">反馈：2932944216@qq.com</a>
       <a href="https://hbdzxx.com/" target="_blank" rel="noopener nofollow">院校数据 hbdzxx.com</a>
       <a href="https://gzdz.hebeea.edu.cn/hebdz/" target="_blank" rel="noopener nofollow">大纲来源 河北省教育考试院</a>
+      <a href="https://zanzhu.shandiana.cn/" target="_blank" rel="noopener">❤ 赞助支持</a>
     </div>
     <p>院校与投档数据抓取自 hbdzxx.com，为第三方整理结果；考试类科目与大纲来自河北省教育考试院及各牵头院校发布的官方考试说明。本站数据仅供参考，招生政策、计划与分数线以河北省教育考试院及各院校官方发布为准。</p>
     <p>本站与 hbdzxx.com、河北省教育考试院及各招生院校均无隶属、合作或代理关系。</p>
