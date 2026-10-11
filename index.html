@@ -375,9 +375,28 @@ html[data-skin="glass"] .topbar.liquid-glass{
 html[data-skin="glass"] .panel.liquid-glass{--lg-blur:12px; --lg-radius:16px}
 html[data-skin="glass"] .stats.liquid-glass{--lg-blur:10px; --lg-radius:14px; --lg-opacity:.26}
 html[data-skin="glass"] .modal.liquid-glass{--lg-blur:18px; --lg-radius:18px; --lg-opacity:.42}
-/* 玻璃面板里的控件保持实色，保证小字号对比度 */
-html[data-skin="glass"] .card,html[data-skin="glass"] .syl{
-  background:color-mix(in srgb,var(--surface) 88%,transparent)}
+/* —— 全站玻璃化：内容卡片与大纲卡片 ——
+   卡片用「霜面玻璃」（blur + tint + 边缘高光），不挂位移折射：
+   一屏 6~8 张卡每帧各跑一次 feTurbulence 会明显掉帧，
+   上游 docs/performance.md 同样建议密集界面用轻量玻璃。 */
+html[data-skin="glass"] .card.liquid-glass,
+html[data-skin="glass"] .syl.liquid-glass{
+  --lg-blur:10px; --lg-radius:14px; --lg-opacity:.62; --lg-border-opacity:.38;
+  --lg-shadow:0 6px 22px rgba(16,22,54,.10);
+}
+html[data-skin="glass"][data-theme="dark"] .card.liquid-glass,
+html[data-skin="glass"][data-theme="dark"] .syl.liquid-glass{
+  --lg-opacity:.50; --lg-border-opacity:.20;
+  --lg-shadow:0 6px 22px rgba(0,0,0,.42);
+}
+/* 霜面：只模糊，不做位移折射 */
+html[data-skin="glass"] .liquid-glass--frost{
+  -webkit-backdrop-filter:blur(var(--lg-blur)) saturate(var(--lg-saturate));
+          backdrop-filter:blur(var(--lg-blur)) saturate(var(--lg-saturate));
+}
+/* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层：
+   卡片每次筛选都会整体重渲染，包 DOM 既无必要也有开销 */
+html[data-skin="glass"] .liquid-glass > *{position:relative;z-index:2}
 
 @media (max-width:640px){
   html{font-size:15.5px}
@@ -669,7 +688,7 @@ $('themeToggle').addEventListener('click', () => {
    玻璃部分调用开源库 LiquidGlass（@dpawlikowski/liquid-glass, MIT）
    —— 折射由库的 SVG 滤镜完成，这里只负责挂载/卸载与滤镜注入
    ============================================================ */
-const GLASS_TARGETS = '.topbar, .panel, .stats, .modal';
+const GLASS_TARGETS = '.topbar, .panel, .stats, .modal';   // 固定玻璃面；卡片另由 glassifyDynamic 处理
 let lgFilterReady = false;
 
 // 注入两个滤镜：顶栏用带动画的（唯一 hero 面），其余用静态的（密集界面更省）
@@ -684,42 +703,30 @@ function initGlassFilters(){
   lgFilterReady = true;
 }
 
-// 把库需要的 DOM 结构套到已有元素上：<span __refraction> + <div __content>
-function mountGlass(el){
-  if (el.dataset.lgMounted === '1') return;
-  el.dataset.lgMounted = '1';
-  const content = document.createElement('div');
-  content.className = 'liquid-glass__content';
-  while (el.firstChild) content.appendChild(el.firstChild);
-  const refraction = document.createElement('span');
-  refraction.className = 'liquid-glass__refraction';
-  refraction.setAttribute('aria-hidden', 'true');
-  el.appendChild(refraction);
-  el.appendChild(content);
+// 挂载玻璃：库的视觉全部由 .liquid-glass 类驱动，
+// 内容层级用 CSS 的 `.liquid-glass > *` 提升，不改动 DOM 结构
+function mountGlass(el, frost){
+  if (el.classList.contains('liquid-glass')) return;
   el.classList.add('liquid-glass');
+  if (frost) el.classList.add('liquid-glass--frost');
 }
 function unmountGlass(el){
-  if (el.dataset.lgMounted !== '1') return;
-  delete el.dataset.lgMounted;
-  const content = el.querySelector(':scope > .liquid-glass__content');
-  if (content){
-    while (content.firstChild) el.insertBefore(content.firstChild, content);
-    content.remove();
-  }
-  el.querySelectorAll(':scope > .liquid-glass__refraction').forEach(n => n.remove());
-  el.classList.remove('liquid-glass');
+  el.classList.remove('liquid-glass', 'liquid-glass--frost');
 }
-
+// 卡片是重渲染出来的，每次渲染后需要重新挂
+function glassifyDynamic(root){
+  if (document.documentElement.getAttribute('data-skin') !== 'glass') return;
+  (root || document).querySelectorAll('.card, .syl').forEach(el => mountGlass(el, true));
+}
 function applySkin(skin, persist){
   const glass = skin === 'glass';
   document.documentElement.setAttribute('data-skin', glass ? 'glass' : 'solid');
   if (glass) {
     initGlassFilters();
-    if (window.LiquidGlass){
-      document.querySelectorAll(GLASS_TARGETS).forEach(mountGlass);
-    }
+    document.querySelectorAll(GLASS_TARGETS).forEach(el => mountGlass(el, false));
+    if (window.LiquidGlass) glassifyDynamic(document);
   } else {
-    document.querySelectorAll(GLASS_TARGETS).forEach(unmountGlass);
+    document.querySelectorAll(GLASS_TARGETS + ', .liquid-glass').forEach(unmountGlass);
   }
   const path = $('skinIconPath');
   // 玻璃模式把水滴填实，直观表示“已开启”
@@ -1053,6 +1060,7 @@ function renderCards(rows){
   const top = rows.slice(0, 120);
   el.innerHTML = top.map(cardHtml).join('') +
     (rows.length > top.length ? `<div class="state">仅显示前 ${top.length} 所，请用搜索或筛选缩小范围</div>` : '');
+  glassifyDynamic(el);
 }
 
 /* ============================================================
@@ -1107,6 +1115,7 @@ function renderSyllabus(){
       <summary><span class="n">💻 计算机大纲补充资料</span><span class="d">分值占比与教材清单（来自你提供的备考资料）</span></summary>
       <div class="body">${meta.computerNote}</div>
     </details>` : '');
+  glassifyDynamic($('syllabusGrid'));
 }
 
 /* ============================================================
