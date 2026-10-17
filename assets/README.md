@@ -78,6 +78,24 @@
   免去 sharedStrings，体积最小；数字列写成数值单元格，Excel 里可直接求和。
   若 fflate 缺失或生成失败，会自动回落到 CSV 导出。
 
+## edge-glass（边缘折射，**本站自写**，非第三方库）
+- 文件：`edge-glass/edge-glass.js`
+- 作用：让玻璃只在**边缘**发生折射，中心保持清晰 —— 这是液态玻璃最关键的一条，
+  也是之前用 `feTurbulence` 做全表面随机扭曲时"不像玻璃"的根本原因。
+- 做法：按圆角矩形 SDF 生成一张位移贴图（R/G 通道存位移向量），
+  以 `feImage` → `feDisplacementMap` 注入 SVG 滤镜，元素的 `--lg-filter` 指向它。
+  贴图按半径档位缓存（192×192），每个元素只多一次 `feDisplacementMap`。
+- 思路来源与致敬：
+  - 中文技术文章《HTML + CSS 实现 Liquid Glass 液态玻璃效果》：
+    https://juejin.cn/post/7514618352829448244
+    —— 其中「折射变形仅限于边缘部分，中间部分没有变形」是决定性的纠正；
+    该文还对比了 5 个开源方案，并指出 `github.com/shuding/liquid-glass` 的边缘折射最还原。
+  - shuding/liquid-glass（MIT）的 `roundedRectSDF` + 位移贴图做法：
+    https://github.com/shuding/liquid-glass
+  本文件为按上述原理重写，未直接拷贝其代码。
+- 降级：没有 canvas 2d / 贴图生成失败时不注入滤镜，退回 CSS 中的默认值，页面不受影响。
+  自适应降档到 1 时会自动去掉 `feDisplacementMap`（最贵的一环），只保留高斯模糊。
+
 ## 数据来源
 - 院校、专业、招生计划、2026 投档最低分：抓取自 https://hbdzxx.com （河北单招网）公开页面。
 - 考试类科目与考试大纲：河北省教育考试院及各牵头院校发布的 2026 年官方考试说明。

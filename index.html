@@ -445,8 +445,8 @@ html[data-skin="glass"] .modal.liquid-glass{--lg-blur:16px; --lg-radius:18px; --
    面板、统计条、卡片、大纲卡一律不滤背景——这些元素背后只有那层 28px 模糊的极光渐变色，
    滤与不滤肉眼无差别，但省掉了每帧上百次背景重采样。 */
 html[data-skin="glass"] .liquid-glass--frost{
-  -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-          backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+  -webkit-backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+          backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
 }
 /* 顶栏/弹窗在库的位移折射基础上，同样叠加明暗校准 */
 html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
@@ -523,6 +523,15 @@ html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
    0=满配  1=轻量（blur 减半）  2=保底（关掉背景滤镜，靠略高的 tint 保可读）
    =================================================================== */
 html[data-perf="1"]{--gf-blur:8px}
+/* 降档 1：去掉 SVG 位移滤镜（feDisplacementMap 最贵），只保留高斯模糊 */
+html[data-perf="1"] .liquid-glass--frost{
+  -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+          backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+}
+html[data-perf="1"] .liquid-glass:not(.liquid-glass--frost){
+  -webkit-backdrop-filter:blur(10px) saturate(160%) brightness(var(--gf-bright));
+          backdrop-filter:blur(10px) saturate(160%) brightness(var(--gf-bright));
+}
 html[data-perf="2"] .liquid-glass--frost{
   -webkit-backdrop-filter:none; backdrop-filter:none;
   --lg-opacity:.38;
@@ -779,6 +788,8 @@ html[data-perf="2"] .card{animation:none!important}
 <script src="assets/liquid-glass/liquid-glass.js"></script>
 <!-- 开源库：WebGL 网格渐变（@mesh-gradient/core, MIT） -->
 <script src="assets/mesh-gradient/mesh-gradient.js"></script>
+<!-- 本站自写的边缘折射贴图（按圆角矩形 SDF 生成位移图，替代 feTurbulence 的全身扭曲） -->
+<script src="assets/edge-glass/edge-glass.js"></script>
 <!-- 开源库：数字滚动（number-flow, MIT） -->
 <script src="assets/number-flow/number-flow.js"></script>
 <!-- 开源库：zip 压缩（fflate, MIT）—— 用于生成 .xlsx -->
@@ -872,7 +883,9 @@ let lgFilterReady = false;
 // 是这套效果里最贵的一项；而 Liquid Glass 的“流动感”本就来自玻璃后面滚动的真实内容，
 // 不靠自身抖动，所以这里关掉动画。
 function initGlassFilters(){
-  if (lgFilterReady || !window.LiquidGlass) return;
+  if (lgFilterReady) return;
+  if (window.EdgeGlass) window.EdgeGlass.init();   // 边缘折射贴图（自写）
+  if (!window.LiquidGlass) return;
   window.LiquidGlass.injectLiquidGlassFilter({
     id: 'lg-static', baseFrequency: 0.010, numOctaves: 2, scale: 14, animate: false
   });
@@ -882,12 +895,19 @@ function initGlassFilters(){
 // 挂载玻璃：库的视觉全部由 .liquid-glass 类驱动，
 // 内容层级用 CSS 的 `.liquid-glass > *` 提升，不改动 DOM 结构
 function mountGlass(el, frost){
-  if (el.classList.contains('liquid-glass')) return;
-  el.classList.add('liquid-glass');
-  if (frost) el.classList.add('liquid-glass--frost');
+  if (!el.classList.contains('liquid-glass')) {
+    el.classList.add('liquid-glass');
+    if (frost) el.classList.add('liquid-glass--frost');
+  }
+  // 边缘折射：细高的顶栏/统计条用小位移，卡片与面板用大位移
+  if (window.EdgeGlass){
+    const thin = el.matches('.topbar, .stats');
+    window.EdgeGlass.apply(el, thin ? 'sm' : 'lg');
+  }
 }
 function unmountGlass(el){
   el.classList.remove('liquid-glass', 'liquid-glass--frost');
+  if (window.EdgeGlass) window.EdgeGlass.remove(el);
 }
 // 卡片是重渲染出来的，每次渲染后需要重新挂
 function glassifyDynamic(root){

@@ -15,6 +15,7 @@
 | 筛选 | 考试类 / 办学性质（公办·民办）/ 城市 / 关键字搜索 / 隐藏“不推荐” |
 | 昼夜切换 | 顶栏按钮切换深色·浅色，跟随系统初始值并记忆选择 |
 | 外观皮肤 | **默认即全站液态玻璃**；顶栏水滴按钮可切回实色并记忆。玻璃折射由开源库 [@dpawlikowski/liquid-glass](https://github.com/dpawlikowski/liquid-glass)（MIT）提供。通透度靠 `brightness()` 校准而非奶白膜（tint 低至 .10~.12） |
+| 边缘折射 | 自写的 `assets/edge-glass`：按圆角矩形 SDF 生成位移贴图，折射只发生在玻璃**边缘**、中心不变形（思路来源见 [assets/README.md](assets/README.md)） |
 | 网格渐变背景 | 玻璃模式下由 [@mesh-gradient/core](https://github.com/mikhailmogilnikov/mesh-gradient)（MIT）渲染 WebGL 实时网格渐变；无 WebGL 时退回静态 CSS 渐变 |
 | 数字滚动 | 玻璃模式下院校投档分由 [number-flow](https://github.com/barvian/number-flow)（MIT）滚动到位；按视野逐个升级，不做全量动画 |
 | 选择院校 | 每张院校卡右下角「加入已选」，选择保存在本机 localStorage；底部浮动条可查看/导出/清空，跨考试类保留 |
