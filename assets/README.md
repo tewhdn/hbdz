@@ -64,6 +64,20 @@
     因此先 `update(0)` 再于下一帧 `update(真值)` 才会产生滚动动画。
   - 字号/字重/颜色靠继承穿透 Shadow DOM，滚动遮罩宽度用其 `--number-flow-mask-*` 变量微调。
 
+## fflate v0.8.3（zip 压缩，用于生成 .xlsx）
+- 文件：`fflate/fflate.js`
+- 项目：https://github.com/101arrowz/fflate ｜ npm：`fflate`
+- 许可：MIT License（见 `fflate/LICENSE`）
+- 用途：Excel 导出时把最小 OOXML 部件压成 .xlsx（zip 容器）。
+- 本站的接入方式：
+  ```sh
+  npx esbuild node_modules/fflate/esm/browser.js \
+    --bundle --format=iife --global-name=FFlate --minify --outfile=assets/fflate/fflate.js
+  ```
+  表格本身由 `index.html` 里的 `buildXlsx()` 手写生成（6 个必需 XML 部件），单元格用 `inlineStr`
+  免去 sharedStrings，体积最小；数字列写成数值单元格，Excel 里可直接求和。
+  若 fflate 缺失或生成失败，会自动回落到 CSV 导出。
+
 ## 数据来源
 - 院校、专业、招生计划、2026 投档最低分：抓取自 https://hbdzxx.com （河北单招网）公开页面。
 - 考试类科目与考试大纲：河北省教育考试院及各牵头院校发布的 2026 年官方考试说明。

@@ -398,7 +398,11 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
 html[data-skin="glass"] .bg-scene{opacity:1}
 /* 深色下压暗，避免亮底把文字对比度拉低 */
 html[data-skin="glass"][data-theme="dark"] .bg-scene{opacity:.5}
-#bgMesh{display:block;width:100%;height:100%;border:0}
+#bgMesh{display:block;width:100%;height:100%;border:0;filter:saturate(1.18)}
+/* 暗角：给玻璃边缘制造明暗对比，否则整屏一样亮会显得“平” */
+.bg-scene::after{content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(130% 95% at 50% 0%, transparent 42%, rgba(22,26,60,.22) 100%)}
+html[data-theme="dark"] .bg-scene::after{background:radial-gradient(130% 95% at 50% 0%, transparent 38%, rgba(0,0,0,.5) 100%)}
 
 /* —— 主题对接：把本站配色映射到库的变量（--lg-* 由 liquid-glass.css 定义）—— */
 html[data-skin="glass"]{
@@ -407,10 +411,10 @@ html[data-skin="glass"]{
      这样 tint 可以低到 .10~.14，肉眼就是“几乎全透的玻璃”。 */
   --gf-blur:14px;
   --gf-sat:170%;
-  --gf-bright:1.22;
+  --gf-bright:1.04;   /* 不再大幅提亮，留住背景颜色 */
   --lg-blur:14px;
   --lg-saturate:170%;
-  --lg-opacity:.12;
+  --lg-opacity:.18;
   --lg-tint:255 255 255;
   --lg-radius:16px;
   --lg-border-opacity:.55;
@@ -420,8 +424,8 @@ html[data-skin="glass"]{
 }
 html[data-skin="glass"][data-theme="dark"]{
   --lg-tint:150 185 235;          /* 深色下用冷调 tint，纯白会发灰 */
-  --gf-bright:.58;                /* 深色：把背景压暗，浅色字才立得住 */
-  --lg-opacity:.10;
+  --gf-bright:.78;                /* 深色：适度压暗，留住背景色彩 */
+  --lg-opacity:.16;
   --lg-border-opacity:.26;
   --lg-shadow:0 10px 34px rgba(0,0,0,.55);
   --lg-edge-red:rgb(255 120 160 / .26);
@@ -453,6 +457,38 @@ html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
 html[data-skin="glass"] .liquid-glass--frost::after{
   mix-blend-mode:normal;
   opacity:.95;
+}
+
+/* —— 拉满：在库的基础上补它没有的三样 ——
+   ① 极细噪点（消掉大面积模糊的塑料感）
+   ② 顶部高光带（玻璃受光的镜面反射）
+   ③ 更强的边缘色散与内阴影（真实玻璃的厚边） */
+html[data-skin="glass"] .liquid-glass{
+  background-image:
+    url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E"),
+    linear-gradient(var(--lg-sheen-angle),
+      rgb(var(--lg-tint) / .52) 0%,
+      rgb(var(--lg-tint) / .12) 34%,
+      rgb(var(--lg-tint) / .13) 62%,
+      rgb(var(--lg-tint) / .30) 100%);
+  background-blend-mode: overlay, normal;
+  background-size: 160px 160px, 100% 100%;
+}
+html[data-skin="glass"] .liquid-glass::after{
+  box-shadow:
+    inset 1.5px 0 var(--lg-edge-red),
+    inset -1.5px 0 var(--lg-edge-cyan),
+    inset 0 1.5px 0 rgb(255 255 255 / .78),
+    inset 0 -1px 0 rgb(255 255 255 / .22),
+    inset 0 -30px 46px rgb(255 255 255 / .10);
+}
+html[data-skin="glass"][data-theme="dark"] .liquid-glass::after{
+  box-shadow:
+    inset 1.5px 0 var(--lg-edge-red),
+    inset -1.5px 0 var(--lg-edge-cyan),
+    inset 0 1.5px 0 rgb(255 255 255 / .30),
+    inset 0 -1px 0 rgb(255 255 255 / .10),
+    inset 0 -30px 46px rgb(255 255 255 / .05);
 }
 
 /* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层：
@@ -629,7 +665,7 @@ html[data-perf="2"] .card{animation:none!important}
     <div class="row">
       <span class="row-label">排序</span>
       <div class="chips" id="sortChips">
-        <button class="chip" type="button" data-sort="nearest" aria-pressed="true">离我最近</button>
+        <button class="chip" type="button" data-sort="nearest" aria-pressed="true" title="先按判定分组（比较稳 → 可以冲 → 不推荐），组内离你的分数由近到远">匹配优先</button>
         <button class="chip" type="button" data-sort="score_desc" aria-pressed="false">投档分↓</button>
         <button class="chip" type="button" data-sort="score_asc" aria-pressed="false">投档分↑</button>
         <button class="chip" type="button" data-sort="name" aria-pressed="false">院校名称</button>
@@ -685,7 +721,7 @@ html[data-perf="2"] .card{animation:none!important}
   <div class="pickbar-in">
     <span class="pickbar-n">已选 <b id="pickCount">0</b> 所</span>
     <button class="pickbar-btn" type="button" id="pickViewBtn">查看</button>
-    <button class="pickbar-btn primary" type="button" id="pickExportBtn">导出 CSV</button>
+    <button class="pickbar-btn primary" type="button" id="pickExportBtn" title="导出为 Excel 表格">导出 Excel</button>
     <button class="pickbar-btn" type="button" id="pickClearBtn">清空</button>
   </div>
 </div>
@@ -700,9 +736,10 @@ html[data-perf="2"] .card{animation:none!important}
     <div class="scroll" id="pickList"></div>
     <footer>
       <div class="foot-row">
-        <span class="foot-hint" style="flex:1">导出为 CSV，可直接用 WPS / Excel 打开</span>
+        <span class="foot-hint" style="flex:1">Excel 直接用 WPS/Excel 打开，CSV 通用性更好</span>
         <button class="pickbar-btn" type="button" id="pickCloseBtn">关闭</button>
-        <button class="pickbar-btn primary" type="button" id="pickExportBtn2">导出 CSV</button>
+        <button class="pickbar-btn" type="button" id="pickExportBtn2">CSV</button>
+        <button class="pickbar-btn primary" type="button" id="pickXlsxBtn2">导出 Excel</button>
       </div>
     </footer>
   </div>
@@ -744,6 +781,8 @@ html[data-perf="2"] .card{animation:none!important}
 <script src="assets/mesh-gradient/mesh-gradient.js"></script>
 <!-- 开源库：数字滚动（number-flow, MIT） -->
 <script src="assets/number-flow/number-flow.js"></script>
+<!-- 开源库：zip 压缩（fflate, MIT）—— 用于生成 .xlsx -->
+<script src="assets/fflate/fflate.js"></script>
 <script>
 /* ============================================================
    配置
@@ -757,7 +796,7 @@ const SCORE_RULES = {
 const FEEDBACK_MAIL = '2932944216@qq.com';
 const NOTICE_KEY = 'hbdz_notice_2026_10_10';
 const THEME_KEY = 'hbdz_theme';
-const SKIN_KEY = 'hbdz_skin';   // 'solid' | 'glass'
+const SKIN_KEY = 'hbdz_skin_v2';   // 升版：之前存过 'solid' 的老访客也能拿到新的默认液态玻璃
 
 const EXAM_CATEGORIES = [
   {id:'1', name:'考试一类', desc:'土木建筑、资源环境与安全、水利等'},
@@ -859,7 +898,7 @@ function glassifyDynamic(root){
    玻璃模式专属效果 1：WebGL 网格渐变背景
    库：@mesh-gradient/core (MIT) —— 无 WebGL 时画布留空，由 .bg-scene 的静态渐变兜底
    ============================================================ */
-const MESH_COLORS = ['#8b5cf6', '#0ea5e9', '#fb7185', '#7c8cff'];
+const MESH_COLORS = ['#7c3aed', '#0891b2', '#f43f5e', '#4f46e5'];   // 更饱和，玻璃才有颜色可透
 let meshInstance = null;
 
 function initMesh(){
@@ -1091,8 +1130,8 @@ $('userScore').addEventListener('input', (e) => {
         .forEach(x => x.setAttribute('aria-pressed', String(x.dataset.sort === 'nearest')));
     }
     $('scoreHint').textContent = state.score > 0
-      ? `已按“离 ${state.score} 分最近”排序`
-      : '输入后自动按“离我最近”排序';
+      ? `已按匹配度排序：比较稳 → 可以冲 → 不推荐（组内离 ${state.score} 分最近优先）`
+      : '输入后自动按匹配度排序（比较稳优先）';
     $('verdictLegend').style.display = state.score > 0 ? 'flex' : 'none';
     apply();
     // 输完分数后把结果带回视野（避免用户还要手动找）
@@ -1187,9 +1226,15 @@ function apply(){
       case 'nearest':
       default: {
         if (!sc) return (bx ?? -1) - (ax ?? -1);
+        // 先按判定分档（比较稳 → 可以冲 → 不推荐），同档内再按距离由近到远。
+        // 只按距离排会出现「上一所不推荐、下一所比较稳」的倒挂：分数比投档线低 15 分
+        // 与高 20 分，距离是 15 与 20，但判定完全相反。
+        const rank = (v) => v ? (v.key === 'safe' ? 0 : v.key === 'rush' ? 1 : 2) : 3;
+        const ra = rank(verdict(sc, ax)), rb = rank(verdict(sc, bx));
+        if (ra !== rb) return ra - rb;
         const da = ax == null ? 1e6 : Math.abs(sc - ax);
         const db = bx == null ? 1e6 : Math.abs(sc - bx);
-        if (da !== db) return da - db;                 // 越接近越靠前
+        if (da !== db) return da - db;                 // 同档内越接近越靠前
         return (bx ?? -1) - (ax ?? -1);                // 同距离：分高的在前
       }
     }
@@ -1500,16 +1545,23 @@ function csvCell(v){
   const s = (v === null || v === undefined) ? '' : String(v);
   return /[",\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
 }
-function exportPicksCsv(){
+// 统一的导出数据源：CSV 与 Excel 共用，避免两处口径不一致
+function pickExportData(){
   const items = Object.values(picks);
-  if (!items.length){ toast('还没有选择院校'); return; }
   const head = ['考试类', '院校', '办学性质', '城市', '2026计划总数', '2026投档最低分',
                 '专业数', '专业', '我的分数', '分差', '判定', '来源'];
   const rows = items.map(p => {
     const v = verdict(state.score, p.minScore);
-    return [p.categoryName || catLabel(p.category), p.name, p.type, p.city, p.plan, p.minScore, p.programCount,
-            p.programNames, state.score || '', v ? v.gap : '', v ? v.label : '', p.url];
+    return [p.categoryName || catLabel(p.category), p.name, p.type || '', p.city || '',
+            p.plan, p.minScore, p.programCount, p.programNames,
+            state.score || '', v ? v.gap : '', v ? v.label : '', p.url || ''];
   });
+  return { head, rows, n: items.length };
+}
+
+function exportPicksCsv(){
+  const { head, rows, n } = pickExportData();
+  if (!n){ toast('还没有选择院校'); return; }
   const csv = '\uFEFF' + [head, ...rows].map(r => r.map(csvCell).join(',')).join('\r\n');
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
@@ -1519,7 +1571,83 @@ function exportPicksCsv(){
   a.download = `河北单招-已选院校-${stamp}.csv`;
   document.body.appendChild(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-  toast(`已导出 ${items.length} 所院校`);
+  toast(`已导出 ${n} 所院校（CSV）`);
+}
+
+/* ---------- Excel(.xlsx) 导出 ----------
+   最小 OOXML：fflate(MIT) 打 zip，手写 5 个必需的 xml 部件。
+   单元格用 inlineStr，免去 sharedStrings，体积最小且 WPS/Excel 都能开。 */
+function xmlEsc(v){
+  return String(v === null || v === undefined ? '' : v)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&apos;')
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '');   // 去掉 XML 非法控制字符
+}
+function colLetter(n){
+  let s = '';
+  while (n > 0){ const m = (n - 1) % 26; s = String.fromCharCode(65 + m) + s; n = (n - m - 1) / 26; }
+  return s;
+}
+function buildXlsx(head, rows, sheetName){
+  const F = window.FFlate;
+  if (!F) throw new Error('fflate 未加载');
+  const cellXml = (ref, val, styleIdx) => {
+    const st = styleIdx ? ` s="${styleIdx}"` : '';
+    if (typeof val === 'number' && Number.isFinite(val)) return `<c r="${ref}"${st}><v>${val}</v></c>`;
+    return `<c r="${ref}"${st} t="inlineStr"><is><t xml:space="preserve">${xmlEsc(val)}</t></is></c>`;
+  };
+  let body = '<row r="1">' + head.map((h, i) => cellXml(colLetter(i + 1) + '1', h, 1)).join('') + '</row>';
+  rows.forEach((r, ri) => {
+    body += `<row r="${ri + 2}">` + r.map((v, ci) => cellXml(colLetter(ci + 1) + (ri + 2), v, 0)).join('') + '</row>';
+  });
+  const widths = head.map((h, i) =>
+    `<col min="${i + 1}" max="${i + 1}" width="${Math.max(11, Math.min(44, String(h).length * 2 + 8))}" customWidth="1"/>`).join('');
+  const sheet = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><cols>${widths}</cols><sheetData>${body}</sheetData></worksheet>`;
+  const styles = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+<fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Calibri"/></font></fonts>
+<fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF4F46E5"/><bgColor indexed="64"/></patternFill></fill></fills>
+<borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders>
+<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>
+<cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1"/></cellXfs>
+<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`;
+  const files = {
+    '[Content_Types].xml': `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>`,
+    '_rels/.rels': `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`,
+    'xl/workbook.xml': `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="${xmlEsc(sheetName)}" sheetId="1" r:id="rId1"/></sheets></workbook>`,
+    'xl/_rels/workbook.xml.rels': `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`,
+    'xl/styles.xml': styles,
+    'xl/worksheets/sheet1.xml': sheet,
+  };
+  const packed = {};
+  for (const k in files) packed[k] = F.strToU8(files[k]);
+  return F.zipSync(packed, { level: 6 });
+}
+function exportPicksXlsx(){
+  const { head, rows, n } = pickExportData();
+  if (!n){ toast('还没有选择院校'); return; }
+  let bytes;
+  try {
+    bytes = buildXlsx(head, rows, '已选院校');
+  } catch(e){
+    toast('Excel 生成失败，已改用 CSV');
+    exportPicksCsv();
+    return;
+  }
+  const blob = new Blob([bytes], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  const d = new Date();
+  const stamp = '' + d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
+  a.download = `河北单招-已选院校-${stamp}.xlsx`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  toast(`已导出 ${n} 所院校（Excel）`);
 }
 
 /* ---------- 已选面板开关 ---------- */
@@ -1534,7 +1662,8 @@ function closePickPanel(){
 }
 $('pickViewBtn').addEventListener('click', openPickPanel);
 $('pickCloseBtn').addEventListener('click', closePickPanel);
-$('pickExportBtn').addEventListener('click', exportPicksCsv);
+$('pickExportBtn').addEventListener('click', exportPicksXlsx);
+$('pickXlsxBtn2').addEventListener('click', exportPicksXlsx);
 $('pickExportBtn2').addEventListener('click', exportPicksCsv);
 $('pickClearBtn').addEventListener('click', () => {
   if (!pickCount()) return;
