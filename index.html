@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="light" data-skin="solid">
+<html lang="zh-CN" data-theme="light" data-skin="glass">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -281,6 +281,59 @@ table.mini td{color:var(--text)}
   animation:sp .8s linear infinite;margin:0 auto 12px}
 @keyframes sp{to{transform:rotate(360deg)}}
 
+/* ---------- 已选院校 ---------- */
+.card-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:9px;padding-top:8px;
+  border-top:1px dashed var(--border);flex-wrap:wrap}
+.card-actions .src{margin:0}
+.pick{appearance:none;cursor:pointer;font:inherit;font-size:.76rem;font-weight:700;display:inline-flex;align-items:center;gap:5px;
+  padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--surface-2);color:var(--text-2);
+  transition:all .18s ease;white-space:nowrap}
+.pick:hover{border-color:var(--accent);color:var(--accent)}
+.pick.is-on{background:var(--accent);border-color:var(--accent);color:#fff}
+html[data-theme="dark"] .pick.is-on{color:#0c1017}
+.pick svg{flex-shrink:0}
+.card.is-picked{border-color:color-mix(in srgb,var(--accent) 55%,transparent);
+  box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 35%,transparent),var(--shadow-sm)}
+
+.pickbar{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:8px 12px calc(8px + env(safe-area-inset-bottom));
+  display:flex;justify-content:center;pointer-events:none}
+.pickbar[hidden]{display:none}
+.pickbar-in{pointer-events:auto;display:flex;align-items:center;gap:8px;max-width:1080px;width:100%;
+  padding:8px 12px;border-radius:16px;border:1px solid var(--border);
+  background:color-mix(in srgb,var(--surface) 86%,transparent);
+  -webkit-backdrop-filter:blur(16px) saturate(160%);backdrop-filter:blur(16px) saturate(160%);
+  box-shadow:0 10px 30px rgba(16,22,54,.18)}
+html[data-theme="dark"] .pickbar-in{background:color-mix(in srgb,#141a26 84%,transparent);box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.pickbar-n{font-size:.82rem;color:var(--text-2);flex:1;min-width:0}
+.pickbar-n b{color:var(--accent);font-weight:800;font-size:.95rem}
+.pickbar-btn{appearance:none;cursor:pointer;font:inherit;font-size:.8rem;font-weight:700;padding:8px 14px;border-radius:11px;
+  border:1px solid var(--border);background:var(--surface);color:var(--text);white-space:nowrap;transition:all .16s}
+.pickbar-btn:hover{border-color:var(--accent);color:var(--accent)}
+.pickbar-btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 35%,transparent)}
+.pickbar-btn.primary:hover{filter:brightness(1.06);color:#fff}
+html[data-theme="dark"] .pickbar-btn.primary{color:#0c1017}
+body.has-pickbar{padding-bottom:76px}
+
+#pickMask .pick-modal{max-height:min(82vh,640px)}
+.pick-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border)}
+.pick-row:last-child{border-bottom:0}
+.pick-row .pi{flex:1;min-width:0}
+.pick-row .pn{font-size:.9rem;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick-row .pm{font-size:.73rem;color:var(--text-3);margin-top:2px}
+.pick-row .pv{font-size:.95rem;font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums}
+.pick-del{appearance:none;cursor:pointer;width:30px;height:30px;border-radius:9px;border:1px solid var(--border);
+  background:var(--surface-2);color:var(--text-3);font-size:1rem;line-height:1;display:grid;place-items:center;flex-shrink:0}
+.pick-del:hover{border-color:var(--bad);color:var(--bad)}
+.pick-empty{text-align:center;color:var(--text-3);font-size:.85rem;padding:34px 10px}
+
+/* ---------- 轻提示 ---------- */
+.lg-toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translate(-50%,10px);
+  z-index:200;padding:9px 16px;border-radius:12px;font-size:.82rem;font-weight:600;color:#fff;
+  background:rgba(20,24,40,.92);box-shadow:0 8px 26px rgba(0,0,0,.3);opacity:0;pointer-events:none;
+  transition:opacity .2s ease,transform .2s ease;max-width:86vw;text-align:center}
+.lg-toast.show{opacity:1;transform:translate(-50%,0)}
+html[data-perf="1"] #bgMesh,html[data-perf="2"] #bgMesh{display:none}
+
 /* ---------- 页脚 ---------- */
 footer.site{margin-top:28px;padding:20px 0 34px;border-top:1px solid var(--border);color:var(--text-3);font-size:.76rem;line-height:1.75}
 footer.site a{color:var(--text-2)}
@@ -349,20 +402,27 @@ html[data-skin="glass"][data-theme="dark"] .bg-scene{opacity:.5}
 
 /* —— 主题对接：把本站配色映射到库的变量（--lg-* 由 liquid-glass.css 定义）—— */
 html[data-skin="glass"]{
+  /* 通透度的关键不是“加奶白”，而是用 brightness 把背景校准到与文字极性一致：
+     浅色主题把背景提亮 → 深色字清楚；深色主题压暗 → 浅色字清楚。
+     这样 tint 可以低到 .10~.14，肉眼就是“几乎全透的玻璃”。 */
+  --gf-blur:14px;
+  --gf-sat:170%;
+  --gf-bright:1.22;
   --lg-blur:14px;
-  --lg-saturate:180%;
-  --lg-opacity:.26;               /* 白色 tint 浓度，越大越“奶”；调低＝更透＝玻璃感更强 */
+  --lg-saturate:170%;
+  --lg-opacity:.12;
   --lg-tint:255 255 255;
   --lg-radius:16px;
-  --lg-border-opacity:.66;        /* 清晰的玻璃边 */
-  --lg-shadow:0 10px 34px rgba(16,22,54,.16);
-  --lg-edge-red:rgb(255 92 128 / .58);    /* 左侧红色散 */
-  --lg-edge-cyan:rgb(60 214 255 / .52);   /* 右侧青色散 */
+  --lg-border-opacity:.55;
+  --lg-shadow:0 10px 34px rgba(16,22,54,.14);
+  --lg-edge-red:rgb(255 92 128 / .48);
+  --lg-edge-cyan:rgb(60 214 255 / .44);
 }
 html[data-skin="glass"][data-theme="dark"]{
   --lg-tint:150 185 235;          /* 深色下用冷调 tint，纯白会发灰 */
-  --lg-opacity:.22;
-  --lg-border-opacity:.30;
+  --gf-bright:.58;                /* 深色：把背景压暗，浅色字才立得住 */
+  --lg-opacity:.10;
+  --lg-border-opacity:.26;
   --lg-shadow:0 10px 34px rgba(0,0,0,.55);
   --lg-edge-red:rgb(255 120 160 / .26);
   --lg-edge-cyan:rgb(110 225 255 / .24);
@@ -381,8 +441,13 @@ html[data-skin="glass"] .modal.liquid-glass{--lg-blur:16px; --lg-radius:18px; --
    面板、统计条、卡片、大纲卡一律不滤背景——这些元素背后只有那层 28px 模糊的极光渐变色，
    滤与不滤肉眼无差别，但省掉了每帧上百次背景重采样。 */
 html[data-skin="glass"] .liquid-glass--frost{
-  -webkit-backdrop-filter:none;
-          backdrop-filter:none;
+  -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+          backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+}
+/* 顶栏/弹窗在库的位移折射基础上，同样叠加明暗校准 */
+html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
+  -webkit-backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+          backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
 }
 /* 卡片的色散高光改用普通叠加：96 个元素各走一次 mix-blend 太贵 */
 html[data-skin="glass"] .liquid-glass--frost::after{
@@ -405,17 +470,34 @@ html[data-skin="glass"] .syl.liquid-glass{
 /* 浅色卡片：为了文字对比度，底色用纯白 tint 叠在浅色页面上 */
 html[data-skin="glass"][data-theme="light"] .card.liquid-glass,
 html[data-skin="glass"][data-theme="light"] .syl.liquid-glass{
-  --lg-tint:255 255 255; --lg-opacity:.44;
+  --lg-tint:255 255 255; --lg-opacity:.10;
 }
 /* 深色卡片：改用深色 tint，避免白字压在中灰面上 */
 html[data-skin="glass"][data-theme="dark"] .card.liquid-glass,
 html[data-skin="glass"][data-theme="dark"] .syl.liquid-glass{
-  --lg-tint:12 18 30; --lg-opacity:.66;
+  --lg-tint:10 14 24; --lg-opacity:.16;
 }
 /* 顶栏是唯一的「真折射面」：静态位移滤镜 + 糊化，省掉动画噪声 */
 html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
   --lg-blur:12px;
 }
+
+/* ===================================================================
+   自适应性能降级（由 JS 按实测帧率切换 html[data-perf]）
+   0=满配  1=轻量（blur 减半）  2=保底（关掉背景滤镜，靠略高的 tint 保可读）
+   =================================================================== */
+html[data-perf="1"]{--gf-blur:8px}
+html[data-perf="2"] .liquid-glass--frost{
+  -webkit-backdrop-filter:none; backdrop-filter:none;
+  --lg-opacity:.38;
+}
+html[data-perf="2"][data-theme="dark"] .liquid-glass--frost{--lg-opacity:.46}
+html[data-perf="2"] .liquid-glass:not(.liquid-glass--frost){
+  -webkit-backdrop-filter:blur(8px) saturate(150%) brightness(var(--gf-bright));
+          backdrop-filter:blur(8px) saturate(150%) brightness(var(--gf-bright));
+}
+/* 掉帧时停掉入场动画，避免「降级了还在跑动画」 */
+html[data-perf="2"] .card{animation:none!important}
 
 @media (max-width:640px){
   html{font-size:15.5px}
@@ -598,6 +680,34 @@ html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
   </footer>
 </div>
 
+<!-- ================= 已选院校浮动条 ================= -->
+<div class="pickbar" id="pickBar" hidden>
+  <div class="pickbar-in">
+    <span class="pickbar-n">已选 <b id="pickCount">0</b> 所</span>
+    <button class="pickbar-btn" type="button" id="pickViewBtn">查看</button>
+    <button class="pickbar-btn primary" type="button" id="pickExportBtn">导出 CSV</button>
+    <button class="pickbar-btn" type="button" id="pickClearBtn">清空</button>
+  </div>
+</div>
+
+<!-- ================= 已选院校面板 ================= -->
+<div class="mask" id="pickMask" role="dialog" aria-modal="true" aria-labelledby="pickTitle">
+  <div class="modal pick-modal">
+    <header>
+      <h2 id="pickTitle">已选院校</h2>
+      <p id="pickSub">共 0 所 · 选择会保存在本机</p>
+    </header>
+    <div class="scroll" id="pickList"></div>
+    <footer>
+      <div class="foot-row">
+        <span class="foot-hint" style="flex:1">导出为 CSV，可直接用 WPS / Excel 打开</span>
+        <button class="pickbar-btn" type="button" id="pickCloseBtn">关闭</button>
+        <button class="pickbar-btn primary" type="button" id="pickExportBtn2">导出 CSV</button>
+      </div>
+    </footer>
+  </div>
+</div>
+
 <!-- ================= 免责声明弹窗 ================= -->
 <div class="mask" id="disclaimerMask" role="dialog" aria-modal="true" aria-labelledby="disclaimerTitle">
   <div class="modal">
@@ -754,6 +864,7 @@ let meshInstance = null;
 
 function initMesh(){
   if (meshInstance || !window.MeshGradientLib) return;
+  if (perfLevel >= 1) return;   // 已判定设备吃力：不要启动 WebGL，用静态 CSS 渐变
   const { MeshGradient } = window.MeshGradientLib;
   if (!MeshGradient || typeof MeshGradient.isSupported !== 'function' || !MeshGradient.isSupported()) return;
   try {
@@ -854,7 +965,8 @@ function applySkin(skin, persist){
 function initSkin(){
   let sk = null;
   try { sk = localStorage.getItem(SKIN_KEY); } catch(e){}
-  applySkin(sk === 'glass' ? 'glass' : 'solid', false);
+  // 全站液态玻璃为默认外观；用户手动切到实色后按记忆保持
+  applySkin(sk === 'solid' ? 'solid' : 'glass', false);
 }
 $('skinToggle').addEventListener('click', () => {
   applySkin(document.documentElement.getAttribute('data-skin') === 'glass' ? 'solid' : 'glass', true);
@@ -1109,6 +1221,7 @@ function renderStats(rows){
 
 function cardHtml(s, idx){
   const v = verdict(state.score, s.minScore);
+  const picked = !!picks[pickKey(s.name)];
   const near = v && Math.abs(v.gap) <= 20 ? ' near' : '';
   const tags = [
     s.type === '公办' ? '<span class="tag pub">公办</span>'
@@ -1140,7 +1253,7 @@ function cardHtml(s, idx){
         </div>`).join('')}</div>
     </details>` : '';
 
-  return `<article class="card${near}${v && v.key === 'no' ? ' warn-card' : ''}">
+  return `<article class="card${near}${v && v.key === 'no' ? ' warn-card' : ''}${picked ? ' is-picked' : ''}">
     <div class="card-head">
       <div style="min-width:0">
         <h3 class="school">${esc(s.name)}</h3>
@@ -1160,7 +1273,17 @@ function cardHtml(s, idx){
     </div>
     <div class="majors"><b>专业：</b>${esc(shown)}${esc(more)}</div>
     ${detail}
-    <div class="src">来源：<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">hbdzxx.com 院校页</a>${s.programsComplete ? '' : ' · 明细未完全公开'}</div>
+    <div class="card-actions">
+      <span class="src">来源：<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">hbdzxx.com</a>${s.programsComplete ? '' : ' · 明细未完全公开'}</span>
+      <button class="pick${picked ? ' is-on' : ''}" type="button" data-pick="${esc(pickKey(s.name))}"
+              aria-pressed="${picked ? 'true' : 'false'}" title="${picked ? '移出已选' : '加入已选'}">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="${picked ? 'currentColor' : 'none'}" stroke="currentColor"
+             stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2.6l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.4l-5.8 3.1 1.1-6.45-4.7-4.6 6.5-.95z"/>
+        </svg>
+        <span>${picked ? '已选' : '加入已选'}</span>
+      </button>
+    </div>
   </article>`;
 }
 
@@ -1244,8 +1367,187 @@ function restoreMailto(){
   });
 }
 
+/* ============================================================
+   自适应性能：实时测帧率，掉帧就逐级降档，并把档位记在本机
+   0=满配（动画网格 + 全量模糊）
+   1=轻量（网格改静态 CSS、模糊半径减半）
+   2=保底（取消背景模糊，靠略高的 tint 保可读）
+   只有「降档」会影响观感，「升档」需要连续 8 秒流畅才回退，避免来回抖
+   ============================================================ */
+const PERF_KEY = 'hbdz_perf';
+let perfLevel = 0;
+function applyPerfLevel(l){
+  perfLevel = Math.max(0, Math.min(2, l));
+  document.documentElement.setAttribute('data-perf', String(perfLevel));
+  try { localStorage.setItem(PERF_KEY, String(perfLevel)); } catch(e){}
+}
+function initPerf(){
+  let l = 0;
+  try { l = parseInt(localStorage.getItem(PERF_KEY) || '0', 10) || 0; } catch(e){}
+  applyPerfLevel(l);
+  let frames = 0, t0 = performance.now(), bad = 0, good = 0;
+  (function loop(now){
+    frames++;
+    const dt = now - t0;
+    if (dt >= 1000){
+      const fps = frames * 1000 / dt;
+      frames = 0; t0 = now;
+      if (document.hidden) { bad = 0; good = 0; }
+      else if (fps < 48) { bad++; good = 0; }
+      else if (fps > 57) { good++; bad = 0; }
+      else { bad = 0; good = 0; }
+      if (bad >= 2 && perfLevel < 2) applyPerfLevel(perfLevel + 1);
+      else if (good >= 8 && perfLevel > 0) applyPerfLevel(perfLevel - 1);
+    }
+    requestAnimationFrame(loop);
+  })(performance.now());
+}
+
+/* ============================================================
+   已选院校（保存在本机 localStorage）
+   ============================================================ */
+const PICKS_KEY = 'hbdz_selected';
+let picks = {};
+function loadPicks(){
+  try { const raw = localStorage.getItem(PICKS_KEY); const d = raw ? JSON.parse(raw) : null;
+        picks = (d && typeof d === 'object') ? d : {}; } catch(e){ picks = {}; }
+}
+function savePicks(){ try { localStorage.setItem(PICKS_KEY, JSON.stringify(picks)); } catch(e){} }
+function pickKey(name){ return state.category + '|' + name; }
+function catLabel(id){
+  const c = EXAM_CATEGORIES.concat(VOC_CATEGORIES).find(x => x.id === id);
+  return c ? c.name : id;
+}
+function pickCount(){ return Object.keys(picks).length; }
+
+function syncPickBar(){
+  const n = pickCount();
+  const bar = $('pickBar');
+  if (bar) bar.hidden = n === 0;
+  document.body.classList.toggle('has-pickbar', n > 0);
+  const c = $('pickCount'); if (c) c.textContent = n;
+  const sub = $('pickSub'); if (sub) sub.textContent = `共 ${n} 所 · 选择保存在本机`;
+}
+
+function toast(msg){
+  let el = $('lgToast');
+  if (!el){
+    el = document.createElement('div');
+    el.id = 'lgToast'; el.className = 'lg-toast';
+    document.body.appendChild(el);
+  }
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._t);
+  el._t = setTimeout(() => el.classList.remove('show'), 2000);
+}
+
+// 卡片上的「加入已选 / 已选」按钮（事件委托，卡片重渲染也不用重新绑定）
+$('results').addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-pick]');
+  if (!btn) return;
+  const key = btn.dataset.pick;
+  const name = key.slice(key.indexOf('|') + 1);
+  const sch = list.find(x => x.name === name);
+  if (!sch) return;
+  let on;
+  if (picks[key]) { delete picks[key]; on = false; toast('已移出：' + name); }
+  else {
+    picks[key] = {
+      category: state.category, categoryName: catLabel(state.category),
+      name: sch.name, type: sch.type, city: sch.city,
+      plan: sch.plan, minScore: sch.minScore, programCount: sch.programCount,
+      programNames: sch.programNames, url: sch.url,
+    };
+    on = true; toast('已加入：' + name);
+  }
+  savePicks(); syncPickBar();
+  btn.classList.toggle('is-on', on);
+  btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+  const svg = btn.querySelector('svg'); if (svg) svg.setAttribute('fill', on ? 'currentColor' : 'none');
+  const sp = btn.querySelector('span'); if (sp) sp.textContent = on ? '已选' : '加入已选';
+  const card = btn.closest('.card'); if (card) card.classList.toggle('is-picked', on);
+});
+
+function renderPickList(){
+  const el = $('pickList');
+  if (!el) return;
+  const items = Object.values(picks);
+  if (!items.length){
+    el.innerHTML = '<div class="pick-empty">还没有选择院校<br>在院校卡片底部点「加入已选」</div>';
+    return;
+  }
+  el.innerHTML = items.map(p => `
+    <div class="pick-row">
+      <div class="pi">
+        <div class="pn">${esc(p.name)}</div>
+        <div class="pm">${esc(p.categoryName || catLabel(p.category))} · ${esc(p.type || '—')} · ${esc(p.city || '—')} · 计划 ${p.plan == null ? '—' : p.plan}</div>
+      </div>
+      <div class="pv">${p.minScore == null ? '—' : p.minScore}</div>
+      <button class="pick-del" type="button" data-del="${esc(p.category + '|' + p.name)}" aria-label="移出">×</button>
+    </div>`).join('');
+}
+$('pickList').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-del]');
+  if (!b) return;
+  delete picks[b.dataset.del];
+  savePicks(); syncPickBar(); renderPickList();
+  apply();                                   // 让卡片上的“已选”状态同步
+});
+
+/* ---------- CSV 导出（带 BOM，WPS / Excel 直接打开不乱码） ---------- */
+function csvCell(v){
+  const s = (v === null || v === undefined) ? '' : String(v);
+  return /[",\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+}
+function exportPicksCsv(){
+  const items = Object.values(picks);
+  if (!items.length){ toast('还没有选择院校'); return; }
+  const head = ['考试类', '院校', '办学性质', '城市', '2026计划总数', '2026投档最低分',
+                '专业数', '专业', '我的分数', '分差', '判定', '来源'];
+  const rows = items.map(p => {
+    const v = verdict(state.score, p.minScore);
+    return [p.categoryName || catLabel(p.category), p.name, p.type, p.city, p.plan, p.minScore, p.programCount,
+            p.programNames, state.score || '', v ? v.gap : '', v ? v.label : '', p.url];
+  });
+  const csv = '\uFEFF' + [head, ...rows].map(r => r.map(csvCell).join(',')).join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  const d = new Date();
+  const stamp = '' + d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
+  a.download = `河北单招-已选院校-${stamp}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  toast(`已导出 ${items.length} 所院校`);
+}
+
+/* ---------- 已选面板开关 ---------- */
+function openPickPanel(){
+  renderPickList();
+  $('pickMask').classList.add('show');
+  document.body.classList.add('modal-open');
+}
+function closePickPanel(){
+  $('pickMask').classList.remove('show');
+  document.body.classList.remove('modal-open');
+}
+$('pickViewBtn').addEventListener('click', openPickPanel);
+$('pickCloseBtn').addEventListener('click', closePickPanel);
+$('pickExportBtn').addEventListener('click', exportPicksCsv);
+$('pickExportBtn2').addEventListener('click', exportPicksCsv);
+$('pickClearBtn').addEventListener('click', () => {
+  if (!pickCount()) return;
+  if (!confirm('确定清空已选的 ' + pickCount() + ' 所院校？')) return;
+  picks = {}; savePicks(); syncPickBar(); apply();
+  toast('已清空');
+});
+
 function boot(){
   initTheme();
+  loadPicks();
+  syncPickBar();
+  initPerf();
   initSkin();
   restoreMailto();
   renderCategoryChips();
