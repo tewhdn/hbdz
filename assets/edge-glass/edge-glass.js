@@ -156,8 +156,11 @@
   global.EdgeGlass = {
     /** 初始化常用滤镜（幂等） */
     init: function () {
-      injectFilter('lg-edge-lg', 18, { radiusNorm: 0.07, zone: 0.11, strength: 0.24 });  // 卡片/面板
-      injectFilter('lg-edge-sm', 7,  { radiusNorm: 0.30, zone: 0.16, strength: 0.20 });  // 顶栏/统计条
+      var a = injectFilter('lg-edge-lg', 22, { radiusNorm: 0.06, zone: 0.13, strength: 0.26 });  // 卡片/面板
+      var b = injectFilter('lg-edge-sm', 9,  { radiusNorm: 0.30, zone: 0.18, strength: 0.22 });  // 顶栏/统计条
+      // 只有两张贴图都注入成功，才让 CSS 启用带位移的增强层
+      if (a && b) document.documentElement.setAttribute('data-edge', '1');
+      else document.documentElement.removeAttribute('data-edge');
       return this;
     },
     /** 给元素挂上边缘折射（只改 --lg-filter，视觉其余部分仍由 glass 库负责） */

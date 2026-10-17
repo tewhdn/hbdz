@@ -93,7 +93,13 @@
   - shuding/liquid-glass（MIT）的 `roundedRectSDF` + 位移贴图做法：
     https://github.com/shuding/liquid-glass
   本文件为按上述原理重写，未直接拷贝其代码。
-- 降级：没有 canvas 2d / 贴图生成失败时不注入滤镜，退回 CSS 中的默认值，页面不受影响。
+- 降级链条（三层，逐级回退）：
+  1. 引擎支持 `backdrop-filter: url(#f)` → 模糊 + 边缘折射（最完整）
+  2. 引擎只支持普通 `backdrop-filter` → 只有磨砂（`@supports` 自动跳过增强层）
+  3. 引擎不支持 `backdrop-filter` / 贴图生成失败 → 半透明 + 高光边 + 噪点（仍然像玻璃，只是不吃背景）
+  关键：基础模糊与边缘折射是**两条独立声明**，不能写成一条 ——
+  `backdrop-filter: url(#f) blur(...)` 在不支持 SVG 滤镜的引擎里会整条失效（不会退回模糊），
+  卡片会直接变成纯色块。
   自适应降档到 1 时会自动去掉 `feDisplacementMap`（最贵的一环），只保留高斯模糊。
 
 ## 数据来源

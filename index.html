@@ -409,8 +409,9 @@ html[data-skin="glass"]{
   /* 通透度的关键不是“加奶白”，而是用 brightness 把背景校准到与文字极性一致：
      浅色主题把背景提亮 → 深色字清楚；深色主题压暗 → 浅色字清楚。
      这样 tint 可以低到 .10~.14，肉眼就是“几乎全透的玻璃”。 */
-  --gf-blur:14px;
-  --gf-sat:170%;
+  --gf-blur:20px;
+  --gf-blur-sm:14px;
+  --gf-sat:180%;
   --gf-bright:1.04;   /* 不再大幅提亮，留住背景颜色 */
   --lg-blur:14px;
   --lg-saturate:170%;
@@ -440,37 +441,58 @@ html[data-skin="glass"] .topbar.liquid-glass{
 html[data-skin="glass"] .panel.liquid-glass{--lg-radius:16px}
 html[data-skin="glass"] .stats.liquid-glass{--lg-radius:14px}
 html[data-skin="glass"] .modal.liquid-glass{--lg-blur:16px; --lg-radius:18px; --lg-opacity:.40}
-/* —— 全站玻璃化：成本分层 ——
-   只有「顶栏」和「免责弹窗」保留 backdrop-filter（它们背后是真的有内容在动：卡片/滚动内容）；
-   面板、统计条、卡片、大纲卡一律不滤背景——这些元素背后只有那层 28px 模糊的极光渐变色，
-   滤与不滤肉眼无差别，但省掉了每帧上百次背景重采样。 */
-html[data-skin="glass"] .liquid-glass--frost{
-  -webkit-backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-          backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+/* ===================================================================
+   玻璃的滤镜链（分层，很重要）
+   基础层：高斯模糊 + 饱和 + 明暗校准 —— 所有支持 backdrop-filter 的引擎都能用
+   增强层：在 backdrop-filter 里引用 SVG 位移滤镜，做出边缘折射
+   为什么不写成一条：`backdrop-filter: url(#f) blur(...)` 在不支持 SVG 滤镜的引擎里
+   会"整条声明失效"（不会退回模糊），卡片于是变成纯色块 —— 这正是之前"不像玻璃"的主因。
+   增强层还额外用 html[data-edge="1"] 兜底：只有贴图真的注入成功才启用。
+   =================================================================== */
+html[data-skin="glass"] .liquid-glass{
+  -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+          backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
 }
-/* 顶栏/弹窗在库的位移折射基础上，同样叠加明暗校准 */
-html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
-  -webkit-backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-          backdrop-filter:var(--lg-filter) blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+/* 顶栏/统计条是细高条，用更小的模糊半径：既省算力，也不会糊成一团 */
+html[data-skin="glass"] .topbar.liquid-glass,
+html[data-skin="glass"] .stats.liquid-glass{
+  -webkit-backdrop-filter:blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+          backdrop-filter:blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
 }
-/* 卡片的色散高光改用普通叠加：96 个元素各走一次 mix-blend 太贵 */
+
+@supports ((backdrop-filter:url("#lg-edge-lg")) or (-webkit-backdrop-filter:url("#lg-edge-lg"))){
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .card.liquid-glass,
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .syl.liquid-glass,
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .panel.liquid-glass,
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .modal.liquid-glass,
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .pickbar-in{
+    -webkit-backdrop-filter:url("#lg-edge-lg") blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+            backdrop-filter:url("#lg-edge-lg") blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+  }
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .topbar.liquid-glass,
+  html[data-edge="1"][data-perf="0"][data-skin="glass"] .stats.liquid-glass{
+    -webkit-backdrop-filter:url("#lg-edge-sm") blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+            backdrop-filter:url("#lg-edge-sm") blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+  }
+}
+/* 卡片的色散高光用普通叠加：96 个元素各走一次 mix-blend 太贵 */
 html[data-skin="glass"] .liquid-glass--frost::after{
   mix-blend-mode:normal;
   opacity:.95;
 }
 
-/* —— 拉满：在库的基础上补它没有的三样 ——
-   ① 极细噪点（消掉大面积模糊的塑料感）
-   ② 顶部高光带（玻璃受光的镜面反射）
-   ③ 更强的边缘色散与内阴影（真实玻璃的厚边） */
+/* —— 玻璃的光学细节 ——
+   ① 极细噪点：消掉大面积模糊的塑料感
+   ② 顶部高光带：玻璃受光的镜面反射（白色洗得太重会变“白卡片”，这里刻意压低）
+   ③ 边缘：上沿高光 + 左右青红色散 + 下沿内阴影（厚度感） */
 html[data-skin="glass"] .liquid-glass{
   background-image:
     url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E"),
     linear-gradient(var(--lg-sheen-angle),
-      rgb(var(--lg-tint) / .52) 0%,
-      rgb(var(--lg-tint) / .12) 34%,
-      rgb(var(--lg-tint) / .13) 62%,
-      rgb(var(--lg-tint) / .30) 100%);
+      rgb(var(--lg-tint) / .26) 0%,
+      rgb(var(--lg-tint) / .07) 32%,
+      rgb(var(--lg-tint) / .08) 64%,
+      rgb(var(--lg-tint) / .20) 100%);
   background-blend-mode: overlay, normal;
   background-size: 160px 160px, 100% 100%;
 }
@@ -478,69 +500,65 @@ html[data-skin="glass"] .liquid-glass::after{
   box-shadow:
     inset 1.5px 0 var(--lg-edge-red),
     inset -1.5px 0 var(--lg-edge-cyan),
-    inset 0 1.5px 0 rgb(255 255 255 / .78),
-    inset 0 -1px 0 rgb(255 255 255 / .22),
-    inset 0 -30px 46px rgb(255 255 255 / .10);
+    inset 0 1.5px 0 rgb(255 255 255 / .72),
+    inset 0 -1px 0 rgb(255 255 255 / .18),
+    inset 0 -26px 42px rgb(255 255 255 / .08);
 }
 html[data-skin="glass"][data-theme="dark"] .liquid-glass::after{
   box-shadow:
     inset 1.5px 0 var(--lg-edge-red),
     inset -1.5px 0 var(--lg-edge-cyan),
-    inset 0 1.5px 0 rgb(255 255 255 / .30),
-    inset 0 -1px 0 rgb(255 255 255 / .10),
-    inset 0 -30px 46px rgb(255 255 255 / .05);
+    inset 0 1.5px 0 rgb(255 255 255 / .26),
+    inset 0 -1px 0 rgb(255 255 255 / .08),
+    inset 0 -26px 42px rgb(255 255 255 / .04);
 }
 
 /* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层：
    卡片每次筛选都会整体重渲染，包 DOM 既无必要也有开销 */
 html[data-skin="glass"] .liquid-glass > *{position:relative;z-index:2}
 
-/* —— 视觉强化：靠光学特征而不是靠滤镜（更透 + 更亮的边 + 更强的色散，见上方变量）—— */
-/* 卡片：背景是柔和渐变，透明度可以更低＝更像玻璃，同时靠 tint 保住文字对比度 */
+/* —— 每个玻璃面的光学参数 ——
+   通透度靠两件事：低 tint（.08~.12）+ 足够的模糊（模糊本身就会吃掉背景细节，
+   让文字站得住），而不是靠奶白膜。 */
 html[data-skin="glass"] .card.liquid-glass,
 html[data-skin="glass"] .syl.liquid-glass{
-  --lg-blur:0px; --lg-radius:14px;
-  --lg-opacity:.30;                 /* 浅色：白色奶膜 30%，背景透出 70% */
-  --lg-shadow:0 6px 22px rgba(16,22,54,.13);
+  --lg-radius:16px;
+  --lg-opacity:.10;
+  --lg-border-opacity:.58;
+  --lg-shadow:0 8px 26px rgba(16,22,54,.10), inset 0 1px 0 rgb(255 255 255 / .5);
 }
-/* 浅色卡片：为了文字对比度，底色用纯白 tint 叠在浅色页面上 */
 html[data-skin="glass"][data-theme="light"] .card.liquid-glass,
 html[data-skin="glass"][data-theme="light"] .syl.liquid-glass{
-  --lg-tint:255 255 255; --lg-opacity:.10;
+  --lg-tint:255 255 255; --lg-opacity:.12;
 }
-/* 深色卡片：改用深色 tint，避免白字压在中灰面上 */
 html[data-skin="glass"][data-theme="dark"] .card.liquid-glass,
 html[data-skin="glass"][data-theme="dark"] .syl.liquid-glass{
-  --lg-tint:10 14 24; --lg-opacity:.16;
+  --lg-tint:150 185 235; --lg-opacity:.12;
+  --lg-border-opacity:.24;
+  --lg-shadow:0 8px 26px rgba(0,0,0,.5), inset 0 1px 0 rgb(255 255 255 / .12);
 }
-/* 顶栏是唯一的「真折射面」：静态位移滤镜 + 糊化，省掉动画噪声 */
-html[data-skin="glass"] .liquid-glass:not(.liquid-glass--frost){
-  --lg-blur:12px;
+html[data-skin="glass"] .panel.liquid-glass{--lg-radius:18px; --lg-opacity:.14}
+html[data-skin="glass"] .stats.liquid-glass{--lg-radius:14px; --lg-opacity:.12}
+html[data-skin="glass"] .modal.liquid-glass{--lg-radius:20px; --lg-opacity:.26}
+html[data-skin="glass"] .topbar.liquid-glass{
+  --lg-radius:0 0 20px 20px; --lg-opacity:.16; --lg-blur:12px;
 }
 
 /* ===================================================================
-   自适应性能降级（由 JS 按实测帧率切换 html[data-perf]）
-   0=满配  1=轻量（blur 减半）  2=保底（关掉背景滤镜，靠略高的 tint 保可读）
+   自适应性能降级（JS 按实测帧率切换 html[data-perf]）
+   0=满配（含边缘折射）  1=轻量（去掉位移滤镜，模糊减半）  2=保底（关掉背景滤镜）
+   注意选择器要带 [data-skin] 才能压过上面的增强层规则
    =================================================================== */
-html[data-perf="1"]{--gf-blur:8px}
-/* 降档 1：去掉 SVG 位移滤镜（feDisplacementMap 最贵），只保留高斯模糊 */
-html[data-perf="1"] .liquid-glass--frost{
-  -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-          backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-}
-html[data-perf="1"] .liquid-glass:not(.liquid-glass--frost){
-  -webkit-backdrop-filter:blur(10px) saturate(160%) brightness(var(--gf-bright));
-          backdrop-filter:blur(10px) saturate(160%) brightness(var(--gf-bright));
-}
-html[data-perf="2"] .liquid-glass--frost{
+/* 降档 1：增强层已因 data-perf≠0 自动失效，这里只需把模糊半径降下来 */
+html[data-perf="1"]{--gf-blur:11px; --gf-blur-sm:9px}
+html[data-perf="2"][data-skin="glass"] .liquid-glass{
   -webkit-backdrop-filter:none; backdrop-filter:none;
-  --lg-opacity:.38;
 }
-html[data-perf="2"][data-theme="dark"] .liquid-glass--frost{--lg-opacity:.46}
-html[data-perf="2"] .liquid-glass:not(.liquid-glass--frost){
-  -webkit-backdrop-filter:blur(8px) saturate(150%) brightness(var(--gf-bright));
-          backdrop-filter:blur(8px) saturate(150%) brightness(var(--gf-bright));
-}
+html[data-perf="2"][data-skin="glass"] .card.liquid-glass,
+html[data-perf="2"][data-skin="glass"] .syl.liquid-glass,
+html[data-perf="2"][data-skin="glass"] .panel.liquid-glass{--lg-opacity:.40}
+html[data-perf="2"][data-theme="dark"][data-skin="glass"] .card.liquid-glass,
+html[data-perf="2"][data-theme="dark"][data-skin="glass"] .syl.liquid-glass{--lg-opacity:.46}
 /* 掉帧时停掉入场动画，避免「降级了还在跑动画」 */
 html[data-perf="2"] .card{animation:none!important}
 
@@ -899,15 +917,9 @@ function mountGlass(el, frost){
     el.classList.add('liquid-glass');
     if (frost) el.classList.add('liquid-glass--frost');
   }
-  // 边缘折射：细高的顶栏/统计条用小位移，卡片与面板用大位移
-  if (window.EdgeGlass){
-    const thin = el.matches('.topbar, .stats');
-    window.EdgeGlass.apply(el, thin ? 'sm' : 'lg');
-  }
 }
 function unmountGlass(el){
   el.classList.remove('liquid-glass', 'liquid-glass--frost');
-  if (window.EdgeGlass) window.EdgeGlass.remove(el);
 }
 // 卡片是重渲染出来的，每次渲染后需要重新挂
 function glassifyDynamic(root){
