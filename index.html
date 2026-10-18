@@ -334,6 +334,79 @@ body.has-pickbar{padding-bottom:76px}
 .lg-toast.show{opacity:1;transform:translate(-50%,0)}
 html[data-perf="1"] #bgMesh,html[data-perf="2"] #bgMesh{display:none}
 
+/* ---------- 学习资料下载 ---------- */
+.dl-list{display:grid;gap:12px;margin-bottom:8px}
+.dl{
+  display:block;position:relative;text-decoration:none;border-radius:20px;padding:1px;
+  /* 渐变描边：用 padding:1px + 渐变底露边，比 border-image 更可控 */
+  background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.06) 38%,rgba(255,255,255,.7));
+  box-shadow:0 12px 34px rgba(16,22,54,.13);
+  transition:transform .24s cubic-bezier(.2,.8,.2,1),box-shadow .24s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+html[data-theme="dark"] .dl{
+  background:linear-gradient(135deg,rgba(255,255,255,.26),rgba(255,255,255,.02) 40%,rgba(255,255,255,.14));
+  box-shadow:0 12px 34px rgba(0,0,0,.45);
+}
+.dl:hover,.dl:focus-visible{transform:translateY(-2px);box-shadow:0 20px 46px rgba(16,22,54,.2)}
+html[data-theme="dark"] .dl:hover,html[data-theme="dark"] .dl:focus-visible{box-shadow:0 20px 46px rgba(0,0,0,.6)}
+.dl:active{transform:translateY(0) scale(.995)}
+.dl-inner{
+  display:flex;align-items:center;gap:14px;padding:15px 16px;border-radius:19px;
+  position:relative;overflow:hidden;
+  background:color-mix(in srgb,var(--surface) 66%,transparent);
+  -webkit-backdrop-filter:blur(18px) saturate(180%);
+          backdrop-filter:blur(18px) saturate(180%);
+}
+html[data-theme="dark"] .dl-inner{background:color-mix(in srgb,#131a27 70%,transparent)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .dl-inner{background:var(--surface)}
+}
+/* 图标：渐变徽章 */
+.dl-badge{
+  width:48px;height:48px;border-radius:15px;display:grid;place-items:center;flex:0 0 auto;color:#fff;
+  background:linear-gradient(140deg,#6366f1 0%,#3b82f6 48%,#06b6d4 100%);
+  box-shadow:0 8px 20px rgba(79,70,229,.35),inset 0 1px 0 rgba(255,255,255,.5);
+}
+.dl-main{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.dl-main b{font-size:.95rem;font-weight:800;color:var(--text);letter-spacing:-.01em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dl-main em{font-style:normal;font-size:.74rem;color:var(--text-3)}
+/* 下载按钮 */
+.dl-btn{
+  margin-left:auto;display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;
+  padding:9px 15px;border-radius:12px;font-size:.82rem;font-weight:800;color:#fff;white-space:nowrap;
+  background:linear-gradient(135deg,#4f46e5,#0ea5e9);
+  box-shadow:0 6px 18px rgba(79,70,229,.35),inset 0 1px 0 rgba(255,255,255,.42);
+  transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;
+}
+.dl:hover .dl-btn{transform:translateX(2px);box-shadow:0 10px 24px rgba(79,70,229,.45),inset 0 1px 0 rgba(255,255,255,.55);filter:brightness(1.05)}
+.dl:active .dl-btn{transform:scale(.97)}
+.dl-btn svg{transition:transform .2s ease}
+.dl:hover .dl-btn svg{transform:translateY(2px)}
+/* 扫光：hover / 点击时一道高光划过 */
+.dl-shine{
+  position:absolute;top:-40%;bottom:-40%;width:46%;left:-70%;transform:skewX(-18deg);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);
+  opacity:0;pointer-events:none;
+}
+.dl:hover .dl-shine,.dl:focus-visible .dl-shine{opacity:1;animation:dlShine .95s ease}
+@keyframes dlShine{0%{left:-70%}100%{left:130%}}
+@media (prefers-reduced-motion:reduce){
+  .dl,.dl-btn{transition:none}
+  .dl:hover .dl-shine{animation:none;opacity:0}
+}
+@media (max-width:520px){
+  .dl-inner{gap:12px;padding:14px}
+  .dl-badge{width:44px;height:44px;border-radius:13px}
+  .dl-main b{font-size:.9rem}
+  .dl-btn{padding:8px 12px;font-size:.78rem}
+  .dl-btn span{display:none}   /* 窄屏只留箭头，省地方 */
+}
+@media (max-width:360px){
+  .dl-main em{display:none}
+}
+
 /* ---------- 页脚 ---------- */
 footer.site{margin-top:28px;padding:20px 0 34px;border-top:1px solid var(--border);color:var(--text-3);font-size:.76rem;line-height:1.75}
 footer.site a{color:var(--text-2)}
@@ -726,6 +799,39 @@ html[data-perf="2"] .card{animation:none!important}
   </div>
   <div class="syl-grid" id="syllabusGrid">
     <div class="state"><div class="spin"></div>正在加载大纲…</div>
+  </div>
+
+  <!-- ================= 学习资料下载 ================= -->
+  <div class="sec-title">
+    <h2>学习资料</h2>
+    <p>配套考试大纲的课件 · 点击卡片即可下载</p>
+  </div>
+  <div class="dl-list">
+    <a class="dl" href="assets/docs/computer-basics-2027.docx"
+       download="计算机应用基础知识-大类课件.docx"
+       aria-label="下载 计算机应用基础知识 大类课件，Word 文档，约 4.7 MB">
+      <span class="dl-inner">
+        <span class="dl-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h4"/>
+          </svg>
+        </span>
+        <span class="dl-main">
+          <b>计算机应用基础知识 · 大类课件</b>
+          <em>Word 文档 · 4.7 MB · 计算机类 / 考试十类方向</em>
+        </span>
+        <span class="dl-btn">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M4 20h16"/>
+          </svg>
+          <span>下载</span>
+        </span>
+        <span class="dl-shine" aria-hidden="true"></span>
+      </span>
+    </a>
   </div>
 
   <!-- ================= 页脚 ================= -->
