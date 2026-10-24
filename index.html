@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="light" data-skin="glass">
+<html lang="zh-CN" data-theme="dark" data-skin="glass">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -16,67 +16,100 @@
    · 昼夜模式：html[data-theme="light|dark"]，Pico 原生支持
    =================================================================== */
 
-/* ---------- 设计令牌：浅色（默认） ---------- */
+/* ---------- 设计令牌：浅色 ---------- */
 :root{
   --pico-font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei",system-ui,sans-serif;
   --pico-font-size:100%;
-  --pico-line-height:1.65;
-  --pico-border-radius:12px;
+  --pico-line-height:1.6;
+  --pico-border-radius:14px;
   --pico-spacing:1rem;
 
-  --bg:#f4f6fb;
-  --bg-soft:#e9edf7;
-  --surface:#ffffff;
-  --surface-2:#f0f3fa;
-  --text:#141830;
-  --text-2:#5b6478;
-  --text-3:#8b93a7;
-  --border:#dde2ef;
-  --border-2:#c9d1e4;
-  --accent:#4338ca;
-  --accent-soft:#eceafe;
-  --teal:#0f766e;
-  --ok:#15803d;
-  --ok-soft:#e7f6ec;
-  --warn:#b45309;
-  --warn-soft:#fdf3e3;
-  --bad:#b91c1c;
-  --bad-soft:#fdeaea;
-  --pub:#0e7490;
-  --pub-soft:#e2f4f8;
-  --pri:#a21caf;
-  --pri-soft:#fbeafe;
-  --shadow-sm:0 1px 2px rgba(17,24,60,.06);
-  --shadow:0 1px 3px rgba(17,24,60,.07),0 10px 28px rgba(17,24,60,.07);
-  --radius:14px;
-  --radius-sm:10px;
+  /* 表面与文字：先定明度层级，再定色相 */
+  --bg:#EEF0F6;
+  --bg-2:#E6E9F2;
+  --surface:#FFFFFF;
+  --surface-2:#F4F6FB;
+  --text:#10131D;
+  --text-2:#59617A;
+  --text-3:#868DA1;
+  --border:rgba(16,22,45,.09);
+  --border-2:rgba(16,22,45,.16);
+  --accent:#4A57C8;
+  --accent-soft:rgba(74,87,200,.10);
+  --teal:#0E7C7B;
+  --ok:#137A45;
+  --ok-soft:rgba(19,122,69,.10);
+  --warn:#8A5510;
+  --warn-soft:rgba(138,85,16,.10);
+  --bad:#A12A2A;
+  --bad-soft:rgba(161,42,42,.09);
+  --pub:#0B6478;
+  --pub-soft:rgba(11,100,120,.10);
+  --pri:#8A2C8F;
+  --pri-soft:rgba(138,44,143,.10);
+
+  /* 阴影：单一光源自上方，全部向下投射 */
+  --e1:0 1px 2px rgba(18,24,48,.06);
+  --e2:0 1px 2px rgba(18,24,48,.05),0 8px 24px rgba(18,24,48,.07);
+  --e3:0 2px 6px rgba(18,24,48,.06),0 18px 48px rgba(18,24,48,.12);
+  --shadow-sm:var(--e1);
+  --shadow:var(--e2);
+
+  /* 圆角与间距：一套标尺，不再各写各的 */
+  --r-xs:8px; --r-sm:10px; --r-md:14px; --r-lg:18px; --r-xl:24px; --r-pill:999px;
+  --radius:var(--r-md);
+  --radius-sm:var(--r-sm);
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px; --sp-6:32px;
+
+  /* 动效：统一曲线与时长 */
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --ease-in:cubic-bezier(.4,0,1,1);
+  --d-fast:120ms; --d-base:180ms; --d-slow:260ms;
+
+  /* 玻璃材质参数（三档，不再全站一个透明度） */
+  --glass-chrome:rgba(255,255,255,.62);
+  --glass-content:rgba(255,255,255,.52);
+  --glass-float:rgba(255,255,255,.74);
+  --rim-light:rgba(255,255,255,.85);
+  --rim-dark:rgba(16,22,45,.06);
 }
-/* ---------- 设计令牌：深色 ---------- */
+
+/* ---------- 设计令牌：深色（本次视觉的主场景） ---------- */
 html[data-theme="dark"]{
-  --bg:#0c1017;
-  --bg-soft:#121826;
-  --surface:#151b26;
-  --surface-2:#1b2230;
-  --text:#e9edf6;
-  --text-2:#a2adc2;
-  --text-3:#78849b;
-  --border:#28313f;
-  --border-2:#38445a;
-  --accent:#9aa8ff;
-  --accent-soft:#1e2540;
-  --teal:#5eead4;
-  --ok:#5ddb92;
-  --ok-soft:#12301f;
-  --warn:#fbbf24;
-  --warn-soft:#33270c;
-  --bad:#fb8a8a;
-  --bad-soft:#3a1717;
-  --pub:#67d3e8;
-  --pub-soft:#0d2c34;
-  --pri:#f0a6f7;
-  --pri-soft:#2f1233;
-  --shadow-sm:0 1px 2px rgba(0,0,0,.5);
-  --shadow:0 1px 3px rgba(0,0,0,.5),0 12px 30px rgba(0,0,0,.4);
+  --bg:#080A10;
+  --bg-2:#0B0E16;
+  --surface:#12151E;
+  --surface-2:#171B26;
+  --text:#E7EAF3;
+  --text-2:#9BA4B8;
+  --text-3:#6D7688;
+  --border:rgba(255,255,255,.075);
+  --border-2:rgba(255,255,255,.15);
+  --accent:#93A2FF;
+  --accent-soft:rgba(147,162,255,.12);
+  --teal:#5FC8C4;
+  --ok:#5BD69A;
+  --ok-soft:rgba(91,214,154,.12);
+  --warn:#E8B45C;
+  --warn-soft:rgba(232,180,92,.12);
+  --bad:#F08C8C;
+  --bad-soft:rgba(240,140,140,.12);
+  --pub:#68C7DC;
+  --pub-soft:rgba(104,199,220,.12);
+  --pri:#E0A0E8;
+  --pri-soft:rgba(224,160,232,.12);
+
+  --e1:0 1px 2px rgba(0,0,0,.45);
+  --e2:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.42);
+  --e3:0 2px 8px rgba(0,0,0,.45),0 24px 64px rgba(0,0,0,.55);
+  --shadow-sm:var(--e1);
+  --shadow:var(--e2);
+
+  --glass-chrome:rgba(20,24,34,.46);
+  --glass-content:rgba(19,23,32,.38);
+  --glass-float:rgba(24,28,40,.62);
+  --rim-light:rgba(255,255,255,.16);
+  --rim-dark:rgba(0,0,0,.35);
 }
 
 /* ---------- 与 Pico 基座的边界：只借用其排版/表单/主题能力，组件外观全部由本站接管 ---------- */
@@ -457,25 +490,36 @@ html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#
    库文件：assets/liquid-glass/  见 assets/README.md
    =================================================================== */
 
-/* —— 玻璃模式的背景场景 ——
-   正常情况下由 assets/mesh-gradient 的 WebGL 网格渐变绘制到画布上；
-   若浏览器不支持 WebGL，画布为空，下面这层静态 CSS 网格渐变兜底，观感不至于塌掉。 */
-.bg-scene{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
-  opacity:0;transition:opacity .5s ease;
+/* —— 背景场景 ——
+   深色：近乎黑的蓝灰底 + 两团极弱环境光（冷紫在上、青在下），不产生霓虹感
+   浅色：干净的冷灰底 + 一点紫调，避免大面积纯白
+   网格渐变画布仍然保留，但压到很低的饱和度与亮度，只当"有生命的底色" */
+.bg-scene{
+  position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
+  opacity:0;transition:opacity var(--d-slow) var(--ease);
   background:
-    radial-gradient(58% 52% at 16% 20%, #8b5cf6 0%, rgba(139,92,246,0) 62%),
-    radial-gradient(54% 50% at 84% 28%, #0ea5e9 0%, rgba(14,165,233,0) 64%),
-    radial-gradient(58% 54% at 38% 88%, #fb7185 0%, rgba(251,113,133,0) 64%),
-    radial-gradient(50% 46% at 78% 78%, #7c8cff 0%, rgba(124,140,255,0) 66%),
-    var(--bg);}
+    radial-gradient(120% 80% at 50% -10%, rgba(96,110,220,.16), transparent 60%),
+    radial-gradient(90% 60% at 85% 110%, rgba(60,150,160,.10), transparent 65%),
+    var(--bg);
+}
+html[data-theme="light"] .bg-scene{
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(120,130,220,.10), transparent 62%),
+    radial-gradient(90% 60% at 85% 110%, rgba(60,140,150,.06), transparent 65%),
+    var(--bg);
+}
 html[data-skin="glass"] .bg-scene{opacity:1}
-/* 深色下压暗，避免亮底把文字对比度拉低 */
-html[data-skin="glass"][data-theme="dark"] .bg-scene{opacity:.5}
-#bgMesh{display:block;width:100%;height:100%;border:0;filter:saturate(1.18)}
-/* 暗角：给玻璃边缘制造明暗对比，否则整屏一样亮会显得“平” */
-.bg-scene::after{content:'';position:absolute;inset:0;pointer-events:none;
-  background:radial-gradient(130% 95% at 50% 0%, transparent 42%, rgba(22,26,60,.22) 100%)}
-html[data-theme="dark"] .bg-scene::after{background:radial-gradient(130% 95% at 50% 0%, transparent 38%, rgba(0,0,0,.5) 100%)}
+#bgMesh{display:block;width:100%;height:100%;border:0;
+  filter:saturate(.55) brightness(.75) contrast(1.05);opacity:.55}
+html[data-theme="light"] #bgMesh{filter:saturate(.5) brightness(1.02);opacity:.35}
+/* 暗角：给玻璃边缘制造明暗对比，避免整屏一个亮度 */
+.bg-scene::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(130% 95% at 50% 8%, transparent 45%, rgba(0,0,0,.35) 100%);
+}
+html[data-theme="light"] .bg-scene::after{
+  background:radial-gradient(130% 95% at 50% 8%, transparent 55%, rgba(30,36,70,.10) 100%);
+}
 
 /* —— 主题对接：把本站配色映射到库的变量（--lg-* 由 liquid-glass.css 定义）—— */
 html[data-skin="glass"]{
@@ -515,24 +559,22 @@ html[data-skin="glass"] .panel.liquid-glass{--lg-radius:16px}
 html[data-skin="glass"] .stats.liquid-glass{--lg-radius:14px}
 html[data-skin="glass"] .modal.liquid-glass{--lg-blur:16px; --lg-radius:18px; --lg-opacity:.40}
 /* ===================================================================
-   玻璃的滤镜链（分层，很重要）
-   基础层：高斯模糊 + 饱和 + 明暗校准 —— 所有支持 backdrop-filter 的引擎都能用
-   增强层：在 backdrop-filter 里引用 SVG 位移滤镜，做出边缘折射
-   为什么不写成一条：`backdrop-filter: url(#f) blur(...)` 在不支持 SVG 滤镜的引擎里
-   会"整条声明失效"（不会退回模糊），卡片于是变成纯色块 —— 这正是之前"不像玻璃"的主因。
-   增强层还额外用 html[data-edge="1"] 兜底：只有贴图真的注入成功才启用。
+   玻璃材质系统
+   结构：透明度（极低） + 背景模糊（提供通透） + 局部高光（顶部受光带） + 边缘（rim）
+   原则：不做大面积纯色填充，玻璃的"存在感"来自边缘和高光，中间尽量让它消失
    =================================================================== */
+
+/* —— 1. 滤镜链（分层，避免整条声明失效）—— */
 html[data-skin="glass"] .liquid-glass{
   -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
           backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
 }
-/* 顶栏/统计条是细高条，用更小的模糊半径：既省算力，也不会糊成一团 */
+/* 顶栏/统计条是细高条：模糊小一档，既省算力也不糊成一片 */
 html[data-skin="glass"] .topbar.liquid-glass,
 html[data-skin="glass"] .stats.liquid-glass{
   -webkit-backdrop-filter:blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
           backdrop-filter:blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
 }
-
 @supports ((backdrop-filter:url("#lg-edge-lg")) or (-webkit-backdrop-filter:url("#lg-edge-lg"))){
   html[data-edge="1"][data-perf="0"][data-skin="glass"] .card.liquid-glass,
   html[data-edge="1"][data-perf="0"][data-skin="glass"] .syl.liquid-glass,
@@ -548,91 +590,83 @@ html[data-skin="glass"] .stats.liquid-glass{
             backdrop-filter:url("#lg-edge-sm") blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
   }
 }
-/* 卡片的色散高光用普通叠加：96 个元素各走一次 mix-blend 太贵 */
-html[data-skin="glass"] .liquid-glass--frost::after{
-  mix-blend-mode:normal;
-  opacity:.95;
-}
 
-/* —— 玻璃的光学细节 ——
-   ① 极细噪点：消掉大面积模糊的塑料感
-   ② 顶部高光带：玻璃受光的镜面反射（白色洗得太重会变“白卡片”，这里刻意压低）
-   ③ 边缘：上沿高光 + 左右青红色散 + 下沿内阴影（厚度感） */
+/* —— 2. 表面：只留顶部受光带，中间透明 —— */
 html[data-skin="glass"] .liquid-glass{
-  background-image:
-    url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E"),
-    linear-gradient(var(--lg-sheen-angle),
-      rgb(var(--lg-tint) / .26) 0%,
-      rgb(var(--lg-tint) / .07) 32%,
-      rgb(var(--lg-tint) / .08) 64%,
-      rgb(var(--lg-tint) / .20) 100%);
-  background-blend-mode: overlay, normal;
-  background-size: 160px 160px, 100% 100%;
+  background:
+    linear-gradient(180deg,
+      rgb(255 255 255 / .16) 0%,
+      rgb(255 255 255 / .05) 16%,
+      rgb(255 255 255 / 0) 46%);
+  border-color:var(--border);
 }
-html[data-skin="glass"] .liquid-glass::after{
-  box-shadow:
-    inset 1.5px 0 var(--lg-edge-red),
-    inset -1.5px 0 var(--lg-edge-cyan),
-    inset 0 1.5px 0 rgb(255 255 255 / .72),
-    inset 0 -1px 0 rgb(255 255 255 / .18),
-    inset 0 -26px 42px rgb(255 255 255 / .08);
+html[data-theme="dark"][data-skin="glass"] .liquid-glass{
+  background:
+    linear-gradient(180deg,
+      rgb(255 255 255 / .10) 0%,
+      rgb(255 255 255 / .03) 16%,
+      rgb(255 255 255 / 0) 46%);
 }
-html[data-skin="glass"][data-theme="dark"] .liquid-glass::after{
-  box-shadow:
-    inset 1.5px 0 var(--lg-edge-red),
-    inset -1.5px 0 var(--lg-edge-cyan),
-    inset 0 1.5px 0 rgb(255 255 255 / .26),
-    inset 0 -1px 0 rgb(255 255 255 / .08),
-    inset 0 -26px 42px rgb(255 255 255 / .04);
-}
+/* 底色浓度由库的 ::before tint 提供，数值极低 */
+html[data-theme="light"][data-skin="glass"]{--lg-tint:255 255 255; --lg-opacity:.20}
+html[data-theme="dark"][data-skin="glass"]{--lg-tint:120 150 200; --lg-opacity:.06}
 
-/* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层：
-   卡片每次筛选都会整体重渲染，包 DOM 既无必要也有开销 */
-html[data-skin="glass"] .liquid-glass > *{position:relative;z-index:2}
-
-/* —— 每个玻璃面的光学参数 ——
-   通透度靠两件事：低 tint（.08~.12）+ 足够的模糊（模糊本身就会吃掉背景细节，
-   让文字站得住），而不是靠奶白膜。 */
+/* —— 3. 边缘与阴影：三档材质，权重不同 —— */
+/* 3a 顶栏 / 统计条 —— chrome，最薄最贴背景 */
+html[data-skin="glass"] .topbar.liquid-glass{
+  box-shadow:inset 0 -1px 0 var(--rim-dark), inset 0 1px 0 var(--rim-light);
+}
+html[data-skin="glass"] .stats.liquid-glass{
+  box-shadow:inset 0 1px 0 var(--rim-light), var(--e1);
+}
+/* 3b 内容面板 / 卡片 —— content，安静、只有一圈细边和极浅投影 */
+html[data-skin="glass"] .panel.liquid-glass,
 html[data-skin="glass"] .card.liquid-glass,
 html[data-skin="glass"] .syl.liquid-glass{
-  --lg-radius:16px;
-  --lg-opacity:.10;
-  --lg-border-opacity:.58;
-  --lg-shadow:0 8px 26px rgba(16,22,54,.10), inset 0 1px 0 rgb(255 255 255 / .5);
+  box-shadow:inset 0 1px 0 var(--rim-light), inset 0 0 0 1px var(--rim-dark), var(--e1);
 }
-html[data-skin="glass"][data-theme="light"] .card.liquid-glass,
-html[data-skin="glass"][data-theme="light"] .syl.liquid-glass{
-  --lg-tint:255 255 255; --lg-opacity:.12;
+/* 3c 浮层 —— float，唯一拥有明显外部投影的层级 */
+html[data-skin="glass"] .modal.liquid-glass,
+html[data-skin="glass"] .pickbar-in{
+  box-shadow:inset 0 1px 0 var(--rim-light), inset 0 0 0 1px var(--rim-dark), var(--e3);
 }
-html[data-skin="glass"][data-theme="dark"] .card.liquid-glass,
-html[data-skin="glass"][data-theme="dark"] .syl.liquid-glass{
-  --lg-tint:150 185 235; --lg-opacity:.12;
-  --lg-border-opacity:.24;
-  --lg-shadow:0 8px 26px rgba(0,0,0,.5), inset 0 1px 0 rgb(255 255 255 / .12);
+/* 左右两侧的极弱色散：只在边缘 1px，不做外发光 */
+html[data-skin="glass"] .liquid-glass::after{
+  box-shadow:
+    inset 1px 0 rgb(255 120 150 / .10),
+    inset -1px 0 rgb(90 200 255 / .10),
+    inset 0 1px 0 rgb(255 255 255 / .10);
 }
-html[data-skin="glass"] .panel.liquid-glass{--lg-radius:18px; --lg-opacity:.14}
-html[data-skin="glass"] .stats.liquid-glass{--lg-radius:14px; --lg-opacity:.12}
-html[data-skin="glass"] .modal.liquid-glass{--lg-radius:20px; --lg-opacity:.26}
-html[data-skin="glass"] .topbar.liquid-glass{
-  --lg-radius:0 0 20px 20px; --lg-opacity:.16; --lg-blur:12px;
+html[data-theme="dark"][data-skin="glass"] .liquid-glass::after{
+  box-shadow:
+    inset 1px 0 rgb(255 120 150 / .14),
+    inset -1px 0 rgb(90 200 255 / .14),
+    inset 0 1px 0 rgb(255 255 255 / .06);
 }
+/* 卡片的色散用普通叠加，避免 96 个元素各做一次 blend */
+html[data-skin="glass"] .liquid-glass--frost::after{mix-blend-mode:normal}
+
+/* —— 4. 圆角与间距：与令牌对齐 —— */
+html[data-skin="glass"] .card.liquid-glass,
+html[data-skin="glass"] .syl.liquid-glass{--lg-radius:var(--r-lg)}
+html[data-skin="glass"] .panel.liquid-glass{--lg-radius:var(--r-lg)}
+html[data-skin="glass"] .stats.liquid-glass{--lg-radius:var(--r-md)}
+html[data-skin="glass"] .modal.liquid-glass{--lg-radius:var(--r-xl)}
+html[data-skin="glass"] .topbar.liquid-glass{--lg-radius:0 0 var(--r-lg) var(--r-lg)}
+
+/* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层 */
+html[data-skin="glass"] .liquid-glass > *{position:relative;z-index:2}
 
 /* ===================================================================
-   自适应性能降级（JS 按实测帧率切换 html[data-perf]）
-   0=满配（含边缘折射）  1=轻量（去掉位移滤镜，模糊减半）  2=保底（关掉背景滤镜）
-   注意选择器要带 [data-skin] 才能压过上面的增强层规则
+   自适应性能降级
    =================================================================== */
-/* 降档 1：增强层已因 data-perf≠0 自动失效，这里只需把模糊半径降下来 */
 html[data-perf="1"]{--gf-blur:11px; --gf-blur-sm:9px}
 html[data-perf="2"][data-skin="glass"] .liquid-glass{
   -webkit-backdrop-filter:none; backdrop-filter:none;
 }
 html[data-perf="2"][data-skin="glass"] .card.liquid-glass,
 html[data-perf="2"][data-skin="glass"] .syl.liquid-glass,
-html[data-perf="2"][data-skin="glass"] .panel.liquid-glass{--lg-opacity:.40}
-html[data-perf="2"][data-theme="dark"][data-skin="glass"] .card.liquid-glass,
-html[data-perf="2"][data-theme="dark"][data-skin="glass"] .syl.liquid-glass{--lg-opacity:.46}
-/* 掉帧时停掉入场动画，避免「降级了还在跑动画」 */
+html[data-perf="2"][data-skin="glass"] .panel.liquid-glass{--lg-opacity:.30}
 html[data-perf="2"] .card{animation:none!important}
 
 @media (max-width:640px){
@@ -655,6 +689,142 @@ html[data-perf="2"] .card{animation:none!important}
   .score-big .v{font-size:1.2rem}
 }
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* ===================================================================
+   组件精修：全部对齐到同一套圆角/阴影/动效/留白标尺
+   =================================================================== */
+
+.card,.panel,.chip,.iconbtn,.mode,.pick,.pickbar-btn,.dl,.syl,.tag{
+  transition:background-color var(--d-base) var(--ease),
+             border-color var(--d-base) var(--ease),
+             box-shadow var(--d-base) var(--ease),
+             transform var(--d-fast) var(--ease),
+             color var(--d-base) var(--ease);
+}
+
+/* —— 顶栏：从"一排按钮"变成"一条安静的工具栏" —— */
+.topbar-in{height:52px;gap:8px}
+.topbar{border-bottom:1px solid var(--border)}
+.iconbtn{height:34px;min-width:34px;border-radius:var(--r-sm);padding:0 9px;
+  background:transparent;border-color:transparent;box-shadow:none;color:var(--text-2)}
+.iconbtn:hover{background:var(--surface-2);border-color:var(--border);color:var(--text)}
+.iconbtn:active{transform:scale(.96)}
+.brand .logo{width:24px;height:24px;border-radius:var(--r-xs);font-size:13px}
+.brand small{font-size:.66rem;color:var(--text-3)}
+
+/* —— Hero：降低视觉权重，注意力留给数据 —— */
+.hero{padding:30px 0 20px}
+.hero h1{font-size:clamp(1.4rem,4.4vw,1.95rem);font-weight:700;letter-spacing:-.025em}
+.hero p{margin-top:7px;font-size:.85rem;color:var(--text-2);max-width:34em;margin-inline:auto}
+.hero .pills{margin-top:14px;gap:6px}
+.pill{font-size:.68rem;padding:3px 9px;border-radius:var(--r-pill);
+  background:transparent;border-color:var(--border);color:var(--text-3)}
+
+/* —— 模式切换：从"按钮"变成"选择器" —— */
+.modes{gap:6px;margin-bottom:10px}
+.mode{padding:11px 13px;border-radius:var(--r-md);background:transparent;border-color:var(--border);box-shadow:none}
+.mode .t{font-size:.88rem;font-weight:650}
+.mode .s{font-size:.68rem;color:var(--text-3);margin-top:1px}
+.mode:hover{background:var(--surface-2)}
+.mode[aria-pressed="true"]{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 34%,transparent);box-shadow:none}
+.mode[aria-pressed="true"] .t{color:var(--accent)}
+.mode[aria-pressed="true"] .s{color:color-mix(in srgb,var(--accent) 70%,var(--text-3))}
+
+/* —— 面板：更轻的边界，更多留白 —— */
+.panel{padding:16px;border-radius:var(--r-lg);border-color:var(--border);box-shadow:var(--e1);margin-bottom:10px}
+.row+.row{margin-top:12px}
+.row-label{font-size:.72rem;font-weight:600;color:var(--text-3);letter-spacing:.02em}
+
+/* —— Chip：未选中透明，选中是"淡底+细边"，不是实心块 —— */
+.chip{height:30px;padding:0 12px;border-radius:var(--r-pill);font-size:.76rem;font-weight:600;
+  background:transparent;border-color:var(--border);color:var(--text-2)}
+.chip:hover{background:var(--surface-2);border-color:var(--border-2);color:var(--text)}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent);color:var(--accent);font-weight:700}
+.chip:active{transform:scale(.97)}
+
+/* —— 输入 —— */
+input[type=number],input[type=search],input[type=text],select{
+  height:38px;border-radius:var(--r-sm);border-color:var(--border);background:var(--surface-2);font-size:.86rem}
+input:focus,select:focus{border-color:color-mix(in srgb,var(--accent) 55%,transparent);
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 14%,transparent);background:var(--surface)}
+#userScore{width:96px;font-size:1rem;font-weight:700}
+
+/* —— 统计条 —— */
+.stats{padding:9px 14px;border-radius:var(--r-md);font-size:.76rem;color:var(--text-3);gap:16px;margin-bottom:8px}
+.stats b{color:var(--text);font-weight:700}
+
+/* —— 卡片：内容层级，克制的悬浮 —— */
+.cards{gap:8px}
+.card{padding:16px;border-radius:var(--r-lg);border-color:var(--border);box-shadow:var(--e1)}
+.card:hover{transform:translateY(-1px);border-color:var(--border-2);box-shadow:var(--e2)}
+.school{font-size:1.06rem;font-weight:700;letter-spacing:-.015em}
+.score-big .v{font-size:1.42rem;font-weight:700;letter-spacing:-.02em}
+.score-big .l{font-size:.64rem;color:var(--text-3);margin-top:2px}
+.tags{gap:6px;margin-top:6px}
+.tag{font-size:.66rem;font-weight:600;padding:2px 8px;border-radius:var(--r-pill);border-color:transparent}
+
+/* —— 判定条：只做淡淡一层底色，不抢标题 —— */
+.verdict{margin-top:12px;padding:9px 12px;border-radius:var(--r-sm);font-size:.82rem;font-weight:600;gap:6px}
+.verdict .gap{font-weight:700}
+.v-safe{background:var(--ok-soft);color:var(--ok);border-color:color-mix(in srgb,var(--ok) 22%,transparent)}
+.v-rush{background:var(--warn-soft);color:var(--warn);border-color:color-mix(in srgb,var(--warn) 22%,transparent)}
+.v-no{background:var(--bad-soft);color:var(--bad);border-color:color-mix(in srgb,var(--bad) 20%,transparent)}
+
+/* —— 数据格：压低对比，让分数成为唯一焦点 —— */
+.meta{gap:6px;margin-top:12px}
+.meta div{background:var(--surface-2);border-radius:var(--r-sm);padding:8px 10px;font-size:.82rem;font-weight:600}
+.meta span{font-size:.64rem;color:var(--text-3);font-weight:600;margin-bottom:2px}
+.majors{margin-top:10px;font-size:.8rem;line-height:1.65}
+details.more{margin-top:10px;border-radius:var(--r-sm);border-color:var(--border);background:transparent}
+details.more>summary{padding:9px 11px;font-size:.76rem;color:var(--text-2)}
+.card-actions{margin-top:12px;padding-top:10px;border-top-color:var(--border)}
+.src{font-size:.68rem;color:var(--text-3)}
+.pick{font-size:.72rem;padding:5px 11px;border-radius:var(--r-pill);background:transparent;border-color:var(--border);color:var(--text-2)}
+.pick:hover{background:var(--surface-2);border-color:var(--accent);color:var(--accent)}
+.pick.is-on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent);color:var(--accent)}
+.card.is-picked{border-color:color-mix(in srgb,var(--accent) 38%,transparent);
+  box-shadow:var(--e1),0 0 0 1px color-mix(in srgb,var(--accent) 22%,transparent)}
+
+/* —— 分区标题：用留白分层，而不是加线加框 —— */
+.sec-title{margin:40px 0 14px;gap:8px;align-items:baseline}
+.sec-title h2{font-size:1.02rem;font-weight:700;letter-spacing:-.01em}
+.sec-title p{font-size:.72rem;color:var(--text-3)}
+
+/* —— 大纲卡 —— */
+.syl{border-radius:var(--r-lg)}
+.syl-links a{font-size:.72rem;padding:5px 10px;border-radius:var(--r-pill)}
+
+/* —— 弹窗 / 浮条：唯一的"高层级" —— */
+.modal{border-radius:var(--r-xl);box-shadow:var(--e3);border-color:var(--border)}
+.modal header h2{font-size:1.02rem;font-weight:700}
+.modal footer{background:color-mix(in srgb,var(--surface) 60%,transparent)}
+.pickbar-in{border-radius:var(--r-lg);padding:8px 10px}
+.pickbar-btn{border-radius:var(--r-sm);padding:8px 13px;font-size:.78rem}
+.pickbar-btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:none}
+html[data-theme="dark"] .pickbar-btn.primary{color:#0A0D14}
+
+/* —— 下载卡：与卡片同层级，只保留一处高光 —— */
+.dl{border-radius:var(--r-lg);box-shadow:var(--e1)}
+.dl-inner{border-radius:calc(var(--r-lg) - 1px);padding:14px 15px}
+.dl-badge{width:44px;height:44px;border-radius:var(--r-sm)}
+.dl-main b{font-size:.92rem;font-weight:700}
+.dl-main em{font-size:.7rem}
+.dl-btn{border-radius:var(--r-sm);padding:8px 13px;font-size:.76rem;box-shadow:none}
+.dl:hover{transform:translateY(-1px);box-shadow:var(--e2)}
+
+/* —— 页脚：压低存在感 —— */
+footer.site{margin-top:36px;padding:22px 0 40px;font-size:.72rem;color:var(--text-3);border-top-color:var(--border)}
+
+/* —— 窄屏：留白收紧但不挤 —— */
+@media (max-width:640px){
+  .topbar-in{height:50px}
+  .panel{padding:14px;margin-bottom:8px}
+  .card{padding:14px}
+  .hero{padding:22px 0 16px}
+  .sec-title{margin:32px 0 12px}
+  .school{font-size:1rem}
+  .score-big .v{font-size:1.3rem}
+}
 </style>
 <!-- 开源库：liquid glass 折射（@dpawlikowski/liquid-glass, MIT） -->
 <link rel="stylesheet" href="assets/liquid-glass/liquid-glass.css">
@@ -738,9 +908,9 @@ html[data-perf="2"] .card{animation:none!important}
     </div>
     <div class="row" id="verdictLegend" style="display:none">
       <span class="row-label">判定</span>
-      <span class="chip" style="cursor:default;background:var(--ok-soft);color:var(--ok);border-color:transparent">比较稳 &gt; +15 分</span>
-      <span class="chip" style="cursor:default;background:var(--warn-soft);color:var(--warn);border-color:transparent">可以冲 +5 ~ +15 分</span>
-      <span class="chip" style="cursor:default;background:var(--bad-soft);color:var(--bad);border-color:transparent">不推荐 ≤ +5 分</span>
+      <span class="chip" style="cursor:default;background:var(--ok-soft);color:var(--ok);border-color:transparent">比较稳 &gt; +5 分</span>
+      <span class="chip" style="cursor:default;background:var(--warn-soft);color:var(--warn);border-color:transparent">可以冲 0 ~ +5 分</span>
+      <span class="chip" style="cursor:default;background:var(--bad-soft);color:var(--bad);border-color:transparent">不推荐 ≤ 0 分</span>
     </div>
   </section>
 
@@ -765,7 +935,7 @@ html[data-perf="2"] .card{animation:none!important}
     <div class="row">
       <span class="row-label">排序</span>
       <div class="chips" id="sortChips">
-        <button class="chip" type="button" data-sort="nearest" aria-pressed="true" title="先按判定分组（比较稳 → 可以冲 → 不推荐），组内离你的分数由近到远">匹配优先</button>
+        <button class="chip" type="button" data-sort="nearest" aria-pressed="true" title="按投档最低分与你的分数之差排序，最接近的排在最前">离我最近</button>
         <button class="chip" type="button" data-sort="score_desc" aria-pressed="false">投档分↓</button>
         <button class="chip" type="button" data-sort="score_asc" aria-pressed="false">投档分↑</button>
         <button class="chip" type="button" data-sort="name" aria-pressed="false">院校名称</button>
@@ -924,9 +1094,9 @@ html[data-perf="2"] .card{animation:none!important}
    ============================================================ */
 // 分数判定规则：分差 = 我的分数 − 该校该考试类 2026 投档最低分
 const SCORE_RULES = {
-  safe: 15,   // 分差 > 15      → 比较稳
-  rush: 5,    // 5 < 分差 ≤ 15  → 可以冲
-              // 分差 ≤ 5       → 不推荐
+  safe: 5,    // 分差 > +5      → 比较稳
+  rush: 0,    // 0 < 分差 ≤ +5  → 可以冲
+              // 分差 ≤ 0       → 不推荐
 };
 const FEEDBACK_MAIL = '2932944216@qq.com';
 const NOTICE_KEY = 'hbdz_notice_2026_10_10';
@@ -984,8 +1154,8 @@ function applyTheme(t, persist){
 function initTheme(){
   let t = null;
   try { t = localStorage.getItem(THEME_KEY); } catch(e){}
-  if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  applyTheme(t, false);
+  // 深色是本设计的基准场景；未主动切换过的访客直接给深色
+  applyTheme(t === 'light' ? 'light' : 'dark', false);
 }
 $('themeToggle').addEventListener('click', () => {
   applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark', true);
@@ -1036,7 +1206,7 @@ function glassifyDynamic(root){
    玻璃模式专属效果 1：WebGL 网格渐变背景
    库：@mesh-gradient/core (MIT) —— 无 WebGL 时画布留空，由 .bg-scene 的静态渐变兜底
    ============================================================ */
-const MESH_COLORS = ['#7c3aed', '#0891b2', '#f43f5e', '#4f46e5'];   // 更饱和，玻璃才有颜色可透
+const MESH_COLORS = ['#2B3A6B', '#17475C', '#3A2B57', '#1B3350'];   // 低饱和：只当底色，不抢内容
 let meshInstance = null;
 
 function initMesh(){
@@ -1047,8 +1217,8 @@ function initMesh(){
   try {
     meshInstance = new MeshGradient().init('#bgMesh', {
       colors: MESH_COLORS,
-      animationSpeed: .55,        // 背景要“慢慢流动”，太快会抢内容
-      targetFps: 24,              // 渐变不需要 60 帧；上游默认也是 30 帧节奏
+      animationSpeed: .22,        // 极慢，几乎察觉不到在动，避免抢注意力
+      targetFps: 18,              // 背景是环境光，18 帧足够，省电省算力
       pixelRatio: 1,              // 柔和渐变不需要高分屏锐度，直接省掉一半以上像素
       pauseOnOutsideViewport: true,
       reducedMotion: 'auto',      // 系统开了“减弱动态效果”就自动转静态
@@ -1268,8 +1438,8 @@ $('userScore').addEventListener('input', (e) => {
         .forEach(x => x.setAttribute('aria-pressed', String(x.dataset.sort === 'nearest')));
     }
     $('scoreHint').textContent = state.score > 0
-      ? `已按匹配度排序：比较稳 → 可以冲 → 不推荐（组内离 ${state.score} 分最近优先）`
-      : '输入后自动按匹配度排序（比较稳优先）';
+      ? `已按「离 ${state.score} 分最近」排序`
+      : '输入后自动按「离你的分数最近」排序';
     $('verdictLegend').style.display = state.score > 0 ? 'flex' : 'none';
     apply();
     // 输完分数后把结果带回视野（避免用户还要手动找）
@@ -1364,16 +1534,16 @@ function apply(){
       case 'nearest':
       default: {
         if (!sc) return (bx ?? -1) - (ax ?? -1);
-        // 先按判定分档（比较稳 → 可以冲 → 不推荐），同档内再按距离由近到远。
-        // 只按距离排会出现「上一所不推荐、下一所比较稳」的倒挂：分数比投档线低 15 分
-        // 与高 20 分，距离是 15 与 20，但判定完全相反。
-        const rank = (v) => v ? (v.key === 'safe' ? 0 : v.key === 'rush' ? 1 : 2) : 3;
-        const ra = rank(verdict(sc, ax)), rb = rank(verdict(sc, bx));
-        if (ra !== rb) return ra - rb;
+        // 默认就是「离我分数最近的院校」：按 |分差| 升序。
+        // 相邻两张卡的分差永远相邻，不会出现「跳过一大段再回头」的观感。
         const da = ax == null ? 1e6 : Math.abs(sc - ax);
         const db = bx == null ? 1e6 : Math.abs(sc - bx);
-        if (da !== db) return da - db;                 // 同档内越接近越靠前
-        return (bx ?? -1) - (ax ?? -1);                // 同距离：分高的在前
+        if (da !== db) return da - db;
+        // 分差完全相同时：能上的（分差≥0）排在够不着的之前，再按投档分高低
+        const sa = (sc - (ax ?? 0)) >= 0 ? 0 : 1;
+        const sb = (sc - (bx ?? 0)) >= 0 ? 0 : 1;
+        if (sa !== sb) return sa - sb;
+        return (bx ?? -1) - (ax ?? -1);
       }
     }
   });
