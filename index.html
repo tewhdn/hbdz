@@ -72,6 +72,7 @@
   --glass-float:rgba(255,255,255,.74);
   --rim-light:rgba(255,255,255,.85);
   --rim-dark:rgba(16,22,45,.06);
+  --glass-tint:rgba(255,255,255,.09);   /* 玻璃底色：越小越透 */
 }
 
 /* ---------- 设计令牌：深色（本次视觉的主场景） ---------- */
@@ -110,6 +111,7 @@ html[data-theme="dark"]{
   --glass-float:rgba(24,28,40,.62);
   --rim-light:rgba(255,255,255,.16);
   --rim-dark:rgba(0,0,0,.35);
+  --glass-tint:rgba(8,10,16,.045);      /* 深色下几乎不着色，颜色直接透过来 */
 }
 
 /* ---------- 与 Pico 基座的边界：只借用其排版/表单/主题能力，组件外观全部由本站接管 ---------- */
@@ -543,18 +545,21 @@ html[data-theme="light"] .bg-scene::after{
    不支持的环境变量为空 → 自动退回 blur，所以这里的写法在任何浏览器都成立 */
 .hl-glass{
   position:relative;
-  background:rgba(9,11,17,.14);            /* 极淡暗底：压一点亮度，但不夺走背景的颜色 */
+  background:var(--glass-tint);            /* 玻璃自身几乎不着色，通透感来自这里 */
   -webkit-backdrop-filter:var(--hyalite, blur(16px) saturate(180%));
           backdrop-filter:var(--hyalite, blur(16px) saturate(180%));
   box-shadow:var(--hyalite-edge, inset 0 1px 0 rgba(255,255,255,.16)),
              0 10px 30px rgba(0,0,0,.38);
-  border:1px solid rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.085);
+  /* 底色极淡后，文字要自己带一点点压暗，才不会跟背后的网格线打架 */
+  text-shadow:0 1px 2px rgba(0,0,0,.32);
 }
 html[data-theme="light"] .hl-glass{
-  background:rgba(255,255,255,.18);
+  background:var(--glass-tint);
+  text-shadow:0 1px 1px rgba(255,255,255,.45);
   box-shadow:var(--hyalite-edge, inset 0 1px 0 rgba(255,255,255,.75)),
              0 10px 30px rgba(16,22,54,.13);
-  border-color:rgba(255,255,255,.55);
+  border-color:rgba(255,255,255,.38);
 }
 
 /* —— 形状：参考图里玻璃都是大圆角/胶囊 —— */
@@ -1091,7 +1096,7 @@ const GLASS_TARGETS = '.topbar, .panel, .stats, .pickbar-in, .modal';
 //   shade / rim 边缘的明暗与镜面高光强度
 const HYALITE_OPTS = {
   bevel: 30, thickness: 48, slope: 1.6,
-  blur: 2, dispersion: 1.5,
+  blur: 1.2, dispersion: 1.5,
   shade: 0.42, rim: 1.5, edgeW: 7, sat: 0.92, edge: 0.3
 };
 
