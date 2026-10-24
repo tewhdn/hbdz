@@ -64,6 +64,22 @@
     因此先 `update(0)` 再于下一帧 `update(真值)` 才会产生滚动动画。
   - 字号/字重/颜色靠继承穿透 Shadow DOM，滚动遮罩宽度用其 `--number-flow-mask-*` 变量微调。
 
+## hyalite v0.5.0（液态玻璃：SDF 透镜贴图 + SVG 折射，MIT）
+- 文件：`hyalite/hyalite.js`（51 KB，无 WebGL、无构建）
+- 项目：https://github.com/VII-Cae/hyalite--liquid-glass ｜ 许可见 `hyalite/LICENSE`
+- 做法：按元素**实际尺寸与圆角**生成一张透镜位移贴图，交给 SVG 滤镜，
+  再由 `backdrop-filter: url(#…)` 弯折玻璃背后的真实内容。
+  中心保持清晰，边缘把世界向内吸、放大处变暗、边缘勾一条光 —— 直线会弯，而不是糊成一片。
+- 本站接入：`Hyalite.attach(el, opts)`，往元素写两个变量：
+  - `--hyalite`：完整 backdrop-filter（含位移滤镜）
+  - `--hyalite-edge`：边缘高光与暗边（inset shadows）
+  CSS 里写成 `backdrop-filter: var(--hyalite, blur(16px))`，
+  不支持的环境变量为空 → 自动退回普通模糊，不会出现"整条声明失效"。
+- 参数（`index.html` 的 `HYALITE_OPTS`）：blur 2px（保持极低才有通透感）、
+  dispersion 1.5（边缘色散）、shade .42 / rim 1.5（边缘明暗与镜面高光）；
+  倒角按元素高度分档：顶栏 20 / 统计条 16 / 浮条 24 / 面板 30。
+- 性能：降档 1 起自动 `detach`（SVG 位移滤镜是最贵的一环），退回 CSS 模糊；降档 2 完全关闭。
+
 ## fflate v0.8.3（zip 压缩，用于生成 .xlsx）
 - 文件：`fflate/fflate.js`
 - 项目：https://github.com/101arrowz/fflate ｜ npm：`fflate`
@@ -78,29 +94,6 @@
   免去 sharedStrings，体积最小；数字列写成数值单元格，Excel 里可直接求和。
   若 fflate 缺失或生成失败，会自动回落到 CSV 导出。
 
-## edge-glass（边缘折射，**本站自写**，非第三方库）
-- 文件：`edge-glass/edge-glass.js`
-- 作用：让玻璃只在**边缘**发生折射，中心保持清晰 —— 这是液态玻璃最关键的一条，
-  也是之前用 `feTurbulence` 做全表面随机扭曲时"不像玻璃"的根本原因。
-- 做法：按圆角矩形 SDF 生成一张位移贴图（R/G 通道存位移向量），
-  以 `feImage` → `feDisplacementMap` 注入 SVG 滤镜，元素的 `--lg-filter` 指向它。
-  贴图按半径档位缓存（192×192），每个元素只多一次 `feDisplacementMap`。
-- 思路来源与致敬：
-  - 中文技术文章《HTML + CSS 实现 Liquid Glass 液态玻璃效果》：
-    https://juejin.cn/post/7514618352829448244
-    —— 其中「折射变形仅限于边缘部分，中间部分没有变形」是决定性的纠正；
-    该文还对比了 5 个开源方案，并指出 `github.com/shuding/liquid-glass` 的边缘折射最还原。
-  - shuding/liquid-glass（MIT）的 `roundedRectSDF` + 位移贴图做法：
-    https://github.com/shuding/liquid-glass
-  本文件为按上述原理重写，未直接拷贝其代码。
-- 降级链条（三层，逐级回退）：
-  1. 引擎支持 `backdrop-filter: url(#f)` → 模糊 + 边缘折射（最完整）
-  2. 引擎只支持普通 `backdrop-filter` → 只有磨砂（`@supports` 自动跳过增强层）
-  3. 引擎不支持 `backdrop-filter` / 贴图生成失败 → 半透明 + 高光边 + 噪点（仍然像玻璃，只是不吃背景）
-  关键：基础模糊与边缘折射是**两条独立声明**，不能写成一条 ——
-  `backdrop-filter: url(#f) blur(...)` 在不支持 SVG 滤镜的引擎里会整条失效（不会退回模糊），
-  卡片会直接变成纯色块。
-  自适应降档到 1 时会自动去掉 `feDisplacementMap`（最贵的一环），只保留高斯模糊。
 
 ## 数据来源
 - 院校、专业、招生计划、2026 投档最低分：抓取自 https://hbdzxx.com （河北单招网）公开页面。

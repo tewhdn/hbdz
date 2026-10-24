@@ -482,14 +482,6 @@ footer.site .flinks{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:8px}
 html[data-theme="dark"] #disclaimerClose.ready{background:#22c55e;border-color:#22c55e;color:#06210f}
 
 
-/* ===================================================================
-   外观皮肤：实色 / 液态玻璃
-   玻璃效果由开源库 @dpawlikowski/liquid-glass (MIT) 提供，本区块只做两件事：
-     1) 与本站主题对接（把配色映射到库的 --lg-* 变量）
-     2) 玻璃模式下才可见的极光背景（玻璃需要有东西可折射）
-   库文件：assets/liquid-glass/  见 assets/README.md
-   =================================================================== */
-
 /* —— 背景场景 ——
    深色：近乎黑的蓝灰底 + 两团极弱环境光（冷紫在上、青在下），不产生霓虹感
    浅色：干净的冷灰底 + 一点紫调，避免大面积纯白
@@ -510,8 +502,25 @@ html[data-theme="light"] .bg-scene{
 }
 html[data-skin="glass"] .bg-scene{opacity:1}
 #bgMesh{display:block;width:100%;height:100%;border:0;
-  filter:saturate(.55) brightness(.75) contrast(1.05);opacity:.55}
+  filter:saturate(.9) brightness(.8) contrast(1.1);opacity:.7}
 html[data-theme="light"] #bgMesh{filter:saturate(.5) brightness(1.02);opacity:.35}
+/* 极淡网格：折射只有在背景有结构时才看得见（平滑渐变被弯了也察觉不到）。
+   这层网格同时给页面一点"技术感/精确感"，与数据站的调性一致。 */
+.bg-scene::before{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:44px 44px;
+  -webkit-mask-image:radial-gradient(120% 100% at 50% 6%,#000 26%,transparent 86%);
+          mask-image:radial-gradient(120% 100% at 50% 6%,#000 26%,transparent 86%);
+}
+html[data-theme="light"] .bg-scene::before{
+  background-image:
+    linear-gradient(rgba(20,28,60,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(20,28,60,.05) 1px,transparent 1px);
+}
+
 /* 暗角：给玻璃边缘制造明暗对比，避免整屏一个亮度 */
 .bg-scene::after{
   content:'';position:absolute;inset:0;pointer-events:none;
@@ -521,152 +530,57 @@ html[data-theme="light"] .bg-scene::after{
   background:radial-gradient(130% 95% at 50% 8%, transparent 55%, rgba(30,36,70,.10) 100%);
 }
 
-/* —— 主题对接：把本站配色映射到库的变量（--lg-* 由 liquid-glass.css 定义）—— */
-html[data-skin="glass"]{
-  /* 通透度的关键不是“加奶白”，而是用 brightness 把背景校准到与文字极性一致：
-     浅色主题把背景提亮 → 深色字清楚；深色主题压暗 → 浅色字清楚。
-     这样 tint 可以低到 .10~.14，肉眼就是“几乎全透的玻璃”。 */
-  --gf-blur:20px;
-  --gf-blur-sm:14px;
-  --gf-sat:180%;
-  --gf-bright:1.04;   /* 不再大幅提亮，留住背景颜色 */
-  --lg-blur:14px;
-  --lg-saturate:170%;
-  --lg-opacity:.18;
-  --lg-tint:255 255 255;
-  --lg-radius:16px;
-  --lg-border-opacity:.55;
-  --lg-shadow:0 10px 34px rgba(16,22,54,.14);
-  --lg-edge-red:rgb(255 92 128 / .48);
-  --lg-edge-cyan:rgb(60 214 255 / .44);
-}
-html[data-skin="glass"][data-theme="dark"]{
-  --lg-tint:150 185 235;          /* 深色下用冷调 tint，纯白会发灰 */
-  --gf-bright:.78;                /* 深色：适度压暗，留住背景色彩 */
-  --lg-opacity:.16;
-  --lg-border-opacity:.26;
-  --lg-shadow:0 10px 34px rgba(0,0,0,.55);
-  --lg-edge-red:rgb(255 120 160 / .26);
-  --lg-edge-cyan:rgb(110 225 255 / .24);
-}
-/* 库默认的 --lg-filter 指向它自己的 filter id，这里改指向我们注入的两个 */
-html[data-skin="glass"] .liquid-glass{--lg-filter:url("#lg-static")}
-/* 顶栏是唯一带动画折射的“hero 面”；其余面用静态折射（作者对密集界面的建议） */
-html[data-skin="glass"] .topbar.liquid-glass{
-  --lg-filter:url("#lg-static"); --lg-blur:12px; --lg-radius:0 0 18px 18px; --lg-opacity:.24;
-}
-html[data-skin="glass"] .panel.liquid-glass{--lg-radius:16px}
-html[data-skin="glass"] .stats.liquid-glass{--lg-radius:14px}
-html[data-skin="glass"] .modal.liquid-glass{--lg-blur:16px; --lg-radius:18px; --lg-opacity:.40}
 /* ===================================================================
-   玻璃材质系统
-   结构：透明度（极低） + 背景模糊（提供通透） + 局部高光（顶部受光带） + 边缘（rim）
-   原则：不做大面积纯色填充，玻璃的"存在感"来自边缘和高光，中间尽量让它消失
+   玻璃材质系统（hyalite）
+   参考 iOS 26 液态玻璃的分工：玻璃是「控件材质」，不是「内容材质」
+   · 悬浮控件（顶栏/筛选面板/统计条/底部操作条/弹窗）→ 真玻璃：低模糊 + 边缘折射 + 镜面边缘
+   · 内容卡片 → 不透明表面，安静、可读、零滤镜开销
    =================================================================== */
 
-/* —— 1. 滤镜链（分层，避免整条声明失效）—— */
-html[data-skin="glass"] .liquid-glass{
-  -webkit-backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-          backdrop-filter:blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
+/* hyalite 往元素上写两个变量：
+     --hyalite      完整的 backdrop-filter（含按元素尺寸生成的 SDF 透镜位移滤镜）
+     --hyalite-edge 边缘的镜面高光与暗边（inset shadows）
+   不支持的环境变量为空 → 自动退回 blur，所以这里的写法在任何浏览器都成立 */
+.hl-glass{
+  position:relative;
+  background:rgba(9,11,17,.14);            /* 极淡暗底：压一点亮度，但不夺走背景的颜色 */
+  -webkit-backdrop-filter:var(--hyalite, blur(16px) saturate(180%));
+          backdrop-filter:var(--hyalite, blur(16px) saturate(180%));
+  box-shadow:var(--hyalite-edge, inset 0 1px 0 rgba(255,255,255,.16)),
+             0 10px 30px rgba(0,0,0,.38);
+  border:1px solid rgba(255,255,255,.10);
 }
-/* 顶栏/统计条是细高条：模糊小一档，既省算力也不糊成一片 */
-html[data-skin="glass"] .topbar.liquid-glass,
-html[data-skin="glass"] .stats.liquid-glass{
-  -webkit-backdrop-filter:blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-          backdrop-filter:blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-}
-@supports ((backdrop-filter:url("#lg-edge-lg")) or (-webkit-backdrop-filter:url("#lg-edge-lg"))){
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .card.liquid-glass,
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .syl.liquid-glass,
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .panel.liquid-glass,
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .modal.liquid-glass,
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .pickbar-in{
-    -webkit-backdrop-filter:url("#lg-edge-lg") blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-            backdrop-filter:url("#lg-edge-lg") blur(var(--gf-blur)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-  }
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .topbar.liquid-glass,
-  html[data-edge="1"][data-perf="0"][data-skin="glass"] .stats.liquid-glass{
-    -webkit-backdrop-filter:url("#lg-edge-sm") blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-            backdrop-filter:url("#lg-edge-sm") blur(var(--gf-blur-sm)) saturate(var(--gf-sat)) brightness(var(--gf-bright));
-  }
+html[data-theme="light"] .hl-glass{
+  background:rgba(255,255,255,.18);
+  box-shadow:var(--hyalite-edge, inset 0 1px 0 rgba(255,255,255,.75)),
+             0 10px 30px rgba(16,22,54,.13);
+  border-color:rgba(255,255,255,.55);
 }
 
-/* —— 2. 表面：只留顶部受光带，中间透明 —— */
-html[data-skin="glass"] .liquid-glass{
-  background:
-    linear-gradient(180deg,
-      rgb(255 255 255 / .16) 0%,
-      rgb(255 255 255 / .05) 16%,
-      rgb(255 255 255 / 0) 46%);
-  border-color:var(--border);
-}
-html[data-theme="dark"][data-skin="glass"] .liquid-glass{
-  background:
-    linear-gradient(180deg,
-      rgb(255 255 255 / .10) 0%,
-      rgb(255 255 255 / .03) 16%,
-      rgb(255 255 255 / 0) 46%);
-}
-/* 底色浓度由库的 ::before tint 提供，数值极低 */
-html[data-theme="light"][data-skin="glass"]{--lg-tint:255 255 255; --lg-opacity:.20}
-html[data-theme="dark"][data-skin="glass"]{--lg-tint:120 150 200; --lg-opacity:.06}
+/* —— 形状：参考图里玻璃都是大圆角/胶囊 —— */
+.topbar.hl-glass{--r-top:0 0 20px 20px;border-radius:0 0 20px 20px;border-top:0}
+.panel.hl-glass{border-radius:22px}
+.stats.hl-glass{border-radius:999px}
+.pickbar-in.hl-glass{border-radius:999px}
+.modal.hl-glass{border-radius:28px}
 
-/* —— 3. 边缘与阴影：三档材质，权重不同 —— */
-/* 3a 顶栏 / 统计条 —— chrome，最薄最贴背景 */
-html[data-skin="glass"] .topbar.liquid-glass{
-  box-shadow:inset 0 -1px 0 var(--rim-dark), inset 0 1px 0 var(--rim-light);
+/* —— 内容卡片：不透明表面，让数据成为唯一焦点 —— */
+.card,.syl{
+  background:color-mix(in srgb,var(--surface) 95%,transparent);
+  border:1px solid var(--border);
+  box-shadow:var(--e1);
 }
-html[data-skin="glass"] .stats.liquid-glass{
-  box-shadow:inset 0 1px 0 var(--rim-light), var(--e1);
-}
-/* 3b 内容面板 / 卡片 —— content，安静、只有一圈细边和极浅投影 */
-html[data-skin="glass"] .panel.liquid-glass,
-html[data-skin="glass"] .card.liquid-glass,
-html[data-skin="glass"] .syl.liquid-glass{
-  box-shadow:inset 0 1px 0 var(--rim-light), inset 0 0 0 1px var(--rim-dark), var(--e1);
-}
-/* 3c 浮层 —— float，唯一拥有明显外部投影的层级 */
-html[data-skin="glass"] .modal.liquid-glass,
-html[data-skin="glass"] .pickbar-in{
-  box-shadow:inset 0 1px 0 var(--rim-light), inset 0 0 0 1px var(--rim-dark), var(--e3);
-}
-/* 左右两侧的极弱色散：只在边缘 1px，不做外发光 */
-html[data-skin="glass"] .liquid-glass::after{
-  box-shadow:
-    inset 1px 0 rgb(255 120 150 / .10),
-    inset -1px 0 rgb(90 200 255 / .10),
-    inset 0 1px 0 rgb(255 255 255 / .10);
-}
-html[data-theme="dark"][data-skin="glass"] .liquid-glass::after{
-  box-shadow:
-    inset 1px 0 rgb(255 120 150 / .14),
-    inset -1px 0 rgb(90 200 255 / .14),
-    inset 0 1px 0 rgb(255 255 255 / .06);
-}
-/* 卡片的色散用普通叠加，避免 96 个元素各做一次 blend */
-html[data-skin="glass"] .liquid-glass--frost::after{mix-blend-mode:normal}
+html[data-skin="glass"] .card:hover{background:color-mix(in srgb,var(--surface) 99%,transparent)}
 
-/* —— 4. 圆角与间距：与令牌对齐 —— */
-html[data-skin="glass"] .card.liquid-glass,
-html[data-skin="glass"] .syl.liquid-glass{--lg-radius:var(--r-lg)}
-html[data-skin="glass"] .panel.liquid-glass{--lg-radius:var(--r-lg)}
-html[data-skin="glass"] .stats.liquid-glass{--lg-radius:var(--r-md)}
-html[data-skin="glass"] .modal.liquid-glass{--lg-radius:var(--r-xl)}
-html[data-skin="glass"] .topbar.liquid-glass{--lg-radius:0 0 var(--r-lg) var(--r-lg)}
-
-/* 用 CSS 提升子元素层级，替代库文档里的 __content 包装层 */
-html[data-skin="glass"] .liquid-glass > *{position:relative;z-index:2}
-
-/* ===================================================================
-   自适应性能降级
-   =================================================================== */
-html[data-perf="1"]{--gf-blur:11px; --gf-blur-sm:9px}
-html[data-perf="2"][data-skin="glass"] .liquid-glass{
+/* —— 自适应降级 —— */
+html[data-perf="1"] .hl-glass{
+  -webkit-backdrop-filter:blur(10px) saturate(170%);
+          backdrop-filter:blur(10px) saturate(170%);
+}
+html[data-perf="2"] .hl-glass{
   -webkit-backdrop-filter:none; backdrop-filter:none;
+  background:color-mix(in srgb,var(--surface) 92%,transparent);
 }
-html[data-perf="2"][data-skin="glass"] .card.liquid-glass,
-html[data-perf="2"][data-skin="glass"] .syl.liquid-glass,
-html[data-perf="2"][data-skin="glass"] .panel.liquid-glass{--lg-opacity:.30}
 html[data-perf="2"] .card{animation:none!important}
 
 @media (max-width:640px){
@@ -826,8 +740,6 @@ footer.site{margin-top:36px;padding:22px 0 40px;font-size:.72rem;color:var(--tex
   .score-big .v{font-size:1.3rem}
 }
 </style>
-<!-- 开源库：liquid glass 折射（@dpawlikowski/liquid-glass, MIT） -->
-<link rel="stylesheet" href="assets/liquid-glass/liquid-glass.css">
 </head>
 <body>
 
@@ -1079,11 +991,11 @@ footer.site{margin-top:36px;padding:22px 0 40px;font-size:.72rem;color:var(--tex
   </div>
 </div>
 
-<script src="assets/liquid-glass/liquid-glass.js"></script>
 <!-- 开源库：WebGL 网格渐变（@mesh-gradient/core, MIT） -->
+<!-- 开源库：真实折射液态玻璃 hyalite 0.5.0 (MIT) —— SDF 透镜贴图 + SVG 位移滤镜
+     https://github.com/VII-Cae/hyalite--liquid-glass -->
+<script src="assets/hyalite/hyalite.js"></script>
 <script src="assets/mesh-gradient/mesh-gradient.js"></script>
-<!-- 本站自写的边缘折射贴图（按圆角矩形 SDF 生成位移图，替代 feTurbulence 的全身扭曲） -->
-<script src="assets/edge-glass/edge-glass.js"></script>
 <!-- 开源库：数字滚动（number-flow, MIT） -->
 <script src="assets/number-flow/number-flow.js"></script>
 <!-- 开源库：zip 压缩（fflate, MIT）—— 用于生成 .xlsx -->
@@ -1163,50 +1075,52 @@ $('themeToggle').addEventListener('click', () => {
 
 /* ============================================================
    外观皮肤：实色 / 液态玻璃
-   玻璃部分调用开源库 LiquidGlass（@dpawlikowski/liquid-glass, MIT）
-   —— 折射由库的 SVG 滤镜完成，这里只负责挂载/卸载与滤镜注入
+   玻璃部分调用开源库 hyalite（VII-Cae/hyalite--liquid-glass, MIT）
+   —— 每个元素按自身尺寸生成 SDF 透镜贴图，折射由 SVG 位移滤镜完成
    ============================================================ */
-// 真玻璃：背后确实有滚动内容/遮罩，值得每帧滤背景 —— 只有 2 个，面积也小
-const GLASS_REAL  = '.topbar, .modal';
-// 轻量玻璃：背后只有那层柔和渐变，不滤背景也看不出差别 —— 用来覆盖数量多的元素
-const GLASS_CHEAP = '.panel, .stats';
-let lgFilterReady = false;
+// 玻璃只用在「悬浮控件」上（顶栏 / 筛选面板 / 统计条 / 底部操作条 / 弹窗），
+// 内容卡片保持不透明 —— 参考 iOS 26 Music：玻璃是控件材质，不是内容材质。
+const GLASS_TARGETS = '.topbar, .panel, .stats, .pickbar-in, .modal';
 
-// 只注入一个「静态」滤镜。
-// 上游默认会动画 baseFrequency，但那等于每帧重新生成一次分形噪声、完全无法缓存，
-// 是这套效果里最贵的一项；而 Liquid Glass 的“流动感”本就来自玻璃后面滚动的真实内容，
-// 不靠自身抖动，所以这里关掉动画。
-function initGlassFilters(){
-  if (lgFilterReady) return;
-  if (window.EdgeGlass) window.EdgeGlass.init();   // 边缘折射贴图（自写）
-  if (!window.LiquidGlass) return;
-  window.LiquidGlass.injectLiquidGlassFilter({
-    id: 'lg-static', baseFrequency: 0.010, numOctaves: 2, scale: 14, animate: false
-  });
-  lgFilterReady = true;
+// hyalite 的参数含义：
+//   bevel     边缘倒角宽度（px）—— 决定"透镜"有多宽
+//   thickness 玻璃厚度（px）—— 决定折射被拉多开
+//   slope     边缘折射的陡峭度
+//   blur      基础模糊（px），保持很低才能透出颜色
+//   dispersion 色散强度（边缘的彩色分离）
+//   shade / rim 边缘的明暗与镜面高光强度
+const HYALITE_OPTS = {
+  bevel: 30, thickness: 48, slope: 1.6,
+  blur: 2, dispersion: 1.5,
+  shade: 0.42, rim: 1.5, edgeW: 7, sat: 0.92, edge: 0.3
+};
+
+// 倒角是「绝对像素」：矮元素（顶栏 52px、统计条 36px）用同样的 30px 会变成"整条都是边"，
+// 所以按元素高度分档，保证折射带占高度的比例一致。
+function hyOptsFor(el){
+  if (el.classList.contains('topbar')) return Object.assign({}, HYALITE_OPTS, { bevel: 20, thickness: 34 });
+  if (el.classList.contains('stats')) return Object.assign({}, HYALITE_OPTS, { bevel: 16, thickness: 26 });
+  if (el.classList.contains('pickbar-in')) return Object.assign({}, HYALITE_OPTS, { bevel: 24, thickness: 40 });
+  return HYALITE_OPTS;
 }
-
-// 挂载玻璃：库的视觉全部由 .liquid-glass 类驱动，
-// 内容层级用 CSS 的 `.liquid-glass > *` 提升，不改动 DOM 结构
-function mountGlass(el, frost){
-  if (!el.classList.contains('liquid-glass')) {
-    el.classList.add('liquid-glass');
-    if (frost) el.classList.add('liquid-glass--frost');
-  }
+function mountGlass(el){
+  if (!el) return;
+  el.classList.add('hl-glass');
+  if (window.Hyalite) window.Hyalite.attach(el, hyOptsFor(el));
 }
 function unmountGlass(el){
-  el.classList.remove('liquid-glass', 'liquid-glass--frost');
+  if (!el) return;
+  el.classList.remove('hl-glass');
+  if (window.Hyalite) window.Hyalite.detach(el);
 }
-// 卡片是重渲染出来的，每次渲染后需要重新挂
-function glassifyDynamic(root){
-  if (document.documentElement.getAttribute('data-skin') !== 'glass') return;
-  (root || document).querySelectorAll('.card, .syl').forEach(el => mountGlass(el, true));
-}
+// 卡片不再玻璃化：保持不透明，视觉权重让给数据本身
+function glassifyDynamic(){}
+
 /* ============================================================
    玻璃模式专属效果 1：WebGL 网格渐变背景
    库：@mesh-gradient/core (MIT) —— 无 WebGL 时画布留空，由 .bg-scene 的静态渐变兜底
    ============================================================ */
-const MESH_COLORS = ['#2B3A6B', '#17475C', '#3A2B57', '#1B3350'];   // 低饱和：只当底色，不抢内容
+const MESH_COLORS = ['#3B478F', '#1A5C7A', '#5C3566', '#1F4A70'];   // 低饱和但有颜色：玻璃才有东西可折射
 let meshInstance = null;
 
 function initMesh(){
@@ -1289,14 +1203,11 @@ function applySkin(skin, persist){
   const glass = skin === 'glass';
   document.documentElement.setAttribute('data-skin', glass ? 'glass' : 'solid');
   if (glass) {
-    initGlassFilters();
-    document.querySelectorAll(GLASS_REAL).forEach(el => mountGlass(el, false));
-    document.querySelectorAll(GLASS_CHEAP).forEach(el => mountGlass(el, true));
-    glassifyDynamic(document);            // 卡片 / 大纲卡
+    document.querySelectorAll(GLASS_TARGETS).forEach(mountGlass);
     initMesh();                           // 效果 1：网格渐变背景
     observeScores(document);              // 效果 2：分数数字滚动
   } else {
-    document.querySelectorAll('.liquid-glass').forEach(unmountGlass);
+    document.querySelectorAll('.hl-glass').forEach(unmountGlass);
     destroyMesh();                        // 停掉 WebGL 渲染并释放资源
     downgradeScores(document);            // 分数退回纯文本
   }
@@ -1733,6 +1644,14 @@ function applyPerfLevel(l){
   perfLevel = Math.max(0, Math.min(2, l));
   document.documentElement.setAttribute('data-perf', String(perfLevel));
   try { localStorage.setItem(PERF_KEY, String(perfLevel)); } catch(e){}
+  // 降档时把玻璃退回普通模糊：SVG 位移滤镜（每帧重采样背景）是整套效果里最贵的一环
+  if (window.Hyalite) {
+    if (perfLevel >= 1) {
+      document.querySelectorAll('.hl-glass').forEach(el => window.Hyalite.detach(el));
+    } else if (document.documentElement.getAttribute('data-skin') === 'glass') {
+      document.querySelectorAll('.hl-glass').forEach(el => window.Hyalite.attach(el, hyOptsFor(el)));
+    }
+  }
 }
 function initPerf(){
   let l = 0;
